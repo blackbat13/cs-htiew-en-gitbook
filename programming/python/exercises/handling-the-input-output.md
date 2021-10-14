@@ -1,7 +1,5 @@
 # Handling the input/output
 
-{% tabs %}
-{% tab title="EN" %}
 ## Exercise 1
 
 Write a program that complies with the specification below.
@@ -215,5 +213,3 @@ $$32M=1920S$$
 
 $$2H+32M+59S=7200S+1920S+59S=9179S$$ 
 {% endhint %}
-{% endtab %}
-{% endtabs %}

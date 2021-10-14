@@ -1,7 +1,5 @@
 # Conditional statement
 
-{% tabs %}
-{% tab title="EN" %}
 ## Exercise 1
 
 Write a program that complies with the specification below. Don't use **abs** function.
@@ -205,5 +203,3 @@ year := 2021
 ```
 
 **Output**:  "2021 is not a leap year"
-{% endtab %}
-{% endtabs %}
