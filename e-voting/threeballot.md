@@ -1,18 +1,18 @@
 # ThreeBallot
 
-## Wstęp
+## Introduction
 
 TODO
 
-## Karta do głosowania
+## Ballot
 
 TODO
 
-## Weryfikacja głosu
+## Verification
 
 TODO
 
-## Bibliografia
+## Bibliography
 
 * Ronald L. Rivest\
   **The ThreeBallot Voting System**\

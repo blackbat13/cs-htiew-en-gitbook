@@ -1,6 +1,6 @@
-# Wprowadzenie do systemu Linux
+# Introduction to Linux
 
-## Opis
+## Introduction
 
 TODO
 

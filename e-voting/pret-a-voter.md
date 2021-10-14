@@ -1,18 +1,18 @@
 # Prêt à Voter
 
-## Wstęp
+## Introduction
 
 TODO
 
-## Karta do głosowania
+## Ballot
 
 TODO
 
-## Weryfikacja głosu
+## Vote verification
 
 TODO
 
-## Bibliografia
+## Bibliography
 
 * Peter Y. A. Ryan, David Bismark, James Heather, Steve A. Schneider, Zhe Xia\
   **Prêt à voter: a voter-verifiable voting system**\

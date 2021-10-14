@@ -206,14 +206,14 @@ rok := 2021
 
 ## Powiązane zadania algorytmiczne
 
-{% content-ref url="../../../../algorytmika-zadania/poziom-1/porownywanie-liczb/" %}
-[porownywanie-liczb](../../../../algorytmika-zadania/poziom-1/porownywanie-liczb/)
+{% content-ref url="../../../../algorithms-exercises/level-0/comparing-numbers/" %}
+[comparing-numbers](../../../../algorithms-exercises/level-0/comparing-numbers/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../../algorytmika-zadania/poziom-1/ciecie-kosztow.md" %}
-[ciecie-kosztow.md](../../../../algorytmika-zadania/poziom-1/ciecie-kosztow.md)
+{% content-ref url="../../../../algorithms-exercises/level-0/cost-cutting.md" %}
+[cost-cutting.md](../../../../algorithms-exercises/level-0/cost-cutting.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../../algorytmika-zadania/poziom-1/pakowanie-na-wakacje.md" %}
-[pakowanie-na-wakacje.md](../../../../algorytmika-zadania/poziom-1/pakowanie-na-wakacje.md)
+{% content-ref url="../../../../algorithms-exercises/level-0/pakowanie-na-wakacje.md" %}
+[pakowanie-na-wakacje.md](../../../../algorithms-exercises/level-0/pakowanie-na-wakacje.md)
 {% endcontent-ref %}

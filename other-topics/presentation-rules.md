@@ -1,6 +1,6 @@
-# Zasady tworzenia prezentacji
+# Rules for creating a presentation
 
-## Opis
+## Introduction
 
 TODO
 

@@ -4,8 +4,6 @@ description: Teaching computer science with new methods
 
 # Computer Science: Hard Topics in Easiest Way
 
-{% tabs %}
-{% tab title="EN" %}
 Computer science education is a big challenge, especially at school. Previously, the core curriculum was mainly limited to the information technology, which means that mainly the basics of using the office suite were taught. At some point, however, it changed significantly and now, from primary school, there is talk of algorithmics, computational thinking and programming. While this is undoubtedly an important and positive change, it poses even greater challenges to teachers. Compared to other subjects, such as mathematics, didactics of computer science is still very young and effective methods of translating many issues are still being sought. That's why we decided to create what we called the **Hard Topics in Easiest Way** project. It is a set of ready-made materials for teachers, containing entire lesson plans, drafts, presentations that can be used to familiarize students with particualarly difficult topics in the field of computer science.
 
 ### Goals and assumptions
@@ -17,7 +15,7 @@ Computer science education is a big challenge, especially at school. Previously,
 * **Versatility**\
   ****We tried to adapt all the material in such a way that they were as independent as possible from a specific environment, school and technology.
 * **Free of charge**\
-  ****All materials are provided completely free of charge, under the CC license Attribution-Under the Same Conditions 4.0.
+  ****All materials are provided completely free of charge, under the CC license Attribution-ShareAlike 4.0 International.
 
 ### The authors of the project
 
@@ -32,8 +30,6 @@ Prezentacja
 
 ### **License**
 
-![Uznanie autorstwa-Na tych samych warunkach 4.0](.gitbook/assets/88x31.png)
+![CC BY-SA 4.0](.gitbook/assets/88x31.png)
 
 {% file src=".gitbook/assets/Licencja.pdf" %}
-{% endtab %}
-{% endtabs %}

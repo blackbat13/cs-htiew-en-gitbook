@@ -1,6 +1,6 @@
-# Typowe problemy z komputerem
+# Common computer problems
 
-## Opis
+## Introduction
 
 TODO
 
