@@ -1,4 +1,4 @@
-# Triangle problem
+# Triangle condition
 
 ## Problem description
 
@@ -13,6 +13,30 @@ The task is simple. You are given lengths of three segments. Your task is to det
 #### Output
 
 * **YES** if a triangle can be build using the given segments, **NO** otherwise
+
+### Example 1
+
+#### Input
+
+```
+a := 5
+b := 4
+c := 6
+```
+
+**Output**: YES
+
+### Example 2
+
+#### Input
+
+```
+a := 3
+b := 4
+c := 1
+```
+
+**Output**: NO
 
 ## Exercise
 

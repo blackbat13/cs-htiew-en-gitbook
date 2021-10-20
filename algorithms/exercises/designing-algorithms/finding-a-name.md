@@ -8,12 +8,34 @@ You have a list of names of guests in no particular order. You are given a singl
 
 #### Input
 
-* guest - list of names in no particular order
-* name - single string, consists only of lowercase english alphabet letters
+* **guests** - list of names in no particular order
+* **name** - single string, consists only of lowercase english alphabet letters
 
 #### Output&#x20;
 
 * **YES** if the given name is on the list, **NO** otherwise
+
+### Example 1
+
+#### Input
+
+```
+guests := ["bob", "alice", "zebra", "apple"]
+name := "zebra"
+```
+
+**Output**: YES
+
+### Example 2
+
+#### Input
+
+```
+guests := ["bob", "alice", "zebra", "apple"]
+name := "pineapple"
+```
+
+**Output**: NO
 
 ## Exercise 1
 
