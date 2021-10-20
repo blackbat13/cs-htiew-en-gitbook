@@ -1,107 +1,107 @@
-# Pętla iteracyjna
+# Iteration loop
 
-## Pętla prosta
+## Simple loop
 
-Czasem chcemy coś powtórzyć kilka razy. Nie mamy żadnego konkretnego warunku do spełnienia, po prostu musimy powtórzyć pewną operację wielokrotnie. Moglibyśmy wówczas daną operację napisać kilka razy, jedna pod drugą, ale znacznie wygodniej jest użyć pętli.
+Sometimes we want to repeat something several times. We don't have any specific condition to fulfill, we just have to repeat an operation many times. We could then write the given operation several times, one after the other, but it is much more convenient to use a loop.
 
-### Przykład
+### Example
 
-#### Bez pętli
-
-```
-1. Zgłoś się na ochotnika do tablicy
-2. Zgłoś się na ochotnika do tablicy
-3. Zgłoś się na ochotnika do tablicy
-```
-
-#### Z zastosowaniem pętli
+#### No loops
 
 ```
-1. Powtórz 3 razy poniższe:
-    2. Zgłoś się na ochotnika do tablicy
+1. Volunteer to the board
+2. Volunteer to the board
+3. Volunteer to the board
 ```
 
-## Zmienna liczba powtórzeń
-
-Może także zdarzyć się tak, że nie wiemy z góry ile razy będziemy musieli powtórzyć pewną operację. Być może jest to zależne od innych obliczeń, a może od danych wejściowych. Wówczas nie moglibyśmy napisać kilku powtórzeń zadanej operacji jedna pod drugą, bo nie wiemy, ile musiałoby ich być! Możemy to jednak zrealizować łatwo za pomocą pętli.
-
-### Przykład
+#### Using a loop
 
 ```
-1. Wczytaj n
-2. Powtórz n-razy poniższe:
-    3. Zgłoś się na ochotnika do tablicy
+1. Repeat the following 3 times:
+    2. Volunteer to the board
 ```
 
-## Pętla z licznikiem
+## Variable number of repetitions
 
-Czasem nie wystarczy nam powtórzyć pewną operację wielokrotnie. Czasem potrzebujemy jednocześnie coś **zliczać** np. powtórzenia pętli właśnie. Wówczas przyda nam się **licznik pętli**.
+It may also happen that we do not know in advance how many times we will have to repeat a certain operation. Perhaps it depends on other calculations, or maybe it depends on the input data. Then we could not write several repetitions of the given operation one after the other, because we do not know how many would have to be! However, we can do this easily with a loop.
 
-Używając pętli z licznikiem powinniśmy podać **zakres**, z którego licznik będzie przyjmował kolejne wartości. To trochę tak, jakbyśmy sami coś liczyli, np. od $$1$$ do $$5$$. Punktem startowym, czyli początkową wartością licznika będzie $$1$$, a ostatnią wartością, jaką osiągnie licznik, będzie $$5$$. W kolejnych **przebiegach** (**powtórzeniach**) **pętli** licznik będzie przyjmował kolejne wartości z zadanego zakresu, czyli dla przykładu będą to wartości: $$1,2,3,4,5$$.
-
-### Przykład
-
-#### Bez pętli
+### Example
 
 ```
-1. Napisz na tablicy 1
-2. Napisz na tablicy 2
-3. Napisz na tablicy 3
-4. Napisz na tablicy 4
-5. Napisz na tablicy 5
+1. Read n
+2. Repeat the following n times:
+    3. Volunteer to the board
 ```
 
-#### Z zastosowaniem pętli z licznikiem
+## Loop with counter
+
+Sometimes it is not enough for us to repeat a certain operation many times. Sometimes we need something **count** at the same time, e.g. repeating the loop just. Then we need a **loop counter**.
+
+When using a loop with a numerator, we should specify the **range** from which the numerator will take the next values. It's a bit as if we were counting something ourselves, e.g. from $$1$$ to $$5$$. The starting point, i.e. the starting value of the counter, will be $$1$$, and the last value the counter reaches will be $$5$$. In the next **runs** (**iterations**) **of the loop** the counter will take the next values ​​from the set range, so for example the values ​​will be: $$1,2,3,4,5$$.
+
+### Example
+
+#### No loops
 
 ```
-1. Od i := 1 do 5, wykonuj:
-    2. Napisz na tablicy i
+1. Write on board 1
+2. Write on the board 2
+3. Write on the board 3
+4. Write on the board 4
+5. Write on board 5
 ```
 
-#### Schemat blokowy
-
-![Schemat blokowy z pętląlicznikiem](../../.gitbook/assets/for_ex1.png)
-
-Zwróć uwagę, że podobnie jak w przypadku pętli warunkowej, dla pętli iteracyjnej także nie mamy specjalnego bloku. Tak naprawdę w schemacie blokowym pętlę iteracyjną realizujemy jako pętlę warunkową, ponieważ każdą pętlę iteracyjną można zrealizować za pomocą pętli warunkowej.
-
-## Krok pętli
-
-Krok pętli określa, o ile zmienia się wartość licznika pętli w każdym jej przebiegu. Domyślnym krokiem pętli iteracyjnej jest $$1$$. Jeżeli korzystamy z wartości domyślnej, to zazwyczaj nie piszemy kroku pętli. Możemy go jednak z łatwością zmodyfikować, jak pokazują poniższe przykłady.
-
-### Przykład - liczby parzyste
-
-Powiedzmy, że naszym zadaniem jest wypisać na tablicy kolejne liczby parzyste od $$2$$ do $$10$$ włącznie. Moglibyśmy przechodzić przez kolejne wartości z tego zakresu i, jeżeli liczba jest parzysta, wypisać ją na tablicy. Możemy też zmodyfikować krok pętli tak, by przechodzić **tylko** przez kolejne liczby parzyste.
+#### Using a loop with a counter
 
 ```
-1. Od i := 2 do 10, z krokiem 2, wykonuj:
-    2. Napisz na tablicy i
+1. From i := 1 to 5, do:
+    2. Write and on the board
 ```
 
-Bez pętli:
+#### Block diagram
+
+![Flowchart with loop count] (../../.gitbook/assets/for_ex1.png)
+
+Note that, as with the conditional loop, we also don't have a special block for the iterator loop. In fact, in a block diagram, we execute the iteration loop as a conditional loop, because each iteration loop can be realized with a conditional loop.
+
+## Loop step
+
+The loop step determines how much the value of the loop counter changes with each pass of the loop. The default iteration loop step is $$1$$. If we are using the default value, we usually do not write a loop step. However, we can easily modify it, as the following examples show.
+
+### Example - even numbers
+
+Let's say that our task is to list on the board consecutive even numbers from $$2$$ to $$10$$ inclusive. We could cycle through the values ​​in this range and, if the number is even, write it to the array. We can also modify the loop step so that it goes **only** through consecutive even numbers.
 
 ```
-1. Napisz na tablicy 2
-2. Napisz na tablicy 4
-3. Napisz na tablicy 6
-4. Napisz na tablicy 8
-5. Napisz na tablicy 10
+1. From i := 2 to 10, with step 2, do:
+    2. Write i on the board
 ```
 
-### Przykład - odliczanie w dół
-
-Co w przypadku, gdy chcemy policzyć od $$5$$ do $$1$$? Tutaj także możemy skorzystać z pętli iteracyjnej z odpowiednim krokiem.
+No loop:
 
 ```
-1. Od i := 5 do 1, z krokiem -1, wykonuj:
-    2. Napisz na tablicy i
+1. Write on the board 2
+2. Write on the board 4
+3. Write on board 6
+4. Write on board 8
+5. Write on board 10
 ```
 
-Bez pętli:
+### Example - counting down
+
+What if we want to run from $$5$$ to $$1$$? Here, too, we can use an iterative loop with the appropriate step.
 
 ```
-1. Napisz na tablicy 5
-2. Napisz na tablicy 4
-3. Napisz na tablicy 3
-4. Napisz na tablicy 2
-5. Napisz na tablicy 1
+1. From i := 5 to 1, with step -1, do:
+    2. Write i on the board
+```
+
+No loop:
+
+```
+1. Write on the board 5
+2. Write on the board 4
+3. Write on the board 3
+4. Write on the board 2
+5. Write on board 1
 ```

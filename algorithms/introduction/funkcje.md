@@ -1,81 +1,75 @@
-# Funkcje
+# Functions
 
-## Wstęp
+## Introduction
 
-Wyobraźmy sobie czarne magiczne pudełko. Takie pudełko, do którego coś wrzucamy i coś innego z niego wypada. Wkładamy do niego **wejście**, a wychodzi **wyjście**:
+Imagine a black magic box. Such a box into which we throw something and something else falls out of it. We put **input** into it, and we get the **output**:
 
 ![](<../../.gitbook/assets/image (32).png>)
 
-Inaczej mówiąc, wkładamy do pudełka pewne **dane**, a wyciągamy z niego **wynik**:
+In other words, we put some **data** in a box and extract **the result** from it:
 
 ![](<../../.gitbook/assets/image (33).png>)
 
-Takie pudełko reprezentuje nam właśnie **funkcję**.
+Such a box represents a **function**.
 
-## Czym jest funkcja?
+## What is a function?
 
-W programowaniu pojęcie funkcji możemy rozumieć wielorako. Najłatwiej myśleć o tym jak o pewnym **fragmencie** programu, który ma konkretne zadanie i swoją własną nazwę. Do funkcji przekazujemy dane w postaci **parametrów**, a w odpowiedzi dostajemy wynik zgodny ze **specyfikacją** funkcji.
+In programming, we can understand the concept of a function in many ways. It's easiest to think of it as some **part** of a program that has a specific task and its own name. We pass data to the function in the form of **parameters**, and in response we get the result consistent with the **specification** of the function.
 
 {% hint style="danger" %}
-Nie należy mylić funkcji w programowaniu i funkcji w matematyce, to dwa zupełnie różne twory!
+Do not confuse functions in programming and functions in mathematics, they are two completely different creations!
 {% endhint %}
 
-Schematyczny zapis funkcji przedstawia się następująco:
+The schematic notation of the function is as follows:
 
 ```
-funkcja NazwaFunkcji(parametr1, parametr2, ...):
-    Operacja1
-    Operacja2
+function FunctionName(parameter1, parameter2, ...):
+    Operation1
+    Operation2
     ...
-    Zwróć wynik
+    Return result
 ```
 
-## Przykład - automat do kawy
+## Example - a coffee machine
 
-Wyobraźmy sobie automat do kawy, taki jaki stoi na korytarzach wielu biur, szkół i dworców kolejowych. Możemy powiedzieć, że reprezentuje ona pewną funkcję, zgodną z poniższą specyfikacją:
+Imagine a coffee machine like it stands in the corridors of many offices, schools and train stations. We can say that it represents a function according to the following specification:
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Data
 
-* **wybór** - wybrany napój
-* **pieniądze** - należna kwota
+* **selection** - selected drink
+* **money** - amount due
 
-#### Wynik
+#### Result
 
-* Wybrany napój.
+* Selected drink.
 
 {% hint style="info" %}
-Oczywiście jest to bardzo uproszczona specyfikacja. W rzeczywistości taki automat nie wyda nam napoju, jeśli nie uiścimy odpowiedniej opłaty. Czasem oprócz napoju dostaniemy też resztę. Taka specyfikacja wystarczy nam jednak do przykładu.
+Obviously, this is a very simplified specification. In fact, such a vending machine will not give us a drink unless we pay the appropriate fee. Sometimes, in addition to a drink, we also get the rest. However, this specification is enough for an example.
 {% endhint %}
 
-Spróbujmy zapisać fragment funkcji realizowanej przez taki automat w postaci pseudokodu:
+Let's try to write a fragment of a function performed by such an automaton in the form of a pseudocode:
 
 ```
-funkcja AutomatDoKawy(wybór, pieniądze):
-    1. Jeżeli wybór = "latte" i pieniądze = 3.0, to:
-        2. Zwróć Latte i zakończ   
+function AutomaticCoffeeMachine(selection, money):
+     1. If selection = "latte" and money = 3.0, then:
+         2. Return the Latte and exit
 ```
 
-## Procedura
+## Procedure
 
-W przeciwieństwie do funkcji procedura **nie zwraca konkretnego wyniku**. Jaki więc może być jej cel? Procedurę możemy zastosować, by np. zmienić wartości zmiennych przekazanych jako parametry (jeżeli je odpowiednio przekażemy), zmienić wartości zmiennych globalnych, albo wypisać komunikat na ekranie. Możemy łatwo wyobrazić sobie procedurę powitanie, która przyjmuje imię użytkownika i wyświetla na ekranie stosowny komunikat:
+Contrary to the function, procedure **does not return a specific result**. So what could its purpose be? The procedure can be used to, for example, change the values of variables passed as parameters (if we pass them properly), change the values of global variables, or print a message on the screen. We can easily imagine a greeting procedure that takes the user's first name and displays an appropriate message on the screen:
 
-```
-procedura Powitanie(imie):
-    1. Wypisz "Witaj "
-    2. Wypisz imie
-    3. Wypisz "!"
-    4. Wypisz znak nowej liniii
-    5. Zakończ
-```
+``
+procedure Greeting(name):
+     1. Write "Hello"
+     2. Write name
+     3. Write "!"
+     4. Write a newline character
+     5. Finish
+``
 
-{% hint style="warning" %}
-Współcześnie już praktycznie nie rozróżniamy pomiędzy funkcją a procedurą. W wielu językach programowania występują tylko funkcje, w tym też takie, które nie zwracają wyniku (albo których wynik ignorujemy).
-{% endhint %}
-
-## Prezentacja
-
-{% file src="../../.gitbook/assets/Funkcje - wprowadzenie.pdf" %}
-Funkcje - wprowadzenie
-{% endfile %}
+{% hint style = "warning"%}
+Nowadays, we practically do not distinguish between function and procedure. In many programming languages, there are only functions, including those that do not return a result (or the result of which we ignore).
+{% endhint%}

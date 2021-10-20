@@ -1,100 +1,86 @@
-# Zmienne
+# Variables
 
-## Wstęp
+## Admission
 
-Czym jest zmienna? Można powiedzieć, że to pewnego rodzaju pudełko na dane. Na zmiennych możemy wykonywać różnego rodzaju operacje: możemy "wkładać" (**przypisywać**) do nich różne wartości, wykonywać na nich operacje, wykorzystywać w obliczeniach, a także odczytywać ich wartości. 
+What is a variable? You could say that it's a kind of data box. We can perform various types of operations on variables: we can "insert" (**assign**) different values ​​to them, perform operations on them, use them in calculations, and read their values.
 
-Zmienne stanowią niezbędny element praktycznie każdego algorytmu. W związku z tym ich poprawne i dogłębne zrozumienie jest wymagane, by móc konstruować i implementować zaawansowane algorytmy.
+Variables are an essential part of practically every algorithm. Therefore, their correct and thorough understanding is required to be able to construct and implement advanced algorithms.
 
-## Typy zmiennych
+## Types of variables
 
-Wyobraźmy sobie dwa pudełka: jedno plastikowe i jedno metalowe. Do plastikowego pudełka możemy wkładać tylko owoce, a do metalowego tylko gwoździe. Każde z pudełek ma swoje przeznaczenie. Swój **typ** przechowywanych przedmiotów.
+Imagine two boxes: one plastic and one metal. We can only put fruit in a plastic box, and only nails in a metal box. Each box has its own purpose. The **type** of stored items.
 
-Podobnie jest ze zmiennymi. Każda zmienna może przechowywać tylko określony typ wartości. Mówimy wtedy, że zmienna ma swój typ. Dla przykładu, możemy utworzyć zmienną do przechowywania liczb całkowitych. Do takiej zmiennej nie przypiszemy już wartości innego typu, np. tekstu.
+It is similar with the variables. Each variable can only hold a specific type of value. We say then that the variable has its type. For example, we can create a variable to hold integers. We will not assign a value of a different type to such a variable, e.g. text.
 
-{% hint style="warning" %}
-W niektórych językach programowania jednoznacznie określamy typ zmiennej przy jej tworzeniu, w innych nie. Podobnie, są języki, w których próba przypisania innego typu wartości do zmiennej zakończy się błędem. Są też takie, w których tego typu operacja będzie dozwolona. Nie oznacza to jednak, że powinniśmy to robić! Bardzo ważne jest przestrzeganie typu zmiennych. Jest to istotne z punktu widzenia czytelności kodu programu, ale także z poziomu mechanik, które kryją się pod spodem.
-{% endhint %}
+{% hint style = "warning"%}
+In some programming languages, we explicitly specify the type of a variable when it is created, in others we do not. Similarly, there are languages ​​in which attempting to assign a different type of value to a variable will fail. There are also those in which this type of operation will be allowed. However, that doesn't mean we should do it! It is very important to respect the type of the variables. This is important from the point of view of the readability of the program code, but also from the level of the mechanics behind it.
+{% endhint%}
 
-## Wartości zmiennych
+## Variable values
 
-Wiemy już, że do zmiennych możemy przypisywać wartości. Czy oznacza to jednak, że raz przypisana wartość do zmiennej pozostaje niezmienna? Jak można się domyślić po nazwie **zmienna,** tak nie jest. Bardzo ważne jest by zrozumieć, że wartość zmiennej określamy w czasie, tzn. w danym punkcie działania programu. By lepiej to zrozumieć, spójrzmy na poniższe przykłady.
+We already know that we can assign values ​​to variables. Does this mean, however, that once assigned a value to a variable remains unchanged? As you can guess from the name **variable**, is not. It is very important to understand that the value of a variable is determined in time, i.e. at a given point in the program operation. To understand this better, let's look at the examples below.
 
-### Przykład 1
+### Example 1
 
-```
+``
 1. a := 10
-2. Wypisz a
+2. Write a
 3. a := 2 * a
-4. Wypisz a
+4. Write a
 5. a := a + 5
-6. Wypisz a
-```
+6. Write a
+``
 
-Spójrz na powyższy pseudokod. Czy potrafisz powiedzieć, jakie wartości zostaną wypisane w instrukcji 2, 4 i 6? Spróbuj odpowiedzieć na to pytanie, zanim przejdziesz dalej.
+Take a look at the pseudocode above. Can you tell what the values ​​will be printed in statements 2, 4, and 6? Please try to answer this question before proceeding.
 
-Najlepszym sposobem jest przeprowadzenie **symulacji** danego pseudokodu. Bierzemy kartkę i długopis i wykonujemy kolejne operacje, zapisując wartości zmiennych w każdym punkcie. Można to zrobić na wiele sposobów, jeden z nich prezentujemy poniżej.
+The best way is to ** simulate ** the pseudocode. We take a piece of paper and a pen and perform subsequent operations, writing down the values ​​of the variables at each point. This can be done in many ways, one of them is presented below.
 
-```
+``
 1. [a = 10]
-2. Wypisz 10
+2. Write 10
 3. [a = 2 * 10 = 20]
-4. Wypisz 20
+4. Write 20
 5. [a = 20 + 5 = 25]
-6. Wypisz 25
-```
+6. Write 25
+``
 
-Jak widać, przedstawiony wcześniej algorytm wpisze kolejno liczby: $$10,\ 20,\ 25$$.
+As you can see, the algorithm presented earlier will enter the following numbers: $$ 10, \ 20, \ 25 $$.
 
-### Przykład 2
+### Example 2
 
-```
+``
 1. a := 0
-2. Dopóki a < 10, wykonuj:
+2. Until a < 10, do:
     3. a := a + 2
-    4. Wypisz a
-```
+    4. Write a
+``
 
-Ponownie, zanim przejdziesz dalej spróbuj się zastanowić nad tym, jakie kolejne wartości wypisze powyższy algorytm.
+Again, before continuing, try to think about what successive values ​​the above algorithm will output.
 
-W tym przykładzie bardzo ważne jest poprawne zrozumienie działania pętli. Pętla powtarza pewne operacje wielokrotnie, co oznacza, że te same instrukcje będziemy wykonywać kilka razy. Spróbujmy to rozpisać.
+In this example, it is very important to understand how the loop works correctly. The loop repeats certain operations many times, which means that we will execute the same instructions several times. Let's try to write it down.
 
 ```
 1. [a = 0]
 
-2. Dopóki 0 < 10 - OK
+2. While 0 < 10 - OK
     3. [a = 0 + 2 = 2]
-    4. Wypisz 2
+    4. Write 2
     
-2. Dopóki 2 < 10 - OK
+2. While 2 < 10 - OK
     3. [a = 2 + 2 = 4]
-    4. Wypisz 4
+    4. Write 4
     
- 2. Dopóki 4 < 10 - OK
+ 2. While 4 < 10 - OK
      3. [a = 4 + 2 = 6]
-     4. Wypisz 6
+     4. Write 6
      
- 2. Dopóki 6 < 10 - OK
+ 2. While 6 < 10 - OK
      3. [a = 6 + 2 = 8]
-     4. Wypisz 8
+     4. Write 8
      
- 2. Dopóki 8 < 10 - OK
+ 2. While 8 < 10 - OK
      3. [a = 8 + 2 = 10]
-     4. Wypisz 10
+     4. Write 10
      
- 2. Dopóki 10 < 10 - NIE (koniec pętli)
+ 2. While 10 < 10 - NO (end of the loop)
 ```
-
-## Prezentacja
-
-{% file src="../../.gitbook/assets/Zmienne - wprowadzenie.pdf" %}
-Wprowadzenie
-{% endfile %}
-
-{% file src="../../.gitbook/assets/Zmienne - ćwiczenia.pdf" %}
-Ćwiczenia
-{% endfile %}
-
-{% file src="../../.gitbook/assets/Zmienne w Pamięci - Ćwiczenia (1).pdf" %}
-Zmienne w pamięci
-{% endfile %}
