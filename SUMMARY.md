@@ -148,29 +148,33 @@
   * [Kruskal](algorithms/grafowe/kruskal.md)
   * [Sortowanie topologiczne](algorithms/grafowe/sortowanie-topologiczne.md)
   * [Flood fill](algorithms/grafowe/flood-fill.md)
-* [Ćwiczenia](algorithms/cwiczenia/README.md)
-  * [Analiza pseudokodu](algorithms/cwiczenia/analiza-pseudokodu/README.md)
-    * [Ćwiczenie 1](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-1/README.md)
-      * [Rozwiązanie](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-1/rozwiazanie.md)
-    * [Ćwiczenie 2](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-2/README.md)
-      * [Rozwiązanie](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-2/rozwiazanie.md)
-    * [Ćwiczenie 3](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-3.md)
-    * [Ćwiczenie 4](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-4.md)
-    * [Ćwiczenie 5](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-9/README.md)
-      * [Rozwiązanie](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-9/rozwiazanie.md)
-    * [Ćwiczenie 6](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-10/README.md)
-      * [Rozwiązanie](algorithms/cwiczenia/analiza-pseudokodu/cwiczenie-10/rozwiazanie.md)
-  * [Rekurencja](algorithms/cwiczenia/rekurencja/README.md)
-    * [Ćwiczenie 1](algorithms/cwiczenia/rekurencja/cwiczenie-5.md)
-    * [Ćwiczenie 2](algorithms/cwiczenia/rekurencja/cwiczenie-6/README.md)
-      * [Rozwiązanie](algorithms/cwiczenia/rekurencja/cwiczenie-6/rozwiazanie.md)
-    * [Ćwiczenie 3](algorithms/cwiczenia/rekurencja/cwiczenie-7.md)
-    * [Ćwiczenie 4](algorithms/cwiczenia/rekurencja/cwiczenie-8/README.md)
-      * [Rozwiązanie](algorithms/cwiczenia/rekurencja/cwiczenie-8/rozwiazanie.md)
-    * [Ćwiczenie 5](algorithms/cwiczenia/rekurencja/cwiczenie-11/README.md)
-      * [Rozwiązanie](algorithms/cwiczenia/rekurencja/cwiczenie-11/rozwiazanie.md)
-    * [Ćwiczenie 6](algorithms/cwiczenia/rekurencja/cwiczenie-12/README.md)
-      * [Rozwiązanie](algorithms/cwiczenia/rekurencja/cwiczenie-12/rozwiazanie.md)
+* [Exercises](algorithms/exercises/README.md)
+  * [Designing Algorithms](algorithms/exercises/designing-algorithms/README.md)
+    * [Triangle problem](algorithms/exercises/designing-algorithms/triangle-problem.md)
+    * [Finding a name](algorithms/exercises/designing-algorithms/finding-a-name.md)
+    * [Traversing a maze](algorithms/exercises/designing-algorithms/traversing-a-maze.md)
+  * [Pseudocode Analysis](algorithms/exercises/pseudocode-analysis/README.md)
+    * [Ćwiczenie 1](algorithms/exercises/pseudocode-analysis/cwiczenie-1/README.md)
+      * [Rozwiązanie](algorithms/exercises/pseudocode-analysis/cwiczenie-1/rozwiazanie.md)
+    * [Ćwiczenie 2](algorithms/exercises/pseudocode-analysis/cwiczenie-2/README.md)
+      * [Rozwiązanie](algorithms/exercises/pseudocode-analysis/cwiczenie-2/rozwiazanie.md)
+    * [Ćwiczenie 3](algorithms/exercises/pseudocode-analysis/cwiczenie-3.md)
+    * [Ćwiczenie 4](algorithms/exercises/pseudocode-analysis/cwiczenie-4.md)
+    * [Ćwiczenie 5](algorithms/exercises/pseudocode-analysis/cwiczenie-9/README.md)
+      * [Rozwiązanie](algorithms/exercises/pseudocode-analysis/cwiczenie-9/rozwiazanie.md)
+    * [Ćwiczenie 6](algorithms/exercises/pseudocode-analysis/cwiczenie-10/README.md)
+      * [Rozwiązanie](algorithms/exercises/pseudocode-analysis/cwiczenie-10/rozwiazanie.md)
+  * [Recursion](algorithms/exercises/recursion/README.md)
+    * [Ćwiczenie 1](algorithms/exercises/recursion/cwiczenie-5.md)
+    * [Ćwiczenie 2](algorithms/exercises/recursion/cwiczenie-6/README.md)
+      * [Rozwiązanie](algorithms/exercises/recursion/cwiczenie-6/rozwiazanie.md)
+    * [Ćwiczenie 3](algorithms/exercises/recursion/cwiczenie-7.md)
+    * [Ćwiczenie 4](algorithms/exercises/recursion/cwiczenie-8/README.md)
+      * [Rozwiązanie](algorithms/exercises/recursion/cwiczenie-8/rozwiazanie.md)
+    * [Ćwiczenie 5](algorithms/exercises/recursion/cwiczenie-11/README.md)
+      * [Rozwiązanie](algorithms/exercises/recursion/cwiczenie-11/rozwiazanie.md)
+    * [Ćwiczenie 6](algorithms/exercises/recursion/cwiczenie-12/README.md)
+      * [Rozwiązanie](algorithms/exercises/recursion/cwiczenie-12/rozwiazanie.md)
 
 ## Programming
 
@@ -555,8 +559,6 @@
 
 ## Przydatne linki
 
-***
-
 * [Przewodnik po informatyce](https://bezkomputera.wmi.amu.edu.pl/ppi/)
 * [Kurs programowania z Harvardu](https://landing.codegym.cc/pl/cs50/)
 * [Informatyka dla Jasia i Joasi](http://jasijoasia.edu.pl)
@@ -571,8 +573,6 @@
 * [Virus Simulation](https://blackbat13.github.io/VirusSimulation/)
 
 ## Przydatne narzędzia
-
-***
 
 * [CodeShare](https://codeshare.io)
 * [Replit](https://replit.com)
