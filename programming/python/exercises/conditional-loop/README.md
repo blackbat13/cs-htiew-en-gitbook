@@ -118,7 +118,7 @@ Write a program that complies with the specification below.
 
 #### Output
 
-* Binary notation of the number $$n$$
+* Binary representation of the number $$n$$
 
 ### Example
 
