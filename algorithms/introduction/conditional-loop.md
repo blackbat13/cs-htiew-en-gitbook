@@ -8,7 +8,7 @@ It very often happens that we have to repeat certain operations many times. For 
 
 Let's start with a simple loop - a single conditional loop inside which there are some operations to repeat. In order to better understand how the loop works, let's consider an example.
 
-### Example - tea sweetening algorithm
+### Example: tea sweetening algorithm
 
 Consider the following problem: there is bitter tea in front of us. Our task is to sweeten it with a teaspoon of sugar and then stir it to dissolve the sugar. Note, however, that we do not know in advance how long it will take to mix the tea. Maybe it is enough to stir a few times while the tea is hot, or maybe it will take longer to stir. Therefore, a conditional loop will help here.
 
@@ -27,17 +27,17 @@ Note the indentation in the algorithm example above. So often we specify that th
 
 #### Block diagram
 
-![Algorytm słodzenia herbaty - schemat blokowy](<../../.gitbook/assets/Pętla prosta - słodzenie herbaty.png>)
+![Tea sweetening algorithm - Block diagram](<../../.gitbook/assets/Pętla prosta - słodzenie herbaty.png>)
 
-Look carefully at the above block diagram. Note that we don't have a separate block for the conditional loop. To do the loop, we use a conditional statement, and then we put the appropriate arrow just in front of the statement, thereby _ ** looping ** _ our diagram.
+Look carefully at the above block diagram. Note that we don't have a separate block for the conditional loop. To do the loop, we use a conditional statement, and then we put the appropriate arrow just in front of the statement, thereby _**looping**_ our diagram.
 
 ## Nested loop
 
 We already know what a simple conditional loop looks like. Sometimes, however, one loop is not enough. Sometimes we have to nest two (or more) loops inside each other, thereby achieving multiple repetitions. Let's see how it looks like on an example.
 
-### Example - repeated sweetening of tea
+### Example: repeated sweetening of tea
 
-We will consider the problem of sweetening tea again. Note that in the previous example, we sweetened the tea with one teaspoon of sugar. What if someone likes tea sweetened with two, three, or even four teaspoons of sugar? We need a ** second loop ** to sweeten the tea repeatedly.
+We will consider the problem of sweetening tea again. Note that in the previous example, we sweetened the tea with one teaspoon of sugar. What if someone likes tea sweetened with two, three, or even four teaspoons of sugar? We need a **second loop** to sweeten the tea repeatedly.
 
 We already know how to dissolve sugar in tea. The question now is: how long to sweeten the tea? The answer seems simple: as long as the tea is not sweet enough for us, we will sweeten it. So let's try to construct an algorithm.
 

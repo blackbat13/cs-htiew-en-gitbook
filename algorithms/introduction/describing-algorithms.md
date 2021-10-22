@@ -44,7 +44,7 @@ A more structured way of writing compared to a verbal description, but still dev
 
 ## Pseudocode
 
-A pseudocode is something between a list of steps and the code in your chosen programming language. As the name suggests, this is **pseudo**-code. So we are dealing here with a provision more formal than a list of steps, but still subject to certain contractual provisions and rules. However, one agreed formalism is missing, so one can encounter many different approaches to writing pseudocode.
+A pseudocode is something between a list of steps and the code in your programming language of choice. As the name suggests, this is **pseudo**-code. So we are dealing here with a provision more formal than a list of steps, but still subject to certain contractual provisions and rules. However, one agreed formalism is missing, so one can encounter numerous approaches to writing pseudocode.
 
 ### Example
 
@@ -66,7 +66,7 @@ The block diagram is one of the most formal and unambiguous ways of writing algo
 
 It all starts with it. Its role is to define the beginning of the program.
 
-### End block - terminator
+### End block: terminator
 
 ![Terminator](../../.gitbook/assets/blok_stop.png)
 
@@ -98,7 +98,7 @@ The only block where two arrows come out, usually left and right. To these arrow
 
 ### Example
 
-![Example- block diagram](../../.gitbook/assets/example.png)
+![Example: block diagram](../../.gitbook/assets/example.png)
 
 
 
@@ -135,7 +135,7 @@ int main() {
 ```
 
 {% embed url="https://ideone.com/y9PP9s" %}
-Example - C++
+Example: C++
 {% endembed %}
 
 #### Python
@@ -153,12 +153,12 @@ print(result)
 ```
 
 {% embed url="https://ideone.com/6Zgr8N" %}
-Example - Python
+Example: Python
 {% endembed %}
 
 #### Pascal
 
-```
+```pascal
 program divisors;
 var n, result, i: integer;
 begin
@@ -177,5 +177,5 @@ end.
 ```
 
 {% embed url="https://ideone.com/QWBt80" %}
-Example - Pascal
+Example: Pascal
 {% endembed %}

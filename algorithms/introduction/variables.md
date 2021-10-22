@@ -13,7 +13,7 @@ Imagine two boxes: one plastic and one metal. We can only put fruit in a plastic
 It is similar with the variables. Each variable can only hold a specific type of value. We say then that the variable has its type. For example, we can create a variable to hold integers. We will not assign a value of a different type to such a variable, e.g. text.
 
 {% hint style = "warning"%}
-In some programming languages, we explicitly specify the type of a variable when it is created, in others we do not. Similarly, there are languages ​​in which attempting to assign a different type of value to a variable will fail. There are also those in which this type of operation will be allowed. However, that doesn't mean we should do it! It is very important to respect the type of the variables. This is important from the point of view of the readability of the program code, but also from the level of the mechanics behind it.
+In some programming languages, we explicitly specify the type of variable when it is created, in others we do not. Similarly, there are languages ​​in which attempting to assign a different type of value to a variable will fail. There are also those in which this type of operation will be allowed. However, that doesn't mean we should do it! It is very important to respect the type of the variables. This is important from the point of view of the readability of the program code, but also from the level of the mechanics behind it.
 {% endhint%}
 
 ## Variable values
@@ -31,9 +31,9 @@ We already know that we can assign values ​​to variables. Does this mean, ho
 6. Write a
 ``
 
-Take a look at the pseudocode above. Can you tell what the values ​​will be printed in statements 2, 4, and 6? Please try to answer this question before proceeding.
+Take a look at the pseudocode above. Can you tell what the values will be printed in statements 2, 4, and 6? Please try to answer this question before proceeding.
 
-The best way is to ** simulate ** the pseudocode. We take a piece of paper and a pen and perform subsequent operations, writing down the values ​​of the variables at each point. This can be done in many ways, one of them is presented below.
+The best way is to ** simulate ** the pseudocode. We take a piece of paper and a pen and perform subsequent operations, writing down the values of the variables at each point. This can be done in many ways, one of them is presented below.
 
 ``
 1. [a = 10]
@@ -55,7 +55,7 @@ As you can see, the algorithm presented earlier will enter the following numbers
     4. Write a
 ``
 
-Again, before continuing, try to think about what successive values ​​the above algorithm will output.
+Again, before continuing, try to think about what successive values the above algorithm will output.
 
 In this example, it is very important to understand how the loop works correctly. The loop repeats certain operations many times, which means that we will execute the same instructions several times. Let's try to write it down.
 

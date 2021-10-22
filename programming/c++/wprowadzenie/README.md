@@ -1,77 +1,69 @@
-# Wprowadzenie
+# Introduction
 
 {% hint style="danger" %}
-### Uwaga
+Note this is not a programming tutorial. The assumption is that you already know a bit about programming, maybe you know a different programming language and want to know what basic constructs look like in C++.
 
-To nie jest tutorial programowania. Założenie jest takie, że wiesz już co nieco o programowaniu, być może znasz inny język programowania i chcesz się dowiedzieć jak podstawowe konstrukcje wyglądają w języku C++.
+**We will not explain here what a loop or conditional statement is, but we will only show what these constructs look like in C++.**
 
-**Nie będziemy tutaj tłumaczyć czym jest pętla czy instrukcja warunkowe, a jedynie pokażemy, jak te konstrukcje wyglądają w języku C++.**
-
-**Jeżeli dopiero zaczynasz, zapoznaj się najpierw z wprowadzeniem do algorytmów: **[**Wprowadzenie**](../../../algorithms/introduction/)****
+**If you're just getting started, read the Introduction to Algorithms first:** [**Introduction**](../../../algorithms/introduction/).
 {% endhint %}
 
-## Środowiska lokalne
+## Local integrated development environment (IDE)
 
 ### Code::Blocks
 
-Dobre środowisko dla początkujących. Łatwe w obsłudze, przejrzyste i darmowe. Pozwala zarówno tworzyć rozbudowane projekty, jak i proste aplikacje konsolowe. 
+A good environment for beginners. Easy to use, transparent and free. It allows creating extensive projects as well as simple console applications.
 
-#### Instalacja
+#### Installation
 
-Pobieramy środowisko ze strony [https://www.codeblocks.org/downloads/binaries/](https://www.codeblocks.org/downloads/binaries/). Możemy zainstalować samo środowisko, lub razem w pakiecie z kompilatorem. W celu instalacji pełnego zestawu, tzn. środowisko plus kompilator, wybieramy wersję z **mingw**, np. **codeblocks-20.03mingw-setup.exe.**
+Download the installer from: [https://www.codeblocks.org/downloads/binaries/](https://www.codeblocks.org/downloads/binaries/). We can install the environment itself, or together in a package with a compiler. In order to install the full set, i.e. environment plus compiler, select the version with **mingw**, e.g. **codeblocks-20.03mingw-setup.exe**.
 
 ### **Dev-C++**
 
-Kolejne dobre i darmowe środowisko dla początkujących. W swoich możliwościach podobne do omawianego środowiska Code::Blocks.
+Another good and free environment for beginners. In its possibilities similar to the previously discussed Code::Blocks IDE.
 
-#### Instalacja
+#### Installation
 
-Pobieramy plik instalacyjny ze strony [http://bloodshed.net/](http://bloodshed.net). Podobnie jak wyżej, możemy zainstalować samo środowisko, lub razem z kompilatorem mingw.
+Download the installer from: [http://bloodshed.net/](http://bloodshed.net). Like with Code::Blocks, we can install the environment itself, or together with the Mingw compiler.
 
 ### Visual Studio
 
-Rozbudowane i potężne środowisko stworzone przez Microsoft. Polecane dla doświadczonych programistów. W przypadku tworzenia aplikacji w języku C++ należy mieć na uwadze, że Visual Studio dołącza własne biblioteki.
+An extensive and powerful environment created by Microsoft. Recommended for experienced programmers. When creating applications in C ++, you should keep in mind that Visual Studio adds its own libraries.
 
-#### Instalacja
+#### Installation
 
-Instalator pobierzemy ze strony: [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com). Dostępnych jest kilka wersji do pobrania, zarówno płatne jak i bezpłatna. Do standardowych, "domowych" zastosowań wystarczy wersja darmowa, tzn. Community Edition.
+Download the installer from: [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com). There are several versions available for download, both paid and free. For standard "home" applications, a free version, i.e. Community Edition, is sufficient.
 
 ### Visual Studio Code
 
-U swoich podstaw Visual Studio Code to edytor tekstu, coś jak rozbudowany notatnik. To co jednak go wyróżnia, to możliwość rozbudowania za pomocą najróżniejszych dodatków/pluginów. Lekkie, przyjemne, darmowe i z ogromnymi możliwościami. Wymaga trochę czasu, aby nauczyć się z niego efektywnie korzystać, ale warto.
+With their foundations, Visual Studio Code is a text editor, something like an extensive notebook. What distinguishes it, however, is the possibility of expanding with the help of various additions / plugins. Light, pleasant, free and with huge possibilities. It requires some time to learn to use it effectively, but it's worth it.
 
-#### Instalacja
+#### Installation
 
-Instalator pobierzemy ze strony: [https://code.visualstudio.com/](https://code.visualstudio.com).
+Download the installer from: [https://code.visualstudio.com/](https://code.visualstudio.com).
 
 ### CLion
 
-Potężne, rozbudowane i (niestety) płatne narzędzie stworzone przez JetBrains, przeznaczone przede wszystkim do tworzenia zaawansowanych projektów. Posiada wiele przydatnych narzędzi dla programistów, a także opcji szybkiej refaktoryzacji kodu i wbudowane podpowiedzi. Warto zwrócić uwagę na fakt, że CLion korzysta domyślnie z CMake do konfiguracji i kompilacji projektów.
+Powerful, extensive and (unfortunately) paid tool created by JetBrains, intended primarily for creating advanced projects. It has many useful tools for programmers, as well as the options of fast code reflectors and built-in hints. It is worth paying attention to the fact that Clion uses CMake by default to configure and compile projects.
 
-To i inne narzędzia od firmy JetBrains dostępne są za darmo na licencji edukacyjnej: [https://www.jetbrains.com/community/education/#students](https://www.jetbrains.com/community/education/#students)
+These and other tools from JetBrains are available for free on the educational license: [https://www.jetbrains.com/community/education/#students](https://www.jetbrains.com/community/education/#students)
 
-#### Instalacja
+#### Installation
 
-Narzędzie pobierzemy ze strony: [https://www.jetbrains.com/clion/](https://www.jetbrains.com/clion/).
+Download the installer from: [https://www.jetbrains.com/clion/](https://www.jetbrains.com/clion/).
 
-## Środowiska webowe
+## Web environment
 
-W przeciwieństwie do środowisk lokalnych, środowiska webowe dostępne są z poziomu przeglądarki i nie wymagają żadnej dodatkowej instalacji. Ma to oczywiście swoje wady i zalety. Środowiska webowe zazwyczaj działają wolniej i mają swoje ograniczenia.
+Unlike local environments, web environments are accessible from the browser level and do not require any additional installation. This, of course, has its advantages and disadvantages. Web environments usually run slower and have their limitations. 
 
 ### Ideone
 
-Dosyć podstawowy kompilator webowy. Posiada wsparcie dla wielu języków. Do jego zalet można zaliczyć stosunkowo szybką kompilację i możliwość korzystania bez rejestracji, a także łatwość udostępniania swoich kodów. Do minusów można zaliczyć brak interaktywności - całe wejście musimy wprowadzić w specjalnym oknie, przed uruchomieniem programu.
+Pretty basic web compiler. It supports numerous programming languages. Its advantages include relatively quick compilation and the ability to use without registration, as well as the ease of sharing your codes. The disadvantages include the lack of interactivity - the entire input must be entered in a special window, before starting the program.
 
 {% embed url="https://ideone.com/" %}
 
 ### Repl.it
 
-Rozbudowane narzędzie webowe, które wymaga jednak utworzenia darmowego konta. Posiada wsparcie dla wielu języków i pozwala na tworzenie rozbudowanych projektów ze złożoną strukturą plików, a także na wprowadzanie własnych opcji kompilacji.
+A powerful web-based tool, but requires a free account. It supports many languages and allows you to create complex projects with a complex file structure, as well as introduce your own compilation options.
 
 {% embed url="https://replit.com/" %}
-
-## Krótkie wprowadzenie do C++ - prezentacja
-
-{% file src="../../../.gitbook/assets/Wprowadzenie do Cpp.pdf" %}
-Wprowadzenie do C++
-{% endfile %}

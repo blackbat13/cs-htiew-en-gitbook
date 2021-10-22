@@ -30,7 +30,7 @@ Note the indentation in the above notation. Typically, we use indentation to sig
 
 #### Block diagram
 
-![Algorytm przechodzenia na światłach](../../.gitbook/assets/if_siwatla\_1.png)
+![Algorithm to pass on traffic lights](../../.gitbook/assets/if_siwatla\_1.png)
 
 ### Example 2
 
@@ -47,7 +47,7 @@ We can also construct the same algorithm in a slightly different way. Note that 
 
 #### Block diagram
 
-![Algorytm przechodzenia na światłach - alternatywna konstrukcja](../../.gitbook/assets/if_swiatla\_2.png)
+![Algorithm to pass on traffic lights: alternative construction](../../.gitbook/assets/if_swiatla\_2.png)
 
 ## Complex conditional statement
 
@@ -68,7 +68,7 @@ Now consider another example: high beam for drivers. Unlike pedestrian lights, w
 
 #### Block diagram
 
-![Algorytm przejeżdżania na światłach](../../.gitbook/assets/if_swiatla3.png)
+![Algorithm of passing on traffic lights](../../.gitbook/assets/if_swiatla3.png)
 
 ### Example 2
 
@@ -87,9 +87,9 @@ As before, we don't have to be specific about all the cases. This time it is eno
 
 #### Block diagram
 
-![Algorytm przejeżdżania na światłach - alternatywna konstrukcja](../../.gitbook/assets/if_swiatla4.png)
+![Algorithm of passing on traffic lights: alternative construction](../../.gitbook/assets/if_swiatla4.png)
 
-## The construction of conditions must be well thought out
+## The construction of conditions must be well-thought-out
 
 In the previous examples, it did not matter in what order we considered the next conditions. We could swap the order of the conditional statements (along with the operations, of course) and still have the algorithm working properly. However, life is not always that simple...
 
@@ -108,11 +108,11 @@ In the previous examples, it did not matter in what order we considered the next
 
 #### Block diagram
 
-![](../../.gitbook/assets/if_cena1.png)
+![Incorrect price algorithm: block diagram](../../.gitbook/assets/if_cena1.png)
 
-Can you tell what is wrong with the conditional statement above? Its structure itself is correct, but not fully thought out and may mislead the reader. Try to simulate the algorithm for different price values. Consider what the price must be for each of the messages to be written, ie for which values the "expensive" message will be written, for which the "very expensive" message and for which the "cheap" message will be printed. Please take a moment to complete this exercise yourself before proceeding.
+Can you tell what is wrong with the conditional statement above? Its structure itself is correct, but not fully thought out and may mislead the reader. Try to simulate the algorithm for different price values. Consider what the price must be for each of the messages to be written, i.e. for which values the _expensive_ message will be written, for which the _very expensive_ message and for which the _cheap_ message will be printed. Please take a moment to complete this exercise yourself before proceeding.
 
-Note that the message "very expensive" will never be printed. Why is this happening? It is enough to look closely at the construction of the conditions. The first condition determines what is to happen for prices greater than 100. The second one determines what is to happen for prices greater than 200. It would therefore seem that, for example, for the value of 300, the second condition will be met and the message "very expensive" will be printed. However, this will not happen. Why?
+Note that the message _very expensive_ will never be printed. Why is this happening? It is enough to look closely at the construction of the conditions. The first condition determines what is to happen for prices greater than $$100$$. The second one determines what is to happen for prices greater than $$200$$. It would therefore seem that, for example, for the value of $$300$$, the second condition will be met and the message _very expensive_ will be printed. However, this will not happen. Why?
 
 This is because **the first condition is already met** for such a price. And since the first condition is already met, the next ones will not be checked and executed anymore.
 
@@ -126,11 +126,11 @@ Of course, the above algorithm can be easily improved by changing the order of t
 1. If price > 200 then:
     2. Print "Very expensive"
 3. else if price > 100 then: 
-    4. Print "Drogie"
+    4. Print "Expensive"
 5. else:
     6. Print "Cheap"
 ```
 
 #### Block diagram
 
-![](../../.gitbook/assets/if_cena2.png)
+![Corrected price algorithm: block diagram](../../.gitbook/assets/if_cena2.png)

@@ -2,13 +2,13 @@
 
 ## Introduction
 
-What is an **Algorithm**? Instruction, recipe, flow chart... An algorithm describes the solution of a certain problem. We distinguish various types of algorithms, and we will start with their simplest type - linear algorithms.
+What is an **Algorithm**? Instruction, recipe, flow chart... An algorithm describes the solution of a certain problem. We distinguish various types of algorithms, and we will start with their simplest type: linear algorithms.
 
 ## Linear algorithm
 
 A linear algorithm is a serial instruction in which we follow step by step, line by line, operation by operation. 
 
-A number of questions arise in the construction of the algorithm. How detailed should the algorithm be? What operations must we include in it and what can we omit? What operations are available? What kind of description should we use? These are only some of the important points to consider. 
+A number of questions arise in the construction of the algorithm. How detailed should the algorithm be? What operations must we include in it and what can we omit? What operations are available? What kind of description should we use? These are only some important points to consider. 
 
 Let's take a look at the example below.
 
