@@ -1,5 +1,7 @@
 # Conditional statement
 
+In Python the conditional statement works similarly to other programming languages. See belowe examples. 
+
 ## Simple conditional statement
 
 ```python
@@ -8,7 +10,7 @@ if temperature < 5:
     print("Cold!")
 ```
 
-## The expanded conditional statement
+## Expanded conditional statement
 
 ```python
 temperature = int(input("Enter the temperature: "))
