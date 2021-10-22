@@ -1,17 +1,15 @@
-# Ćwiczenia
+# Exercises
 
-## Opis
+## Description
 
-Przed przystąpieniem do rozwiązywania zadań zapoznaj się z poniższym opisem.
+Please read the description below before proceeding with the solving tasks.
 
-Zadbaj o czytelność swoich rozwiązań, zarówno od strony kodu jak i wypisywanych komunikatów. Jeżeli jest podana specyfikacja, to możesz założyć, że dane będą zgodne ze specyfikacją. Dane wejściowe należy wczytywać ze standardowego wejścia. Można założyć, że wszystkie liczby całkowite będą mieściły się w typie integer (chyba, że napisano inaczej).
+Make your solutions readable, both from the code side and the messages you write. If there is a specification, you can assume that the data will conform to the specification. Input data should be read from standard input. It can be assumed that all integers will fit in the integer type (unless otherwise stated).
 
-Poświęć czas na rozwiązanie każdego zadania. Zastanów się nad różnymi sposobami podejścia i rozwiązania problemu.
+Take the time to solve each task. Consider different approaches and solutions to the problem.
 
-Zadania podzielone są ze względu na tematy. Tematy ułożone są w sugerowanej kolejności poznawania zagadnień. Każdy temat zawiera od kilku do kilkunastu zadań. Po rozwinięciu tematu pojawią się przykładowe rozwiązania poszczególnych zadań, każde na osobnej stronie. Pamiętaj, że każde zadanie można rozwiązać na kilka sposobów. 
+Tasks are divided according to topics. The topics are arranged in the suggested order of learning about the topics. Each topic contains from a few to a dozen or so tasks. After expanding the topic, sample solutions for individual tasks will appear, each on a separate page. Remember that each task can be solved in several ways.
 
-{% hint style="danger" %}
-**Zajrzyj do przykładowego rozwiązania dopiero, jak samodzielnie wykonasz zadanie.**
-{% endhint %}
-
-****
+{% hint style = "danger"%}
+**Take a look at the example solution only after you complete the task yourself.**
+{% endhint%}
