@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-Write a program that complies with the specification below.
+Write a program according to the specification below..
 
 ### Specification
 
@@ -26,7 +26,7 @@ name := "Damian"
 
 ## Exercise 2
 
-Write a program that complies with the specification below
+Write a program according to the specification below.
 
 ### Specification
 
@@ -51,7 +51,7 @@ b := 3
 
 ## Exercise 3
 
-Write a program that complies with the specification below
+Write a program according to the specification below.
 
 ### Specification
 
@@ -76,7 +76,7 @@ b := 2
 
 ## Exercise 4
 
-Write a program that complies with the specification below
+Write a program according to the specification below.
 
 ### Specification
 
@@ -101,7 +101,7 @@ b := 3
 
 ## Exercise 5
 
-Write a program that complies with the specification belowWrite a program that complies with the specification below
+Write a program according to the specification below.
 
 {% hint style="info" %}
 **Hint**
@@ -131,7 +131,7 @@ a := 4
 
 ## Exercise 6
 
-Write a program that complies with the specification below. Use the **min **function.
+Write a program according to the specification below. Use the **min** function.
 
 ### Specification
 
@@ -156,15 +156,15 @@ b := 3
 
 ## Exercise 7
 
-Write a program that complies with the specification below. Use the **max **function.
+Write a program according to the specification below. Use the **max** function.
 
 ### Specification
 
-#### Dane
+#### Input
 
 * $$a, b, c$$ - three integers
 
-#### Wynik
+#### Output
 
 * The largest of the numbers $$a$$, $$b$$ and $$c$$, or any when they are equal
 
@@ -180,9 +180,9 @@ c := 3
 
 **Output**: $$3$$ 
 
-## Example 8
+## Exercise 8
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 

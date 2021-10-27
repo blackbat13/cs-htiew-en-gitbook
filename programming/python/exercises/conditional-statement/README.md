@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-Write a program that complies with the specification below. Don't use **abs** function.
+Write a program according to the specification below. Don't use **abs** function.
 
 ### Specification
 
@@ -26,7 +26,7 @@ a := -2
 
 ## Exercise 2
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 
@@ -70,7 +70,7 @@ a := 0
 
 ## Exercise 3
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 
@@ -95,7 +95,7 @@ b := 2
 
 ## Exercise 4
 
-Write a program that complies with the specification below. Don't use **min **and** max **functions.
+Write a program according to the specification below. Don't use **min **and** max **functions.
 
 ### Specification
 
@@ -121,7 +121,7 @@ c := 3
 
 ## Exercise 5
 
-Write a program that complies with the specification below. Nie korzystaj z funkcji **min, max**.
+Write a program according to the specification below. Don't use **min** and **max** functions.
 
 ### Specification
 
@@ -148,7 +148,7 @@ d := 5
 
 ## Exercise 6
 
-Write a program that complies with the specification below. Zadbaj o czytelność programu.
+Write a program according to the specification below. Take care of the program readability.
 
 ### Specification
 
@@ -175,7 +175,7 @@ op := '+'
 
 ## Exercise 7
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 {% hint style="info" %}
 A **leap year** is one that:
