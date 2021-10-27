@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 
@@ -16,7 +16,7 @@ Write a program that complies with the specification below.
 
 ## Exercise 2
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 
@@ -46,7 +46,7 @@ $$1+2+3+4=10$$
 
 ## Exercise 3
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 
@@ -70,7 +70,7 @@ n := 1234
 
 ## Exercise 4
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 
@@ -108,7 +108,7 @@ $$|3-4|=1$$
 
 ## Exercise 5
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 
@@ -138,7 +138,7 @@ $$10_{10}=1010_2$$
 
 ## Exercise 6
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 

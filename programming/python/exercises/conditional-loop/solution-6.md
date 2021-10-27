@@ -2,7 +2,7 @@
 
 ## Exercise
 
-Write a program that complies with the specification below.
+Write a program according to the specification below.
 
 ### Specification
 
