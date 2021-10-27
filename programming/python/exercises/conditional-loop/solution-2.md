@@ -1,42 +1,30 @@
-# Zadanie 2
+# Solution 2
 
-## Treść zadania
+## Exercise
 
-Napisz program zgodny z poniższą specyfikacją.
+Write a program that complies with the specification below.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
-* $$n$$ - liczba naturalna
+* $$n$$ - natural number
 
-#### Wynik
+#### Output
 
-* Suma cyfr liczby $$n$$
+* Sum of the digits of the number $$n$$
 
-## Rozwiązanie
+## Solution
 
-```cpp
-#include <iostream>
+```python
+n = int(input("Input a number: "))
 
-using namespace std;
+sum = 0
 
-int main() {
-    int n, cyfra, suma;
-    
-    suma = 0;
-    
-    cout << "Podaj liczbe:" << endl;
-    cin >> n;
-    
-    while (n > 0) {
-        cyfra = n % 10;
-        suma += cyfra;
-        n = n / 10;
-    }
-    
-    cout << "Suma cyfr podanej liczby wynosi " << suma << endl;
-    
-    return 0;
-}
+while n > 0:
+    digit = n % 10
+    sum += digit
+    n = n // 10
+
+print("Sum of digits:", sum)
 ```
