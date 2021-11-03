@@ -6,9 +6,9 @@
 [suma-dwoch-liczb.md](../../../../algorithms/searching/suma-dwoch-liczb.md)
 {% endcontent-ref %}
 
-## Rozwiązanie naiwne
+## Naive solution
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -54,9 +54,9 @@ Suma dwóch - rozwiązanie naiwne
 
 TODO
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

@@ -6,6 +6,6 @@
 [szyfr-trithemiusa.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-trithemiusa.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

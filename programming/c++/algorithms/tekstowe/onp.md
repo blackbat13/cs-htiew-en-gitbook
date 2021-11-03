@@ -10,7 +10,7 @@ description: Obliczanie wartości wyrażenia ONP
 [odwrotna-notacja-polska.md](../../../../algorithms/tekstowe/odwrotna-notacja-polska.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

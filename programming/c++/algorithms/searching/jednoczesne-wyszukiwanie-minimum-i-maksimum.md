@@ -8,7 +8,7 @@
 
 ## Podejście naiwne
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -61,7 +61,7 @@ W części głównej tworzymy przykładową tablicę (**linia 27**), a następni
 
 ## Podejście optymalne
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

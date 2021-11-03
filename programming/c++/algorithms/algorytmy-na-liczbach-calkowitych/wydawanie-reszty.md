@@ -8,7 +8,7 @@
 
 ## Podejście zachłanne
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -58,7 +58,7 @@ TODO
 
 ## Podejście dynamiczne
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

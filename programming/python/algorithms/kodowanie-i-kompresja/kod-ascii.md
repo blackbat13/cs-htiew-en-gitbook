@@ -8,7 +8,7 @@
 
 ## Podstawowa tablica ASCII
 
-### Implementacja
+### Implementation
 
 ```python
 for i in range(128):
@@ -27,7 +27,7 @@ Podstawowa tablica ASCII zawiera 128 znaków numerowanych od zera. Przechodzimy 
 
 ## Rozszerzona tablica ASCII
 
-### Implementacja
+### Implementation
 
 ```python
 for i in range(256):

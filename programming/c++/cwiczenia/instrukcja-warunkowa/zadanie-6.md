@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją. Zadbaj o czytelność programu
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby całkowite
 * $$op$$ - znak jednej z dozwolonych operacji: $$+,-,*,/$$ 
@@ -15,7 +15,7 @@ Napisz program zgodny z poniższą specyfikacją. Zadbaj o czytelność programu
 
 * Wynik działania$$a\ op\ b$$ (np. $$a+b$$), lub komunikat, że nie można wykonać dzielenia.
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

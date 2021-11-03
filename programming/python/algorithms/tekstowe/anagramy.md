@@ -6,7 +6,7 @@
 [anagramy.md](../../../../algorithms/tekstowe/anagramy.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def are_anagrams(a: str, b: str) -> bool:

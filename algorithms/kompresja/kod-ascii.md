@@ -4,7 +4,7 @@
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

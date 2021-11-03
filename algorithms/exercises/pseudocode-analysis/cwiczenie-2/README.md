@@ -6,11 +6,11 @@ Dany jest następujący pseudokod, zgodny z poniższą częściową specyfikacj�
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$x$$ - liczba całkowita
 
-### Pseudokod
+### Pseudocode
 
 ```
 1. k := 1

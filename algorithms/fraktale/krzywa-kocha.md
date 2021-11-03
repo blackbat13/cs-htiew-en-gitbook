@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - stopień krzywej
 * $$w$$ - początkowa długość linii
@@ -15,11 +15,11 @@ TODO
 
 * Krzywa Kocha stopnia $$n$$ i początkowej długości $$w$$.
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### Python
 

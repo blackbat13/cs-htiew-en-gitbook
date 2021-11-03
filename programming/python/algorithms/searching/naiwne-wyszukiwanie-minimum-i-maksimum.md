@@ -8,7 +8,7 @@
 
 ## Podejście naiwne
 
-### Implementacja
+### Implementation
 
 ```python
 def find_min_max(array: list) -> (int, int):

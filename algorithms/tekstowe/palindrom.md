@@ -14,7 +14,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - długość tekstu
 * $$tekst[1..n]$$ - ciąg znaków o długości $$n$$, numerowanych od jedynki 
@@ -24,9 +24,9 @@ TODO
 * $$True$$ - jeżeli $$tekst$$ jest palindromem
 * $$False$$ - w przeciwnym przypadku
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -41,9 +41,9 @@ tekst := "kajak"
 Wyraz **kajak** czytany od tyłu to **kajak**, jest on więc palindromem.
 {% endhint %}
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 n := 4
@@ -58,11 +58,11 @@ tekst := "tama"
 Wyraz **tama** czytany od tyłu to **amat**, nie jest on więc palindromem.
 {% endhint %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja czyPalindrom(n, tekst):
@@ -73,11 +73,11 @@ funkcja czyPalindrom(n, tekst):
     5. Zwróć True, zakończ
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n/2)\to O(n)$$ - liniowa 
 
-## Implementacja
+## Implementation
 
 ### C++
 

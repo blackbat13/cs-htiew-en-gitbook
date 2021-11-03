@@ -6,6 +6,6 @@
 [minkowski-sausage.md](../../../../algorithms/fraktale/minkowski-sausage.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

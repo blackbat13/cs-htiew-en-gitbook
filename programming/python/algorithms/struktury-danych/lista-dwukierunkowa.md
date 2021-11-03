@@ -6,6 +6,6 @@
 [lista-dwukierunkowa.md](../../../../algorithms/struktury-danych/lista-dwukierunkowa.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

@@ -8,7 +8,7 @@ Pewna firma postanowiła przeprowadzić redukcję zatrudnienia. Celem jest cięc
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a,b,c$$ - trzy liczby naturalne określające zarobki pracowników, wszystkie w zakresie $$[1000, 10000]$$
 
@@ -16,9 +16,9 @@ Pewna firma postanowiła przeprowadzić redukcję zatrudnienia. Celem jest cięc
 
 * Zarobki pracownika, który pozostanie zatrudniony
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 1500

@@ -6,7 +6,7 @@
 [przecinanie-sie-odcinkow.md](../../../../algorithms/geometria-2d/przecinanie-sie-odcinkow.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def det3(matrix: list) -> int:

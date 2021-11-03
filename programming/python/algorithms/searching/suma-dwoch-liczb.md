@@ -6,9 +6,9 @@
 [suma-dwoch-liczb.md](../../../../algorithms/searching/suma-dwoch-liczb.md)
 {% endcontent-ref %}
 
-## Rozwiązanie naiwne
+## Naive solution
 
-### Implementacja
+### Implementation
 
 ```python
 def sum_of_two(n : int, tab : list, k : int):
@@ -38,9 +38,9 @@ Suma dwóch - rozwiązanie naiwne
 
 TODO
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-### Implementacja
+### Implementation
 
 ```python
 def sum_of_two(n : int, tab : list, k : int):

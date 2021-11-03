@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b, c$$ - trzy liczby całkowite
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 * Największa z liczb $$a$$, $$b$$ i $$c$$ , lub dowolna gdy są sobie równe
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

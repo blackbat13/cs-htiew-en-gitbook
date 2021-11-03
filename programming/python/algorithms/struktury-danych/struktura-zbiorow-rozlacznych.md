@@ -6,6 +6,6 @@
 [struktura-zbiorow-rozlacznych.md](../../../../algorithms/struktury-danych/struktura-zbiorow-rozlacznych.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

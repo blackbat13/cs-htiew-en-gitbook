@@ -8,7 +8,7 @@
 
 ## Szyfrowanie
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -64,7 +64,7 @@ TODO
 
 ## Deszyfrowanie
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

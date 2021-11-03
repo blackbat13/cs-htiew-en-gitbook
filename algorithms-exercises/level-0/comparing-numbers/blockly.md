@@ -1,6 +1,6 @@
 # Blockly
 
-## Implementacja
+## Implementation
 
 ![Porównywanie liczb - Blockly](<../../../.gitbook/assets/image (9).png>)
 

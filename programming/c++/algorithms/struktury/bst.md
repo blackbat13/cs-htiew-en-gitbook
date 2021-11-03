@@ -10,7 +10,7 @@ description: BST
 [drzewa-przeszukiwan-binarnych.md](../../../../algorithms/struktury-danych/drzewa-przeszukiwan-binarnych.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

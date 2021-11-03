@@ -6,7 +6,7 @@
 [odleglosc-punktu-od-prostej.md](../../../../algorithms/geometria-2d/odleglosc-punktu-od-prostej.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 from math import abs, sqrt

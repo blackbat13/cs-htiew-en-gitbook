@@ -8,7 +8,7 @@ Dla zadanego przedziału podaj sumę wszystkich nieparzystych liczb z tego przed
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - liczby całkowite z przedziału $$[0,100]$$
 
@@ -16,9 +16,9 @@ Dla zadanego przedziału podaj sumę wszystkich nieparzystych liczb z tego przed
 
 * Suma wszystkich liczb nieparzystych z przedziału $$[a,b]$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 3

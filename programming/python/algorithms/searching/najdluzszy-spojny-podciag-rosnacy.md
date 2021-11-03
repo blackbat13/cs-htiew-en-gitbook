@@ -6,7 +6,7 @@
 [najdluzszy-spojny-podciag-rosnacy.md](../../../../algorithms/searching/najdluzszy-spojny-podciag-rosnacy.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def longest_growing_substring_length(n: int, tab: list) -> int:

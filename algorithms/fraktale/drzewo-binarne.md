@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - stopień drzewa binarnego
 * $$w$$ - początkowa długość gałęzi (pnia)
@@ -21,7 +21,7 @@ TODO
 Drzewo binarne - wprowadzenie
 {% endfile %}
 
-## Rozwiązanie
+## Solution
 
 ### Prezentacja
 
@@ -29,7 +29,7 @@ Drzewo binarne - wprowadzenie
 Drzewo binarne - algorytm
 {% endfile %}
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja DrzewoBinarne(n, w):
@@ -43,7 +43,7 @@ funkcja DrzewoBinarne(n, w):
     8. Idź do tyłu o w
 ```
 
-## Implementacja
+## Implementation
 
 ### Python
 

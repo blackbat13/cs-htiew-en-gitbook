@@ -6,7 +6,7 @@
 [szybkie-potegowanie.md](../../../../algorithms/metody-numeryczne/szybkie-potegowanie.md)
 {% endcontent-ref %}
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
 ```python
 def fast_exp_rec(a: int, n : int) -> int:
@@ -37,7 +37,7 @@ Szybkie potęgowanie - wersja rekurencyjna
 
 TODO
 
-## Rozwiązanie iteracyjne
+## Iterative solution
 
 ```python
 def fast_exp_iter(a: int, n: int) -> int:

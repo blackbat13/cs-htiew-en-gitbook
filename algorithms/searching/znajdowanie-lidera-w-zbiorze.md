@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, liczebność zbioru
 * $$A[1..n]$$ - $$n-elementowy$$ zbiór liczb całkowitych, indeksowany od jedynki
@@ -23,9 +23,9 @@ TODO
 Jeżeli taki element nie istnieje, to zbiór nie ma lidera.
 {% endhint %}
 
-### Przykład 1
+### Example 1
 
-#### Dane:
+#### Input:
 
 ```
 n := 10
@@ -40,9 +40,9 @@ A := [4, 1, 4, 4, 2, 3, 4, 3, 4, 4]
 Najczęściej występującym elementem w powyższym zbiorze jest wartość $$4$$, która występuje dokładnie $$6$$ razy, co **jest wartością większą** od $$n/2=10/2=5$$.
 {% endhint %}
 
-### Przykład 2
+### Example 2
 
-#### Dane:
+#### Input:
 
 ```
 n := 10
@@ -57,11 +57,11 @@ A := [4, 1, 4, 4, 2, 3, 4, 3, 4, 1]
 Najczęściej występującym elementem w powyższym zbiorze jest wartość $$4$$, która występuje dokładnie $$5$$ razy, co **nie jest** **wartością większą** od $$n/2=10/2=5$$.
 {% endhint %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SzukajLidera(n, A)
@@ -90,11 +90,11 @@ funkcja SzukajLidera(n, A)
         18. Zwróć -1, zakończ
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

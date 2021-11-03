@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b, c, d$$ - cztery liczby całkowite
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 * Największa z liczb $$a, b, c$$ i $$d$$, lub dowolna gdy są sobie równe
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

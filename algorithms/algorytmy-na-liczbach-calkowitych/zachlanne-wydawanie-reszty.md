@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, ilość dostępnych nominałów
 * $$nom[1..n]$$ - tablica dostępnych nominałów (liczb całkowitych) o rozmiarze $$n$$ 
@@ -16,15 +16,15 @@ TODO
 
 * Minimalna liczba potrzebnych monet/banknotów do wydania kwoty $$kw$$ przy użyciu nominałów $$nom$$.
 
-### Przykład
+### Example
 
 TODO
 
-## Rozwiązanie zachłanne
+## Greedy solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja Reszta(n, nom, kw):
@@ -58,23 +58,23 @@ funkcja Reszta(n, nom, kw):
 **mod** oznacza resztę z dzielenia
 {% endhint %}
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Rozwiązanie dynamiczne
+## Dynamic solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-### Złożoność
+### Complexity
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

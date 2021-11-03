@@ -8,7 +8,7 @@ TODO - poprawić specyfikację
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, liczba elementów w tablicy
 * $$tab[1..n]$$ - tablica $$n$$ liczb całkowitych, numerowana od jedynki

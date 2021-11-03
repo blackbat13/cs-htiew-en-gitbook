@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - wymiar kwadratowego labiryntu
 * $$labirynt[n][n]$$ - dwuwymiarowa tablica definiująca labirynt, w którym spacja oznacza wolne miejsce, a znak hasz oznacza ścianę
@@ -21,7 +21,7 @@ TODO
 
 Każdemu polu w labiryncie przypisujemy wartość liczbową, która będzie służyła za licznik odwiedzin. Na początku każdemu polu przypisujemy wartość 0. Gdy w trakcie poruszania się po labiryncie odwiedzimy dane pole, to zwiększymy wartość jego licznika o 1. W każdym kolejnym kroku wybieramy jedno z sąsiednich pól o najmniejszej wartości licznika.
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

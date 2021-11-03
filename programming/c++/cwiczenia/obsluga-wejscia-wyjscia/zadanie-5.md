@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a$$ - liczba naturalna
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Pierwiastek z $$a$$
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

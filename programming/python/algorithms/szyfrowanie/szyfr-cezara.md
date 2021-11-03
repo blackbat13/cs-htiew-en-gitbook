@@ -8,7 +8,7 @@
 
 ## Szyfrowanie
 
-### Implementacja
+### Implementation
 
 ```python
 def is_letter(character: str) -> bool:
@@ -59,7 +59,7 @@ TODO
 
 ## Deszyfrowanie
 
-### Implementacja
+### Implementation
 
 ```python
 def is_letter(character: str) -> bool:

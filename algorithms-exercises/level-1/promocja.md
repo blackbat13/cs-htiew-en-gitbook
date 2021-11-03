@@ -10,7 +10,7 @@ PS. Pan Włodzimir z chęcią pożyczy Ci puste butelki, jeżeli je potem oddasz
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba zakupionych butelek mleka z przedziału$$[1,200]$$
 
@@ -18,9 +18,9 @@ PS. Pan Włodzimir z chęcią pożyczy Ci puste butelki, jeżeli je potem oddasz
 
 * Maksymalna liczba butelek mleka , które można wypić, korzystając z promocji. 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8

@@ -6,11 +6,11 @@ Dany jest następujący pseudokod, zgodny z poniższą  częściową specyfikacj
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$x$$, $$y$$ - liczby naturalne, większe od $$0$$ 
 
-### Pseudokod
+### Pseudocode
 
 ```
 1. q := 0

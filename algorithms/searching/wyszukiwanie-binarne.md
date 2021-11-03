@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ - posortowana niemalejąco tablica $$n$$ wartości całkowitych
@@ -16,15 +16,15 @@ TODO
 
 * Indeks wartości $$k$$ w tablicy $$A$$, lub $$-1$$ jeżeli tej wartości nie ma w tablicy
 
-### Przykład
+### Example
 
 TODO
 
-## Rozwiązanie iteracyjne
+## Iterative solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SzukajBinIter(n, A, k)
@@ -46,15 +46,15 @@ funkcja SzukajBinIter(n, A, k)
     13. Zwróć ind, zakończ
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\log n)$$ - logarytmiczna
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SzukajBinRek(A, k, pocz, kon)
@@ -76,11 +76,11 @@ funkcja SzukajBinRek(A, k, pocz, kon)
 **div **oznacza dzielenie całkowite
 {% endhint %}
 
-### Złożoność 
+### Complexity 
 
 $$O(\log n)$$ - logarytmiczna
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -6,7 +6,7 @@
 [rozklad-na-czynniki-pierwsze.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/rozklad-na-czynniki-pierwsze.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

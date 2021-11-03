@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$a_1,a_2,\dots,a_n$$ - $$n$$ liczb całkowitych
@@ -21,7 +21,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$t1[n],\ t2[n]$$ - dwie tablice liczb całkowitych
@@ -30,9 +30,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Tablica powstała poprzez dodanie do siebie wartości z tablic $$t1$$ i $$t2$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -54,7 +54,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -62,9 +62,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * $$fib[n]$$ - tablica zawierająca $$n$$ kolejnych liczb Fibonacciego
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 6
@@ -78,7 +78,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -86,9 +86,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * $$mno[n][n]$$ - dwuwymiarowa tablica reprezentująca tabliczkę mnożenia liczb z zakresu $$[0,n-1]$$, gdzie $$mno[i][j]=i*j$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 3

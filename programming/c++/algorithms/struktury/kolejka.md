@@ -6,7 +6,7 @@
 [kolejka.md](../../../../algorithms/struktury-danych/kolejka.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

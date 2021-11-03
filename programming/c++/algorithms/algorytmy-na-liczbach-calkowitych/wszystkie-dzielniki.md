@@ -6,9 +6,9 @@
 [wszystkie-dzielniki.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md)
 {% endcontent-ref %}
 
-## Rozwiązanie zupełnie naiwne
+## Totally naive solution
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -46,9 +46,9 @@ Funkcja `divisors` (**linia 7**) wypisuje wszystkie dzielniki liczby podanej jak
 
 W części głównej programu najpierw definiujemy dane wejściowe (**linia 16**), a następnie wywołujemy funkcję `divisors` (**linia 18**).
 
-## Rozwiązanie naiwne
+## Naive solution
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -90,9 +90,9 @@ Funkcja `divisors` (**linia 7**) wypisuje wszystkie dzielniki liczby podanej jak
 
 W części głównej programu najpierw definiujemy dane wejściowe (**linia 20**), a następnie wywołujemy funkcję `divisors` (**linia 22**).
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

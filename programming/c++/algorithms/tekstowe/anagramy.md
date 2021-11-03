@@ -6,7 +6,7 @@
 [anagramy.md](../../../../algorithms/tekstowe/anagramy.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

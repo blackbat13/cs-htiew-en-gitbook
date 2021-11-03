@@ -15,7 +15,7 @@ Write a program according to the specification below.
 
 * The number $$n$$ represented in the system with the base $$p$$ 
 
-## Rozwiązanie
+## Solution
 
 ```python
 n = int(input("Input a number: "))

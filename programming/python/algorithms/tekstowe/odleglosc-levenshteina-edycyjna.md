@@ -6,7 +6,7 @@
 [odleglosc-levenshteina-edycyjna.md](../../../../algorithms/tekstowe/odleglosc-levenshteina-edycyjna.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def levenshtein_distance(a: str, b: str) -> int:

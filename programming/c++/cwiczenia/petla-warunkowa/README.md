@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -20,7 +20,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -28,9 +28,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Suma cyfr liczby $$n$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 1234
@@ -50,7 +50,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -58,9 +58,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Liczba powstała poprzez odwrócenie cyfr liczby $$n$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 1234
@@ -74,7 +74,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$k$$ - liczba naturalna z zakresu $$[0,9]$$
@@ -83,9 +83,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Liczba powstała poprzez zastąpienie każdej cyfry liczby $$n$$ przez wartość bezwzględną różnicy liczby $$k$$ i danej cyfry
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 1234
@@ -112,7 +112,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -120,9 +120,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Zapis binarny liczby $$n$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10
@@ -142,7 +142,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$p$$ - liczba naturalna z zakresu $$[2,9]$$
@@ -151,9 +151,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Zapis liczby $$n$$ w systemie o podstawie $$p$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10

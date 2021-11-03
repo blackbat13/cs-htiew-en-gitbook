@@ -10,7 +10,7 @@ Dwa wyrazy nazywamy **anagramami**, jeżeli składają się dokładnie z takich 
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, długość tekstu.
 * $$tekst1[1..n]$$ - ciąg znaków o długości $$n$$, numerowanych od jedynki, składający się wyłącznie z małych liter alfabetu angielskiego.
@@ -21,9 +21,9 @@ Dwa wyrazy nazywamy **anagramami**, jeżeli składają się dokładnie z takich 
 * $$True$$ - jeżeli $$tekst1$$ i $$tekst2$$ są anagramami.
 * $$False$$ - w przeciwnym przypadku.
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -33,13 +33,13 @@ tekst2 := "romantyk"
 
 **Wynik**: $$True$$ 
 
-## Rozwiązanie 1
+## Solution 1
 
 Aby dwa wyrazy były anagramami, muszą składać się dokładnie z takich samych liter. Oznacza to także, że każda litera musi występować w każdym z wyrazów dokładnie tyle samo razy. W związku z tym pierwsze rozwiązanie jest proste: policzmy, ile razy każda litera występuje w pierwszym wyrazie, następnie zróbmy to samo dla drugiego wyrazu i porównajmy wyniki. Jeżeli będą takie same, to dwa wyrazy są anagramami.
 
 Jak jednak policzyć, ile razy dana litera występuje w wyrazie? Zauważmy, że nasze wyrazy składają się jedynie z małych liter alfabetu angielskiego. Oznacza to, że mamy dokładnie 26 znaków. Możemy więc przygotować tablicę przechowującą 26 liczników - po jednym dla każdej litery. Litery natomiast ponumerujemy od 1, startując od a. Ilość wystąpień litery a zapiszemy w pierwszym liczniku, ilość wystąpień litery b zapiszemy w drugim liczniku itd.
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja TestujAnagramy(n, tekst1, tekst2):
@@ -56,15 +56,15 @@ funkcja TestujAnagramy(n, tekst1, tekst2):
         11. Zwróć False
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Rozwiązanie 2
+## Solution 2
 
 Innym rozwiązaniem jest posortowanie obu wyrazów i porównanie ich.
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja TestujAnagramy(n, tekst1, tekst2):
@@ -76,13 +76,13 @@ funkcja TestujAnagramy(n, tekst1, tekst2):
         6. Zwróć False 
 ```
 
-### Złożoność
+### Complexity
 
-$$O(n)$$ - liniowa, jeżeli wykorzystamy optymalny algorytm sortowania (np. sortowanie przez zliczanie).
+$$O(n)$$ - liniowa, jeżeli wykorzystamy optymalny algorytm sortowania (np. Counting sort).
 
-$$O(n\log{n})$$ - liniowo logarytmiczna, jeżeli użyjemy standardowej metody sortowania (np. sortowanie szybkie). 
+$$O(n\log{n})$$ - liniowo logarytmiczna, jeżeli użyjemy standardowej metody sortowania (np. Quick sort). 
 
-## Implementacja
+## Implementation
 
 ### C++
 

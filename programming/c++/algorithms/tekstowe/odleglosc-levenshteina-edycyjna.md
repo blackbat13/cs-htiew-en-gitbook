@@ -6,7 +6,7 @@
 [odleglosc-levenshteina-edycyjna.md](../../../../algorithms/tekstowe/odleglosc-levenshteina-edycyjna.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

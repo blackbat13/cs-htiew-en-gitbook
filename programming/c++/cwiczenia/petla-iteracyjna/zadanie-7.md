@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Wszystkie pary liczb naturalnych, których suma wynosi $$n$$
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

@@ -10,7 +10,7 @@ description: Najkrótsze ścieżki z jednego wierzchołka
 [dijkstra.md](../../../../algorithms/grafowe/dijkstra.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

@@ -6,6 +6,6 @@
 [kolejka.md](../../../../algorithms/struktury-danych/kolejka.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

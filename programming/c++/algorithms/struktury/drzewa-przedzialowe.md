@@ -6,6 +6,6 @@
 [drzewa-przedzialowe.md](../../../../algorithms/struktury-danych/drzewa-przedzialowe.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

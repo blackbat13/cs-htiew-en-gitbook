@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a$$ - liczba całkowita
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Znak liczby $$a$$, tzn. $$1$$ gdy $$a$$ jest dodatnie, $$-1$$ gdy $$a$$ jest ujemne, $$0$$ gdy $$a$$ wynosi $$0$$ 
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

@@ -6,7 +6,7 @@
 [trojkat-sierpinskiego.md](../../../../algorithms/fraktale/trojkat-sierpinskiego.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Trójkąt Sierpińskiego
 

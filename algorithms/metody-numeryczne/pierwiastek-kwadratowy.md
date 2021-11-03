@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba rzeczywista.
 * $$p$$ - liczba rzeczywista, dokładność.
@@ -15,15 +15,15 @@ TODO
 
 * $$\sqrt{n}$$ policzony z dokładnością $$p$$. 
 
-### Przykład
+### Example
 
 TODO
 
-## Rozwiązanie - metoda Herona
+## Solution - metoda Herona
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja MetodaHerona(n, p)
@@ -35,11 +35,11 @@ funkcja MetodaHerona(n, p)
     4. Zwróć x2
 ```
 
-### Złożoność
+### Complexity
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

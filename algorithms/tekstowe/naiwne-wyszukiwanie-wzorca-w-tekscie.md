@@ -10,7 +10,7 @@ Problem wygląda następująco: dostajemy dwa teksty, nazwijmy je _tekst_ oraz _
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - długość tekstu, $$n\in\mathbb{N}, n\geq1$$ 
 * $$tekst[1..n]$$ - ciąg znaków o długości $$n$$, numerowanych od jedynki 
@@ -21,9 +21,9 @@ Problem wygląda następująco: dostajemy dwa teksty, nazwijmy je _tekst_ oraz _
 
 * Indeks pierwszego wystąpienia wzorca w tekście, lub $$-1$$ jeżeli wzorzec nie występuje w tekście
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 tekst := "alamakota"
@@ -32,9 +32,9 @@ wzorzec := "kot"
 
 **Wynik**: _wzorzec _**znajduje **się w _tekście_.
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 tekst := "alamakota"
@@ -43,13 +43,13 @@ wzorzec := "koty"
 
 **Wynik**: _wzorzec _**nie**_ _**znajduje **się w _tekście_.
 
-## Rozwiązanie
+## Solution
 
 TODO
 
 Pomocnicza funkcja `TestujWzorzec`sprawdza, czy wzorzec znajduje się w tekście pod indeksem `i`.
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja TestujWzorzec(i, n, tekst, m, wzorzec)
@@ -70,11 +70,11 @@ funkcja SzukajWzorca(n, tekst, m, wzorzec)
     5. Zwróć -1, zakończ
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n*m)\to O(n^2)$$ - kwadratowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

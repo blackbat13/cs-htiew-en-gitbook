@@ -12,19 +12,19 @@ TODO
 
 TODO
 
-### Przykład
+### Example
 
 TODO
 
-### Rozwiązanie
+### Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

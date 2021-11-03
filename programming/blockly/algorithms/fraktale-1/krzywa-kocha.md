@@ -6,7 +6,7 @@
 [krzywa-kocha.md](../../../../algorithms/fraktale/krzywa-kocha.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Krzywa Kocha
 

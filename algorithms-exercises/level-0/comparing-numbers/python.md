@@ -1,6 +1,6 @@
 # Python
 
-## Implementacja
+## Implementation
 
 ```python
 a = int(input("Podaj a: "))

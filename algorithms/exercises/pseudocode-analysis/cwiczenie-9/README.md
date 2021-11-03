@@ -6,7 +6,7 @@ Dany jest następujący pseudokod, zgodny z poniższą specyfikacją:
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a$$ - liczba rzeczywista
 * $$n$$ - liczba naturalna, $$n \neq 0$$ 
@@ -15,7 +15,7 @@ Dany jest następujący pseudokod, zgodny z poniższą specyfikacją:
 
 * Liczba rzeczywista $$p=a^n$$ 
 
-### Pseudokod
+### Pseudocode
 
 ```
 1. p := 1

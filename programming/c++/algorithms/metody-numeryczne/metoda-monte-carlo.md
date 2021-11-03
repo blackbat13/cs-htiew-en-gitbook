@@ -6,7 +6,7 @@
 [metoda-monte-carlo.md](../../../../algorithms/metody-numeryczne/metoda-monte-carlo.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

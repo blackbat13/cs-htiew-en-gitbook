@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n, k$$ - liczby naturalne, większe od zera
 * $$n$$liczb naturalnych
@@ -15,7 +15,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Ilość liczb podzielnych przez $$k$$ z podanych $$n$$ liczb
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

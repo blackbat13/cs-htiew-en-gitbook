@@ -87,19 +87,19 @@ _**Schemat Hornera**_ ma także zastosowanie przy przeliczaniu liczby z zadanego
 
 TODO
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

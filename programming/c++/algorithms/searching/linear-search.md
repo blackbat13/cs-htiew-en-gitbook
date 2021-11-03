@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -61,7 +61,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ## Pozycja elementu
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -114,7 +114,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ## Wszystkie pozycje elementu
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

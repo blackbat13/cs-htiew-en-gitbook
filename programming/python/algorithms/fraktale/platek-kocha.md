@@ -6,7 +6,7 @@
 [platek-kocha.md](../../../../algorithms/fraktale/platek-kocha.md)
 {% endcontent-ref %}
 
-## Implementacja 
+## Implementation 
 
 ```python
 import turtle

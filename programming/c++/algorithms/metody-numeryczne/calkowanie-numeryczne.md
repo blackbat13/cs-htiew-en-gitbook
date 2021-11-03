@@ -8,7 +8,7 @@
 
 ## Metoda prostokątów
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -66,7 +66,7 @@ TODO
 
 ## Metoda trapezów
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

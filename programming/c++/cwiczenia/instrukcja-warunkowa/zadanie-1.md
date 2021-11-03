@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **abs,
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a$$ - liczba całkowita
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **abs,
 
 * Wartość bezwzględna z $$a$$
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

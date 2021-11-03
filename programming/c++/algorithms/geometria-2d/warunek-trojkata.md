@@ -6,6 +6,6 @@
 [warunek-trojkata.md](../../../../algorithms/geometria-2d/warunek-trojkata.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$rok$$ - liczba naturalna
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Komunikat określający, czy podany rok jest przestępny czy też nie
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

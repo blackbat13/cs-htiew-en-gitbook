@@ -8,7 +8,7 @@
 
 ## Wersja iteracyjna
 
-### Implementacja
+### Implementation
 
 ```python
 def binary_search_iterative(array: list, number: int) -> int:
@@ -51,7 +51,7 @@ TODO
 
 ## Wersja rekurencyjna
 
-### Implementacja
+### Implementation
 
 ```python
 def binary_search_recursive(array: list, number: int, left: int, right: int) -> int:

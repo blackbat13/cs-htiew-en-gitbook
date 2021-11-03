@@ -6,6 +6,6 @@
 [szyfr-beauforta.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-beauforta.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

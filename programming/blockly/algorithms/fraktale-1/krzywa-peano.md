@@ -6,7 +6,7 @@
 [krzywa-peano.md](../../../../algorithms/fraktale/krzywa-peano.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Krzywa Peano
 

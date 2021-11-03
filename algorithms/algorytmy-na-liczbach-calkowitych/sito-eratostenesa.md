@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba całkowita
 
@@ -14,9 +14,9 @@ TODO
 
 * Wszystkie liczby pierwsze od $$1$$ do $$n$$ włącznie.
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10
@@ -32,11 +32,11 @@ $$2, 3, 5, 7$$
 Prezentacja
 {% endfile %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SitoEratostenesa(n):
@@ -53,11 +53,11 @@ funkcja SitoEratostenesa(n):
             11. Wypisz i
 ```
 
-### Złożoność
+### Complexity
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

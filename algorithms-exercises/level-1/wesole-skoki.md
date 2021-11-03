@@ -8,7 +8,7 @@ Dana jest pewna sekwencja $$n$$ liczb całkowitych. Twoim celem jest sprawdzenie
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna z przedziału $$[1,3000]$$
 * $$tab[n]$$ - sekwencja$$n$$ liczb całkowitych
@@ -17,9 +17,9 @@ Dana jest pewna sekwencja $$n$$ liczb całkowitych. Twoim celem jest sprawdzenie
 
 * "TAK" jeżeli sekwencja spełnia opisane wyżej wymaganie, lub "NIE" w przeciwnym przypadku
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 n := 4
@@ -44,13 +44,14 @@ Przyjrzyjmy się wartościom bezwzględnym różnic pomiędzy sąsiednimi elemen
 Jak widać otrzymaliśmy wszystkie wartości z przedziału $$[1,n-1]$$, czyli z przedziału $$[1,3]$$.
 {% endhint %}
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 n := 5
-tab := [1, 4, 2, -1, 6]
+tab := [1, 4, 2, -1, 6
+]
 ```
 
 #### Wynik

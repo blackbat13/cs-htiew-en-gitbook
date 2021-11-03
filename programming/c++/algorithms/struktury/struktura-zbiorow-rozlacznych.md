@@ -6,7 +6,7 @@
 [struktura-zbiorow-rozlacznych.md](../../../../algorithms/struktury-danych/struktura-zbiorow-rozlacznych.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

@@ -10,7 +10,7 @@ description: Najkrótsze ścieżki z zadanego wierzchołka
 [dijkstra.md](../../../../algorithms/grafowe/dijkstra.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 import math

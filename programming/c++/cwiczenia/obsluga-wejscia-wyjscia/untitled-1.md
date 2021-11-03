@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Suma liczb $$a$$ i $$b$$ 
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

@@ -14,7 +14,7 @@ Write a program according to the specification below.
 
 * Binary representation of the number $$n$$
 
-## Rozwiązanie
+## Solution
 
 ```python
 n = int(input("Input a number: "))

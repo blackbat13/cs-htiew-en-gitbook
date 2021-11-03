@@ -6,7 +6,7 @@
 [prim.md](../../../../algorithms/grafowe/prim.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO
 

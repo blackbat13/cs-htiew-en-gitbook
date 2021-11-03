@@ -6,9 +6,9 @@
 [wszystkie-dzielniki.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md)
 {% endcontent-ref %}
 
-## Rozwiązanie zupełnie naiwne
+## Totally naive solution
 
-### Implementacja
+### Implementation
 
 ```python
 def divisors(n: int):
@@ -32,9 +32,9 @@ Wszystkie dzielniki - podejście zupełnie naiwne
 
 TODO
 
-## Rozwiązanie naiwne
+## Naive solution
 
-### Implementacja
+### Implementation
 
 ```python
 def divisors(n: int):
@@ -61,9 +61,9 @@ Wszystkie dzielniki - podejście naiwne
 
 TODO
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-### Implementacja
+### Implementation
 
 ```python
 from math import sqrt, ceil

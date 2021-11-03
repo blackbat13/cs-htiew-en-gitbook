@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją. Wypisanie komunikatu powinno z
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
@@ -20,7 +20,7 @@ Napisz program zgodny z poniższą specyfikacją. Obliczanie sumy powinno być z
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
@@ -34,7 +34,7 @@ Napisz program zgodny z poniższą specyfikacją. Przemnażanie tablicy oraz wyp
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$k$$ - liczba całkowita
@@ -44,9 +44,9 @@ Napisz program zgodny z poniższą specyfikacją. Przemnażanie tablicy oraz wyp
 
 * Tablica powstała poprzez przemnożenie każdego elementu tablicy $$tab$$ przez liczbę $$k$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5

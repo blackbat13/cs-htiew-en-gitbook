@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -20,7 +20,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji `pow`.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, n$$ - dwie liczby naturalne
 
@@ -34,7 +34,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$n$$liczb całkowitych
@@ -49,7 +49,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, większa od $$0$$ 
 * $$n$$liczb naturalnych
@@ -64,7 +64,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n, k$$ - liczby naturalne, większe od zera
 * $$n$$liczb naturalnych
@@ -79,7 +79,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -93,7 +93,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -101,9 +101,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Wszystkie pary liczb naturalnych, których suma wynosi $$n$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 4
@@ -117,7 +117,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -125,9 +125,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Wszystkie trójki liczb naturalnych, których suma wynosi $$n$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 4

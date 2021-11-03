@@ -6,7 +6,7 @@
 [wyznacznik-macierzy-3x3.md](../../../../algorithms/macierze/wyznacznik-macierzy-3x3.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def det3(matrix) -> int:

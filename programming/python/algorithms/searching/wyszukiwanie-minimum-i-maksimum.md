@@ -8,7 +8,7 @@
 
 ## Wyszukiwanie wartości minimum i maksimum
 
-### Implementacja
+### Implementation
 
 ```python
 def find_min(n: int, tab: list) -> int:
@@ -53,7 +53,7 @@ TODO
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
-### Implementacja
+### Implementation
 
 ```python
 def find_min_ind(n: int, tab: list) -> int:

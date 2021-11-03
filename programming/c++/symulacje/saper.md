@@ -12,7 +12,7 @@ Początkowo plansza jest zakryta, a celem gry jest odkrycie wszystkich pól poza
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, wysokość planszy
 * $$m$$ - liczba naturalna, szerokość planszy
@@ -22,7 +22,7 @@ Początkowo plansza jest zakryta, a celem gry jest odkrycie wszystkich pól poza
 
 * $$plansza[n][m]$$ - plansza wypełniona bombami i liczbami zgodnie z regułami gry saper
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

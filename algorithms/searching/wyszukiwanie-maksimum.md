@@ -12,7 +12,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, liczba elementów w tablicy
 * $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
@@ -21,9 +21,9 @@ TODO
 
 * Największa wartość z tablicy $$A$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -38,11 +38,11 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 Wyszukiwanie maksimum
 {% endembed %}
 
-### Rozwiązanie
+### Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SzukajMaks(n, A):
@@ -54,7 +54,7 @@ funkcja SzukajMaks(n, A):
     5. Zwróć maks, zakończ
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
@@ -66,7 +66,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
@@ -75,9 +75,9 @@ TODO
 
 * Indeks największej wartości z tablicy $$A$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -92,11 +92,11 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 Największa wartość w tablicy to $$8$$. Wartość ta znajduje się na pozycji piątej.
 {% endhint %}
 
-### Rozwiązanie
+### Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SzukajIndeksMaks(n, A):
@@ -110,11 +110,11 @@ funkcja SzukajIndeksMaks(n, A):
     7. Zwróć ind, zakończ    
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -8,7 +8,7 @@
 
 ## Szyfrowanie i deszyfrowanie
 
-### Implementacja
+### Implementation
 
 ```python
 def is_letter(character: str) -> bool:

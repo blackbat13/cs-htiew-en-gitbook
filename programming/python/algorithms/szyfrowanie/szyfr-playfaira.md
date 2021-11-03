@@ -8,7 +8,7 @@
 
 ## Szyfrowanie
 
-### Implementacja
+### Implementation
 
 ```python
 def find(letter, tab):
@@ -82,7 +82,7 @@ TODO
 
 ## Deszyfrowanie
 
-### Implementacja
+### Implementation
 
 ```python
 def find(letter, tab):

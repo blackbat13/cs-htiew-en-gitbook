@@ -8,7 +8,7 @@ description: Najmniejsza Wspólna Wielokrotność
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### NWW
 

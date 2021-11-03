@@ -6,7 +6,7 @@
 [schemat-hornera.md](../../../../algorithms/metody-numeryczne/schemat-hornera.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def horner_polynomial(coef: [], x: float, n: float) -> float:

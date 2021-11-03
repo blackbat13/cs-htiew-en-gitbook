@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **abs,
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a$$ - liczba całkowita
 
@@ -14,9 +14,9 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **abs,
 
 * Wartość bezwzględna z $$a$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := -2
@@ -30,7 +30,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a$$ - liczba całkowita
 
@@ -38,9 +38,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Znak liczby $$a$$, tzn. $$1$$ gdy $$a$$ jest dodatnie, $$-1$$ gdy $$a$$ jest ujemne, $$0$$ gdy $$a$$ wynosi $$0$$ 
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 a := 5
@@ -48,9 +48,9 @@ a := 5
 
 **Wynik**: $$1$$ 
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 a := -5
@@ -58,9 +58,9 @@ a := -5
 
 **Wynik**: $$-1$$ 
 
-### Przykład 3
+### Example 3
 
-#### Dane
+#### Input
 
 ```
 a := 0
@@ -74,7 +74,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
@@ -82,9 +82,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Wynik dzielenia liczb $$a$$ i $$b$$, lub komunikat, że nie można wykonać dzielenia.
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 1
@@ -99,7 +99,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b, c$$ - trzy liczby całkowite
 
@@ -107,9 +107,9 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 * Największa z liczb $$a$$, $$b$$ i $$c$$ , lub dowolna gdy są sobie równe
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 4
@@ -125,7 +125,7 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b, c, d$$ - cztery liczby całkowite
 
@@ -133,9 +133,9 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 * Największa z liczb $$a, b, c$$ i $$d$$, lub dowolna gdy są sobie równe
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 3
@@ -152,7 +152,7 @@ Napisz program zgodny z poniższą specyfikacją. Zadbaj o czytelność programu
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby całkowite
 * $$op$$ - znak jednej z dozwolonych operacji: $$+,-,*,/$$ 
@@ -161,9 +161,9 @@ Napisz program zgodny z poniższą specyfikacją. Zadbaj o czytelność programu
 
 * Wynik działania$$a\ op\ b$$ (np. $$a+b$$), lub komunikat, że nie można wykonać dzielenia.
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 3
@@ -186,7 +186,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$rok$$ - liczba naturalna
 
@@ -194,9 +194,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Komunikat określający, czy podany rok jest przestępny czy też nie
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 rok := 2021

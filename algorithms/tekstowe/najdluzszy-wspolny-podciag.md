@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwa ciągi znaków
 
@@ -14,9 +14,9 @@ TODO
 
 * Najdłuższy wspólny podciąg ciągów $$a$$ i $$b$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := "kitten"
@@ -33,15 +33,15 @@ b := "sitting"
 TODO
 {% endhint %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

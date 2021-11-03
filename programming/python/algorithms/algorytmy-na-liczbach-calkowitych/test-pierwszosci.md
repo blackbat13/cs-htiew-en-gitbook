@@ -6,7 +6,7 @@
 [test-pierwszosci.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/test-pierwszosci.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 import math

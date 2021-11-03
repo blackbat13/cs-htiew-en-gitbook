@@ -42,7 +42,7 @@ $$
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$x$$  - liczba całkowita
 * $$n$$ - liczba naturalna
@@ -51,11 +51,11 @@ $$
 
 * $$x^n$$ 
 
-## Rozwiązanie iteracyjne
+## Iterative solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja PotegaIter(x, n)
@@ -70,11 +70,11 @@ funkcja PotegaIter(x, n)
     7. Zwróć w, zakończ
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\log{n})$$ - logarytmiczna
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
 TODO
 
@@ -89,7 +89,7 @@ potega(x, n\ div\ 2)^2 * x & : \ n\ mod\ 2 = 1
 \end{array} \right.
 $$
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja PotegaRek(x, n)
@@ -108,11 +108,11 @@ funkcja PotegaRek(x, n)
         9. Zwróć wynik * wynik * x, zakończ
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\log{n})$$ - logarytmiczna
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -6,6 +6,6 @@
 [lista-jednokierunkowa.md](../../../../algorithms/struktury-danych/lista-jednokierunkowa.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

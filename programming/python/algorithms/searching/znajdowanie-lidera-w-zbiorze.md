@@ -6,7 +6,7 @@
 [znajdowanie-lidera-w-zbiorze.md](../../../../algorithms/searching/znajdowanie-lidera-w-zbiorze.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def count_occurrences(element: int, array: list) -> int:

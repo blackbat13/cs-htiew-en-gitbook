@@ -6,7 +6,7 @@
 [najdluzszy-wspolny-podciag.md](../../../../algorithms/tekstowe/najdluzszy-wspolny-podciag.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def longest_common_subsequence(a: str, b: str) -> str:

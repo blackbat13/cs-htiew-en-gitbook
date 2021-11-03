@@ -6,7 +6,7 @@
 [kruskal.md](../../../../algorithms/grafowe/kruskal.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO
 

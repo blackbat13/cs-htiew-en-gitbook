@@ -12,11 +12,11 @@ TODO
 
 TODO
 
-### Przykład
+### Example
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
@@ -28,15 +28,15 @@ TODO
 
 TODO
 
-### Przykład
+### Example
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

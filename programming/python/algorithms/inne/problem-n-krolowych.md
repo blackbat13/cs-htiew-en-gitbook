@@ -6,7 +6,7 @@
 [problem-n-krolowych.md](../../../../algorithms/przeszukiwanie-z-powrotami/problem-n-krolowych.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 from pprint import pprint

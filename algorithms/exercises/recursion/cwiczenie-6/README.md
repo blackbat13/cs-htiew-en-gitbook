@@ -6,7 +6,7 @@ Dana jest następująca specyfikacja problemu:
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 

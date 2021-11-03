@@ -6,7 +6,7 @@
 [odleglosc-hamminga.md](../../../../algorithms/tekstowe/odleglosc-hamminga.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

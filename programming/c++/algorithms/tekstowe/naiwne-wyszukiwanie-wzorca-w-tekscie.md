@@ -6,7 +6,7 @@
 [naiwne-wyszukiwanie-wzorca-w-tekscie.md](../../../../algorithms/tekstowe/naiwne-wyszukiwanie-wzorca-w-tekscie.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

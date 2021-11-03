@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, większa od zera
 
@@ -14,9 +14,9 @@ TODO
 
 * Rozkład liczby $$n$$ na czynniki pierwsze 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 124
@@ -24,11 +24,11 @@ n := 124
 
 **Wynik**: $$2, 2, 31$$ 
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja Rozklad(n):
@@ -51,7 +51,7 @@ funkcja Rozklad(n):
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -6,7 +6,7 @@
 [palindrom.md](../../../../algorithms/tekstowe/palindrom.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def is_palindrome(a: str) -> bool:

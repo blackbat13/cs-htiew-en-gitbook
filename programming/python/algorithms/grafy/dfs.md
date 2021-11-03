@@ -10,7 +10,7 @@ description: Przeszukiwanie grafu w głąb
 [dfs.md](../../../../algorithms/grafowe/dfs.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 from typing import List

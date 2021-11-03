@@ -10,7 +10,7 @@ description: Przeszukiwanie grafu wszerz
 [bfs.md](../../../../algorithms/grafowe/bfs.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 from typing import List

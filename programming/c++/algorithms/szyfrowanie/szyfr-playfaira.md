@@ -6,6 +6,6 @@
 [szyfr-playfaira.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-playfaira.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

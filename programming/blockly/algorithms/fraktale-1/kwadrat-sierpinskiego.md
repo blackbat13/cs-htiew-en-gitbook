@@ -6,7 +6,7 @@
 [kwadrat-sierpinskiego.md](../../../../algorithms/fraktale/kwadrat-sierpinskiego.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Kwadrat Sierpińskiego
 

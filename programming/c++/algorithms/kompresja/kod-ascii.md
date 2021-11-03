@@ -8,7 +8,7 @@
 
 ## Podstawowa tablica ASCII
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -38,7 +38,7 @@ TODO
 
 ## Rozszerzona tablica ASCII
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

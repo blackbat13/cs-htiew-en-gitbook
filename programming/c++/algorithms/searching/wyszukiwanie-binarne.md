@@ -8,7 +8,7 @@
 
 ## Wersja iteracyjna
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -70,7 +70,7 @@ TODO
 
 ## Wersja rekurencyjna
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

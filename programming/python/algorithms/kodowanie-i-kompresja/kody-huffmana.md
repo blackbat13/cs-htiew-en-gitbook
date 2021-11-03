@@ -6,6 +6,6 @@
 [kody-huffmana.md](../../../../algorithms/kompresja/kody-huffmana.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

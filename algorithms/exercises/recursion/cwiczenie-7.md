@@ -6,11 +6,11 @@ Dany jest następujący pseudokod, zgodny z poniższą częściową specyfikacj�
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja fun(n):

@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$p$$ - liczba naturalna z zakresu $$[2,9]$$
@@ -15,7 +15,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Zapis liczby $$n$$ w systemie o podstawie $$p$$ 
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

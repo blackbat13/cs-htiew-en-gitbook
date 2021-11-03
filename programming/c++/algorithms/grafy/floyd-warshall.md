@@ -10,7 +10,7 @@ description: Najkrótsze ścieżki pomiędzy wszystkimi wierzchołkami
 [floyd-warshall.md](../../../../algorithms/grafowe/floyd-warshall.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO
 

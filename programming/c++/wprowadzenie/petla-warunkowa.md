@@ -10,7 +10,7 @@ while (warunek) {
 }
 ```
 
-### Przykład
+### Example
 
 ```cpp
 int x = 1;
@@ -25,7 +25,7 @@ while (x < 10) {
 
 Jest też druga forma tej pętli, w której warunek jest sprawdzany zawsze **po** wykonaniu instrukcji w pętli.
 
-### Przykład
+### Example
 
 ```cpp
 int x = 1;

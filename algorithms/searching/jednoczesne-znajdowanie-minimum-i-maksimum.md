@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, liczba elementów w tablicy
 * $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
@@ -15,9 +15,9 @@ TODO
 
 * Największa oraz najmniejsza wartość z tablicy $$A$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -31,11 +31,11 @@ minimum := 1
 maksimum := 9
 ```
 
-## Rozwiązanie naiwne
+## Naive solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funckja SzukajMinMax(n, A):
@@ -49,11 +49,11 @@ funckja SzukajMinMax(n, A):
     8. Zwróć min, max
 ```
 
-### Złożoność
+### Complexity
 
 $$O(2n)$$ 
 
-## Rozwiązanie optymalne
+## Optimal solution
 
 TODO
 
@@ -63,7 +63,7 @@ TODO
 Dla ułatwienia zakładamy, że długość tablicy (wartość $$n$$) jest liczbą **parzystą**. Jeżeli tak nie jest, możemy np. powielić ostatni element tablicy, albo rozważyć ten szczególny przypadek w algorytmie.
 {% endhint %}
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SzukajMinMax(n, A):
@@ -90,11 +90,11 @@ funkcja SzukajMinMax(n, A):
     21. Zwróc min, max
 ```
 
-### Złożoność
+### Complexity
 
 $$O(3\frac{n}{2})$$ 
 
-## Implementacja
+## Implementation
 
 ### C++
 

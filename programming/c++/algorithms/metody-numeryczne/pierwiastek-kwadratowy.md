@@ -8,7 +8,7 @@
 
 ## Metoda Herona
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

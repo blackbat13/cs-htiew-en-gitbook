@@ -6,7 +6,7 @@
 [test-doskonalosci.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def is_perfect(n: int) -> bool:

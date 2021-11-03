@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 ```python
 def linear_search(array: list, number: int) -> bool:
@@ -78,7 +78,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: list
 
 ## Wszystkie pozycje elementu
 
-### Implementacja
+### Implementation
 
 ```python
 def linear_search(array: list, number: int):

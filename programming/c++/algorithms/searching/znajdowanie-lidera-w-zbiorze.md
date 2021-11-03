@@ -6,7 +6,7 @@
 [znajdowanie-lidera-w-zbiorze.md](../../../../algorithms/searching/znajdowanie-lidera-w-zbiorze.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

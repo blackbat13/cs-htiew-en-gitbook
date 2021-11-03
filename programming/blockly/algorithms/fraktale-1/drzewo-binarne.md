@@ -6,7 +6,7 @@
 [drzewo-binarne.md](../../../../algorithms/fraktale/drzewo-binarne.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Drzewo binarne
 

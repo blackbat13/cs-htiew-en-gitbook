@@ -6,7 +6,7 @@
 [sito-eratostenesa.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/sito-eratostenesa.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$n$$liczb całkowitych
@@ -15,7 +15,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Suma podanych $$n$$ liczb
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

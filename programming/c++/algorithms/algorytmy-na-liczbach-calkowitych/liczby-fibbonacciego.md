@@ -8,7 +8,7 @@
 
 ## Podejście rekurencyjne
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -47,7 +47,7 @@ TODO
 
 ## Podejście iteracyjne
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Tabliczka mnożenia z zakresu $$[1,n]$$
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

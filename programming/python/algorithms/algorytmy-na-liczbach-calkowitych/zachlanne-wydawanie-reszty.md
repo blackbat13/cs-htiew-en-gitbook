@@ -8,7 +8,7 @@
 
 ## Podejście zachłanne
 
-### Implementacja
+### Implementation
 
 ```python
 def change_greedy(amount: int, coins: []) -> int:
@@ -44,7 +44,7 @@ TODO
 
 ## Podejście dynamiczne
 
-### Implementacja
+### Implementation
 
 ```python
 def change_dynamic(amount: int, coins: []) -> None:

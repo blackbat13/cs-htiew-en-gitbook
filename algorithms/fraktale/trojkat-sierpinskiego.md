@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - stopień trójkąta
 * $$w$$ - początkowa długość
@@ -21,7 +21,7 @@ TODO
 Trójkąt Sierpińskiego - wprowadzenie
 {% endfile %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
@@ -31,11 +31,11 @@ TODO
 Trójkąt Sierpińskiego - algorytm
 {% endfile %}
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### Python
 

@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
@@ -14,9 +14,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Komunikat powitania w formie "_Witaj \[**imie**]!_"
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 imie := "Damian"
@@ -30,7 +30,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
@@ -38,9 +38,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Suma liczb $$a$$ i $$b$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 2
@@ -55,7 +55,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby całkowite, różne od zera
 
@@ -63,9 +63,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Wynik dzielenia liczb $$a$$ i $$b$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 1
@@ -80,7 +80,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby naturalne, większe od zera
 
@@ -88,9 +88,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Wynik dzielenia całkowitego oraz reszta z dzielenia liczb $$a$$ i $$b$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 7
@@ -111,7 +111,7 @@ Skorzystaj z funkcji **`sqrt`** z biblioteki **`cmath`**.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a$$ - liczba naturalna
 
@@ -119,9 +119,9 @@ Skorzystaj z funkcji **`sqrt`** z biblioteki **`cmath`**.
 
 * Pierwiastek z $$a$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 4
@@ -135,7 +135,7 @@ Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **min**.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
@@ -143,9 +143,9 @@ Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **min**.
 
 * Mniejsza z liczb $$a$$ i $$b$$, lub dowolna gdy są sobie równe
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 5
@@ -160,7 +160,7 @@ Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **max**.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b, c$$ - trzy liczby całkowite
 
@@ -168,9 +168,9 @@ Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **max**.
 
 * Największa z liczb $$a$$, $$b$$ i $$c$$ , lub dowolna gdy są sobie równe
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 3
@@ -186,7 +186,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$sekundy$$ - liczba naturalna
 
@@ -194,9 +194,9 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Czas podany w czytelnej formie ** **$$H:M:S$$ ($$H$$ - godziny, $$M$$ - minuty, $$S$$ - sekundy)
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 sekundy := 9179

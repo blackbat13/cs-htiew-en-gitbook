@@ -22,7 +22,7 @@ Zaczynamy od formalnej specyfikacji i przykładu.
 
 ### Specyfikacja
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna
 
@@ -31,9 +31,9 @@ Zaczynamy od formalnej specyfikacji i przykładu.
 * **PRAWDA **- jeżeli $$n$$ jest liczbą doskonałą
 * **FAŁSZ **- jeżeli $$n$$ nie jest liczbą doskonałą
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 n := 6
@@ -51,9 +51,9 @@ Po ich zsumowaniu otrzymamy z powrotem liczbę $$6$$:
 $$6=1+2+3$$ 
 {% endhint %}
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -71,7 +71,7 @@ Po ich zsumowaniu otrzymamy liczbę $$7$$:
 $$8\not=1+2+4$$ 
 {% endhint %}
 
-## Rozwiązanie naiwne
+## Naive solution
 
 Tym razem pominiemy rozwiązanie zupełnie naiwne i zaczniemy od naiwnego. Będziemy więc przechodzić przez kolejne wartości od $$1$$ do połowy naszej liczby. Tym razem nie chcemy ich wypisywać, tylko zsumować. Potrzebna więc nam będzie dodatkowa zmienna, do której będziemy dodawać kolejne dzielniki. Oczywiście taką zmienną musimy utworzyć **przed pętlą**. Jaką wartość początkową należy jej nadać? Jak to zwykle bywa, sumowanie zaczynamy od zera.
 
@@ -79,7 +79,7 @@ W pętli, gdy znajdziemy kolejny dzielnik, to dodajemy go do sumy. Na końcu, gd
 
 Teraz możemy zapisać nasz algorytm.
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja CzyDoskonala(n):
@@ -95,15 +95,15 @@ funkcja CzyDoskonala(n):
         8. Zwróć FAŁSZ, zakończ
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\frac{n}{2})$$
 
-## Rozwiązanie optymalne
+## Optimal solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja CzyDoskonala(n)
@@ -125,11 +125,11 @@ funkcja CzyDoskonala(n)
 **sqrt** oznacza pierwiastek
 {% endhint %}
 
-### Złożoność
+### Complexity
 
 $$O(\sqrt{n})$$ 
 
-## Implementacja
+## Implementation
 
 ### C++
 

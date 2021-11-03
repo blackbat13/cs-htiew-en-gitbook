@@ -8,7 +8,7 @@
 
 ## Wyszukiwanie wartości minimum i maksimum
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -73,7 +73,7 @@ TODO
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>

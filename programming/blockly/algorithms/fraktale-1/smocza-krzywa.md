@@ -6,7 +6,7 @@
 [smocza-krzywa.md](../../../../algorithms/fraktale/smocza-krzywa.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Smocza Krzywa
 

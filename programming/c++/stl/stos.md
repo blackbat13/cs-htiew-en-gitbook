@@ -4,7 +4,7 @@
 
 TODO
 
-## Implementacja - przykłady
+## Implementation - przykłady
 
 ### Utworzenie pustego stosu
 

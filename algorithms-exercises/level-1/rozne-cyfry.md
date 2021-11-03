@@ -8,7 +8,7 @@ Dla zadanego przedziału określ ile liczb w tym przedziale składa się wyłąc
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - liczby całkowite z przedziału $$[1,5000]$$
 
@@ -16,9 +16,9 @@ Dla zadanego przedziału określ ile liczb w tym przedziale składa się wyłąc
 
 * Ilość wszystkich liczb z przedziału $$[a,b]$$, które składają się wyłącznie z różnych cyfr. 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 87

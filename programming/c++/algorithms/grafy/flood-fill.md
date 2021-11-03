@@ -6,7 +6,7 @@
 [flood-fill.md](../../../../algorithms/grafowe/flood-fill.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO
 

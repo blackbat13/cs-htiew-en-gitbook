@@ -4,11 +4,11 @@
 
 TODO
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwie liczby naturalne, większe od zera
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Wynik dzielenia całkowitego oraz reszta z dzielenia liczb $$a$$ i $$b$$ 
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

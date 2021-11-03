@@ -6,7 +6,7 @@
 [wyszukiwanie-maksimum.md](../../../../algorithms/searching/wyszukiwanie-maksimum.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Znajdowanie minimum
 

@@ -6,7 +6,7 @@
 [stos.md](../../../../algorithms/struktury-danych/stos.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```cpp
 #include <iostream>

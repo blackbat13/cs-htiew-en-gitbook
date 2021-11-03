@@ -8,7 +8,7 @@
 
 ## Szyfrowanie
 
-### Implementacja
+### Implementation
 
 ```python
 def encode(message: str, key: int) -> str:
@@ -54,7 +54,7 @@ TODO
 
 ## Deszyfrowanie
 
-### Implementacja
+### Implementation
 
 ```python
 def decode(message: str, key: int) -> str:

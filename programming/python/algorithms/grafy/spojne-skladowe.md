@@ -6,7 +6,7 @@
 [spojne-skladowe.md](../../../../algorithms/grafowe/spojne-skladowe.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 from typing import List

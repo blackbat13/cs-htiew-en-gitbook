@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b$$ - liczby naturalne, większe od zera
 
@@ -14,9 +14,9 @@ TODO
 
 * $$NWD(a,b)$$ - największy wspólny dzielnik liczb $$a$$ i $$b$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := 32
@@ -41,7 +41,7 @@ Największy z nich to właśnie $$4$$.
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja NWD(a, b):
@@ -61,7 +61,7 @@ TODO
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja NWD(a, b):
@@ -84,7 +84,7 @@ TODO
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja NWD(a, b):
@@ -97,7 +97,7 @@ funkcja NWD(a, b):
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

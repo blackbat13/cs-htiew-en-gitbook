@@ -6,7 +6,7 @@
 [punkt-na-odcinku.md](../../../../algorithms/geometria-2d/punkt-na-odcinku.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def det3(matrix: list) -> int:

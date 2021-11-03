@@ -12,7 +12,7 @@ TODO
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

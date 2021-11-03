@@ -49,43 +49,43 @@
 
 ## Sortowanie
 
-### Sortowanie bąbelkowe (na maturze)
+### Bubble sort (na maturze)
 
-* Opis algorytmu: [Sortowanie bąbelkowe](sortowanie/sortowanie-babelkowe.md)
-* Implementacja C++: [Sortowanie bąbelkowe](../programming/c++/algorithms/sortowanie/sortowanie-babelkowe.md)
-* Implementacja Python: [Sortowanie bąbelkowe](../programming/python/algorithms/sortowanie/sortowanie-babelkowe.md)
+* Opis algorytmu: [Bubble sort](sortowanie/bubble-sort.md)
+* Implementacja C++: [Bubble sort](../programming/c++/algorithms/sorting/bubble-sort.md)
+* Implementacja Python: [Bubble sort](../programming/python/algorithms/sorting/bubble-sort.md)
 
-### Sortowanie przez wybieranie (na maturze)
+### Selection sort (na maturze)
 
-* Opis algorytmu: [Sortowanie przez wybieranie](sortowanie/sortowanie-przez-wybieranie.md)
-* Implementacja C++: [Sortowanie przez wybieranie](../programming/c++/algorithms/sortowanie/sortowanie-przez-wybieranie.md)
-* Implementacja Python: [Sortowanie przez wybieranie](../programming/python/algorithms/sortowanie/sortowanie-przez-wybieranie.md)
-* Implementacja Blockly: [Sortowanie przez wybieranie](../programming/blockly/algorithms/sortowanie/sortowanie-przez-wybieranie.md)
+* Opis algorytmu: [Selection sort](sortowanie/selection-sort.md)
+* Implementacja C++: [Selection sort](../programming/c++/algorithms/sorting/selection-sort.md)
+* Implementacja Python: [Selection sort](../programming/python/algorithms/sorting/selection-sort.md)
+* Implementacja Blockly: [Selection sort](../programming/blockly/algorithms/sorting/selection-sort.md)
 
-### Sortowanie przez wstawianie - liniowe i binarne (na maturze)
+### Insertion sort - liniowe i binarne (na maturze)
 
-* Opis algorytmu: [Sortowanie przez wstawianie](sortowanie/sortowanie-przez-wstawianie.md)
-* Implementacja C++: [Sortowanie przez wstawianie](../programming/c++/algorithms/sortowanie/sortowanie-przez-wstawianie.md)
-* Implementacja Python: [Sortowanie przez wstawianie](../programming/python/algorithms/sortowanie/sortowanie-przez-wstawianie.md)
+* Opis algorytmu: [Insertion sort](sortowanie/insertion-sort.md)
+* Implementacja C++: [Insertion sort](../programming/c++/algorithms/sorting/insertion-sort.md)
+* Implementacja Python: [Insertion sort](../programming/python/algorithms/sorting/insertion-sort.md)
 
-### Sortowanie przez scalanie (na maturze)
+### Merge sort (na maturze)
 
-* Opis algorytmu: [Sortowanie przez scalanie](sortowanie/sortowanie-przez-scalanie.md)
-* Implementacja C++: [Sortowanie przez scalanie](../programming/c++/algorithms/sortowanie/sortowanie-przez-scalanie.md)
-* Implementacja Python: [Sortowanie przez scalanie](../programming/python/algorithms/sortowanie/sortowanie-przez-scalanie.md)
+* Opis algorytmu: [Merge sort](sortowanie/merge-sort.md)
+* Implementacja C++: [Merge sort](../programming/c++/algorithms/sorting/merge-sort.md)
+* Implementacja Python: [Merge sort](../programming/python/algorithms/sorting/merge-sort.md)
 
-### Sortowanie szybkie (na maturze)
+### Quick sort (na maturze)
 
-* Opis algorytmu: [Sortowanie szybkie](sortowanie/sortowanie-szybkie.md)
-* Implementacja C++: [Sortowanie szybkie](../programming/c++/algorithms/sortowanie/sortowanie-szybkie.md)
-* Implementacja Python: [Sortowanie szybkie](../programming/python/algorithms/sortowanie/sortowanie-szybkie.md)
+* Opis algorytmu: [Quick sort](sortowanie/quick-sort.md)
+* Implementacja C++: [Quick sort](../programming/c++/algorithms/sorting/quick-sort.md)
+* Implementacja Python: [Quick sort](../programming/python/algorithms/sorting/quick-sort.md)
 
-### Sortowanie przez zliczanie (na maturze)
+### Counting sort (na maturze)
 
-* Opis algorytmu: [Sortowanie przez zliczanie](sortowanie/sortowanie-przez-zliczanie.md)
-* Implementacja C++: [Sortowanie przez zliczanie](../programming/c++/algorithms/sortowanie/sortowanie-przez-zliczanie.md)
-* Implementacja Python: [Sortowanie przez zliczanie](../programming/python/algorithms/sortowanie/sortowanie-przez-zliczanie.md)
-* Implementacja Blockly: [Sortowanie przez zliczanie](../programming/blockly/algorithms/sortowanie/sortowanie-przez-zliczanie.md)
+* Opis algorytmu: [Counting sort](sortowanie/counting-sort.md)
+* Implementacja C++: [Counting sort](../programming/c++/algorithms/sorting/counting-sort.md)
+* Implementacja Python: [Counting sort](../programming/python/algorithms/sorting/counting-sort.md)
+* Implementacja Blockly: [Counting sort](../programming/blockly/algorithms/sorting/counting-sort.md)
 
 ### Sortowanie kubełkowe (na maturze)
 
@@ -93,11 +93,11 @@
 * Implementacja C++: 
 * Implementacja Python:
 
-### Sortowanie przez kopcowanie
+### Heap sort
 
-* Opis algorytmu: [Sortowanie przez kopcowanie](sortowanie/sortowanie-przez-kopcowanie.md)
-* Implementacja C++: [Sortowanie przez kopcowanie](../programming/c++/algorithms/sortowanie/sortowanie-przez-kopcowanie.md)
-* Implementacja Python: [Sortowanie przez kopcowanie](../programming/python/algorithms/sortowanie/sortowanie-przez-kopcowanie.md)
+* Opis algorytmu: [Heap sort](sortowanie/heap-sort.md)
+* Implementacja C++: [Heap sort](../programming/c++/algorithms/sorting/heap-sort.md)
+* Implementacja Python: [Heap sort](../programming/python/algorithms/sorting/heap-sort.md)
 
 ## Algorytmy na liczbach całkowitych
 

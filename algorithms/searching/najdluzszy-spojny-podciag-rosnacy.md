@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba elementów tablicy
 * $$tab[1..n]$$ - tablica zawierająca $$n$$ liczb
@@ -15,9 +15,9 @@ TODO
 
 * Długość najdłuższego spójnego podciągu rosnącego w tablicy $$tab$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10
@@ -42,7 +42,7 @@ W podanej tablicy mamy kilka spójnych podciągów rosnących. Wypiszmy wszystki
 Jak widać najdłuższy z nich ma długość równą $$4$$ i jest to podciąg: 2, 4, 7, 9.
 {% endhint %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
@@ -52,7 +52,7 @@ Zastanówmy się na początku, jak podeszlibyśmy do tego problemu na papierze. 
 Dla lepszego zrozumienia spróbuj wykonać opisaną procedurę na kilku przykładach.
 {% endhint %}
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja najdluzszySpojnyPodciagRosnacy(n, tab):
@@ -68,11 +68,11 @@ funkcja najdluzszySpojnyPodciagRosnacy(n, tab):
     10. Zwróć maks
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

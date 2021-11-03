@@ -6,6 +6,6 @@
 [zbior-cantora.md](../../../../algorithms/fraktale/zbior-cantora.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

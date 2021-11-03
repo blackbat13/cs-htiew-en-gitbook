@@ -6,6 +6,6 @@
 * **Strzałka w górę** - przyspieszenie
 * **Spacja** - oddanie strzału
 
-## Implementacja
+## Implementation
 
 {% embed url="https://replit.com/@damiankurpiewski/Asteroids" %}

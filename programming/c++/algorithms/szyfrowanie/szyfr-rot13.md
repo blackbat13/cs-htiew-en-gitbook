@@ -6,6 +6,6 @@
 [szyfr-rot13.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-rot13.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

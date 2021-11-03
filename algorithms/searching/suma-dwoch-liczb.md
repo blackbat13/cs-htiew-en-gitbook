@@ -10,7 +10,7 @@ Zacznijmy od formalnej specyfikacji problemu.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, liczebność zbioru
 * $$A[1..n]$$ - $$n-elementowa$$ tablica różnych liczb całkowitych, posortowana rosnąco, indeksowana od jedynki
@@ -20,9 +20,9 @@ Zacznijmy od formalnej specyfikacji problemu.
 
 * $$a, b$$ - dwie różne wartości ze zbioru $$A$$ takie, że ich suma wynosi $$k$$( $$a+b=k$$ ), lub $$-1$$, jeżeli takich liczb nie ma w zbiorze (jeżeli takich par jest wiele, to dowolna z nich)
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10
@@ -32,11 +32,11 @@ k := 18
 
 **Wynik**: $$6,\ 12$$(lub $$8,\ 10$$)
 
-## Rozwiązanie naiwne
+## Naive solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SumaDwoch(n, A, k):
@@ -48,15 +48,15 @@ funkcja SumaDwoch(n, A, k):
     6. Wypisz -1
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n^2)$$ - kwadratowa
 
-## Rozwiązanie optymalne
+## Optimal solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SumaDwoch(n, A, k):
@@ -73,11 +73,11 @@ funkcja SumaDwoch(n, A, k):
         11. Wypisz -1
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

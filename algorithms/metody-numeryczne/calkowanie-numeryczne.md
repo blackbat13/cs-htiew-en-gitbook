@@ -8,7 +8,7 @@ Wyróżniamy dwie podstawowe metody: metodę prostokątów i metodę trapezów.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$f(x)$$  - funkcja, której wykres nas interesuje
 * $$a$$ - liczba rzeczywista, początek przedziału
@@ -18,13 +18,13 @@ Wyróżniamy dwie podstawowe metody: metodę prostokątów i metodę trapezów.
 
 * $$p$$ - przybliżona wartość pola pod wykresem funkcji $$f(x)$$ w przedziale $$[a,b]$$
 
-## Rozwiązanie - metoda prostokątów
+## Solution - metoda prostokątów
 
 TODO
 
 Idea tej metody jest prosta: podzielmy pole pod wykresem funkcji na prostokąty i policzmy ich pole.
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja MetodaProstokatow(f, a, b):
@@ -41,23 +41,23 @@ funkcja MetodaProstokatow(f, a, b):
     9. Zwróć p
 ```
 
-### Złożoność
+### Complexity
 
 TODO
 
-## Rozwiązanie - metoda trapezów
+## Solution - metoda trapezów
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-### Złożoność
+### Complexity
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

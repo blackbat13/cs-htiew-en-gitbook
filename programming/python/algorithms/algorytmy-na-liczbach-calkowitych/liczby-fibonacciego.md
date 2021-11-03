@@ -8,7 +8,7 @@
 
 ## Wersja iteracyjna
 
-### Implementacja
+### Implementation
 
 ```python
 def fib(n: int) -> int:
@@ -42,7 +42,7 @@ TODO
 
 ## Wersja rekurencyjna
 
-### Implementacja
+### Implementation
 
 ```python
 def fib(n: int) -> int:

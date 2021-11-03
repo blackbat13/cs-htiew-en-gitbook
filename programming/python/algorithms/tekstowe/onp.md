@@ -6,7 +6,7 @@
 [odwrotna-notacja-polska.md](../../../../algorithms/tekstowe/odwrotna-notacja-polska.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def compute(a: float, b: float, op: str) -> float:

@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, większa od $$0$$ 
 * $$n$$liczb naturalnych
@@ -15,7 +15,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 * Największa z podanych $$n$$ liczb
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

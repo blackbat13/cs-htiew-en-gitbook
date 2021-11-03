@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją. Wypisanie komunikatu powinno z
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
@@ -14,7 +14,7 @@ Napisz program zgodny z poniższą specyfikacją. Wypisanie komunikatu powinno z
 
 * Komunikat powitania w formie "_Witaj \[**imie**]!_", np. "_Witaj Damian!_"
 
-## Rozwiązanie
+## Solution
 
 ```cpp
 #include <iostream>

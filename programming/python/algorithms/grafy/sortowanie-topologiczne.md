@@ -6,7 +6,7 @@
 [sortowanie-topologiczne.md](../../../../algorithms/grafowe/sortowanie-topologiczne.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO
 

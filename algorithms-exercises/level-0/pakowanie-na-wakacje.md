@@ -8,7 +8,7 @@ Nareszcie wakacje! Czas gdzieś wyjechać. Najpierw jednak czas się spakować. 
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$a, b, c$$ - liczby naturalne, wymiary pakunku, wszystkie z zakresu $$[1, 50]$$ 
 
@@ -16,9 +16,9 @@ Nareszcie wakacje! Czas gdzieś wyjechać. Najpierw jednak czas się spakować. 
 
 * Komunikat "TAK", jeżeli pakunek zmieści się walizce, lub komunikat "NIE" w przeciwnym przypadku
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 a := 20
@@ -28,9 +28,9 @@ c := 20
 
 **Wynik**: "TAK"
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 a := 1

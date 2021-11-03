@@ -6,7 +6,7 @@ TODO
 
 ### Specyfikacja
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, większa od zera
 
@@ -14,9 +14,9 @@ TODO
 
 * $$n$$-ta liczba Fibonacciego
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10
@@ -30,11 +30,11 @@ n := 10
 Pierwszych kolejnych dziesięć liczb Fibonacciego to: $$1, 1, 2, 3, 5, 8, 13, 21, 34, 55$$ 
 {% endhint %}
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja Fib(n):
@@ -47,11 +47,11 @@ funkcja Fib(n):
 
 TODO
 
-## Rozwiązanie iteracyjne
+## Iterative solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja Fib(n):
@@ -68,7 +68,7 @@ funkcja Fib(n):
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 
