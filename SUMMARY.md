@@ -60,7 +60,7 @@
   * [Suma dwóch liczb](algorithms/searching/suma-dwoch-liczb.md)
 * [Przeszukiwanie z powrotami](algorithms/przeszukiwanie-z-powrotami/README.md)
   * [Problem n królowych](algorithms/przeszukiwanie-z-powrotami/problem-n-krolowych.md)
-* [Sortowanie](algorithms/sorting/README.md)
+* [Sorting](algorithms/sorting/README.md)
   * [Selection sort](algorithms/sorting/selection-sort.md)
   * [Insertion sort](algorithms/sorting/insertion-sort.md)
   * [Counting sort](algorithms/sorting/counting-sort.md)
