@@ -1,5 +1,5 @@
 # Alfabet Morse'a
 
-## Opis
+## Description
 
 TODO

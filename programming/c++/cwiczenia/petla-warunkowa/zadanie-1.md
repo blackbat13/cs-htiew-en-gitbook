@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Kolejne cyfry liczby $$n$$, wypisane od końca, tzn. zaczynając od cyfry jedności
 

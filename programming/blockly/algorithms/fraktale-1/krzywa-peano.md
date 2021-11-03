@@ -1,6 +1,6 @@
 # Krzywa Peano
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/krzywa-peano.md" %}
 [krzywa-peano.md](../../../../algorithms/fraktale/krzywa-peano.md)

@@ -4,7 +4,7 @@ description: Najkrótsze ścieżki z zadanego wierzchołka
 
 # Dijkstra
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/dijkstra.md" %}
 [dijkstra.md](../../../../algorithms/grafowe/dijkstra.md)
@@ -59,6 +59,6 @@ print(dijkstra(graph, 0))
 Dijkstra
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

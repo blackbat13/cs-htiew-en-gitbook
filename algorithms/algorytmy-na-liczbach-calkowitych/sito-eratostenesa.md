@@ -1,16 +1,16 @@
 # Sito Eratostenesa
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$n$$ - liczba całkowita
 
-#### Wynik:
+#### Output:
 
 * Wszystkie liczby pierwsze od $$1$$ do $$n$$ włącznie.
 
@@ -22,7 +22,7 @@ TODO
 n := 10
 ```
 
-#### Wynik
+#### Output
 
 $$2, 3, 5, 7$$ 
 

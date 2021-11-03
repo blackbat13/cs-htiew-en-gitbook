@@ -1,16 +1,16 @@
 # Najdłuższy wspólny podciąg
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwa ciągi znaków
 
-#### Wynik
+#### Output
 
 * Najdłuższy wspólny podciąg ciągów $$a$$ i $$b$$ 
 
@@ -23,7 +23,7 @@ a := "kitten"
 b := "sitting"
 ```
 
-#### Wynik
+#### Output
 
 `"ittn"`
 

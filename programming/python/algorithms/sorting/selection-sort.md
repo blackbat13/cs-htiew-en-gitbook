@@ -1,6 +1,6 @@
 # Selection sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/selection-sort.md" %}
 [selection-sort.md](../../../../algorithms/sorting/selection-sort.md)
@@ -38,7 +38,7 @@ print(array)
 Selection sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Powyższa implementacja składa się z dwóch funkcji: 
 

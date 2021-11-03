@@ -1,6 +1,6 @@
 # Szybkie potęgowanie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/metody-numeryczne/szybkie-potegowanie.md" %}
 [szybkie-potegowanie.md](../../../../algorithms/metody-numeryczne/szybkie-potegowanie.md)
@@ -33,7 +33,7 @@ print(f"{a}^{n} = {result}")
 Szybkie potęgowanie - wersja rekurencyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -67,6 +67,6 @@ print(f"{a}^{n} = {result}")
 Szybkie potęgowanie - wersja iteracyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

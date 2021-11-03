@@ -1,6 +1,6 @@
 # Pierwiastek kwadratowy
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/metody-numeryczne/pierwiastek-kwadratowy.md" %}
 [pierwiastek-kwadratowy.md](../../../../algorithms/metody-numeryczne/pierwiastek-kwadratowy.md)
@@ -36,6 +36,6 @@ print(f"sqrt({n}) ~= {result}")
 Pierwiastek kwadratowy - metoda Herona
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

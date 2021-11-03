@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją. Obliczanie sumy powinno być zrealizowane za pomocą funkcji.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
-#### Wynik
+#### Output
 
 * Suma liczb $$a$$ i $$b$$ 
 

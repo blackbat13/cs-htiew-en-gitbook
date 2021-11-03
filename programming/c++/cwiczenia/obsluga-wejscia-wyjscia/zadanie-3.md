@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite, różne od zera
 
-#### Wynik
+#### Output
 
 * Wynik dzielenia liczb $$a$$ i $$b$$ 
 

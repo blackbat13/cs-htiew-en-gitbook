@@ -1,6 +1,6 @@
 # Smocza krzywa
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/smocza-krzywa.md" %}
 [smocza-krzywa.md](../../../../algorithms/fraktale/smocza-krzywa.md)
@@ -40,6 +40,6 @@ turtle.done()
 
 {% embed url="https://replit.com/@damiankurpiewski/Dragon-Curve#main.py" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

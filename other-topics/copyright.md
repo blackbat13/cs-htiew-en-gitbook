@@ -1,6 +1,6 @@
 # Prawa autorskie
 
-## Opis
+## Description
 
 TODO
 

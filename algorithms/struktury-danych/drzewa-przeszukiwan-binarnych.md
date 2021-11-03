@@ -4,11 +4,11 @@ description: BST
 
 # Drzewa przeszukiwań binarnych
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 

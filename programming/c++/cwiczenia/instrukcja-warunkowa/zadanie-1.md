@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **abs, fabs**
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a$$ - liczba całkowita
 
-#### Wynik
+#### Output
 
 * Wartość bezwzględna z $$a$$
 

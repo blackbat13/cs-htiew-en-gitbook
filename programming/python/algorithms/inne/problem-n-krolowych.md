@@ -1,6 +1,6 @@
 # Problem n królowych
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/przeszukiwanie-z-powrotami/problem-n-krolowych.md" %}
 [problem-n-krolowych.md](../../../../algorithms/przeszukiwanie-z-powrotami/problem-n-krolowych.md)
@@ -67,6 +67,6 @@ else:
 Problem n królowych
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

@@ -1,6 +1,6 @@
 # Konwersja pomiędzy systemami liczbowymi
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -49,7 +49,7 @@ int main() {
 Konwersja z dziesiętnego
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -98,6 +98,6 @@ int main() {
 Konwersja na dziesiętny
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

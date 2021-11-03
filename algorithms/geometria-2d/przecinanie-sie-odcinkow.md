@@ -1,6 +1,6 @@
 # Przecinanie się odcinków
 
-## Opis problemu
+## Problem description
 
 TODO
 

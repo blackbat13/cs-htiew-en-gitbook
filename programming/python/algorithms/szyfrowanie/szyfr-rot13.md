@@ -1,6 +1,6 @@
 # Szyfr ROT13
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-rot13.md" %}
 [szyfr-rot13.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-rot13.md)
@@ -47,7 +47,7 @@ print(f"Encoded: {encoded}")
 Szyfrowanie szyfrem ROT13
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -92,6 +92,6 @@ print(f"Decoded: {decoded}")
 Deszyfrowanie szyfrem ROT13
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

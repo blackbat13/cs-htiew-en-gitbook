@@ -1,6 +1,6 @@
 # Odległość Hamminga
 
-## Opis problemu
+## Problem description
 
 TODO
 

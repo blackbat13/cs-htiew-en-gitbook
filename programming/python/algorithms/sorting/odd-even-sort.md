@@ -1,6 +1,6 @@
 # Odd-Even sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/odd-even-sort.md" %}
 [odd-even-sort.md](../../../../algorithms/sorting/odd-even-sort.md)
@@ -34,7 +34,7 @@ print(array)
 Odd-Even sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

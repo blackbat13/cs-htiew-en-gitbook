@@ -1,6 +1,6 @@
 # Fake news i postprawda
 
-## Opis
+## Description
 
 TODO
 

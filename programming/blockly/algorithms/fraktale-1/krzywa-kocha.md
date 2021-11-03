@@ -1,6 +1,6 @@
 # Krzywa Kocha
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/krzywa-kocha.md" %}
 [krzywa-kocha.md](../../../../algorithms/fraktale/krzywa-kocha.md)

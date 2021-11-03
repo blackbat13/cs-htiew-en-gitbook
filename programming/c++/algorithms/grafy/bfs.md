@@ -4,7 +4,7 @@ description: Przeszukiwanie grafu wszerz
 
 # BFS
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/bfs.md" %}
 [bfs.md](../../../../algorithms/grafowe/bfs.md)
@@ -99,7 +99,7 @@ int main() {
 Przeszukiwanie grafu wszerz - BFS
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `prepareExampleGraph` przygotowuje przykładowy graf w formie listy sąsiedztwa zapisanej w dynamicznej tablicy typu `vector`. Przykładowy graf (przedstawiony także na poniższym rysunku) ma 7 wierzchołków (numerowanych od zera) i jest nieskierowany.
 

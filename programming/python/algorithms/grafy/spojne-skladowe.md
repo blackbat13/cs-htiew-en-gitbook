@@ -1,6 +1,6 @@
 # Spójne składowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/spojne-skladowe.md" %}
 [spojne-skladowe.md](../../../../algorithms/grafowe/spojne-skladowe.md)
@@ -57,6 +57,6 @@ print("Number of connected components in the graph:", result)
 Spójne składowe
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

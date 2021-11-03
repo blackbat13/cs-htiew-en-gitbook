@@ -1,6 +1,6 @@
 # Counting sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/counting-sort.md" %}
 [counting-sort.md](../../../../algorithms/sorting/counting-sort.md)
@@ -41,7 +41,7 @@ print(array)
 Counting sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

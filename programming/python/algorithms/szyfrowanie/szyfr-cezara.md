@@ -1,6 +1,6 @@
 # Szyfr Cezara
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-cezara.md" %}
 [szyfr-cezara.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-cezara.md)
@@ -53,7 +53,7 @@ print(f'Encoded: {encoded}')
 Szyfrowanie szyfrem Cezara
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -104,6 +104,6 @@ print(f'Decoded: {decoded}')
 Deszyfrowanie szyfrem Cezara
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

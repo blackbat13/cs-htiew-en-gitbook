@@ -1,6 +1,6 @@
 # Liczby Fibonacciego
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/liczby-fibonacciego.md" %}
 [liczby-fibonacciego.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/liczby-fibonacciego.md)
@@ -36,7 +36,7 @@ print(f"fib({n}) = {result}")
 Liczby Fibonacciego - wersja iteracyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -65,7 +65,7 @@ print(f"fib({n}) = {result}")
 Liczby Fibonacciego - wersja rekurencyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

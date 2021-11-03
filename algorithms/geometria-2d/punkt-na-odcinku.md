@@ -1,6 +1,6 @@
 # Punkt na odcinku
 
-## Opis problemu
+## Problem description
 
 TODO
 

@@ -1,16 +1,16 @@
 # Odwrotna Notacja Polska
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * **onp** - ciąg znaków reprezentujący poprawne wyrażenie w Odwrotnej Notacji Polskiej 
 
-#### Wynik
+#### Output
 
 * Wartość wyrażenia **onp**
 

@@ -1,6 +1,6 @@
 # Wszystkie dzielniki
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md" %}
 [wszystkie-dzielniki.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md)
@@ -40,7 +40,7 @@ int main() {
 Wszystkie dzielniki - podejście zupełnie naiwne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `divisors` (**linia 7**) wypisuje wszystkie dzielniki liczby podanej jako parametr. Na początku przechodzimy pętlą przez wszystkie potencjalne dzielniki od $$1$$ do $$n$$ włącznie (**linia 8**). W pętli sprawdzamy, czy reszta z dzielenia liczby $$n$$ i licznika pętli wynosi $$0$$ (**linia 9**), czyli czy n jest podzielne przez sprawdzaną wartość. Jeżeli tak jest, to znaleźliśmy dzielnik, więc go wypisujemy (**linia 10**).
 
@@ -84,7 +84,7 @@ int main() {
 Wszystkie dzielniki - podejście naiwne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `divisors` (**linia 7**) wypisuje wszystkie dzielniki liczby podanej jako parametr. Na początku przechodzimy pętlą przez wszystkie potencjalne dzielniki od $$1$$ do $$\lfloor n/2\rfloor$$ włącznie (**linia 8**). W pętli sprawdzamy, czy reszta z dzielenia liczby $$n$$ i licznika pętli wynosi $$0$$ (**linia 9**), czyli czy n jest podzielne przez sprawdzaną wartość. Jeżeli tak jest, to znaleźliśmy dzielnik, więc go wypisujemy (**linia 10**). Po wyjściu z pętli musimy jeszcze sprawdzić, czy $$n$$ jest większe od $$1$$ (**linia 14**). Jeżeli tak jest, to musimy wypisać jeszcze jeden dzielnik: $$n$$ (**linia 15**).
 
@@ -128,7 +128,7 @@ int main() {
 Wszystkie dzielniki - podejście optymalne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `divisors` (**linia 7**) wypisuje wszystkie dzielniki liczby podanej jako parametr. Na początku przechodzimy pętlą przez wszystkie potencjalne dzielniki od $$1$$ do $$\sqrt{n}$$ włącznie (**linia 9**). W pętli sprawdzamy, czy reszta z dzielenia liczby $$n$$ i licznika pętli wynosi $$0$$ (**linia 10**), czyli czy n jest podzielne przez sprawdzaną wartość. Jeżeli tak jest, to znaleźliśmy dzielnik, więc go wypisujemy (**linia 11**). Po znalezieniu dzielnik musimy jeszcze sprawdzić, czy drugi dzielnik z "pary" jest różny od obecnego (**linia 12**). Jeżeli tak, to go też wypisujemy (**linia 13**).
 

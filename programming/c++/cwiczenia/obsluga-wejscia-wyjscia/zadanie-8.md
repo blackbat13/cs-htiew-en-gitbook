@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$sekundy$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Czas podany w czytelnej formie ** **$$H:M:S$$ ($$H$$ - godziny, $$M$$ - minuty, $$S$$ - sekundy)
 

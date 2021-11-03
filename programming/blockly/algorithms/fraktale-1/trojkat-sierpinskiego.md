@@ -1,6 +1,6 @@
 # Trójkąt Sierpińskiego
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/trojkat-sierpinskiego.md" %}
 [trojkat-sierpinskiego.md](../../../../algorithms/fraktale/trojkat-sierpinskiego.md)

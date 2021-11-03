@@ -1,17 +1,17 @@
 # Pierwiastek kwadratowy
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba rzeczywista.
 * $$p$$ - liczba rzeczywista, dokładność.
 
-#### Wynik
+#### Output
 
 * $$\sqrt{n}$$ policzony z dokładnością $$p$$. 
 

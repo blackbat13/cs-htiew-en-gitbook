@@ -1,6 +1,6 @@
 # vector
 
-## Opis
+## Description
 
 W dużym skrócie `vector` jest dynamiczną tablicą i tak zazwyczaj go traktujemy. Co oznacza, że tablica jest **dynamiczna**? To znaczy, że w dowolnym momencie działania programu możemy zmieniać jej rozmiar, tzn. dodawać i usuwać elementy (w przeciwieństwie do tablic **statycznych**). Jest to przydatne np. w sytuacji gdy nie wiemy, ile wartości będziemy musieli w takiej tablicy przechować.
 

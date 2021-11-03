@@ -1,6 +1,6 @@
 # Kruskal
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/kruskal.md" %}
 [kruskal.md](../../../../algorithms/grafowe/kruskal.md)
@@ -14,6 +14,6 @@ TODO
 
 TODO
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

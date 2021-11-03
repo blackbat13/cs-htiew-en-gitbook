@@ -1,6 +1,6 @@
 # Wyznacznik macierzy 3x3
 
-## Opis problemu
+## Problem description
 
 TODO
 

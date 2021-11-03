@@ -1,6 +1,6 @@
 # Trójkąt Sierpińskiego
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/trojkat-sierpinskiego.md" %}
 [trojkat-sierpinskiego.md](../../../../algorithms/fraktale/trojkat-sierpinskiego.md)
@@ -41,6 +41,6 @@ turtle.done()
 
 {% embed url="https://replit.com/@damiankurpiewski/Sierpinski-Triangle#main.py" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

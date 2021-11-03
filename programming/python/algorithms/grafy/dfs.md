@@ -4,7 +4,7 @@ description: Przeszukiwanie grafu w głąb
 
 # DFS
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/dfs.md" %}
 [dfs.md](../../../../algorithms/grafowe/dfs.md)
@@ -48,6 +48,6 @@ dfs(graph, visited, 0)
 DFS
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

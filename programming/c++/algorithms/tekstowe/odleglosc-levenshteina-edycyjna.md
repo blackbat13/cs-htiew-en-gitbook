@@ -1,6 +1,6 @@
 # Odległość Levenshteina (edycyjna)
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/odleglosc-levenshteina-edycyjna.md" %}
 [odleglosc-levenshteina-edycyjna.md](../../../../algorithms/tekstowe/odleglosc-levenshteina-edycyjna.md)
@@ -64,6 +64,6 @@ int main() {
 Odległość Levenshteina
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

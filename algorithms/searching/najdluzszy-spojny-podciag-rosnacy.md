@@ -1,17 +1,17 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba elementów tablicy
 * $$tab[1..n]$$ - tablica zawierająca $$n$$ liczb
 
-#### Wynik
+#### Output
 
 * Długość najdłuższego spójnego podciągu rosnącego w tablicy $$tab$$ 
 
@@ -24,7 +24,7 @@ n := 10
 tab := [4, 9, 7, 2, 4, 7, 9, 3, 8, 6]
 ```
 
-#### Wynik
+#### Output
 
 $$4$$ 
 

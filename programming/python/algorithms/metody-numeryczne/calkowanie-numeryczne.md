@@ -1,6 +1,6 @@
 # Całkowanie numeryczne
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/metody-numeryczne/calkowanie-numeryczne.md" %}
 [calkowanie-numeryczne.md](../../../../algorithms/metody-numeryczne/calkowanie-numeryczne.md)
@@ -39,7 +39,7 @@ print(area)
 Całkowanie numeryczne - metoda prostokątów
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -77,6 +77,6 @@ print(area)
 Całkowanie numeryczne - metoda trapezów
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

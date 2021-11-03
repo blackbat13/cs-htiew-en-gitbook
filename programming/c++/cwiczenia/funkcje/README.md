@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją. Wypisanie komunikatu powinno zostać zrealizowane za pomocą funkcji.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
-#### Wynik
+#### Output
 
 * Komunikat powitania w formie "_Witaj \[**imie**]!_", np. "_Witaj Damian!_"
 
@@ -18,13 +18,13 @@ Napisz program zgodny z poniższą specyfikacją. Wypisanie komunikatu powinno z
 
 Napisz program zgodny z poniższą specyfikacją. Obliczanie sumy powinno być zrealizowane za pomocą funkcji.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
-#### Wynik
+#### Output
 
 * Suma liczb $$a$$ i $$b$$ 
 
@@ -32,7 +32,7 @@ Napisz program zgodny z poniższą specyfikacją. Obliczanie sumy powinno być z
 
 Napisz program zgodny z poniższą specyfikacją. Przemnażanie tablicy oraz wypisywanie tablicy na ekranie zrealizuj za pomocą osobnych funkcji.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
@@ -40,7 +40,7 @@ Napisz program zgodny z poniższą specyfikacją. Przemnażanie tablicy oraz wyp
 * $$k$$ - liczba całkowita
 * $$tab[n]$$ - tablica liczb całkowitych
 
-#### Wynik
+#### Output
 
 * Tablica powstała poprzez przemnożenie każdego elementu tablicy $$tab$$ przez liczbę $$k$$ 
 

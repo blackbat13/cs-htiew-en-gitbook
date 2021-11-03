@@ -1,12 +1,12 @@
 # Całkowanie numeryczne
 
-## Opis problemu
+## Problem description
 
 Hasło "całkowanie numeryczne" może brzmieć strasznie, ale samo pojęcie jest dość proste do zrozumienia. To nic innego, niż policzenie pola pod wykresem funkcji w zadanym przedziale. Oczywiście w ogólności to zadanie jest dość skomplikowane obliczeniowo, dlatego tutaj skupimy się na przybliżeniu tej wartości.
 
 Wyróżniamy dwie podstawowe metody: metodę prostokątów i metodę trapezów.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
@@ -14,7 +14,7 @@ Wyróżniamy dwie podstawowe metody: metodę prostokątów i metodę trapezów.
 * $$a$$ - liczba rzeczywista, początek przedziału
 * $$b$$ - liczba rzeczywista, koniec przedziału
 
-#### Wynik
+#### Output
 
 * $$p$$ - przybliżona wartość pola pod wykresem funkcji $$f(x)$$ w przedziale $$[a,b]$$
 

@@ -1,6 +1,6 @@
 # Test doskonałości
 
-## Opis problemu
+## Problem description
 
 Czym jest liczba doskonała? Zacznijmy od dwóch definicji.
 
@@ -20,13 +20,13 @@ Podobnie jak w przypadku testu pierwszości, problem doskonałości liczby jest 
 
 Zaczynamy od formalnej specyfikacji i przykładu.
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$n$$ - liczba naturalna
 
-#### Wynik:
+#### Output:
 
 * **PRAWDA **- jeżeli $$n$$ jest liczbą doskonałą
 * **FAŁSZ **- jeżeli $$n$$ nie jest liczbą doskonałą

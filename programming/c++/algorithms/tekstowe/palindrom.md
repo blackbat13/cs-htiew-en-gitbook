@@ -1,6 +1,6 @@
 # Palindrom
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/palindrom.md" %}
 [palindrom.md](../../../../algorithms/tekstowe/palindrom.md)
@@ -45,7 +45,7 @@ int main() {
 Test palindromu
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji `pow`.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, n$$ - dwie liczby naturalne
 
-#### Wynik
+#### Output
 
 * $$a^n$$ 
 

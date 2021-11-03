@@ -1,6 +1,6 @@
 # Konwersja pomiędzy systemami liczbowymi
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -39,7 +39,7 @@ print(f'{number} (10) = {converted} ({base})')
 Konwersja z dziesiętnego
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -78,6 +78,6 @@ print(f'{number} ({base}) = {converted} (10)')
 Konwersja na dziesiętny
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

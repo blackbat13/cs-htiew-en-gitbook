@@ -4,7 +4,7 @@ description: Najkrótsze ścieżki z jednego wierzchołka
 
 # Dijkstra
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/dijkstra.md" %}
 [dijkstra.md](../../../../algorithms/grafowe/dijkstra.md)
@@ -123,7 +123,7 @@ int main() {
 Algorytm Dijkstry
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

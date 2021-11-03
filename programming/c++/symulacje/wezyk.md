@@ -68,7 +68,7 @@ int main()
 
 {% embed url="https://replit.com/@damiankurpiewski/Snake#main.cpp" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

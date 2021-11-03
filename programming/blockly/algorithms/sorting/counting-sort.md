@@ -1,6 +1,6 @@
 # Counting sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/counting-sort.md" %}
 [counting-sort.md](../../../../algorithms/sorting/counting-sort.md)

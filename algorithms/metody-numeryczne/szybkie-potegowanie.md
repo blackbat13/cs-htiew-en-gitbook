@@ -1,6 +1,6 @@
 # Szybkie potęgowanie
 
-## Opis problemu
+## Problem description
 
 Zadanie jest proste: mamy podnieść liczbę do zadanej potęgi. Jak to jednak zwykle bywa, można to zrobić na różne sposoby, spośród których jedne będą szybsze, a inne wolniejsze. Zacznijmy od przykładu.
 
@@ -40,14 +40,14 @@ $$
 x^5=(x^2)^2*x
 $$
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$x$$  - liczba całkowita
 * $$n$$ - liczba naturalna
 
-#### Wynik:
+#### Output:
 
 * $$x^n$$ 
 

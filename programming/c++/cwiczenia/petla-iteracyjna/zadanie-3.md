@@ -4,14 +4,14 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 * $$n$$liczb całkowitych
 
-#### Wynik
+#### Output
 
 * Suma podanych $$n$$ liczb
 

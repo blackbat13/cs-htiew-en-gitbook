@@ -1,6 +1,6 @@
 # Suma dwóch liczb
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/suma-dwoch-liczb.md" %}
 [suma-dwoch-liczb.md](../../../../algorithms/searching/suma-dwoch-liczb.md)
@@ -50,7 +50,7 @@ int main() {
 Suma dwóch - rozwiązanie naiwne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -104,6 +104,6 @@ int main() {
 Suma dwóch - rozwiązanie optymalne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

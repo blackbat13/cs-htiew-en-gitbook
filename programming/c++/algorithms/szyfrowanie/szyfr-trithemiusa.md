@@ -1,6 +1,6 @@
 # Szyfr Trithemius'a
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-trithemiusa.md" %}
 [szyfr-trithemiusa.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-trithemiusa.md)

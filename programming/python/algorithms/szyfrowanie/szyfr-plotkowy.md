@@ -1,6 +1,6 @@
 # Szyfr płotkowy
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-plotkowy.md" %}
 [szyfr-plotkowy.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-plotkowy.md)
@@ -48,7 +48,7 @@ print(f"Encoded: {encoded}")
 Szyfrowanie szyfrem płotkowym
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -96,6 +96,6 @@ print(f"Decoded: {decoded}")
 Deszyfrowanie szyfrem płotkowym
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

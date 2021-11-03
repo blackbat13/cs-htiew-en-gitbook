@@ -1,6 +1,6 @@
 # Krzywa Peano
 
-## Opis problemu
+## Problem description
 
 TODO
 

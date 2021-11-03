@@ -1,6 +1,6 @@
 # Metoda Monte Carlo
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/metody-numeryczne/metoda-monte-carlo.md" %}
 [metoda-monte-carlo.md](../../../../algorithms/metody-numeryczne/metoda-monte-carlo.md)
@@ -54,6 +54,6 @@ int main() {
 Metoda Monte Carlo obliczania przybliżonej wartości PI
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

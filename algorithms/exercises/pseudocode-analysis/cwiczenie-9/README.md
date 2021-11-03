@@ -1,17 +1,17 @@
 # Ćwiczenie 5
 
-## Opis
+## Description
 
 Dany jest następujący pseudokod, zgodny z poniższą specyfikacją:
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a$$ - liczba rzeczywista
 * $$n$$ - liczba naturalna, $$n \neq 0$$ 
 
-#### Wynik
+#### Output
 
 * Liczba rzeczywista $$p=a^n$$ 
 

@@ -1,10 +1,10 @@
 # Kody Huffmana
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 

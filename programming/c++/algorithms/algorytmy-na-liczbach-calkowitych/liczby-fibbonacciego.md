@@ -1,6 +1,6 @@
 # Liczby Fibonacciego
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/liczby-fibonacciego.md" %}
 [liczby-fibonacciego.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/liczby-fibonacciego.md)
@@ -41,7 +41,7 @@ int main() {
 Liczby Fibonacciego - podejście rekurencyjne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -87,6 +87,6 @@ int main() {
 Liczby Fibonacciego - podejście iteracyjne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

@@ -1,6 +1,6 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/jednoczesne-znajdowanie-minimum-i-maksimum.md" %}
 [jednoczesne-znajdowanie-minimum-i-maksimum.md](../../../../algorithms/searching/jednoczesne-znajdowanie-minimum-i-maksimum.md)
@@ -37,7 +37,7 @@ print(f'Minimum: {min}, Maximum: {max}')
 Jednoczesne wyszukiwanie minimum i maksimum - podejście naiwne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -85,6 +85,6 @@ print(f'Minimum: {min}, Maximum: {max}')
 Jednoczesne wyszukiwanie minimum i maksimum - podejście optymalne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

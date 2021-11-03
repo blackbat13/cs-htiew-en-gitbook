@@ -1,6 +1,6 @@
 # Szyfr Beauforta
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-beauforta.md" %}
 [szyfr-beauforta.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-beauforta.md)
@@ -61,6 +61,6 @@ print(f"Decoded: {decoded}")
 Szyfr Beauforta
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

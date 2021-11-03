@@ -4,11 +4,11 @@ description: Najkrótsze ścieżki pomiędzy wszystkimi wierzchołkami
 
 # Floyd-Warshall
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 

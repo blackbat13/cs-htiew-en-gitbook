@@ -4,7 +4,7 @@ description: Przeszukiwanie grafu w głąb
 
 # DFS
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/dfs.md" %}
 [dfs.md](../../../../algorithms/grafowe/dfs.md)
@@ -89,7 +89,7 @@ int main() {
 Przeszukiwanie grafu w głąb - DFS
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `prepareExampleGraph` przygotowuje przykładowy graf w formie listy sąsiedztwa zapisanej w dynamicznej tablicy typu `vector`. Przykładowy graf (przedstawiony także na poniższym rysunku) ma 7 wierzchołków (numerowanych od zera) i jest nieskierowany.
 

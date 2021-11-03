@@ -1,6 +1,6 @@
 # Stos
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/struktury-danych/stos.md" %}
 [stos.md](../../../../algorithms/struktury-danych/stos.md)
@@ -107,6 +107,6 @@ int main() {
 Stos
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

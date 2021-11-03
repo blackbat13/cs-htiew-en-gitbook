@@ -1,20 +1,20 @@
-# Suma nieparzystych
+# Odd sum
 
-## Opis
+## Description
 
-Dla zadanego przedziału podaj sumę wszystkich nieparzystych liczb z tego przedziału.
+For a given range, enter the sum of all odd numbers from this range.
 
 Źródło: [https://onlinejudge.org/external/107/10783.pdf](https://onlinejudge.org/external/107/10783.pdf)
 
-### Specyfikacja
+### Specification
 
 #### Input
 
-* $$a, b$$ - liczby całkowite z przedziału $$[0,100]$$
+* $$a, b$$ - integers from range $$[0,100]$$
 
-#### Wynik
+#### Output
 
-* Suma wszystkich liczb nieparzystych z przedziału $$[a,b]$$ 
+* Sum of all odd numbers from the range $$[a,b]$$ 
 
 ### Example
 
@@ -25,14 +25,14 @@ a := 3
 b := 9
 ```
 
-#### Wynik
+#### Output
 
 ```
 24
 ```
 
 {% hint style="info" %}
-#### Wyjaśnienie
+#### Explanation
 
 $$3+5+7+9=24$$ 
 {% endhint %}

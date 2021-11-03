@@ -1,6 +1,6 @@
 # Smocza Krzywa
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/smocza-krzywa.md" %}
 [smocza-krzywa.md](../../../../algorithms/fraktale/smocza-krzywa.md)

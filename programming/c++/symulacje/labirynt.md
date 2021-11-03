@@ -1,10 +1,10 @@
 # Labirynt
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
@@ -13,11 +13,11 @@ TODO
 * $$startK, startW$$ - współrzędne punktu startowego (kolumna i wiersz)
 * $$stopK, stopW$$ - współrzędne punktu docelowego (kolumna i wiersz)
 
-#### Wynik
+#### Output
 
 * Dotarcie z punktu startowego do końcowego.
 
-## Opis pomysłu
+## Idea description
 
 Każdemu polu w labiryncie przypisujemy wartość liczbową, która będzie służyła za licznik odwiedzin. Na początku każdemu polu przypisujemy wartość 0. Gdy w trakcie poruszania się po labiryncie odwiedzimy dane pole, to zwiększymy wartość jego licznika o 1. W każdym kolejnym kroku wybieramy jedno z sąsiednich pól o najmniejszej wartości licznika.
 
@@ -200,7 +200,7 @@ int main() {
 
 {% embed url="https://replit.com/@damiankurpiewski/Maze#main.cpp" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

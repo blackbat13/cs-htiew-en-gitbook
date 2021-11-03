@@ -1,16 +1,16 @@
 # Rozkład na czynniki pierwsze
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna, większa od zera
 
-#### Wynik
+#### Output
 
 * Rozkład liczby $$n$$ na czynniki pierwsze 
 

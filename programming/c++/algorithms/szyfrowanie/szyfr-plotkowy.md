@@ -1,6 +1,6 @@
 # Szyfr płotkowy
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-plotkowy.md" %}
 [szyfr-plotkowy.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-plotkowy.md)
@@ -58,7 +58,7 @@ int main() {
 Szyfrowanie szyfrem płotkowym
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -116,6 +116,6 @@ int main() {
 Deszyfrowanie szyfrem płotkowym
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

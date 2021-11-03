@@ -1,6 +1,6 @@
 # Przecinanie się odcinków
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/geometria-2d/przecinanie-sie-odcinkow.md" %}
 [przecinanie-sie-odcinkow.md](../../../../algorithms/geometria-2d/przecinanie-sie-odcinkow.md)
@@ -82,6 +82,6 @@ else:
 Przecinanie się odcinków
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

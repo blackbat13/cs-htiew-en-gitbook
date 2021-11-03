@@ -1,6 +1,6 @@
 # Szyfr Trithemius'a
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-trithemiusa.md" %}
 [szyfr-trithemiusa.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-trithemiusa.md)
@@ -50,7 +50,7 @@ print(f"Encoded: {encoded}")
 Szyfrowanie szyfrem Thithemius'a
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -98,6 +98,6 @@ print(f"Decoded: {decoded}")
 Deszyfrowanie szyfrem Trithemius'a
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

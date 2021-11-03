@@ -1,16 +1,16 @@
 # Algorytm Euklidesa
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - liczby naturalne, większe od zera
 
-#### Wynik
+#### Output
 
 * $$NWD(a,b)$$ - największy wspólny dzielnik liczb $$a$$ i $$b$$ 
 

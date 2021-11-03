@@ -1,6 +1,6 @@
 # Suma dwóch liczb
 
-## Opis problemu
+## Problem description
 
 Mamy pewien posortowany zbiór różnych liczb. W tym zbiorze mamy odnaleźć dwie liczby, które po dodaniu do siebie dadzą pożądaną sumę. Oczywiście, takie liczby wcale nie muszą w tym zbiorze się znajdować.
 
@@ -8,7 +8,7 @@ Problem może wydawać się dość abstrakcyjny i słabo związany z rzeczywisto
 
 Zacznijmy od formalnej specyfikacji problemu.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
@@ -16,7 +16,7 @@ Zacznijmy od formalnej specyfikacji problemu.
 * $$A[1..n]$$ - $$n-elementowa$$ tablica różnych liczb całkowitych, posortowana rosnąco, indeksowana od jedynki
 * $$k$$ - liczba naturalna, szukana suma
 
-#### Wynik
+#### Output
 
 * $$a, b$$ - dwie różne wartości ze zbioru $$A$$ takie, że ich suma wynosi $$k$$( $$a+b=k$$ ), lub $$-1$$, jeżeli takich liczb nie ma w zbiorze (jeżeli takich par jest wiele, to dowolna z nich)
 

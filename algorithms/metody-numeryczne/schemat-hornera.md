@@ -4,7 +4,7 @@ description: Obliczanie wartości wielomianu
 
 # Schemat Hornera
 
-## Opis problemu
+## Problem description
 
 Jak wygląda wielomian pewnie każdy wie. Gdy mamy podany wzór, obliczenie jego wartości dla podanego $$x$$ jest rzeczą wręcz trywialną: wystarczy wykonać kilka mnożeń, podnieść parę razy do potęgi i wszystko zsumować. Tym bardziej dla komputera nie powinno to stanowić większego wyzwania i tak rzeczywiście jest. Nie oznacza to jednak, że nie należy szukać metod pozwalających na zminimalizowanie wykonywanych operacji. Spójrzmy na konkretny przykład:
 
@@ -83,7 +83,7 @@ Gdy jednak zastosujemy _**Schemat Hornera**_, to ilość potrzebnych operacji mn
 
 _**Schemat Hornera**_ ma także zastosowanie przy przeliczaniu liczby z zadanego systemu liczbowego na system dziesiętny.
 
-### Specyfikacja
+### Specification
 
 TODO
 

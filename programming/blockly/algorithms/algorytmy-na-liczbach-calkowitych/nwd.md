@@ -4,7 +4,7 @@ description: Największy Wspólny Dzielnik
 
 # NWD
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/algorytm-euklidesa.md" %}
 [algorytm-euklidesa.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/algorytm-euklidesa.md)

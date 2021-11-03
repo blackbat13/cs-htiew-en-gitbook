@@ -1,6 +1,6 @@
 # Naiwne wyszukiwanie wzorca w tekście
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/naiwne-wyszukiwanie-wzorca-w-tekscie.md" %}
 [naiwne-wyszukiwanie-wzorca-w-tekscie.md](../../../../algorithms/tekstowe/naiwne-wyszukiwanie-wzorca-w-tekscie.md)
@@ -37,6 +37,6 @@ else:
 Znajdowanie miejsca pierwszego wystąpienia wzorca w tekście
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

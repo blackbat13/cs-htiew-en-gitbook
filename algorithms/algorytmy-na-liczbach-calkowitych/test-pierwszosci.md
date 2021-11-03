@@ -1,6 +1,6 @@
 # Test pierwszości
 
-## Opis problemu
+## Problem description
 
 Liczby pierwsze odgrywają w matematyce i informatyce znaczącą rolę, szczególnie w kryptografii. Zacznijmy od zdefiniowania czym jest liczba pierwsza:
 
@@ -14,13 +14,13 @@ Naszym zadaniem jest sprawdzić, czy dana liczba naturalna jest liczbą pierwsz�
 
 Jak zwykle zaczynamy od formalnej specyfikacji problemu i kilku prostych przykładów.
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$n$$ - liczba naturalna większa od $$1$$ 
 
-#### Wynik:
+#### Output:
 
 * **PRAWDA **- jeżeli $$n$$ jest liczbą pierwszą
 * **FAŁSZ **- jeżeli $$n$$ nie jest liczbą pierwszą

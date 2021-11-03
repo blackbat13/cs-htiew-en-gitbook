@@ -1,6 +1,6 @@
 # Warunek trójkąta
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/geometria-2d/warunek-trojkata.md" %}
 [warunek-trojkata.md](../../../../algorithms/geometria-2d/warunek-trojkata.md)
@@ -29,6 +29,6 @@ else:
 Warunek trójkąta
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

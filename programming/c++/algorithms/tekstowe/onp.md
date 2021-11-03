@@ -4,7 +4,7 @@ description: Obliczanie wartości wyrażenia ONP
 
 # ONP
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/odwrotna-notacja-polska.md" %}
 [odwrotna-notacja-polska.md](../../../../algorithms/tekstowe/odwrotna-notacja-polska.md)
@@ -80,7 +80,7 @@ int main() {
 Obliczanie wartości wyrażenia ONP
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `calculateRPN` (**linia 27**) oblicza wartość wyrażenia ONP podanego w formie ciągu znaków. Zakładamy, że podane wyrażenie jest poprawne, a każdy znak reprezentuje jednocyfrową liczbę lub operację. 
 

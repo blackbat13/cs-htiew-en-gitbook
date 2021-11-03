@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **abs, fabs**
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a$$ - liczba całkowita
 
-#### Wynik
+#### Output
 
 * Wartość bezwzględna z $$a$$
 
@@ -28,13 +28,13 @@ a := -2
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a$$ - liczba całkowita
 
-#### Wynik
+#### Output
 
 * Znak liczby $$a$$, tzn. $$1$$ gdy $$a$$ jest dodatnie, $$-1$$ gdy $$a$$ jest ujemne, $$0$$ gdy $$a$$ wynosi $$0$$ 
 
@@ -72,13 +72,13 @@ a := 0
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
-#### Wynik
+#### Output
 
 * Wynik dzielenia liczb $$a$$ i $$b$$, lub komunikat, że nie można wykonać dzielenia.
 
@@ -97,13 +97,13 @@ b := 2
 
 Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min, max**.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b, c$$ - trzy liczby całkowite
 
-#### Wynik
+#### Output
 
 * Największa z liczb $$a$$, $$b$$ i $$c$$ , lub dowolna gdy są sobie równe
 
@@ -123,13 +123,13 @@ c := 3
 
 Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min, max**.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b, c, d$$ - cztery liczby całkowite
 
-#### Wynik
+#### Output
 
 * Największa z liczb $$a, b, c$$ i $$d$$, lub dowolna gdy są sobie równe
 
@@ -150,14 +150,14 @@ d := 5
 
 Napisz program zgodny z poniższą specyfikacją. Zadbaj o czytelność programu.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite
 * $$op$$ - znak jednej z dozwolonych operacji: $$+,-,*,/$$ 
 
-#### Wynik
+#### Output
 
 * Wynik działania$$a\ op\ b$$ (np. $$a+b$$), lub komunikat, że nie można wykonać dzielenia.
 
@@ -184,13 +184,13 @@ Napisz program zgodny z poniższą specyfikacją.
 * jest podzielny przez 400
 {% endhint %}
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$rok$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Komunikat określający, czy podany rok jest przestępny czy też nie
 

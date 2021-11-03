@@ -1,6 +1,6 @@
 # Zbiór Cantora
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/zbior-cantora.md" %}
 [zbior-cantora.md](../../../../algorithms/fraktale/zbior-cantora.md)
@@ -49,6 +49,6 @@ turtle.done()
 
 {% embed url="https://replit.com/@damiankurpiewski/Cantor-Dust#main.py" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

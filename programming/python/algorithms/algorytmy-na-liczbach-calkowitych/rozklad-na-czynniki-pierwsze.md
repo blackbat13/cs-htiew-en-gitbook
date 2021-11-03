@@ -1,6 +1,6 @@
 # Rozkład na czynniki pierwsze
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/rozklad-na-czynniki-pierwsze.md" %}
 [rozklad-na-czynniki-pierwsze.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/rozklad-na-czynniki-pierwsze.md)
@@ -34,6 +34,6 @@ print(f"Prime factors of {n}: {distribute(n)}")
 Rozkład na czynniki pierwsze
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

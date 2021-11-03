@@ -1,16 +1,16 @@
 # Ćwiczenie 2
 
-## Opis
+## Description
 
 Dana jest następująca specyfikacja problemu:
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * $$n!$$ - $$n$$ silnia
 

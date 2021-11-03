@@ -1,6 +1,6 @@
 # Flood fill
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/flood-fill.md" %}
 [flood-fill.md](../../../../algorithms/grafowe/flood-fill.md)
@@ -14,6 +14,6 @@ TODO
 
 TODO
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

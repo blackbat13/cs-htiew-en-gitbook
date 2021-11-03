@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Kolejne cyfry liczby $$n$$, wypisane od końca, tzn. zaczynając od cyfry jedności
 
@@ -18,13 +18,13 @@ Napisz program zgodny z poniższą specyfikacją.
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Suma cyfr liczby $$n$$
 
@@ -48,13 +48,13 @@ $$1+2+3+4=10$$
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Liczba powstała poprzez odwrócenie cyfr liczby $$n$$
 
@@ -72,14 +72,14 @@ n := 1234
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 * $$k$$ - liczba naturalna z zakresu $$[0,9]$$
 
-#### Wynik
+#### Output
 
 * Liczba powstała poprzez zastąpienie każdej cyfry liczby $$n$$ przez wartość bezwzględną różnicy liczby $$k$$ i danej cyfry
 
@@ -110,13 +110,13 @@ $$|3-4|=1$$
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Zapis binarny liczby $$n$$
 
@@ -140,14 +140,14 @@ $$10_{10}=1010_2$$
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 * $$p$$ - liczba naturalna z zakresu $$[2,9]$$
 
-#### Wynik
+#### Output
 
 * Zapis liczby $$n$$ w systemie o podstawie $$p$$ 
 

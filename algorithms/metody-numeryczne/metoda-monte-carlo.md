@@ -1,6 +1,6 @@
 # Metoda Monte Carlo
 
-## Opis problemu
+## Problem description
 
 TODO
 
@@ -8,7 +8,7 @@ TODO
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 

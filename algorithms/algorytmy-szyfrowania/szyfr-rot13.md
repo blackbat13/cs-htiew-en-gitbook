@@ -1,6 +1,6 @@
 # Szyfr ROT13
 
-## Opis problemu
+## Problem description
 
 TODO
 

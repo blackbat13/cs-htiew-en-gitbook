@@ -1,6 +1,6 @@
 # Test pierwszości
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/test-pierwszosci.md" %}
 [test-pierwszosci.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/test-pierwszosci.md)
@@ -50,6 +50,6 @@ int main() {
 Test pierwszości
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

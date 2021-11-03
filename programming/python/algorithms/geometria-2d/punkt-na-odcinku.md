@@ -1,6 +1,6 @@
 # Punkt na odcinku
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/geometria-2d/punkt-na-odcinku.md" %}
 [punkt-na-odcinku.md](../../../../algorithms/geometria-2d/punkt-na-odcinku.md)
@@ -55,6 +55,6 @@ else:
 Punkt na odcinku
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

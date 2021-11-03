@@ -1,6 +1,6 @@
 # Sortowanie
 
-## Opis
+## Description
 
 Sortowanie danych jest operacją, z której korzystamy praktycznie na co dzień. Jest to także operacja, która jest wymagana w wielu algorytmach. Nie od dziś wiadomo, że na danych posortowanych pewne działania można wykonać znacznie efektywniej. Od wydajności algorytmu sortowania może więc zależeć wydajność całej implementacji. Oczywiście możemy za każdym razem implementować sortowanie samodzielnie (tak czasem będzie wydajniej), ale zazwyczaj wystarczy skorzystać z gotowej implementacji zawartej w STL, a konkretnie w bibliotece `algorithm`. 
 
@@ -72,7 +72,7 @@ int main() {
 Sortowanie z STL - przykład
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Na początku tworzymy nowy `vector` o nazwie `array` (**linia 37**), który służy nam za tablicę do posortowania. Następnie sortujemy tablicę rosnąco, wykorzystując do tego funkcję `sort` zawartą w bibliotece `algorithm`. Jako argumenty do funkcji podajemy wskaźniki na początek i koniec sortowanego zakresu (**linia 45**). Podany przedział jest prawostronnie otwarty. Po posortowaniu tablicy wypisujemy ją korzystając z pomocniczej funkcji `printVector`.
 

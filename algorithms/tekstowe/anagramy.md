@@ -1,6 +1,6 @@
 # Anagramy
 
-## Opis problemu
+## Problem description
 
 TODO
 
@@ -8,7 +8,7 @@ TODO
 Dwa wyrazy nazywamy **anagramami**, jeżeli składają się dokładnie z takich samych znaków, ale ułożonych w innej kolejności.
 {% endhint %}
 
-### Specyfikacja
+### Specification
 
 #### Input
 
@@ -16,7 +16,7 @@ Dwa wyrazy nazywamy **anagramami**, jeżeli składają się dokładnie z takich 
 * $$tekst1[1..n]$$ - ciąg znaków o długości $$n$$, numerowanych od jedynki, składający się wyłącznie z małych liter alfabetu angielskiego.
 * $$tekst2[1..n]$$ - ciąg znaków o długości $$n$$, numerowanych od jedynki, składający się wyłącznie z małych liter alfabetu angielskiego.
 
-#### Wynik
+#### Output
 
 * $$True$$ - jeżeli $$tekst1$$ i $$tekst2$$ są anagramami.
 * $$False$$ - w przeciwnym przypadku.

@@ -1,6 +1,6 @@
 # Wyznacznik macierzy 3x3
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/macierze/wyznacznik-macierzy-3x3.md" %}
 [wyznacznik-macierzy-3x3.md](../../../../algorithms/macierze/wyznacznik-macierzy-3x3.md)
@@ -38,6 +38,6 @@ int main() {
 
 {% embed url="https://ideone.com/3XInAf" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

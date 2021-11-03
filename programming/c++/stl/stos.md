@@ -1,6 +1,6 @@
 # stos
 
-## Opis
+## Description
 
 TODO
 

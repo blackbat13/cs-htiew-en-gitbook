@@ -4,7 +4,7 @@ description: Najmniejsza Wspólna Wielokrotność
 
 # NWW
 
-## Opis problemu
+## Problem description
 
 TODO
 

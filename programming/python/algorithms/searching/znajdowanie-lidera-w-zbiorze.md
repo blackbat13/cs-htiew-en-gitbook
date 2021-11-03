@@ -1,6 +1,6 @@
 # Znajdowanie lidera w zbiorze
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/znajdowanie-lidera-w-zbiorze.md" %}
 [znajdowanie-lidera-w-zbiorze.md](../../../../algorithms/searching/znajdowanie-lidera-w-zbiorze.md)
@@ -52,6 +52,6 @@ print(majority)
 Znajdowanie lidera w zbiorze
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

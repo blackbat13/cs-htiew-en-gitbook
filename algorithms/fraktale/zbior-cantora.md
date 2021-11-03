@@ -1,6 +1,6 @@
 # Zbiór Cantora
 
-## Opis problemu
+## Problem description
 
 TODO
 

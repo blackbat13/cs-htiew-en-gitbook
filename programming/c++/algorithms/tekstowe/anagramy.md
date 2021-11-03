@@ -1,6 +1,6 @@
 # Anagramy
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/anagramy.md" %}
 [anagramy.md](../../../../algorithms/tekstowe/anagramy.md)
@@ -46,7 +46,7 @@ int main() {
 Test anagramów
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `areAnagrams` (**linia 10**) sprawdza, czy dwa podane ciągi znaków są anagramami. Procedura jest prosta: najpierw sortujemy oba ciągi, wykorzystując do tego funkcję `sort` z biblioteki `algorithm` (**linie 11 i 12**). Następnie porównujemy posortowane ciągi znaków, zwracając w ten sposób wynik (**linia 13**).
 

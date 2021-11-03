@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/liniowe-wyszukiwanie.md" %}
 [liniowe-wyszukiwanie.md](../../../../algorithms/searching/liniowe-wyszukiwanie.md)
@@ -53,7 +53,7 @@ int main() {
 Wyszukiwanie liniowe - istnienie elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `linearSearch` (**linia 10**) zwraca jako wynik wartość prawda/fałsz i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$0$$ do $$n-1$$ włącznie (**linia 11**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 12**). Jeżeli tak, to zwracamy informację o znalezieniu wartości w tablicy (**linia 13**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `false` informującą, że poszukiwany element nie znajduje się w tablicy (**linia 17**).
 
@@ -106,7 +106,7 @@ int main() {
 Wyszukiwanie liniowe - pozycja elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `linearSearch` (**linia 10**) zwraca jako wynik liczbę całkowitą i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$0$$ do $$n-1$$ włącznie (**linia 11**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 12**). Jeżeli tak, to zwracamy indeks tej wartości w tablicy (**linia 13**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość $$-1$$ informującą, że poszukiwany element nie znajduje się w tablicy (**linia 17**).
 
@@ -151,7 +151,7 @@ int main() {
 Wyszukiwanie liniowe - wszystkie pozycje elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja `linearSearch` (**linia 9**) nie zwraca wyniku i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$0$$ do $$n-1$$ włącznie (**linia 10**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 11**). Jeżeli tak, to wypisujemy ten indeks (**linia 12**). 
 

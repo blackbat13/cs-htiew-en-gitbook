@@ -1,6 +1,6 @@
 # Płatek Kocha
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/platek-kocha.md" %}
 [platek-kocha.md](../../../../algorithms/fraktale/platek-kocha.md)

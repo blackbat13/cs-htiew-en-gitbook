@@ -1,6 +1,6 @@
 # Warunek trójkąta
 
-## Opis problemu
+## Problem description
 
 TODO
 

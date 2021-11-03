@@ -1,6 +1,6 @@
 # Kwadrat Sierpińskiego
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/kwadrat-sierpinskiego.md" %}
 [kwadrat-sierpinskiego.md](../../../../algorithms/fraktale/kwadrat-sierpinskiego.md)
@@ -45,6 +45,6 @@ turtle.done()
 
 {% embed url="https://replit.com/@damiankurpiewski/Sierpinski-Square#main.py" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

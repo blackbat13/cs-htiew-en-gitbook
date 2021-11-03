@@ -1,6 +1,6 @@
 # Minkowski Sausage
 
-## Opis problemu
+## Problem description
 
 TODO
 

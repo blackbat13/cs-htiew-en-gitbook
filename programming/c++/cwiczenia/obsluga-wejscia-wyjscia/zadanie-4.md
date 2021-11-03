@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby naturalne, większe od zera
 
-#### Wynik
+#### Output
 
 * Wynik dzielenia całkowitego oraz reszta z dzielenia liczb $$a$$ i $$b$$ 
 

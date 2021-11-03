@@ -1,20 +1,23 @@
-# Promocja
+# Sale
 
-## Opis
+## Description
 
-W Topolandii żyje sobie farmer imieniem Włodzimir. Włodzimir zajmuje się sprzedażą mleka, pozyskanego ze swoich dorodnych krów pasących się na bujnych łąkach Topolandii. Ostatnio postanowił zastosować specjalną promocję: za $$3$$ puste butelki po mleku możesz dostać $$1$$ pełną butelkę mleka gratis! Ile butelek mleka możesz wypić korzystając z tej promocji, jeżeli masz już zakupionych $$n$$ butelek mleka?
+In Topolandi, farmer Włodzimir lives. 
+Włodzimir deals in the sale of milk, obtained from his cows.
+Recently, he decided to apply a special promotion: for $$3$$ empty milk bottles you can get $$1$$ full bottle of milk FREE!
+How many milk bottles can you drink using this promotion if you have already purchased $$n$$ bottles of milk?
 
-PS. Pan Włodzimir z chęcią pożyczy Ci puste butelki, jeżeli je potem oddasz.
+Ps. Mr. Włodzimir will be happy to borrow you empty bottles if you return them later.
 
-Źródło: [https://onlinejudge.org/external/111/11150.pdf](https://onlinejudge.org/external/111/11150.pdf)
+Source: [https://onlinejudge.org/external/111/11150.pdf](https://onlinejudge.org/external/111/11150.pdf)
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba zakupionych butelek mleka z przedziału$$[1,200]$$
 
-#### Wynik
+#### Output
 
 * Maksymalna liczba butelek mleka , które można wypić, korzystając z promocji. 
 
@@ -26,16 +29,20 @@ PS. Pan Włodzimir z chęcią pożyczy Ci puste butelki, jeżeli je potem oddasz
 n := 8
 ```
 
-#### Wynik
+#### Output
 
 ```
 12
 ```
 
 {% hint style="info" %}
-#### Wyjaśnienie
+#### Explanation
 
-Na początku mamy $$8$$ pełnych butelek mleka. Jeżeli pożyczymy jedną pustą butelkę, to możemy nasze $$9$$ pustych butelek wymienić na $$3$$ nowe. Wypijamy $$3$$ butelki mleka i wymieniamy je na jedną butelkę mleka. Wypijamy i ją, a na końcu oddajemy pustą butelkę. Wypiliśmy więc najpierw $$8$$ , potem $$3$$ i na końcu $$1$$ butelkę mleka:
+At the beginning, we have $$8$$ full of milk bottles.
+If we borrow one empty bottle, then we can have $$9$$ empty bottles exchanged for $$3$$ new.
+Drink $$3$$ bottles of milk and exchange them for one bottle of milk. 
+We drink it, and at the end we return an empty bottle.
+So we drank $$8$$, then $$3$$ and at the end $$1$$ bottle of milk:
 
 $$8+3+1=12$$ 
 {% endhint %}

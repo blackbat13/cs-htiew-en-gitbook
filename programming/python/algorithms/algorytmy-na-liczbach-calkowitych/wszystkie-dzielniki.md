@@ -1,6 +1,6 @@
 # Wszystkie dzielniki
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md" %}
 [wszystkie-dzielniki.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md)
@@ -28,7 +28,7 @@ divisors(n)
 Wszystkie dzielniki - podejście zupełnie naiwne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -57,7 +57,7 @@ divisors(n)
 Wszystkie dzielniki - podejście naiwne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -88,6 +88,6 @@ divisors(n)
 Wszystkie dzielniki - podejście optymalne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

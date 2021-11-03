@@ -1,6 +1,6 @@
 # Kod ASCII
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/kompresja/kod-ascii.md" %}
 [kod-ascii.md](../../../../algorithms/kompresja/kod-ascii.md)
@@ -21,7 +21,7 @@ for i in range(128):
 Podstawowa tablica ASCII
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Podstawowa tablica ASCII zawiera 128 znaków numerowanych od zera. Przechodzimy więc pętlą od 0 do 127 włącznie (**linia 1**) i, korzystając z funkcji `chr` zamieniającej liczbę na odpowiadający jej znak z tablicy ASCII, wypisujemy kolejne znaki (**linia 2**).
 
@@ -40,7 +40,7 @@ for i in range(256):
 Rozszerzona tablica ASCII
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Rozszerzona tablica ASCII zawiera 256 znaków numerowanych od zera. Przechodzimy więc pętlą od 0 do 255 włącznie (**linia 1**) i, korzystając z funkcji `chr` zamieniającej liczbę na odpowiadający jej znak z tablicy ASCII, wypisujemy kolejne znaki (**linia 2**).
 

@@ -1,6 +1,6 @@
 # Odległość Hamminga
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/odleglosc-hamminga.md" %}
 [odleglosc-hamminga.md](../../../../algorithms/tekstowe/odleglosc-hamminga.md)
@@ -49,6 +49,6 @@ int main() {
 Odległość Hamminga
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

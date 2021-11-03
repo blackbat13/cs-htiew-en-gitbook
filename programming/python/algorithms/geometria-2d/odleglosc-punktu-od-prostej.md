@@ -1,6 +1,6 @@
 # Odległość punktu od prostej
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/geometria-2d/odleglosc-punktu-od-prostej.md" %}
 [odleglosc-punktu-od-prostej.md](../../../../algorithms/geometria-2d/odleglosc-punktu-od-prostej.md)
@@ -32,7 +32,7 @@ print("Distance of the point (-5, -8) from the line ((-3, -4), (7, 6)) is", dist
 Odległość punktu od prostej
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

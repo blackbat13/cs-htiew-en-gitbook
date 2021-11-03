@@ -1,17 +1,17 @@
 # Znajdowanie lidera w zbiorze
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$n$$ - liczba naturalna, liczebność zbioru
 * $$A[1..n]$$ - $$n-elementowy$$ zbiór liczb całkowitych, indeksowany od jedynki
 
-#### Wynik:
+#### Output:
 
 * Lider podanego zbioru, lub -1, jeżeli lider nie istnieje.
 

@@ -1,6 +1,6 @@
 # Odległość punktu od prostej
 
-## Opis problemu
+## Problem description
 
 TODO
 

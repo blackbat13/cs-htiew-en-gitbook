@@ -1,6 +1,6 @@
 # Szyfr płotkowy
 
-## Opis problemu
+## Problem description
 
 TODO
 

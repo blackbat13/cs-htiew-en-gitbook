@@ -1,17 +1,17 @@
 # Płatek Kocha
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - stopień krzywej
 * $$w$$ - początkowa długość linii
 
-#### Wynik
+#### Output
 
 * Płatek Kocha stopnia $$n$$ i początkowej długości $$w$$.
 

@@ -1,6 +1,6 @@
 # Płatek Kocha
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/platek-kocha.md" %}
 [platek-kocha.md](../../../../algorithms/fraktale/platek-kocha.md)
@@ -45,6 +45,6 @@ turtle.done()
 
 {% embed url="https://replit.com/@damiankurpiewski/Koch-Snowflake#main.py" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

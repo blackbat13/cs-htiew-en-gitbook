@@ -1,17 +1,17 @@
 # Drzewo binarne
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - stopień drzewa binarnego
 * $$w$$ - początkowa długość gałęzi (pnia)
 
-#### Wynik
+#### Output
 
 * Drzewo binarne stopnia $$n$$ i początkowej długości $$w$$.
 

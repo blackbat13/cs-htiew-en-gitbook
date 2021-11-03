@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **max**.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b, c$$ - trzy liczby całkowite
 
-#### Wynik
+#### Output
 
 * Największa z liczb $$a$$, $$b$$ i $$c$$ , lub dowolna gdy są sobie równe
 

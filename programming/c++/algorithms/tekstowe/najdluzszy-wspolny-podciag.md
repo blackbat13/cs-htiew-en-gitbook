@@ -1,6 +1,6 @@
 # Najdłuższy wspólny podciąg
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/najdluzszy-wspolny-podciag.md" %}
 [najdluzszy-wspolny-podciag.md](../../../../algorithms/tekstowe/najdluzszy-wspolny-podciag.md)
@@ -80,6 +80,6 @@ int main() {
 Najdłuższy wspólny podciąg
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

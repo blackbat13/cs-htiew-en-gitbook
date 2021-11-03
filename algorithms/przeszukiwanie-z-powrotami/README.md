@@ -1,5 +1,5 @@
 # Przeszukiwanie z powrotami
 
-## Opis
+## Description
 
 TODO

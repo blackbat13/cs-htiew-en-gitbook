@@ -1,6 +1,6 @@
 # Kod ASCII
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/kompresja/kod-ascii.md" %}
 [kod-ascii.md](../../../../algorithms/kompresja/kod-ascii.md)
@@ -32,7 +32,7 @@ int main() {
 Podstawowa tablica ASCII
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -56,6 +56,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

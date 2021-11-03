@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
-#### Wynik
+#### Output
 
 * Komunikat powitania w formie "_Witaj \[**imie**]!_"
 
@@ -28,13 +28,13 @@ imie := "Damian"
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
-#### Wynik
+#### Output
 
 * Suma liczb $$a$$ i $$b$$ 
 
@@ -53,13 +53,13 @@ b := 3
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite, różne od zera
 
-#### Wynik
+#### Output
 
 * Wynik dzielenia liczb $$a$$ i $$b$$ 
 
@@ -78,13 +78,13 @@ b := 2
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby naturalne, większe od zera
 
-#### Wynik
+#### Output
 
 * Wynik dzielenia całkowitego oraz reszta z dzielenia liczb $$a$$ i $$b$$ 
 
@@ -109,13 +109,13 @@ Napisz program zgodny z poniższą specyfikacją.
 Skorzystaj z funkcji **`sqrt`** z biblioteki **`cmath`**.
 {% endhint %}
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Pierwiastek z $$a$$
 
@@ -133,13 +133,13 @@ a := 4
 
 Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **min**.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
-#### Wynik
+#### Output
 
 * Mniejsza z liczb $$a$$ i $$b$$, lub dowolna gdy są sobie równe
 
@@ -158,13 +158,13 @@ b := 3
 
 Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **max**.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b, c$$ - trzy liczby całkowite
 
-#### Wynik
+#### Output
 
 * Największa z liczb $$a$$, $$b$$ i $$c$$ , lub dowolna gdy są sobie równe
 
@@ -184,13 +184,13 @@ c := 3
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$sekundy$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Czas podany w czytelnej formie ** **$$H:M:S$$ ($$H$$ - godziny, $$M$$ - minuty, $$S$$ - sekundy)
 

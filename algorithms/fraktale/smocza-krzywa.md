@@ -1,6 +1,6 @@
 # Smocza Krzywa
 
-## Opis problemu
+## Problem description
 
 TODO
 

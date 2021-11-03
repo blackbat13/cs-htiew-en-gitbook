@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$rok$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Komunikat określający, czy podany rok jest przestępny czy też nie
 

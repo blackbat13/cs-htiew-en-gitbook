@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Pierwiastek z $$a$$
 

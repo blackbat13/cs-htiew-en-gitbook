@@ -1,6 +1,6 @@
 # Szyfr Trithemius'a
 
-## Opis problemu
+## Problem description
 
 TODO
 

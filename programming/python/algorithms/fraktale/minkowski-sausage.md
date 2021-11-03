@@ -1,6 +1,6 @@
 # Minkowski Sausage
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/minkowski-sausage.md" %}
 [minkowski-sausage.md](../../../../algorithms/fraktale/minkowski-sausage.md)
@@ -45,6 +45,6 @@ turtle.done()
 
 {% embed url="https://replit.com/@damiankurpiewski/Minkowski-Sausage#main.py" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

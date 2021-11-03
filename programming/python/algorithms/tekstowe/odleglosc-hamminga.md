@@ -1,6 +1,6 @@
 # Odległość Hamminga
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/odleglosc-hamminga.md" %}
 [odleglosc-hamminga.md](../../../../algorithms/tekstowe/odleglosc-hamminga.md)
@@ -34,7 +34,7 @@ print(f"Odległość Hamminga pomiędzy wyrazami {a} i {b} wynosi {distance}")
 Odległość Hamminga
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

@@ -1,10 +1,10 @@
 # Ćwiczenie 1
 
-## Opis
+## Description
 
 Dany jest następujący pseudokod, zgodny z poniższą  częściową specyfikacją:
 
-### Specyfikacja
+### Specification
 
 #### Input
 

@@ -1,6 +1,6 @@
 # Lista jednokierunkowa
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/struktury-danych/lista-jednokierunkowa.md" %}
 [lista-jednokierunkowa.md](../../../../algorithms/struktury-danych/lista-jednokierunkowa.md)

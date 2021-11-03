@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
-#### Wynik
+#### Output
 
 * Komunikat powitania w formie "_Witaj \[**imie**]!_", np. "_Witaj Damian!_"
 

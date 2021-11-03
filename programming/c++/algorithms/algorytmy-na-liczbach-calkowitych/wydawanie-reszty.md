@@ -1,6 +1,6 @@
 # Wydawanie reszty
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/zachlanne-wydawanie-reszty.md" %}
 [zachlanne-wydawanie-reszty.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/zachlanne-wydawanie-reszty.md)
@@ -52,7 +52,7 @@ int main() {
 Zachłanne wydawanie reszty
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -128,7 +128,7 @@ int main() {
 Wydawanie reszty - podejście dynamiczne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

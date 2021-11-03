@@ -1,6 +1,6 @@
 # Struktura zbiorów rozłącznych
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/struktury-danych/struktura-zbiorow-rozlacznych.md" %}
 [struktura-zbiorow-rozlacznych.md](../../../../algorithms/struktury-danych/struktura-zbiorow-rozlacznych.md)
@@ -84,6 +84,6 @@ int main() {
 Struktura zbiorów rozłącznych
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

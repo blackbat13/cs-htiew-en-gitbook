@@ -1,20 +1,21 @@
-# Różne cyfry
+# Unique digits
 
-## Opis
+## Description
 
-Dla zadanego przedziału określ ile liczb w tym przedziale składa się wyłącznie z różnych cyfr, tzn. w ich zapisie cyfry się nie powtarzają. Np. liczba $$123$$ składa się z różnych cyfr, natomiast liczba $$100$$ już nie, ponieważ cyfra $$0$$ się powtarza.
+For a given interval, specify how many numbers in this range consists only of unique digits, i.e. their digits are not repeated.
+For example, the number of $$123$$ consists of unique digits, while the number $$100$$ no longer because the digit $$0$$ repeats.
 
-Źródło: [https://onlinejudge.org/external/125/12527.pdf](https://onlinejudge.org/external/125/12527.pdf)
+Source: [https://onlinejudge.org/external/125/12527.pdf](https://onlinejudge.org/external/125/12527.pdf)
 
-### Specyfikacja
+### Specification
 
 #### Input
 
-* $$a, b$$ - liczby całkowite z przedziału $$[1,5000]$$
+* $$a, b$$ - integers from range $$[1,5000]$$
 
-#### Wynik
+#### Output
 
-* Ilość wszystkich liczb z przedziału $$[a,b]$$, które składają się wyłącznie z różnych cyfr. 
+* Number of all numbers from range $$[a, b]$$, which consist only of unique digits.
 
 ### Example
 
@@ -25,16 +26,16 @@ a := 87
 b := 104
 ```
 
-#### Wynik
+#### Output
 
 ```
 14
 ```
 
 {% hint style="info" %}
-#### Wyjaśnienie
+#### Explanation
 
-Z przedziału $$[87,104]$$ następujące liczby składają się wyłącznie z różnych cyfr:
+In the range $$[87,104]$$ the following numbers consists only of unique digits:
 
 $$87,89,90,91,92,93,94,95,96,97,98,102,103,104$$ 
 {% endhint %}

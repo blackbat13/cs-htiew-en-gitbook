@@ -1,6 +1,6 @@
 # Konwersja w systemie U2
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -39,6 +39,6 @@ print(f"{number_u2} (U2) = {number_decimal} (10)")
 Konwersja z systemu U2 do dziesiętnego
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

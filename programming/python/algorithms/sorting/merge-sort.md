@@ -1,6 +1,6 @@
 # Merge sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/merge-sort.md" %}
 [merge-sort.md](../../../../algorithms/sorting/merge-sort.md)
@@ -52,6 +52,6 @@ print(array)
 Merge sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

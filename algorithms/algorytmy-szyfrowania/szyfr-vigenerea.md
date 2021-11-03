@@ -1,6 +1,6 @@
 # Szyfr Vigenere'a
 
-## Opis problemu
+## Problem description
 
 TODO
 

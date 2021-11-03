@@ -4,7 +4,7 @@ description: Największy Wspólny Dzielnik
 
 # NWD
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/algorytm-euklidesa.md" %}
 [algorytm-euklidesa.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/algorytm-euklidesa.md)
@@ -52,7 +52,7 @@ int main() {
 Obliczanie NWD za pomocą algorytmu z odejmowaniem
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -96,7 +96,7 @@ int main() {
 Obliczanie NWD za pomocą iteracyjnego algorytmu Euklidesa
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -138,7 +138,7 @@ int main() {
 Obliczanie NWD za pomocą rekurencyjnego algorytmu Euklidesa
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -207,7 +207,7 @@ int main() {
 Binarne NWD - wersja iteracyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -273,6 +273,6 @@ int main() {
 Binarne NWD - wersja rekurencyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

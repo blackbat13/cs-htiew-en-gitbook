@@ -4,7 +4,7 @@ description: BST
 
 # Drzewa przeszukiwań binarnych
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/struktury-danych/drzewa-przeszukiwan-binarnych.md" %}
 [drzewa-przeszukiwan-binarnych.md](../../../../algorithms/struktury-danych/drzewa-przeszukiwan-binarnych.md)
@@ -149,7 +149,7 @@ int main() {
 Drzewa przeszukiwań binarnych
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

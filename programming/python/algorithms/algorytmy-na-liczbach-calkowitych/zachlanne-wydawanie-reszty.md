@@ -1,6 +1,6 @@
 # Wydawanie reszty
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/zachlanne-wydawanie-reszty.md" %}
 [zachlanne-wydawanie-reszty.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/zachlanne-wydawanie-reszty.md)
@@ -38,7 +38,7 @@ print(f"Amount {amount} can be given out using {result} coins")
 Wydawanie reszty - podejście zachłanne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -90,7 +90,7 @@ change_dynamic(amount, coins)
 Wydawanie reszty - podejście dynamiczne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

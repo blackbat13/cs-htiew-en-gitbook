@@ -1,21 +1,22 @@
-# Różnice w sekwencji
+# Sequence differences
 
-## Opis
+## Description
 
-Dana jest pewna sekwencja $$n$$ liczb całkowitych. Twoim celem jest sprawdzenie, czy jak weźmiemy wartości bezwzględne różnic pomiędzy każdymi kolejnymi dwoma elementami sekwencji, to otrzymamy wszystkie liczby od $$1$$ do $$n-1$$ włącznie.
+A sequence of $$n$$ integers is given.
+Your goal is to check whether if we take the absolute values of differences between each two subsequent sequence elements, we will receive all numbers from the range $$1$$ to $$n-1$$ inclusive.
 
-Źródło: [https://onlinejudge.org/external/100/10038.pdf](https://onlinejudge.org/external/100/10038.pdf)
+Source: [https://onlinejudge.org/external/100/10038.pdf](https://onlinejudge.org/external/100/10038.pdf)
 
-### Specyfikacja
+### Specification
 
 #### Input
 
-* $$n$$ - liczba naturalna z przedziału $$[1,3000]$$
-* $$tab[n]$$ - sekwencja$$n$$ liczb całkowitych
+* $$n$$ - natural number from the range $$[1,3000]$$
+* $$tab[n]$$ - sequence of $$n$$ integers
 
-#### Wynik
+#### Output
 
-* "TAK" jeżeli sekwencja spełnia opisane wyżej wymaganie, lub "NIE" w przeciwnym przypadku
+* "YES" If the sequence meets the requirement described above, or "NO" otherwise
 
 ### Example 1
 
@@ -26,22 +27,22 @@ n := 4
 tab := [1, 4, 2, 3]
 ```
 
-#### Wynik
+#### Output
 
 ```
-TAK
+YES
 ```
 
 {% hint style="info" %}
-#### Wyjaśnienie
+#### Explanation
 
-Przyjrzyjmy się wartościom bezwzględnym różnic pomiędzy sąsiednimi elementami sekwencji:
+Let's look at the absolute values of differences between neighboring elements of sequence:
 
 * $$|1-4|=3$$ 
 * $$|4-2|=2$$ 
 * $$|2-3|=1$$ 
 
-Jak widać otrzymaliśmy wszystkie wartości z przedziału $$[1,n-1]$$, czyli z przedziału $$[1,3]$$.
+As you can see, we have received all values from $$[1, N-1]$$, i.e. from $$[1,3]$$.
 {% endhint %}
 
 ### Example 2
@@ -54,21 +55,21 @@ tab := [1, 4, 2, -1, 6
 ]
 ```
 
-#### Wynik
+#### Output
 
 ```
-NIE
+NO
 ```
 
 {% hint style="info" %}
-#### Wyjaśnienie
+#### Explanation
 
-Przyjrzyjmy się wartościom bezwzględnym różnic pomiędzy sąsiednimi elementami sekwencji:
+Let's look at the absolute values of differences between neighboring elements of sequence:
 
 * $$|1-4|=3$$ 
 * $$|4-2|=2$$ 
 * $$|2-(-1)|=3$$ 
 * $$|-1-6|=7$$ 
 
-Jak widać nie otrzymaliśmy wszystkich wartości z przedziału $$[1,n-1]$$, czyli z przedziału $$[1,4]$$
+As you can see, we have not received all values from $$[1, N-1]$$, i.e. from $$[1,4]$$
 {% endhint %}

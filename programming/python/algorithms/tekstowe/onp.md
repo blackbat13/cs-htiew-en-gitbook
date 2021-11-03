@@ -1,6 +1,6 @@
 # ONP
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/odwrotna-notacja-polska.md" %}
 [odwrotna-notacja-polska.md](../../../../algorithms/tekstowe/odwrotna-notacja-polska.md)
@@ -48,6 +48,6 @@ print(result)
 Obliczanie wartości wyrażenia ONP
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

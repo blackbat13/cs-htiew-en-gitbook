@@ -1,6 +1,6 @@
 # Kody Huffmana
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/kompresja/kody-huffmana.md" %}
 [kody-huffmana.md](../../../../algorithms/kompresja/kody-huffmana.md)

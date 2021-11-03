@@ -4,11 +4,11 @@ description: Wypełnianie obszarów
 
 # Flood fill
 
-## Opis problemu
+## Problem description
 
 Flood fill jest algorytmem pozwalającym na wypełnienie/odwiedzenie pewnego zamkniętego obszaru. Przykładem może być kolorowanie obszarów zamkniętych w programach graficznych.
 
-### Specyfikacja
+### Specification
 
 TODO
 

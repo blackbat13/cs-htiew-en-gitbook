@@ -1,6 +1,6 @@
 # Heap sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/heap-sort.md" %}
 [heap-sort.md](../../../../algorithms/sorting/heap-sort.md)
@@ -39,6 +39,6 @@ print(array)
 Heap sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

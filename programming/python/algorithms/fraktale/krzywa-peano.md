@@ -1,6 +1,6 @@
 # Krzywa Peano
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/krzywa-peano.md" %}
 [krzywa-peano.md](../../../../algorithms/fraktale/krzywa-peano.md)
@@ -40,6 +40,6 @@ turtle.done()
 
 {% embed url="https://replit.com/@damiankurpiewski/Peano-Curve#main.py" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

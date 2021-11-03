@@ -1,6 +1,6 @@
 # Szyfr Vigenere'a
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-vigenerea.md" %}
 [szyfr-vigenerea.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-vigenerea.md)
@@ -55,7 +55,7 @@ int main() {
 Szyfrowanie szyfrem Vigenere'a
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -108,6 +108,6 @@ int main() {
 Deszyfrowanie szyfrem Vigenere'a
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

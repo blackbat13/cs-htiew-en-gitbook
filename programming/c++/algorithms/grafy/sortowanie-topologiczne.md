@@ -1,6 +1,6 @@
 # Sortowanie topologiczne
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/sortowanie-topologiczne.md" %}
 [sortowanie-topologiczne.md](../../../../algorithms/grafowe/sortowanie-topologiczne.md)
@@ -92,7 +92,7 @@ int main() {
 Sortowanie topologiczne
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

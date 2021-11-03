@@ -1,17 +1,17 @@
 # Trójkąt Sierpińskiego
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - stopień trójkąta
 * $$w$$ - początkowa długość
 
-#### Wynik
+#### Output
 
 * Trójkąt Sierpińskiego stopnia $$n$$ i początkowej długości $$w$$.
 

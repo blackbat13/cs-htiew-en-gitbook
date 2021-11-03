@@ -1,6 +1,6 @@
 # Kwadrat Sierpińskiego
 
-## Opis problemu
+## Problem description
 
 TODO
 

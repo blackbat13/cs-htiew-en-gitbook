@@ -1,6 +1,6 @@
 # Szyfr Beauforta
 
-## Opis problemu
+## Problem description
 
 TODO
 

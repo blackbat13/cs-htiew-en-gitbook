@@ -4,14 +4,14 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 * $$a_1,a_2,\dots,a_n$$ - $$n$$ liczb całkowitych
 
-#### Wynik
+#### Output
 
 * $$a_n,a_{n-1},\dots,a_2,a_1$$ - podane liczby w odwrotnej kolejności
 
@@ -19,14 +19,14 @@ Napisz program zgodny z poniższą specyfikacją.
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 * $$t1[n],\ t2[n]$$ - dwie tablice liczb całkowitych
 
-#### Wynik
+#### Output
 
 * Tablica powstała poprzez dodanie do siebie wartości z tablic $$t1$$ i $$t2$$ 
 
@@ -52,13 +52,13 @@ $$[4+2,\ 1+3,\ 7+1,\ 0+9,\ 2+6]$$
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * $$fib[n]$$ - tablica zawierająca $$n$$ kolejnych liczb Fibonacciego
 
@@ -76,13 +76,13 @@ n := 6
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * $$mno[n][n]$$ - dwuwymiarowa tablica reprezentująca tabliczkę mnożenia liczb z zakresu $$[0,n-1]$$, gdzie $$mno[i][j]=i*j$$
 
@@ -94,7 +94,7 @@ Napisz program zgodny z poniższą specyfikacją.
 n := 3
 ```
 
-#### Wynik
+#### Output
 
 ```
 mno := [[0, 0, 0],

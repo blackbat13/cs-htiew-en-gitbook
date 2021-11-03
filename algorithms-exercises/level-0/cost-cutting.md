@@ -1,18 +1,18 @@
 # Cięcie kosztów
 
-## Opis
+## Description
 
 Pewna firma postanowiła przeprowadzić redukcję zatrudnienia. Celem jest cięcie kosztów. Pracownicy pracują w zespołach trzyosobowych. W ramach jednego zespołu zarobki pracowników mogą się różnić. Zarząd postanowił, że z każdego takiego zespołu zostaną zwolnione dwie osoby o skrajnych zarobkach, tzn.: osoba zarabiająca najwięcej i osoba zarabiająca najmniej. Kto przetrwa redukcję i pozostanie zatrudniony?
 
 Źródło: [https://onlinejudge.org/external/117/11727.pdf](https://onlinejudge.org/external/117/11727.pdf)
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a,b,c$$ - trzy liczby naturalne określające zarobki pracowników, wszystkie w zakresie $$[1000, 10000]$$
 
-#### Wynik
+#### Output
 
 * Zarobki pracownika, który pozostanie zatrudniony
 

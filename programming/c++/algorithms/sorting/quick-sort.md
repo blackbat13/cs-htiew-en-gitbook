@@ -1,6 +1,6 @@
 # Quick sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/quick-sort.md" %}
 [quick-sort.md](../../../../algorithms/sorting/quick-sort.md)
@@ -76,6 +76,6 @@ int main() {
 Quick sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

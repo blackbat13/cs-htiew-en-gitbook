@@ -10,7 +10,7 @@
 Porównywanie liczb - Blockly
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Na początku wczytujemy dwie liczby od użytkownika, podając przy tym stosowane komunikaty i zapisując je w zmiennych `a` i `b`.
 

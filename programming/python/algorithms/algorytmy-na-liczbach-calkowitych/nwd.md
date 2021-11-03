@@ -4,7 +4,7 @@ description: Największy Wspólny Dzielnik
 
 # NWD
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/algorytm-euklidesa.md" %}
 [algorytm-euklidesa.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/algorytm-euklidesa.md)
@@ -39,7 +39,7 @@ print(f"GCD({a}, {b}) = {result}")
 NWD z odejmowaniem
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -71,7 +71,7 @@ print(f"GCD({a},{b}) = {result}")
 Algorytm Euklidesa - wersja iteracyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -101,6 +101,6 @@ print(f"GCD({a},{b}) = {result}")
 Algorytm Euklidesa - wersja rekurencyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

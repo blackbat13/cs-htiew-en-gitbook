@@ -1,6 +1,6 @@
 # Spójne składowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/spojne-skladowe.md" %}
 [spojne-skladowe.md](../../../../algorithms/grafowe/spojne-skladowe.md)
@@ -92,7 +92,7 @@ int main() {
 Zliczanie liczby spójnych składowych w grafie nieskierowanym
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 

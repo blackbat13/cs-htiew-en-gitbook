@@ -4,7 +4,7 @@ description: Sprawdzanie, czy wyraz jest palindromem
 
 # Palindrom
 
-## Opis problemu
+## Problem description
 
 TODO
 
@@ -12,14 +12,14 @@ TODO
 **Palindrom **to wyraz, który czytany od lewej do prawej i od prawej do lewej jest taki sam.
 {% endhint %}
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$n$$ - długość tekstu
 * $$tekst[1..n]$$ - ciąg znaków o długości $$n$$, numerowanych od jedynki 
 
-#### Wynik:
+#### Output:
 
 * $$True$$ - jeżeli $$tekst$$ jest palindromem
 * $$False$$ - w przeciwnym przypadku
@@ -33,7 +33,7 @@ n := 5
 tekst := "kajak"
 ```
 
-#### Wynik: $$True$$ 
+#### Output: $$True$$ 
 
 {% hint style="info" %}
 **Wyjaśnienie**

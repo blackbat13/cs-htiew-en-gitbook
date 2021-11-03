@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/liniowe-wyszukiwanie.md" %}
 [liniowe-wyszukiwanie.md](../../../../algorithms/searching/liniowe-wyszukiwanie.md)
@@ -22,7 +22,7 @@
 Wyszukiwanie liniowe - istnienie elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja **SzukajLiniowo** zwraca jako wynik wartość prawda/fałsz i przyjmuje dwa argumenty: tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przypisujemy do zmiennej **wynik** wartość _fałsz_ oznaczającą, że nie znaleźliśmy poszukiwanego elementu. W tym momencie jest to zrozumiałe, jako że jeszcze nie zaczęliśmy poszukiwań. Następnie przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$1$$ do długości tablicy włącznie. Długość tablicy pobieramy korzystając z polecenia/bloku **długość**. Dla każdego indeksu (zapisanego w zmiennej **i**) sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość. Jeżeli tak, to przypisujemy do zmiennej **wynik** wartość _prawda_ i przerywamy działanie pętli. Po wyjściu z pętli (tzn. gdy przeszliśmy przez wszystkie indeksy, lub zakończyliśmy działanie pętli wcześniej) zwracamy jako wynik funkcji wartość zmiennej **wynik**.
 
@@ -44,7 +44,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 Wyszukiwanie liniowe - pozycja elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja **SzukajLiniowo** zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przypisujemy do zmiennej **wynik** wartość $$-1$$_ _oznaczającą, że nie znaleźliśmy poszukiwanego elementu. W tym momencie jest to zrozumiałe, jako że jeszcze nie zaczęliśmy poszukiwań. Następnie przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$1$$ do długości tablicy włącznie. Długość tablicy pobieramy korzystając z polecenia/bloku **długość**. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość. Jeżeli tak, to przypisujemy do zmiennej **wynik** wartość indeksu zapisaną w zmiennej **i**, a następnie przerywamy działanie pętli. Po wyjściu z pętli (tzn. gdy przeszliśmy przez wszystkie indeksy, lub zakończyliśmy działanie pętli wcześniej) zwracamy jako wynik funkcji wartość zmiennej **wynik**.
 
@@ -66,7 +66,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 Wyszukiwanie liniowe - wszystkie pozycje elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 Funkcja **SzukajLiniowo** nie zwraca wyniku i przyjmuje dwa argumenty: tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$1$$ do długości tablicy włącznie. Długość tablicy pobieramy korzystając z polecenia/bloku **długość**. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość. Jeżeli tak, to wypisujemy wartość indeksu zapisaną w zmiennej **i**.
 

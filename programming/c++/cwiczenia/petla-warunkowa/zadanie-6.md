@@ -4,14 +4,14 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 * $$p$$ - liczba naturalna z zakresu $$[2,9]$$
 
-#### Wynik
+#### Output
 
 * Zapis liczby $$n$$ w systemie o podstawie $$p$$ 
 

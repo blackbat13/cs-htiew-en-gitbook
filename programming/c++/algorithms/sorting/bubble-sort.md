@@ -1,6 +1,6 @@
 # Bubble sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/bubble-sort.md" %}
 [bubble-sort.md](../../../../algorithms/sorting/bubble-sort.md)
@@ -55,6 +55,6 @@ int main() {
 Bubble sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

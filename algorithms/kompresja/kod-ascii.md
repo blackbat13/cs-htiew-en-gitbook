@@ -1,6 +1,6 @@
 # Kod ASCII
 
-## Opis
+## Description
 
 TODO
 

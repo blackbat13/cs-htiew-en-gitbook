@@ -1,6 +1,6 @@
 # kolejka
 
-## Opis
+## Description
 
 TODO
 

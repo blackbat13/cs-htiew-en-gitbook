@@ -1,6 +1,6 @@
 # Insertion sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/insertion-sort.md" %}
 [insertion-sort.md](../../../../algorithms/sorting/insertion-sort.md)
@@ -55,6 +55,6 @@ int main() {
 Insertion sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

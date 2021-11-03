@@ -1,6 +1,6 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/wyszukiwanie-maksimum.md" %}
 [wyszukiwanie-maksimum.md](../../../../algorithms/searching/wyszukiwanie-maksimum.md)

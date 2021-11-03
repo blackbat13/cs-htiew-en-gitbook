@@ -1,6 +1,6 @@
 # Gnome sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/gnome-sort.md" %}
 [gnome-sort.md](../../../../algorithms/sorting/gnome-sort.md)

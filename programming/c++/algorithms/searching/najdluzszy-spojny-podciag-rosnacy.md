@@ -1,6 +1,6 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/najdluzszy-spojny-podciag-rosnacy.md" %}
 [najdluzszy-spojny-podciag-rosnacy.md](../../../../algorithms/searching/najdluzszy-spojny-podciag-rosnacy.md)
@@ -49,6 +49,6 @@ int main() {
 Długość najdłuższego spójnego podciągu rosnącego
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

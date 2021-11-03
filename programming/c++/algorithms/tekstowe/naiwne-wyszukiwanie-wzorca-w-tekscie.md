@@ -1,6 +1,6 @@
 # Naiwne wyszukiwanie wzorca w tekście
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/naiwne-wyszukiwanie-wzorca-w-tekscie.md" %}
 [naiwne-wyszukiwanie-wzorca-w-tekscie.md](../../../../algorithms/tekstowe/naiwne-wyszukiwanie-wzorca-w-tekscie.md)
@@ -60,6 +60,6 @@ int main() {
 Naiwne wyszukiwanie wzorca w tekście
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

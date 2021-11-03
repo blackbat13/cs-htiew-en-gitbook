@@ -1,6 +1,6 @@
 # Cocktail sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/cocktail-sort.md" %}
 [cocktail-sort.md](../../../../algorithms/sorting/cocktail-sort.md)
@@ -61,6 +61,6 @@ int main() {
 Cocktail sort
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

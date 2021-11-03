@@ -1,17 +1,17 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$n$$ - liczba naturalna, liczba elementów w tablicy
 * $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Największa oraz najmniejsza wartość z tablicy $$A$$
 
@@ -24,7 +24,7 @@ n := 5
 A := [6, 3, 1, 9, 2]
 ```
 
-#### Wynik
+#### Output
 
 ```
 minimum := 1

@@ -1,6 +1,6 @@
 # Sito Eratostenesa
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/sito-eratostenesa.md" %}
 [sito-eratostenesa.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/sito-eratostenesa.md)
@@ -58,6 +58,6 @@ int main() {
 Sito Eratostenesa
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

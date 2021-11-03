@@ -1,19 +1,19 @@
 # Ćwiczenie 1
 
-## Opis
+## Description
 
 Dana jest następująca specyfikacja i zgodna z nią funkcja rekurencyjna:
 
 TODO - poprawić specyfikację
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna, liczba elementów w tablicy
 * $$tab[1..n]$$ - tablica $$n$$ liczb całkowitych, numerowana od jedynki
 
-#### Wynik
+#### Output
 
 * $$suma$$ - suma elementów tablicy $$tab$$ 
 

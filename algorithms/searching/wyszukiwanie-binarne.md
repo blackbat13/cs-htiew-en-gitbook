@@ -1,10 +1,10 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
@@ -12,7 +12,7 @@ TODO
 * $$A[1..n]$$ - posortowana niemalejąco tablica $$n$$ wartości całkowitych
 * $$k$$ - liczba całkowita, szukana wartość
 
-#### Wynik:
+#### Output:
 
 * Indeks wartości $$k$$ w tablicy $$A$$, lub $$-1$$ jeżeli tej wartości nie ma w tablicy
 

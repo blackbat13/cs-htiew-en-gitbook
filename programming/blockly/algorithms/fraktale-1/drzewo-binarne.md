@@ -1,6 +1,6 @@
 # Drzewo binarne
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/drzewo-binarne.md" %}
 [drzewo-binarne.md](../../../../algorithms/fraktale/drzewo-binarne.md)

@@ -1,6 +1,6 @@
 # Test doskonałości
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md" %}
 [test-doskonalosci.md](../../../../algorithms/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md)
@@ -48,6 +48,6 @@ int main() {
 Test doskonałości
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

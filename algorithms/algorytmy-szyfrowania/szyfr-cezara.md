@@ -1,6 +1,6 @@
 # Szyfr Cezara
 
-## Opis problemu
+## Problem description
 
 TODO
 
@@ -8,7 +8,7 @@ TODO
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 
@@ -24,7 +24,7 @@ TODO
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 

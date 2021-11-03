@@ -1,6 +1,6 @@
 # Prim
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/grafowe/prim.md" %}
 [prim.md](../../../../algorithms/grafowe/prim.md)
@@ -14,6 +14,6 @@ TODO
 
 TODO
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

@@ -1,23 +1,23 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 TODO
 
 ## Wyszukiwanie wartości maksymalnej w tablicy
 
-### Opis problemu
+### Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$n$$ - liczba naturalna, liczba elementów w tablicy
 * $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Największa wartość z tablicy $$A$$
 
@@ -60,18 +60,18 @@ $$O(n)$$ - liniowa
 
 ## Wyszukiwanie indeksu wartości maksymalnej w tablicy
 
-### Opis problemu
+### Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input:
 
 * $$n$$ - liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Indeks największej wartości z tablicy $$A$$ 
 

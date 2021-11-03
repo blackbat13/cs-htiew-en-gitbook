@@ -1,6 +1,6 @@
 # Bubble sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/bubble-sort.md" %}
 [bubble-sort.md](../../../../algorithms/sorting/bubble-sort.md)
@@ -31,7 +31,7 @@ print(array)
 Bubble sort - wersja standardowa
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -66,6 +66,6 @@ print(array)
 Bubble sort - wersja zoptymalizowana
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 W wersji zoptymalizowanej w każdym przebiegu głównej pętli (**linia 2**) sprawdzamy, czy podczas wykonania wewnętrznej pętli (**linia 5**) została dokonana jakaś zamiana elementów. W tym celu używamy dodatkowej zmiennej `swap`. Jeżeli żadna zamiana nie została wykonana (**linia 10**), to oznacza, że można zakończyć działanie algorytmu (**linia 11**), ponieważ lista została już posortowana.

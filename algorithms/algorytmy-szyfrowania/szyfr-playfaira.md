@@ -1,6 +1,6 @@
 # Szyfr Playfaira
 
-## Opis problemu
+## Problem description
 
 TODO
 

@@ -1,6 +1,6 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/wyszukiwanie-binarne.md" %}
 [wyszukiwanie-binarne.md](../../../../algorithms/searching/wyszukiwanie-binarne.md)

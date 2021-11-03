@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$a, b$$ - dwie liczby całkowite
 
-#### Wynik
+#### Output
 
 * Suma liczb $$a$$ i $$b$$ 
 

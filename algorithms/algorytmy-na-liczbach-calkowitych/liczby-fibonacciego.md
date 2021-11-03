@@ -1,16 +1,16 @@
 # Liczby Fibonacciego
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna, większa od zera
 
-#### Wynik
+#### Output
 
 * $$n$$-ta liczba Fibonacciego
 

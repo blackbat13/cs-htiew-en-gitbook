@@ -1,6 +1,6 @@
 # Odległość Levenshteina (edycyjna)
 
-## Opis problemu
+## Problem description
 
 TODO
 

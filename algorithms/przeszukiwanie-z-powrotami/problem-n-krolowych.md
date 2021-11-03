@@ -1,6 +1,6 @@
 # Problem n królowych
 
-## Opis problemu
+## Problem description
 
 TODO
 

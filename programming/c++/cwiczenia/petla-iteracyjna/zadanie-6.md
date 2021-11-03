@@ -4,13 +4,13 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
 #### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * Tabliczka mnożenia z zakresu $$[1,n]$$
 

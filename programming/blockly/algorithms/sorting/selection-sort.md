@@ -1,6 +1,6 @@
 # Selection sort
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/selection-sort.md" %}
 [selection-sort.md](../../../../algorithms/sorting/selection-sort.md)

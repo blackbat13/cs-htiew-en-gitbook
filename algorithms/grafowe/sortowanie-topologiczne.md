@@ -1,10 +1,10 @@
 # Sortowanie topologiczne
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 

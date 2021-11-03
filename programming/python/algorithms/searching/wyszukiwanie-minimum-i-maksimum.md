@@ -1,6 +1,6 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/wyszukiwanie-maksimum.md" %}
 [wyszukiwanie-maksimum.md](../../../../algorithms/searching/wyszukiwanie-maksimum.md)
@@ -47,7 +47,7 @@ print("Max:", max_val)
 Wyszukiwanie wartości minimum i maksimum
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -92,6 +92,6 @@ print("Max index:", max_ind)
 Wyszukiwanie indeksów wartości min i maks
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

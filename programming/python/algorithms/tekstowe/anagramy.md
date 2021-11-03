@@ -1,6 +1,6 @@
 # Anagramy
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/tekstowe/anagramy.md" %}
 [anagramy.md](../../../../algorithms/tekstowe/anagramy.md)
@@ -28,6 +28,6 @@ else:
 Test anagramów
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

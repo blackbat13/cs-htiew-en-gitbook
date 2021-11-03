@@ -1,6 +1,6 @@
 # Szyfr Playfaira
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/algorytmy-szyfrowania/szyfr-playfaira.md" %}
 [szyfr-playfaira.md](../../../../algorithms/algorytmy-szyfrowania/szyfr-playfaira.md)
@@ -76,7 +76,7 @@ print(encoded)
 Szyfrowanie szyfrem Playfaira
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -150,6 +150,6 @@ print(decoded)
 Deszyfrowanie szyfrem Playfaira
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

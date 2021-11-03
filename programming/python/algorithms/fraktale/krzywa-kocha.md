@@ -1,6 +1,6 @@
 # Krzywa Kocha
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fraktale/krzywa-kocha.md" %}
 [krzywa-kocha.md](../../../../algorithms/fraktale/krzywa-kocha.md)
@@ -39,6 +39,6 @@ turtle.done()
 
 {% embed url="https://replit.com/@damiankurpiewski/Koch-Curve#main.py" %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

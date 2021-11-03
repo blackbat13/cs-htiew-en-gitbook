@@ -1,6 +1,6 @@
 # Szybkie potęgowanie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/metody-numeryczne/szybkie-potegowanie.md" %}
 [szybkie-potegowanie.md](../../../../algorithms/metody-numeryczne/szybkie-potegowanie.md)
@@ -49,6 +49,6 @@ int main() {
 Szybkie potęgowanie
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO

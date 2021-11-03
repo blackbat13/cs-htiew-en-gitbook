@@ -1,6 +1,6 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/wyszukiwanie-binarne.md" %}
 [wyszukiwanie-binarne.md](../../../../algorithms/searching/wyszukiwanie-binarne.md)
@@ -64,7 +64,7 @@ int main() {
 Wyszukiwanie binarne - wersja iteracyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
 
@@ -123,6 +123,6 @@ int main() {
 Wyszukiwanie binarne - wersja rekurencyjna
 {% endembed %}
 
-### Opis implementacji
+### Implementation descriptioni
 
 TODO
