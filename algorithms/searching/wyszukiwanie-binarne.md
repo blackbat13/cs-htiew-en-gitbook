@@ -84,18 +84,18 @@ $$O(\log n)$$ - logarytmiczna
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/wyszukiwanie/wyszukiwanie-binarne.md" %}
-[wyszukiwanie-binarne.md](../../programming/c++/algorytmy/wyszukiwanie/wyszukiwanie-binarne.md)
+{% content-ref url="../../programming/c++/algorithms/searching/wyszukiwanie-binarne.md" %}
+[wyszukiwanie-binarne.md](../../programming/c++/algorithms/searching/wyszukiwanie-binarne.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/wyszukiwanie/wyszukiwanie-binarne.md" %}
-[wyszukiwanie-binarne.md](../../programming/python/algorytmy/wyszukiwanie/wyszukiwanie-binarne.md)
+{% content-ref url="../../programming/python/algorithms/searching/wyszukiwanie-binarne.md" %}
+[wyszukiwanie-binarne.md](../../programming/python/algorithms/searching/wyszukiwanie-binarne.md)
 {% endcontent-ref %}
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorytmy/wyszukiwanie/wyszukiwanie-binarne.md" %}
-[wyszukiwanie-binarne.md](../../programming/blockly/algorytmy/wyszukiwanie/wyszukiwanie-binarne.md)
+{% content-ref url="../../programming/blockly/algorithms/searching/wyszukiwanie-binarne.md" %}
+[wyszukiwanie-binarne.md](../../programming/blockly/algorithms/searching/wyszukiwanie-binarne.md)
 {% endcontent-ref %}

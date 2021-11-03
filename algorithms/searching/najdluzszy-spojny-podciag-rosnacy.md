@@ -76,13 +76,13 @@ $$O(n)$$ - liniowa
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/wyszukiwanie/najdluzszy-spojny-podciag-rosnacy.md" %}
-[najdluzszy-spojny-podciag-rosnacy.md](../../programming/c++/algorytmy/wyszukiwanie/najdluzszy-spojny-podciag-rosnacy.md)
+{% content-ref url="../../programming/c++/algorithms/searching/najdluzszy-spojny-podciag-rosnacy.md" %}
+[najdluzszy-spojny-podciag-rosnacy.md](../../programming/c++/algorithms/searching/najdluzszy-spojny-podciag-rosnacy.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/wyszukiwanie/najdluzszy-spojny-podciag-rosnacy.md" %}
-[najdluzszy-spojny-podciag-rosnacy.md](../../programming/python/algorytmy/wyszukiwanie/najdluzszy-spojny-podciag-rosnacy.md)
+{% content-ref url="../../programming/python/algorithms/searching/najdluzszy-spojny-podciag-rosnacy.md" %}
+[najdluzszy-spojny-podciag-rosnacy.md](../../programming/python/algorithms/searching/najdluzszy-spojny-podciag-rosnacy.md)
 {% endcontent-ref %}
 

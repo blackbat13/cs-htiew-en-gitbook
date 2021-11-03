@@ -2,8 +2,8 @@
 
 ## Opis problemu
 
-{% content-ref url="../../../../algorithms/wyszukiwanie/liniowe-wyszukiwanie.md" %}
-[liniowe-wyszukiwanie.md](../../../../algorithms/wyszukiwanie/liniowe-wyszukiwanie.md)
+{% content-ref url="../../../../algorithms/searching/liniowe-wyszukiwanie.md" %}
+[liniowe-wyszukiwanie.md](../../../../algorithms/searching/liniowe-wyszukiwanie.md)
 {% endcontent-ref %}
 
 ## Istnienie elementu

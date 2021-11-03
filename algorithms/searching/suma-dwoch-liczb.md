@@ -81,12 +81,12 @@ $$O(n)$$ - liniowa
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/wyszukiwanie/suma-dwoch-liczb.md" %}
-[suma-dwoch-liczb.md](../../programming/c++/algorytmy/wyszukiwanie/suma-dwoch-liczb.md)
+{% content-ref url="../../programming/c++/algorithms/searching/suma-dwoch-liczb.md" %}
+[suma-dwoch-liczb.md](../../programming/c++/algorithms/searching/suma-dwoch-liczb.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/wyszukiwanie/suma-dwoch-liczb.md" %}
-[suma-dwoch-liczb.md](../../programming/python/algorytmy/wyszukiwanie/suma-dwoch-liczb.md)
+{% content-ref url="../../programming/python/algorithms/searching/suma-dwoch-liczb.md" %}
+[suma-dwoch-liczb.md](../../programming/python/algorithms/searching/suma-dwoch-liczb.md)
 {% endcontent-ref %}

@@ -28,12 +28,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/kompresja/kody-huffmana.md" %}
-[kody-huffmana.md](../../programming/c++/algorytmy/kompresja/kody-huffmana.md)
+{% content-ref url="../../programming/c++/algorithms/kompresja/kody-huffmana.md" %}
+[kody-huffmana.md](../../programming/c++/algorithms/kompresja/kody-huffmana.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/kodowanie-i-kompresja/kody-huffmana.md" %}
-[kody-huffmana.md](../../programming/python/algorytmy/kodowanie-i-kompresja/kody-huffmana.md)
+{% content-ref url="../../programming/python/algorithms/kodowanie-i-kompresja/kody-huffmana.md" %}
+[kody-huffmana.md](../../programming/python/algorithms/kodowanie-i-kompresja/kody-huffmana.md)
 {% endcontent-ref %}

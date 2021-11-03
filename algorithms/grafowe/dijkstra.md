@@ -32,12 +32,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/grafy/dijkstra.md" %}
-[dijkstra.md](../../programming/c++/algorytmy/grafy/dijkstra.md)
+{% content-ref url="../../programming/c++/algorithms/grafy/dijkstra.md" %}
+[dijkstra.md](../../programming/c++/algorithms/grafy/dijkstra.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/grafy/dijkstra.md" %}
-[dijkstra.md](../../programming/python/algorytmy/grafy/dijkstra.md)
+{% content-ref url="../../programming/python/algorithms/grafy/dijkstra.md" %}
+[dijkstra.md](../../programming/python/algorithms/grafy/dijkstra.md)
 {% endcontent-ref %}

@@ -2,8 +2,8 @@
 
 ## Opis problemu
 
-{% content-ref url="../../../../algorithms/wyszukiwanie/wyszukiwanie-maksimum.md" %}
-[wyszukiwanie-maksimum.md](../../../../algorithms/wyszukiwanie/wyszukiwanie-maksimum.md)
+{% content-ref url="../../../../algorithms/searching/wyszukiwanie-maksimum.md" %}
+[wyszukiwanie-maksimum.md](../../../../algorithms/searching/wyszukiwanie-maksimum.md)
 {% endcontent-ref %}
 
 ## Implementacja

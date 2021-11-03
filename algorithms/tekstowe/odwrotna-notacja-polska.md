@@ -48,12 +48,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/tekstowe/onp.md" %}
-[onp.md](../../programming/c++/algorytmy/tekstowe/onp.md)
+{% content-ref url="../../programming/c++/algorithms/tekstowe/onp.md" %}
+[onp.md](../../programming/c++/algorithms/tekstowe/onp.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/tekstowe/onp.md" %}
-[onp.md](../../programming/python/algorytmy/tekstowe/onp.md)
+{% content-ref url="../../programming/python/algorithms/tekstowe/onp.md" %}
+[onp.md](../../programming/python/algorithms/tekstowe/onp.md)
 {% endcontent-ref %}

@@ -64,12 +64,12 @@ $$O(n^2)$$  - kwadratowa
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/sortowanie/sortowanie-babelkowe.md" %}
-[sortowanie-babelkowe.md](../../programming/c++/algorytmy/sortowanie/sortowanie-babelkowe.md)
+{% content-ref url="../../programming/c++/algorithms/sortowanie/sortowanie-babelkowe.md" %}
+[sortowanie-babelkowe.md](../../programming/c++/algorithms/sortowanie/sortowanie-babelkowe.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/sortowanie/sortowanie-babelkowe.md" %}
-[sortowanie-babelkowe.md](../../programming/python/algorytmy/sortowanie/sortowanie-babelkowe.md)
+{% content-ref url="../../programming/python/algorithms/sortowanie/sortowanie-babelkowe.md" %}
+[sortowanie-babelkowe.md](../../programming/python/algorithms/sortowanie/sortowanie-babelkowe.md)
 {% endcontent-ref %}

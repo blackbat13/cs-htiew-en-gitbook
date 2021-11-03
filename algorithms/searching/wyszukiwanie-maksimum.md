@@ -118,18 +118,18 @@ $$O(n)$$ - liniowa
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/wyszukiwanie/wyszukiwanie-minimum-i-maksimum.md" %}
-[wyszukiwanie-minimum-i-maksimum.md](../../programming/c++/algorytmy/wyszukiwanie/wyszukiwanie-minimum-i-maksimum.md)
+{% content-ref url="../../programming/c++/algorithms/searching/wyszukiwanie-minimum-i-maksimum.md" %}
+[wyszukiwanie-minimum-i-maksimum.md](../../programming/c++/algorithms/searching/wyszukiwanie-minimum-i-maksimum.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/wyszukiwanie/wyszukiwanie-minimum-i-maksimum.md" %}
-[wyszukiwanie-minimum-i-maksimum.md](../../programming/python/algorytmy/wyszukiwanie/wyszukiwanie-minimum-i-maksimum.md)
+{% content-ref url="../../programming/python/algorithms/searching/wyszukiwanie-minimum-i-maksimum.md" %}
+[wyszukiwanie-minimum-i-maksimum.md](../../programming/python/algorithms/searching/wyszukiwanie-minimum-i-maksimum.md)
 {% endcontent-ref %}
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorytmy/wyszukiwanie/wyszukiwanie-minimum-i-maksimum.md" %}
-[wyszukiwanie-minimum-i-maksimum.md](../../programming/blockly/algorytmy/wyszukiwanie/wyszukiwanie-minimum-i-maksimum.md)
+{% content-ref url="../../programming/blockly/algorithms/searching/wyszukiwanie-minimum-i-maksimum.md" %}
+[wyszukiwanie-minimum-i-maksimum.md](../../programming/blockly/algorithms/searching/wyszukiwanie-minimum-i-maksimum.md)
 {% endcontent-ref %}

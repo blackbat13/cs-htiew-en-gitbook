@@ -28,12 +28,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/python/algorytmy/grafy/kruskal.md" %}
-[kruskal.md](../../programming/python/algorytmy/grafy/kruskal.md)
+{% content-ref url="../../programming/python/algorithms/grafy/kruskal.md" %}
+[kruskal.md](../../programming/python/algorithms/grafy/kruskal.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/c++/algorytmy/grafy/kruskal.md" %}
-[kruskal.md](../../programming/c++/algorytmy/grafy/kruskal.md)
+{% content-ref url="../../programming/c++/algorithms/grafy/kruskal.md" %}
+[kruskal.md](../../programming/c++/algorithms/grafy/kruskal.md)
 {% endcontent-ref %}

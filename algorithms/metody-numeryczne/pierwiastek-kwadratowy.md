@@ -43,12 +43,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/metody-numeryczne/pierwiastek-kwadratowy.md" %}
-[pierwiastek-kwadratowy.md](../../programming/c++/algorytmy/metody-numeryczne/pierwiastek-kwadratowy.md)
+{% content-ref url="../../programming/c++/algorithms/metody-numeryczne/pierwiastek-kwadratowy.md" %}
+[pierwiastek-kwadratowy.md](../../programming/c++/algorithms/metody-numeryczne/pierwiastek-kwadratowy.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/metody-numeryczne/pierwiastek-kwadratowy.md" %}
-[pierwiastek-kwadratowy.md](../../programming/python/algorytmy/metody-numeryczne/pierwiastek-kwadratowy.md)
+{% content-ref url="../../programming/python/algorithms/metody-numeryczne/pierwiastek-kwadratowy.md" %}
+[pierwiastek-kwadratowy.md](../../programming/python/algorithms/metody-numeryczne/pierwiastek-kwadratowy.md)
 {% endcontent-ref %}

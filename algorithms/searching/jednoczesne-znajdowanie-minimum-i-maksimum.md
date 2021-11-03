@@ -98,12 +98,12 @@ $$O(3\frac{n}{2})$$
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/wyszukiwanie/jednoczesne-wyszukiwanie-minimum-i-maksimum.md" %}
-[jednoczesne-wyszukiwanie-minimum-i-maksimum.md](../../programming/c++/algorytmy/wyszukiwanie/jednoczesne-wyszukiwanie-minimum-i-maksimum.md)
+{% content-ref url="../../programming/c++/algorithms/searching/jednoczesne-wyszukiwanie-minimum-i-maksimum.md" %}
+[jednoczesne-wyszukiwanie-minimum-i-maksimum.md](../../programming/c++/algorithms/searching/jednoczesne-wyszukiwanie-minimum-i-maksimum.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/wyszukiwanie/naiwne-wyszukiwanie-minimum-i-maksimum.md" %}
-[naiwne-wyszukiwanie-minimum-i-maksimum.md](../../programming/python/algorytmy/wyszukiwanie/naiwne-wyszukiwanie-minimum-i-maksimum.md)
+{% content-ref url="../../programming/python/algorithms/searching/naiwne-wyszukiwanie-minimum-i-maksimum.md" %}
+[naiwne-wyszukiwanie-minimum-i-maksimum.md](../../programming/python/algorithms/searching/naiwne-wyszukiwanie-minimum-i-maksimum.md)
 {% endcontent-ref %}

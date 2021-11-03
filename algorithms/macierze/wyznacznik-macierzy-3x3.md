@@ -12,12 +12,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/macierze/wyznacznik-macierzy-3x3.md" %}
-[wyznacznik-macierzy-3x3.md](../../programming/c++/algorytmy/macierze/wyznacznik-macierzy-3x3.md)
+{% content-ref url="../../programming/c++/algorithms/macierze/wyznacznik-macierzy-3x3.md" %}
+[wyznacznik-macierzy-3x3.md](../../programming/c++/algorithms/macierze/wyznacznik-macierzy-3x3.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/macierze/wyznacznik-macierzy-3x3.md" %}
-[wyznacznik-macierzy-3x3.md](../../programming/python/algorytmy/macierze/wyznacznik-macierzy-3x3.md)
+{% content-ref url="../../programming/python/algorithms/macierze/wyznacznik-macierzy-3x3.md" %}
+[wyznacznik-macierzy-3x3.md](../../programming/python/algorithms/macierze/wyznacznik-macierzy-3x3.md)
 {% endcontent-ref %}

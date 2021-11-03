@@ -12,12 +12,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/geometria-2d/punkt-na-odcinku.md" %}
-[punkt-na-odcinku.md](../../programming/c++/algorytmy/geometria-2d/punkt-na-odcinku.md)
+{% content-ref url="../../programming/c++/algorithms/geometria-2d/punkt-na-odcinku.md" %}
+[punkt-na-odcinku.md](../../programming/c++/algorithms/geometria-2d/punkt-na-odcinku.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/geometria-2d/punkt-na-odcinku.md" %}
-[punkt-na-odcinku.md](../../programming/python/algorytmy/geometria-2d/punkt-na-odcinku.md)
+{% content-ref url="../../programming/python/algorithms/geometria-2d/punkt-na-odcinku.md" %}
+[punkt-na-odcinku.md](../../programming/python/algorithms/geometria-2d/punkt-na-odcinku.md)
 {% endcontent-ref %}

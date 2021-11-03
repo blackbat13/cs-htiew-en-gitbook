@@ -2,8 +2,8 @@
 
 ## Opis problemu
 
-{% content-ref url="../../../../algorithms/wyszukiwanie/wyszukiwanie-binarne.md" %}
-[wyszukiwanie-binarne.md](../../../../algorithms/wyszukiwanie/wyszukiwanie-binarne.md)
+{% content-ref url="../../../../algorithms/searching/wyszukiwanie-binarne.md" %}
+[wyszukiwanie-binarne.md](../../../../algorithms/searching/wyszukiwanie-binarne.md)
 {% endcontent-ref %}
 
 ## Wersja iteracyjna

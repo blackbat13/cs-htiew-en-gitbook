@@ -46,12 +46,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/sortowanie/sortowanie-grzebieniowe.md" %}
-[sortowanie-grzebieniowe.md](../../programming/c++/algorytmy/sortowanie/sortowanie-grzebieniowe.md)
+{% content-ref url="../../programming/c++/algorithms/sortowanie/sortowanie-grzebieniowe.md" %}
+[sortowanie-grzebieniowe.md](../../programming/c++/algorithms/sortowanie/sortowanie-grzebieniowe.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/sortowanie/sortowanie-grzebieniowe.md" %}
-[sortowanie-grzebieniowe.md](../../programming/python/algorytmy/sortowanie/sortowanie-grzebieniowe.md)
+{% content-ref url="../../programming/python/algorithms/sortowanie/sortowanie-grzebieniowe.md" %}
+[sortowanie-grzebieniowe.md](../../programming/python/algorithms/sortowanie/sortowanie-grzebieniowe.md)
 {% endcontent-ref %}

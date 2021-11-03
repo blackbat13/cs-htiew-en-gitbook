@@ -133,12 +133,12 @@ $$O(\sqrt{n})$$
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md" %}
-[test-doskonalosci.md](../../programming/c++/algorytmy/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md)
+{% content-ref url="../../programming/c++/algorithms/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md" %}
+[test-doskonalosci.md](../../programming/c++/algorithms/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md" %}
-[test-doskonalosci.md](../../programming/python/algorytmy/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md)
+{% content-ref url="../../programming/python/algorithms/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md" %}
+[test-doskonalosci.md](../../programming/python/algorithms/algorytmy-na-liczbach-calkowitych/test-doskonalosci.md)
 {% endcontent-ref %}

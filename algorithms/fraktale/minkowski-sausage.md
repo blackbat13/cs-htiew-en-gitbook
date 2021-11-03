@@ -12,12 +12,12 @@ TODO
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/fraktale/minkowski-sausage.md" %}
-[minkowski-sausage.md](../../programming/python/algorytmy/fraktale/minkowski-sausage.md)
+{% content-ref url="../../programming/python/algorithms/fraktale/minkowski-sausage.md" %}
+[minkowski-sausage.md](../../programming/python/algorithms/fraktale/minkowski-sausage.md)
 {% endcontent-ref %}
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorytmy/fraktale-1/minkowski-sausage.md" %}
-[minkowski-sausage.md](../../programming/blockly/algorytmy/fraktale-1/minkowski-sausage.md)
+{% content-ref url="../../programming/blockly/algorithms/fraktale-1/minkowski-sausage.md" %}
+[minkowski-sausage.md](../../programming/blockly/algorithms/fraktale-1/minkowski-sausage.md)
 {% endcontent-ref %}

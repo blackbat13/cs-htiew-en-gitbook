@@ -12,12 +12,12 @@ TODO
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/fraktale/krzywa-peano.md" %}
-[krzywa-peano.md](../../programming/python/algorytmy/fraktale/krzywa-peano.md)
+{% content-ref url="../../programming/python/algorithms/fraktale/krzywa-peano.md" %}
+[krzywa-peano.md](../../programming/python/algorithms/fraktale/krzywa-peano.md)
 {% endcontent-ref %}
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorytmy/fraktale-1/krzywa-peano.md" %}
-[krzywa-peano.md](../../programming/blockly/algorytmy/fraktale-1/krzywa-peano.md)
+{% content-ref url="../../programming/blockly/algorithms/fraktale-1/krzywa-peano.md" %}
+[krzywa-peano.md](../../programming/blockly/algorithms/fraktale-1/krzywa-peano.md)
 {% endcontent-ref %}

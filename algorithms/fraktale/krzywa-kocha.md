@@ -23,12 +23,12 @@ TODO
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/fraktale/krzywa-kocha.md" %}
-[krzywa-kocha.md](../../programming/python/algorytmy/fraktale/krzywa-kocha.md)
+{% content-ref url="../../programming/python/algorithms/fraktale/krzywa-kocha.md" %}
+[krzywa-kocha.md](../../programming/python/algorithms/fraktale/krzywa-kocha.md)
 {% endcontent-ref %}
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorytmy/fraktale-1/krzywa-kocha.md" %}
-[krzywa-kocha.md](../../programming/blockly/algorytmy/fraktale-1/krzywa-kocha.md)
+{% content-ref url="../../programming/blockly/algorithms/fraktale-1/krzywa-kocha.md" %}
+[krzywa-kocha.md](../../programming/blockly/algorithms/fraktale-1/krzywa-kocha.md)
 {% endcontent-ref %}

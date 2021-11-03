@@ -16,12 +16,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/szyfrowanie/szyfr-rot13.md" %}
-[szyfr-rot13.md](../../programming/c++/algorytmy/szyfrowanie/szyfr-rot13.md)
+{% content-ref url="../../programming/c++/algorithms/szyfrowanie/szyfr-rot13.md" %}
+[szyfr-rot13.md](../../programming/c++/algorithms/szyfrowanie/szyfr-rot13.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/szyfrowanie/szyfr-rot13.md" %}
-[szyfr-rot13.md](../../programming/python/algorytmy/szyfrowanie/szyfr-rot13.md)
+{% content-ref url="../../programming/python/algorithms/szyfrowanie/szyfr-rot13.md" %}
+[szyfr-rot13.md](../../programming/python/algorithms/szyfrowanie/szyfr-rot13.md)
 {% endcontent-ref %}

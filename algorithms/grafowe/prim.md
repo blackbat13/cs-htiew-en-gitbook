@@ -28,12 +28,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/grafy/prim.md" %}
-[prim.md](../../programming/c++/algorytmy/grafy/prim.md)
+{% content-ref url="../../programming/c++/algorithms/grafy/prim.md" %}
+[prim.md](../../programming/c++/algorithms/grafy/prim.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/grafy/prim.md" %}
-[prim.md](../../programming/python/algorytmy/grafy/prim.md)
+{% content-ref url="../../programming/python/algorithms/grafy/prim.md" %}
+[prim.md](../../programming/python/algorithms/grafy/prim.md)
 {% endcontent-ref %}

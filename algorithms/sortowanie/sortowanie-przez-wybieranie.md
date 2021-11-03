@@ -66,18 +66,18 @@ $$O(n^2)$$ - kwadratowa
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/sortowanie/sortowanie-przez-wybieranie.md" %}
-[sortowanie-przez-wybieranie.md](../../programming/c++/algorytmy/sortowanie/sortowanie-przez-wybieranie.md)
+{% content-ref url="../../programming/c++/algorithms/sortowanie/sortowanie-przez-wybieranie.md" %}
+[sortowanie-przez-wybieranie.md](../../programming/c++/algorithms/sortowanie/sortowanie-przez-wybieranie.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/sortowanie/sortowanie-przez-wybieranie.md" %}
-[sortowanie-przez-wybieranie.md](../../programming/python/algorytmy/sortowanie/sortowanie-przez-wybieranie.md)
+{% content-ref url="../../programming/python/algorithms/sortowanie/sortowanie-przez-wybieranie.md" %}
+[sortowanie-przez-wybieranie.md](../../programming/python/algorithms/sortowanie/sortowanie-przez-wybieranie.md)
 {% endcontent-ref %}
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorytmy/sortowanie/sortowanie-przez-wybieranie.md" %}
-[sortowanie-przez-wybieranie.md](../../programming/blockly/algorytmy/sortowanie/sortowanie-przez-wybieranie.md)
+{% content-ref url="../../programming/blockly/algorithms/sortowanie/sortowanie-przez-wybieranie.md" %}
+[sortowanie-przez-wybieranie.md](../../programming/blockly/algorithms/sortowanie/sortowanie-przez-wybieranie.md)
 {% endcontent-ref %}

@@ -12,12 +12,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/przeszukiwanie-z-powrotami/problem-n-krolowych.md" %}
-[problem-n-krolowych.md](../../programming/c++/algorytmy/przeszukiwanie-z-powrotami/problem-n-krolowych.md)
+{% content-ref url="../../programming/c++/algorithms/przeszukiwanie-z-powrotami/problem-n-krolowych.md" %}
+[problem-n-krolowych.md](../../programming/c++/algorithms/przeszukiwanie-z-powrotami/problem-n-krolowych.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/inne/problem-n-krolowych.md" %}
-[problem-n-krolowych.md](../../programming/python/algorytmy/inne/problem-n-krolowych.md)
+{% content-ref url="../../programming/python/algorithms/inne/problem-n-krolowych.md" %}
+[problem-n-krolowych.md](../../programming/python/algorithms/inne/problem-n-krolowych.md)
 {% endcontent-ref %}

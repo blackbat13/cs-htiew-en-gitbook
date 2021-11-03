@@ -101,19 +101,19 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/algorytmy-na-liczbach-calkowitych/nwd.md" %}
-[nwd.md](../../programming/c++/algorytmy/algorytmy-na-liczbach-calkowitych/nwd.md)
+{% content-ref url="../../programming/c++/algorithms/algorytmy-na-liczbach-calkowitych/nwd.md" %}
+[nwd.md](../../programming/c++/algorithms/algorytmy-na-liczbach-calkowitych/nwd.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/algorytmy-na-liczbach-calkowitych/nwd.md" %}
-[nwd.md](../../programming/python/algorytmy/algorytmy-na-liczbach-calkowitych/nwd.md)
+{% content-ref url="../../programming/python/algorithms/algorytmy-na-liczbach-calkowitych/nwd.md" %}
+[nwd.md](../../programming/python/algorithms/algorytmy-na-liczbach-calkowitych/nwd.md)
 {% endcontent-ref %}
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorytmy/algorytmy-na-liczbach-calkowitych/nwd.md" %}
-[nwd.md](../../programming/blockly/algorytmy/algorytmy-na-liczbach-calkowitych/nwd.md)
+{% content-ref url="../../programming/blockly/algorithms/algorytmy-na-liczbach-calkowitych/nwd.md" %}
+[nwd.md](../../programming/blockly/algorithms/algorytmy-na-liczbach-calkowitych/nwd.md)
 {% endcontent-ref %}
 

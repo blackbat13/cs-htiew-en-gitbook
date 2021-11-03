@@ -123,12 +123,12 @@ $$O(\sqrt{n})$$
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md" %}
-[wszystkie-dzielniki.md](../../programming/c++/algorytmy/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md)
+{% content-ref url="../../programming/c++/algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md" %}
+[wszystkie-dzielniki.md](../../programming/c++/algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md" %}
-[wszystkie-dzielniki.md](../../programming/python/algorytmy/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md)
+{% content-ref url="../../programming/python/algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md" %}
+[wszystkie-dzielniki.md](../../programming/python/algorithms/algorytmy-na-liczbach-calkowitych/wszystkie-dzielniki.md)
 {% endcontent-ref %}

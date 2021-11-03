@@ -28,12 +28,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/grafy/sortowanie-topologiczne.md" %}
-[sortowanie-topologiczne.md](../../programming/c++/algorytmy/grafy/sortowanie-topologiczne.md)
+{% content-ref url="../../programming/c++/algorithms/grafy/sortowanie-topologiczne.md" %}
+[sortowanie-topologiczne.md](../../programming/c++/algorithms/grafy/sortowanie-topologiczne.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/grafy/sortowanie-topologiczne.md" %}
-[sortowanie-topologiczne.md](../../programming/python/algorytmy/grafy/sortowanie-topologiczne.md)
+{% content-ref url="../../programming/python/algorithms/grafy/sortowanie-topologiczne.md" %}
+[sortowanie-topologiczne.md](../../programming/python/algorithms/grafy/sortowanie-topologiczne.md)
 {% endcontent-ref %}

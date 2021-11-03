@@ -28,12 +28,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/grafy/polaczone-komponenty.md" %}
-[polaczone-komponenty.md](../../programming/c++/algorytmy/grafy/polaczone-komponenty.md)
+{% content-ref url="../../programming/c++/algorithms/grafy/polaczone-komponenty.md" %}
+[polaczone-komponenty.md](../../programming/c++/algorithms/grafy/polaczone-komponenty.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/grafy/spojne-skladowe.md" %}
-[spojne-skladowe.md](../../programming/python/algorytmy/grafy/spojne-skladowe.md)
+{% content-ref url="../../programming/python/algorithms/grafy/spojne-skladowe.md" %}
+[spojne-skladowe.md](../../programming/python/algorithms/grafy/spojne-skladowe.md)
 {% endcontent-ref %}

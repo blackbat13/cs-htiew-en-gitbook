@@ -28,12 +28,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/struktury/stos.md" %}
-[stos.md](../../programming/c++/algorytmy/struktury/stos.md)
+{% content-ref url="../../programming/c++/algorithms/struktury/stos.md" %}
+[stos.md](../../programming/c++/algorithms/struktury/stos.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/struktury-danych/stos.md" %}
-[stos.md](../../programming/python/algorytmy/struktury-danych/stos.md)
+{% content-ref url="../../programming/python/algorithms/struktury-danych/stos.md" %}
+[stos.md](../../programming/python/algorithms/struktury-danych/stos.md)
 {% endcontent-ref %}

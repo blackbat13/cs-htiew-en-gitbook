@@ -28,12 +28,12 @@ TODO
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorytmy/struktury/lista-dwukierunkowa.md" %}
-[lista-dwukierunkowa.md](../../programming/c++/algorytmy/struktury/lista-dwukierunkowa.md)
+{% content-ref url="../../programming/c++/algorithms/struktury/lista-dwukierunkowa.md" %}
+[lista-dwukierunkowa.md](../../programming/c++/algorithms/struktury/lista-dwukierunkowa.md)
 {% endcontent-ref %}
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/struktury-danych/lista-dwukierunkowa.md" %}
-[lista-dwukierunkowa.md](../../programming/python/algorytmy/struktury-danych/lista-dwukierunkowa.md)
+{% content-ref url="../../programming/python/algorithms/struktury-danych/lista-dwukierunkowa.md" %}
+[lista-dwukierunkowa.md](../../programming/python/algorithms/struktury-danych/lista-dwukierunkowa.md)
 {% endcontent-ref %}

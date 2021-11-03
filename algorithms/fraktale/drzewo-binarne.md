@@ -47,12 +47,12 @@ funkcja DrzewoBinarne(n, w):
 
 ### Python
 
-{% content-ref url="../../programming/python/algorytmy/fraktale/drzewo-binarne.md" %}
-[drzewo-binarne.md](../../programming/python/algorytmy/fraktale/drzewo-binarne.md)
+{% content-ref url="../../programming/python/algorithms/fraktale/drzewo-binarne.md" %}
+[drzewo-binarne.md](../../programming/python/algorithms/fraktale/drzewo-binarne.md)
 {% endcontent-ref %}
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorytmy/fraktale-1/drzewo-binarne.md" %}
-[drzewo-binarne.md](../../programming/blockly/algorytmy/fraktale-1/drzewo-binarne.md)
+{% content-ref url="../../programming/blockly/algorithms/fraktale-1/drzewo-binarne.md" %}
+[drzewo-binarne.md](../../programming/blockly/algorithms/fraktale-1/drzewo-binarne.md)
 {% endcontent-ref %}
