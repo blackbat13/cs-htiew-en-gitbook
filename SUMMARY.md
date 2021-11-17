@@ -535,6 +535,7 @@
   * [Sale](algorithms-exercises/level-1/promocja.md)
   * [Coding image](algorithms-exercises/level-1/coding-image.md)
   * [Number game](algorithms-exercises/level-1/number-game.md)
+  * [Parentheses](algorithms-exercises/level-1/parentheses.md)
 * [Level 2](algorithms-exercises/level-2.md)
 
 ## Learning programming by creating games <a href="game-learning" id="game-learning"></a>
