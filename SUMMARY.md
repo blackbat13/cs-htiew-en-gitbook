@@ -533,6 +533,7 @@
   * [Different digits](algorithms-exercises/level-1/rozne-cyfry.md)
   * [Sequence difference](algorithms-exercises/level-1/wesole-skoki.md)
   * [Sale](algorithms-exercises/level-1/promocja.md)
+  * [Coding image](algorithms-exercises/level-1/coding-image.md)
 * [Level 2](algorithms-exercises/level-2.md)
 
 ## Learning programming by creating games <a href="game-learning" id="game-learning"></a>
