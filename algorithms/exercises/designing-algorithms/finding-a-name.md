@@ -44,3 +44,7 @@ Design an algorithm to solve the given problem. Draw a block diagram of that alg
 ## Exercise 2
 
 Analyze the effectiveness of your solution. Modify the algorithm to handle many names, i.e. for multiple names check whether they are on the list. How effective is your solution now? Can you think of any way to improve it? If so, draw a block diagram of the new algorithm and implement it in your language of choice.
+
+## Exercise 3
+
+Modify your solution to automatically generate a list of random words, instead of reading them from the input.
