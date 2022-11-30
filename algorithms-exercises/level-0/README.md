@@ -1,3 +1,3 @@
-# Poziom 0
+# Level 0
 
-Dobre miejsce, by zacząć swoją przygodę z rozwiązywaniem zadań algorytmicznych.
+A good place to start your adventure with solving algorithmic tasks.

@@ -2,18 +2,18 @@
 
 ## Implementation
 
-![Porównywanie liczb - Blockly](<../../../.gitbook/assets/image (9).png>)
+![Comparing numbers - Blockly](<../../../.gitbook/assets/image (9).png>)
 
-### Link do implementacji
+### Link to implementation
 
 {% embed url="https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#qv4ea5" %}
-Porównywanie liczb - Blockly
+Comparing numbers - Blockly
 {% endembed %}
 
-### Implementation descriptioni
+### Implementation description
 
-Na początku wczytujemy dwie liczby od użytkownika, podając przy tym stosowane komunikaty i zapisując je w zmiennych `a` i `b`.
+At the beginning we read two numbers from the user, providing the messages used and saving them in the variables `a` and `b`.
 
-Następnie, korzystając z instrukcji warunkowej, sprawdzamy relację pomiędzy wczytanymi wartościami. Jeżeli wartości zmiennych `a` i `b` są sobie równe to wypisujemy znak równości. W przeciwnym przypadku, jeżeli wartość zmiennej `a` jest mniejsza od wartości zmiennej `b` , to wypisujemy znak mniejszości. W przeciwnym przypadku wypisujemy znak większości.
+Then, using the conditional instructions, we check the relationship between loaded values. If the variable values `a` and `b` are equal, we write an equal sign. Otherwise, if the value of the variable `a` is lower than the value of the variable `b`, then we write a sign of minority. Otherwise, we write a sign of the majority.
 
-Zwróć uwagę na to, że w ostatniej części instrukcji warunkowej, nie musimy już sprawdzać, czy wartość zmiennej `a` jest większa od wartości zmiennej `b`. Wynika to z poprzednich warunków. Jeżeli wartości zmiennych nie są sobie równe ani też `a` nie jest mniejsze od `b`, to wiemy, że `a` jest większe od `b`.
+Note that in the last part of the conditional instructions, we no longer have to check whether the value of the variable `a` is greater than the variable value `b`. This is due to previous conditions. If the variable values are not equal to each other or `a` is not smaller than `b`, we know that `a` is greater than `b`.

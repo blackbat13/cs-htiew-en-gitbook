@@ -518,25 +518,27 @@
 
 ## Algorithms - Exercises
 
-* [Introduction](algorithms-exercises/introduction.md)
+* [Introduction](algorithms-exercises/README.md)
 * [Level 0](algorithms-exercises/level-0/README.md)
   * [Comparing numbers](algorithms-exercises/level-0/comparing-numbers/README.md)
     * [Pseudocode](algorithms-exercises/level-0/comparing-numbers/pseudocode.md)
-    * [Block diagram](algorithms-exercises/level-0/comparing-numbers/schemat-blokowy.md)
+    * [Block diagram](algorithms-exercises/level-0/comparing-numbers/block-diagram.md)
     * [Python](algorithms-exercises/level-0/comparing-numbers/python.md)
     * [C++](algorithms-exercises/level-0/comparing-numbers/c++.md)
     * [Blockly](algorithms-exercises/level-0/comparing-numbers/blockly.md)
-  * [Cost cutting](algorithms-exercises/level-0/cost-cutting.md)
-  * [Packing for holidays](algorithms-exercises/level-0/pakowanie-na-wakacje.md)
+  * [Cost cutting](algorithmic-exercises/level-0/cutting-costs/README.md)
+    * [Pseudocode](algorithmic-exercises/level-0/cutting-costs/pseudocode.md)
+  * [Packing for holidays](algorithmic-exercises/level-0/holidays-packing/README.md)
+    * [Pseudocode](algorithmic-exercises/level-0/holidays-packing/pseudocode.md)
 * [Level 1](algorithms-exercises/level-1/README.md)
   * [Odd sum](algorithms-exercises/level-1/suma-nieparzystych.md)
   * [Different digits](algorithms-exercises/level-1/rozne-cyfry.md)
   * [Sequence difference](algorithms-exercises/level-1/wesole-skoki.md)
   * [Sale](algorithms-exercises/level-1/promocja.md)
+  * [Newspaper](algorithmic-exercises/level-1/newspaper.md)
   * [Coding image](algorithms-exercises/level-1/coding-image.md)
   * [Number game](algorithms-exercises/level-1/number-game.md)
   * [Parentheses](algorithms-exercises/level-1/parentheses.md)
-* [Level 2](algorithms-exercises/level-2.md)
 
 ## Learning programming by creating games <a href="game-learning" id="game-learning"></a>
 

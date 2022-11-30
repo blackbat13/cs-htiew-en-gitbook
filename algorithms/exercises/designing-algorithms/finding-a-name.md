@@ -9,7 +9,7 @@ You have a list of names of guests in no particular order. You are given a singl
 #### Input
 
 * **guests** - list of names in no particular order
-* **name** - single string, consists only of lowercase english alphabet letters
+* **name** - single string, consists only of lowercase English alphabet letters
 
 #### Output&#x20;
 

@@ -28,19 +28,19 @@ int main() {
 }
 ```
 
-### Link do implementacji
+### Link to implementation
 
 {% embed url="https://ideone.com/pIffe8" %}
-Porównywanie liczb - C++
+Comparing two numbers - C++
 {% endembed %}
 
-### Implementation descriptioni
+### Implementation description
 
-Na początku deklarujemy dwie zmienne całkowite `a` i `b` do przechowywania danych wejściowych (**linia 5**). Następnie wczytujemy dwie wartości od użytkownika (**linie 7-11**), podając przy tym stosowane komunikaty.
+At the beginning we declare two integer variables `a` and `b` for the storage of the input data (**line 5**). Then we load two values ​​from the user (**lines 7-11**), providing the messages used.
 
-Następnie, korzystając z instrukcji warunkowej, sprawdzamy relację pomiędzy wczytanymi wartościami. Jeżeli wartości zmiennych `a` i `b` są sobie równe (**linia 13**) to wypisujemy znak równości (**linia 14**). W przeciwnym przypadku, jeżeli wartość zmiennej `a` jest mniejsza od wartości zmiennej `b` (**linia 15**), to wypisujemy znak mniejszości (**linia 16**). W przeciwnym przypadku (**linia 17**) wypisujemy znak większości (**linia 18**).
+Then, using the conditional instructions, we check the relationship between loaded values. If the variable values ​​`a` and `b` are equal (**line 13**), we write an equal sign (**line 14**). Otherwise, if the value of the variable `a` is lower than the variable value `b` (**line 15**), then we write a minority sign (**line 16**). Otherwise (**line 17**) we write the sign of the majority (**line 18**).
 
-Zwróć uwagę na to, że w ostatniej części instrukcji warunkowej (**linia 17**), nie musimy już sprawdzać, czy wartość zmiennej `a` jest większa od wartości zmiennej `b`. Wynika to z poprzednich warunków. Jeżeli wartości zmiennych nie są sobie równe ani też `a` nie jest mniejsze od `b`, to wiemy, że `a` jest większe od `b`.
+Note that in the last part of the conditional instructions (**line 17**), we no longer need to check whether the value of the variable `a` is greater than the value of the variable `b`. This is due to previous conditions. If the variable values ​​are not equal to each other or `a` is not smaller than `b`, we know that `a` is greater than `b`.
 
 
 

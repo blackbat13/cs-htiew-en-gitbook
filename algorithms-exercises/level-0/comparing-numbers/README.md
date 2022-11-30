@@ -14,7 +14,7 @@ Source: [https://onlinejudge.org/external/111/11172.pdf](https://onlinejudge.org
 
 #### Output
 
-* Sign of the relationship between numbers $$a$$ i $$b$$ , ie one of the characters: $$<$$, $$>$$, $$=$$
+* Sign of the relationship between numbers $$a$$ i $$b$$, ie. one of the characters: $$<$$, $$>$$, $$=$$
 
 ### Example
 

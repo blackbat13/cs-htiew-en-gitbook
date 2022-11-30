@@ -14,16 +14,16 @@ else:
     print(">")
 ```
 
-### Link do implementacji
+### Link to implementation
 
 {% embed url="https://ideone.com/xRH1Ti" %}
-Porównywanie liczb - Python
+Comparing two numbers - Python
 {% endembed %}
 
-### Implementation descriptioni
+### Implementation description
 
-Na początku wczytujemy dwie wartości od użytkownika (**linie 1 i 2**). Ponieważ spodziewamy się liczb całkowitych, to poza funkcją `input` do wczytania wartości używamy także funkcji `int` do zamiany wczytanych wartości (które są przechowywane w postaci ciągów znaków typu `string`) na liczby całkowite.
+At the beginning we read two values ​​from the user (**lines 1 and 2**). Since we expect integers, in addition to the `input` function, we also use the `int` function to convert loaded values ​​(which are stored in the form of a `string` characters) into integers.
 
-Następnie, korzystając z instrukcji warunkowej, sprawdzamy relację pomiędzy wczytanymi wartościami. Jeżeli wartości zmiennych `a` i `b` są sobie równe (**linia 4**) to wypisujemy znak równości (**linia 5**). W przeciwnym przypadku, jeżeli wartość zmiennej `a` jest mniejsza od wartości zmiennej `b` (**linia 6**), to wypisujemy znak mniejszości (**linia 7**). W przeciwnym przypadku (**linia 8**) wypisujemy znak większości (**linia 9**).
+Then, using the conditional instructions, we check the relationship between the loaded values. If the values of the variables ​​`a` and `b` are equal (**line 4**), we write an equal sign (**line 5**). Otherwise, if the value of the variable `a` is lower than the value of the variable `b` (**line 6**), then we write a minority sign (**line 7**). Otherwise (**line 8**) we write the sign of the majority (**line 9**).
 
-Zwróć uwagę na to, że w ostatniej części instrukcji warunkowej (**linia 8**), nie musimy już sprawdzać, czy wartość zmiennej `a` jest większa od wartości zmiennej `b`. Wynika to z poprzednich warunków. Jeżeli wartości zmiennych nie są sobie równe ani też `a` nie jest mniejsze od `b`, to wiemy, że `a` jest większe od `b`.
+Note that in the last part of the conditional instructions (**line 8**), we no longer need to check whether the value of the variable `a` is greater than the value of the variable `b`. This is due to previous conditions. If the variable values ​​are not equal to each other and `a` is not smaller than `b`, we know that `a` is greater than `b`.

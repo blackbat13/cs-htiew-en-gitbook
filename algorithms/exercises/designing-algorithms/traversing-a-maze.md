@@ -2,11 +2,11 @@
 
 ## Problem description
 
-You found yourself inside a maze. You don't know the layout of this maze and caanot see the way out, the walls are too tall. Find a way out!
+You found yourself inside a maze. You don't know the layout of this maze and cannot see the way out, the walls are too tall. Find a way out!
 
 ## Exercise
 
-Desing an algorithm to find your way out of the maze. You can execute following actions:
+Design an algorithm to find your way out of the maze. You can execute following actions:
 
 * **check direction** - checks if there is a path in a given direction, where direction can be left, right, forward or backward, for example "**check left**"
 * **move forward** - moves one step forward
