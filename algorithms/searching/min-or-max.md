@@ -68,18 +68,29 @@ Zapiszmy teraz nasz algorytm w postaci pseudokodu.
 ### Pseudokod
 
 ```
-funkcja SzukajMaks(n, A):
-    1. maks := A[1]
-    2. Od i := 2 do n, wykonuj:
-        3. Jeżeli maks < A[i], to:
-            4. maks := A[i]
+function FindMax(n, A):
+    1. max := A[1]
+    2. From i := 2 to n, do:
+        3. If max < A[i], then:
+            4. max := A[i]
 
-    5. Zwróć maks, zakończ
+    5. Return max, stop
 ```
 
-### Schemat blokowy
+### Block diagram
 
-![](../../.gitbook/assets/max_1.png)
+```mermaid
+flowchart TD
+	START(["FindMax(n, A)"]) --> K1["max := A[1]\ni := 1"]
+	K1 --> K2{i <= n}
+	K2 -- TRUE --> K3{"max < A[i]"}
+	K3 -- TRUE --> K4["max := A[i]"]
+	K4 --> K2i[i := i + 1]
+	K2i --> K2
+	K3 -- FALSE --> K2i
+	K2 -- FALSE --> K5[\Return max\]
+	K5 ---> STOP([STOP])
+```
 
 ### Złożoność
 
@@ -137,23 +148,34 @@ Na końcu, po sprawdzeniu wszystkich elementów tablicy, wystarczy zwrócić jak
 
 Zapiszmy teraz nasz algorytm w postaci pseudokodu.
 
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja SzukajIndeksMaks(n, A):
-    1. maks := A[1]
+function FindIndexMax(n, A):
+    1. max := A[1]
     2. ind := 1
-    3. Od i := 2 do n, wykonuj:
-        4. Jeżeli maks < A[i], to:
-            5. maks := A[i]
+    3. From i := 2 to n, do:
+        4. If max < A[i], then:
+            5. max := A[i]
             6. ind := i
     
-    7. Zwróć ind, zakończ    
+    7. Return ind, stop    
 ```
 
-### Schemat blokowy
+### Block diagram
 
-![](../../.gitbook/assets/max_2.png)
+```mermaid
+flowchart TD
+	START(["FindIndexMax(n, A)"]) --> K1["max := A[1]\nind := 1\ni := 1"]
+	K1 --> K2{i <= n}
+	K2 -- TRUE --> K3{"max < A[i]"}
+	K3 -- TRUE --> K4["max := A[i]\nind := i"]
+	K4 --> K2i[i := i + 1]
+	K2i --> K2
+	K3 -- FALSE --> K2i
+	K2 -- FALSE --> K5[\Return ind\]
+	K5 ---> STOP([STOP])
+```
 
 ### Złożoność
 
