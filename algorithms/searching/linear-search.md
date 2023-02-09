@@ -246,7 +246,18 @@ function LinearSearch(n, A, k)
 
 ### Block diagram
 
-![](../../.gitbook/assets/liniowe\_2.png)
+```mermaid
+flowchart TD
+	START(["Linear Search (n, A, k)"]) --> B[i := 1]
+	B --> C{i <= n}
+	C -- FALSE --> D[/Return -1/]
+	C -- TRUE --> E{"k = A[i]"}
+	E -- TRUE --> F[/Return i/]
+	E -- FALSE --> G[i := i + 1]
+	G --> C
+	D --> STOP([STOP])
+	F --> STOP
+```
 
 ### Complexity 
 
@@ -339,7 +350,17 @@ procedura LinearSearch(n, A, k):
 
 ### Block diagram
 
-![](../../.gitbook/assets/liniowe\_3.png)
+```mermaid
+flowchart TD
+	START(["Linear Search (n, A, k)"]) --> B[i := 1]
+	B --> C{i <= n}
+	C -- FALSE ---> STOP([STOP])
+	C -- TRUE --> E{"k = A[i]"}
+	E -- TRUE --> F[/Print i/]
+	E -- FALSE --> G[i := i + 1]
+	F --> G
+	G --> C
+```
 
 ### Complexity
 
