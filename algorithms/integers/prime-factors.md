@@ -2,8 +2,6 @@
 
 ## Opis problemu
 
-TODO
-
 ### Specyfikacja
 
 #### Dane
@@ -26,18 +24,16 @@ n := 124
 
 ## Rozwiązanie
 
-TODO
-
 ### Pseudokod
 
 ```
-funkcja Rozklad(n):
+function PrimeFactors(n):
     1. i := 2
-    2. Dopóki n > 1, wykonuj:
-        3. Jeżeli n mod i = 0, to:
-            4. Wypisz i
+    2. While n > 1, do:
+        3. If n mod i = 0, then:
+            4. Print i
             5. n := n div i
-        6. W przeciwnym przypadku:
+        6. else:
             7. i := i + 1
 ```
 
@@ -49,7 +45,18 @@ funkcja Rozklad(n):
 
 ### Schemat blokowy
 
-TODO
+```mermaid
+flowchart TD
+	START(["PrimeFactors(n)"]) --> K1[i := 2]
+	K1 --> K2{n > 1}
+	K2 -- TRUE --> K3{n mod i = 0}
+	K3 -- TRUE --> K4[/Print i/]
+	K4 --> K5[n := n div i]
+	K5 --> K2
+	K3 -- FALSE --> K7[i := i + 1]
+	K7 --> K2
+	K2 -- FALSE ----> STOP([STOP])
+```
 
 ## Implementacja
 
