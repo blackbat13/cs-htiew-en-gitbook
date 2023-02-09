@@ -48,28 +48,45 @@ P[1..3][1..2] := [[3, 5], [6, 7], [1, 1]]
 
 Rozwiązanie naiwne jest proste. Wystarczy dla każdego zapytania policzyć sumę przedziału przechodząc kolejno po elementach tablicy pod indeksami znajdującymi się w przedziale. Możemy to zrobić za pomocą zwykłej pętli iteracyjnej, dodając kolejne elementy tablicy do liczonej sumy.
 
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja SumyPrzedzialow(n, A, m, P):
-    1. Od i := 1 do m, wykonuj:
-        2. suma := 0
-        3. Od j := P[i][1] do P[i][2], wykonuj:
-            4. suma := suma + A[j]
-        5. Wypisz suma
+function RangeSum(n, A, m, P):
+    1. From i := 1 to m, do:
+        2. sum := 0
+        3. From j := P[i][1] to P[i][2], do:
+            4. sum := sum + A[j]
+        5. Print sum
 ```
 
-## Rozwiązanie optymalne
+### Block diagram
 
-### Pseudokod
+```mermaid
+flowchart TD
+	START(["RangeSum(n, A, m, P)"]) --> K0[i := 1]
+	K0 --> K1{i <= m}
+	K1 -- TRUE --> K2["sum := 0\nj := P[i][1]"]
+	K2 --> K3{"j <= P[i][2]"}
+	K3 -- TRUE --> K4["sum := sum + A[j]"]
+	K4 --> K3i[j := j + 1]
+	K3i --> K3
+	K3 -- FALSE --> K5[/Print sum/]
+	K5 --> K1i[i := i + 1]
+	K1i --> K1
+	K1 -- FALSE --> STOP([STOP])
+```
+
+## Optimal solution
+
+### Pseudocode
 
 ```
-funkcja SumyPrzedzialow(n, A, m, P):
+function RangeSum(n, A, m, P):
     1. pref := [0..n]
     2. pref[0] := 0
-    3. Od i := 1 do n, wykonuj:
+    3. From i := 1 to n, do:
         4. pref[i] := pref[i - 1] + A[i]
-    5. Od i := 1 do m, wykonuj:
-        6. suma := pref[P[i][2]] - pref[P[i][1] - 1]
-        7. Wypisz suma
+    5. From i := 1 to m, do:
+        6. sum := pref[P[i][2]] - pref[P[i][1] - 1]
+        7. Print sum
 ```
