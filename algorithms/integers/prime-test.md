@@ -72,17 +72,32 @@ Podsumujmy nasze rozważania w formie gotowego algorytmu.
 ### Pseudokod
 
 ```
-funkcja CzyPierwsza(n):
-    1. Od i := 2 do n - 1, wykonuj:
-        2. Jeżeli (n mod i) = 0, to:
-            3. Zwróć FAŁSZ, zakończ
+function IsPrime(n):
+    1. From i := 2 to n - 1, do:
+        2. If (n mod i) = 0, then:
+            3. Return FALSE
         
-    4. Zwróć PRAWDA, zakończ
+    4. Return TRUE
 ```
 
 {% hint style="info" %}
-**mod** oznacza operację reszty z dzielenia
+**mod** stands for the modulo operation
 {% endhint %}
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["IsPrime(n)"]) --> K0[i := 2]
+	K0 --> K1{i < n}
+	K1 -- TRUE --> K2{n mod i = 0}
+	K2 -- TRUE --> K3[/Return FALSE/]
+	K3 --> STOP([STOP])
+	K2 -- FALSE --> K1i[i := i + 1]
+	K1i --> K1
+	K1 -- FALSE ----> K4[/Return TRUE/]
+	K4 --> STOP
+```
 
 ### Złożoność
 
@@ -90,17 +105,30 @@ $$O(n)$$ - liniowa
 
 ## Rozwiązanie  naiwne
 
-TODO
-
 ### Pseudokod
 
 ```
-funkcja CzyPierwsza(n):
-    1. Od i := 2 do n div 2, wykonuj:
-        2. Jeżeli (n mod i) = 0, to:
-            3. Zwróć FAŁSZ, zakończ
+function IsPrime(n):
+    1. From i := 2 to n div 2, do:
+        2. If (n mod i) = 0, then:
+            3. Return FALSE
         
-    4. Zwróć PRAWDA, zakończ
+    4. Return TRUE
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["IsPrime(n)"]) --> K0[i := 2]
+	K0 --> K1{i <= n div 2}
+	K1 -- TRUE --> K2{n mod i = 0}
+	K2 -- TRUE --> K3[/Return FALSE/]
+	K3 --> STOP([STOP])
+	K2 -- FALSE --> K1i[i := i + 1]
+	K1i --> K1
+	K1 -- FALSE ----> K4[/Return TRUE/]
+	K4 --> STOP
 ```
 
 ### Złożoność
@@ -109,17 +137,30 @@ $$O(\frac{n}{2})$$
 
 ## Rozwiązanie optymalne
 
-TODO
-
 ### Pseudokod
 
 ```
-funkcja CzyPierwsza(n):
-    1. Od i := 2 do pierwiastka z n, wykonuj:
-        2. Jeżeli (n mod i) = 0, to:
-            3. Zwróć FAŁSZ, zakończ
+function IsPrime(n):
+    1. From i := 2 to sqrt(n), do:
+        2. If (n mod i) = 0, then:
+            3. Return FALSE
         
-    4. Zwróć PRAWDA, zakończ
+    4. Return TRUE
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["IsPrime(n)"]) --> K0[i := 2]
+	K0 --> K1{"i <= sqrt(n)"}
+	K1 -- TRUE --> K2{n mod i = 0}
+	K2 -- TRUE --> K3[/Return FALSE/]
+	K3 --> STOP([STOP])
+	K2 -- FALSE --> K1i[i := i + 1]
+	K1i --> K1
+	K1 -- FALSE ----> K4[/Return TRUE/]
+	K4 --> STOP
 ```
 
 ### Złożoność
