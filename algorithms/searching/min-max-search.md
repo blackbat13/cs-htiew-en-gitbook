@@ -38,15 +38,33 @@ Zacznijmy od rozwiązania naiwnego. Pomysł jest następujący: zastosujmy stand
 ### Pseudokod
 
 ```
-funckja SzukajMinMax(n, A):
+function FindMinMax(n, A):
     1. min := A[1]
     2. max := A[1]
-    3. Od i := 2 do n, wykonuj:
-        4. Jeżeli min < A[i], to:
+    3. From i := 2 to n, do:
+        4. If min > A[i], then:
             5. min := A[i]
-        6. Jeżeli max > A[i], to:
+        6. If max < A[i], then:
             7. max := A[i]
-    8. Zwróć min, max
+    8. Return min, max
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["FindMinMax(n, A)"]) --> K1["min := A[1]\nmax := A[1]\ni := 1"]
+	K1 --> K3{i <= n}
+	K3 -- TRUE --> K4{"min > A[i]"}
+	K4 -- TRUE --> K5["min := A[i]"]
+	K5 --> K6{"max < A[i]"}
+	K4 -- FALSE --> K6
+	K6 -- TRUE --> K7["max := A[i]"]
+	K7 --> K3i[i := i + 1]
+	K6 -- FALSE --> K3i
+	K3i --> K3
+	K3 -- FALSE ---> K8[/Return min, max/]
+	K8 ----> STOP([STOP])
 ```
 
 ### Złożoność
@@ -68,28 +86,56 @@ Dla ułatwienia zakładamy, że długość tablicy (wartość $$n$$) jest liczb�
 ### Pseudokod
 
 ```
-funkcja SzukajMinMax(n, A):
-    1. kandMin := []
-    2. kandMax := []
+function FindMinMax(n, A):
+    1. minCand := [1 .. n div 2]
+    2. maxCand := [1 .. n div 2]
     3. i := 1
     4. k := 1
-    5. Dopóki i + 1 <= n, wykonuj:
-        6. Jeżeli A[i] < A[i+1], to:
-            7. kandMin[k] := A[i]
-            8. kandMax[k] := A[i+1]
-        9. w przeciwnym przypadku:
-            10. kandMin[k] := A[i+1]
-            11. kandMax[k] := A[i]
+    5. While i + 1 <= n, do:
+        6. If A[i] < A[i+1], then:
+            7. minCand[k] := A[i]
+            8. maxCand[k] := A[i+1]
+        9. else:
+            10. minCand[k] := A[i+1]
+            11. maxCand[k] := A[i]
         12. k := k + 1
         13. i := i + 2
-    14. min := kandMin[1]
-    15. max := kandMax[1]
-    16. Od i := 2 do (n div 2), wykonuj:
-        17. Jeżeli min < kandMin[i], to:
-            18. min := kandMin[i]
-        19. Jeżeli max > kandMax[i], to:
-            20. max := kandMax[i]
-    21. Zwróc min, max
+    14. min := minCand[1]
+    15. max := maxCand[1]
+    16. From i := 2 to (n div 2), do:
+        17. If min > minCand[i], then:
+            18. min := minCand[i]
+        19. If max < maxCand[i], then:
+            20. max := maxCand[i]
+    21. Return min, max
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["FindMinMax(n, A)"]) --> K1["minCand := [1 .. n div 2]\nmaxCand := [1 .. n div 2]\ni := 1\nk := 1"]
+	K1 --> K5{i + 1 <= n}
+	K5 -- TRUE --> K6{"A[i] < A[i + 1]"}
+	K6 -- TRUE --> K7["minCand[k] := A[i]"]
+	K7 --> K8["maxCand[k] := A[i + 1]"]
+	K6 -- FALSE --> K10["minCand[k] := A[i + 1]"]
+	K10 --> K11["maxCand[k] := A[i]"]
+	K8 --> K12[k := k + 1\ni := i + 2]
+	K11 --> K12
+	K12 --> K5
+	K5 -- FALSE --> K14["min L= minCand[1]\nmax := maxCand[1]\ni := 1"]
+	K14 --> K16{i <= n div 2}
+	K16 -- TRUE --> K17{"min > minCand[i]"}
+	K17 -- TRUE --> K18["min := minCand[i]"]
+	K17 -- FALSE --> K19{"max < maxCand[i]"}
+	K18 --> K19
+	K19 -- TRUE --> K20["max := maxCand[i]"]
+	K19 -- FALSE --> K16i[i := i + 1]
+	K20 --> K16i
+	K16i --> K16
+	K16 -- FALSE ---> K21[\"Return min, max"\]
+	K21 ----> STOP([STOP])
 ```
 
 ### Złożoność
