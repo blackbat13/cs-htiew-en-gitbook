@@ -1,21 +1,21 @@
-# Wstęp
+# Introduction
 
-Większość kursów programistycznych wygląda bardzo podobnie: poznajemy podstawy języka wykonując proste ćwiczenia, operujące przede wszystkim na liczbach, tekstach i wypisujące komunikaty do konsoli. W takich kursach często osiągnięciem jest napisanie własnej, uproszczonej wersji konsolowego kalkulatora, lub podobnego programu. Cała interakcja z naszym programem sprowadza się zwykle do wpisania danych w konsoli i obserwacji pojawiających się, tekstowych komunikatów. Jak to stwierdziła kiedyś moja uczennica: 
-> Gdy pokazuję mojej mamie działanie swoich programów, nie robi to na niej wrażenia. Ot, jakiś tekst pojawia się na ekranie. 
+Most programming courses look very similar: we learn the basics of language by performing simple exercises, operating primarily on numbers, texts and writing messages to the console. In such courses, writing your own simplified version of the console calculator or a similar program is often an achievement. The whole interaction with our program usually comes down to entering data in the console and observing emerging text messages. As my student once stated: 
+> When I show my mother how the program works, it doesn't impress her. Oh, some text appears on the screen. 
 
-I nic dziwnego! Jest to, krótko mówiąc, mało imponujące, szczególnie dla osób, które nie znają się na programowaniu. A przecież gdy uczymy się czegoś nowego to często chcemy się pochwalić zdobytymi umiejętnościami przed rodziną i znajomymi!
+And no wonder! In short, this is not very impressive, especially for people who do not know programming. And yet when we learn something new, we often want to boast of acquired skills in front of our family and friends!
 
-Jest to jeden z powodów, dla których proponuję inne podejście do nauki programowania. Naukę poprzez tworzenie gier i animacji. 
+This is one of the reasons why I suggest a different approach to learning programming. Learning by creating games and animations.
 
-## Grafiki i dźwięki
+## Images and sounds
 
-Wszystkie grafiki, dźwięki i czcionki używane w projektach są na licencji CC0 lub zbliżonych.
+All graphics, sounds and fonts used in projects are under CC0 or similar license.
 
-Większość grafik i dźwięków pochodzi ze strony:
+Most graphics and sounds come from:
 
 {% embed url="https://kenney.nl/" %}
 
-### Inne źródła
+### Other sources
 
 {% embed url="https://opengameart.org"}
 

@@ -1,31 +1,25 @@
 # Python 3
 
-Python jest bardzo przyjemnym językiem programowania. Co przez to rozumiem? Jego podstawowa składnia i semantyka są łatwe do przyswojenia, a możliwości zapewnione poprzez łatwy dostęp do najróżniejszych bibliotek są ogromne. Jak każdego jednak języka, także Pythona trzeba się nauczyć.
+Python is a very pleasant programming language. What do I understand by that? Its basic syntax and semantics are easy to learn, and the possibilities provided by easy access to various libraries are huge. However, like any other programming language, Python also needs to be learned.
 
-Większość kursów programistycznych wygląda bardzo podobnie: poznajemy podstawy języka wykonując proste ćwiczenia, operujące przede wszystkim na liczbach, tekstach i wypisujące komunikaty do konsoli. W takich kursach często osiągnięciem jest napisanie własnej, uproszczonej wersji konsolowego kalkulatora, lub podobnego programu. Cała interakcja z naszym programem sprowadza się zwykle do wpisania danych w konsoli i obserwacji pojawiających się, tekstowych komunikatów. Jak to stwierdziła kiedyś moja uczennica: "_Gdy pokazuję mojej mamie działanie swoich programów, nie robi to na niej wrażenia. Ot, jakiś tekst pojawia się na ekranie._". I nic dziwnego! Jest to, krótko mówiąc, mało imponujące, szczególnie dla osób, które nie znają się na programowaniu. A przecież gdy uczymy się czegoś nowego to często chcemy się pochwalić zdobytymi umiejętnościami przed rodziną i znajomymi!
+## Suggested order
 
-Jest to jeden z powodów, dla których proponuję inne podejście do nauki programowania. Naukę poprzez tworzenie gier i animacji. Jak już wspomniałem, **Python** jest językiem o dużych możliwościach, głównie za sprawą swoich bibliotek, ale także dzięki swojej konstrukcji. 
+The course is divided into several parts so that everyone can find something for themselves. Below I will try to briefly describe each of them and who it is intended for.
 
-Czas zacząć! Pozwólcie że będę Waszym przewodnikiem podczas podróży po programowaniu i tworzeniu gier.
+### Introduction
 
-## Sugerowana kolejność
+If you haven't had the opportunity to learn programming yet, or you don't know Python, it's worth starting here. You will quickly learn the basics of language and algorithmic thinking by creating your own games. Although you will create games without graphics, it will be a lot of fun!
 
-Kurs jest podzielony na kilka części, tak żeby każdy mógł znaleźć coś dla siebie. Poniżej postaram się krótko opisać każdą z nich i to, dla kogo jest ona przeznaczona.
+### 2D games - Pygame Zero
 
-### Wprowadzenie
+This is where your adventure as a game creator begins. You will learn to create two-dimensional games and animations that you will be able to show to your loved ones and friends.
 
-Jeżeli jeszcze nie miałeś okazji, by nauczyć się programowania, lub nie znasz jęzka Python, to warto zacząć właśnie tutaj. Szybko nauczysz się podstaw języka i myślenia algorytmicznego poprzez tworzenie swoich własnych gier. Chociaż będziesz tworzyć gry bez grafiki, to i tak będzie przy tym dużo zabawy!
+Before you go to this section, you should be familiar with the basics of programming in Python and a developer environment such as Pycharm.
 
-### Gry 2D - Pygame Zero
+### Artificial intelligence
 
-To tutaj zaczyna się Twoja przygoda jako twórcy gier. Nauczysz się tworzyć dwuwymiarowe gry i animacje, którymi będziesz mógł się pochwalić swoim bliskim i znajomym.
+Creating an opponent in a game that will be challenging, but at the same time the user will be able to defeat him is not so trivial! That is why it is worth learning how to use artificial intelligence to create the right level of challenge.
 
-Zanim przejdziesz do tej sekcji, warto żebyś znał już podstawy programowania w języku Python i umiał posługiwać się środowiskiem deweloperskim takim jak Pycharm.
+### Online games
 
-### Sztuczna inteligencja
-
-Stworzenie przeciwnika w grze, który będzie stanowił wyzwanie, ale jednocześnie będzie dawał się pokonać nie jest wcale takie trywialne! Dlatego warto nauczyć się, jak wykorzystać sztuczną inteligencję do stworzenia odpowiedniego wyzwania.
-
-### Gry sieciowe
-
-Granie na jednym komputerze w pojedynkę lub z kilkoma innymi osobami jest świetną zabawą, ale nie zawsze możemy wszyscy zebrać się w jednym miejscu. W takim przypadku warto wiedzieć, jak stworzyć własną grę sieciową, która pozwoli zagrać graczom z różnych zakątków świata.
+Playing games on one computer alone or with several other people is great fun, but we can't always gather in one place. In this case, it is worth knowing how to create your own online game that will allow players from around the world to play with others.

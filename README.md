@@ -1,27 +1,25 @@
 ---
-description: Nauczanie informatyki nowymi metodami
+description: New methods for teaching computer science
 ---
 
-# Informatyka: Trudne Tematy w Najprostszy Sposób
+# Computer Science: Hard Topics in Easiest Way
 
-Na tej stronie znajdziesz omówienie różnych tematów z dziedziny informatyki.
-Każdy temat przygotowywany jest zgodnie z hasłem przewodnim: jak najprościej i jednocześnie praktycznie.
-Materiały przeznaczone są dla każdego, kto chce się czegoś nauczyć, a także dla tych, którzy chcą uczyć innych.
+On this website you will find a discussion of various topics in the field of computer science.
+Each topic is prepared in accordance with the slogan: practical and in the easiest way.
+The materials are intended for anyone who wants to learn something, as well as for those who want to teach others.
 
-Uczniowie znajdą tutaj proste i krótkie omówienia wybranych zagadnień, a nauczyciele znajdą ciekawe pomysły na lekcje i gotowe scenariusze zajęć.
+Students will find here simple and short discussions of selected topics, and teachers will find interesting ideas for lessons.
 
-## Czym różni się ta strona od podobnych, które można znaleźć w sieci?
+## What is the difference between this page and similar ones that can be found on the web?
 
-Po pierwsze, co ważne dla wielu nauczycieli, ta strona dostępna jest w języku polskim. Wiele rozbudowanych stron o podobnej tematyce dostępnych jest jedynie po angielsku, co utrudnia wykorzystanie ich na lekcji.
+The site was prepared by a "programmer with an unusual hobby". Yes, I am an IT specialist by profession, I also worked as a programmer and I am constantly developing in this respect. In addition, I am interested in education and didactics. For many years I have been teaching computer science to children and adults at various levels. Many web pages with similar topics that I found on the web skip one of two important aspects: didactics or professionalism. Materials written professionally and with deep theoretical facilities are often difficult to understand and intended for university students rather than a mere mortal. On the other hand, many teaching materials in computer science lack professionalism: it can be seen that they were written by a person without a deeper experience in this field and unaware of good practices. When preparing materials available on my website, I try to remember about both aspects (of course, please report all errors and/or inaccuracies, to err is human).
 
-Po drugie, strona została przygotowana przez "rasowego informatyka z nietypowym hobby". Tak, z wykształcenia jestem informatykiem, pracowałem także jako programista i cały czas rozwijam się pod tym kątem. Ponadto interesuje mnie edukacja i dydaktyka. Od wielu lat zajmuję się nauczaniem informatyki dzieci i dorosłych na różnych poziomach. Wiele stron o podobnej tematyce, które znalazłem w sieci, pomija jeden z dwóch ważnych aspektów: dydaktykę i profesjonalizm. Materiały napisane profesjonalnie i z głębokim zapleczem teoretycznym często są trudne do przyswojenia i przeznaczone raczej dla studentów uczelni wyższych, niż dla zwykłego śmiertelnika. Z drugiej strony wielu materiałom dydaktycznym z informatyki brakuje profesjonalizmu: widać, że pisała je osoba pozbawiona głębszego doświadczenia w tej dziedzinie i nieświadoma dobrych praktyk. Przygotowując dostępne na mojej stronie materiał staram się pamiętać o jednym i drugim (oczywiście wszelkie błędy i/lub nieścisłości proszę zgłaszać, mylić się jest rzeczą ludzką).
+The materials were prepared (as I mentioned) with the thought "in the simplest way" in mind and with respect for the reader's time. I try to ensure that everyone is able to understand the topics I discuss in a relatively short time. Therefore, I do not write on a dozen or so pages about a simple algorithm, but rather I focus on specifics and simple examples. On the other hand, of course, this means that I do not discuss some nuances, and I only mention some details. As they say: something for something. My materials should help understand the basics and the general idea, I refer interested in details to other sources.
 
-Po trzecie, materiały przygotowane zostały (jak już wspomniałem) z myślą "w jak najprostszy sposób" i z poszanowaniem czasu czytelnika. Staram się, by każdy był w stanie przyswoić omawiane przeze mnie tematy, i to w stosunkowo krótkim czasie. W związku z tym nie rozpisuję się na kilkanaście stron na temat prostego algorytmu, a raczej skupiam się na konkretach i prostych przykładach. Z drugiej strony oczywiście oznacza to, że nie omawiam niektórych niuansów, a część szczegółów poruszam jedynie zdawkowo. Jak to mówią: coś za coś. Moje materiały powinny pomóc zrozumieć podstawy i ogólną ideę, zainteresowanych odsyłam po szczegóły do innych źródeł.
+The materials undergo their baptism by fire. I use them myself in class and I am asking my friends to review them. If I notice that something requires improvement or supplementation, I correct and/or complement. All comments can also be submitted, I invite you to look at the contact tab. 
 
-Po czwarte, materiały przechodzą swój chrzest bojowy. Sam korzystam z nich na lekcjach i proszę znajomych o przejrzenie. Jeżeli zauważę, że coś wymaga poprawienia albo uzupełnienia, to poprawiam i/lub uzupełniam. Wszelkie uwagi można także zgłaszać, zapraszam do zajrzenia do zakładki kontakt. 
+### License
 
-### Licencja
-
-![Uznanie autorstwa-Na tych samych warunkach 4.0](.gitbook/assets/88x31.png)
+![CC BY-SA 4.0](.gitbook/assets/88x31.png)
 
 {% file src=".gitbook/assets/Licencja.pdf" %}

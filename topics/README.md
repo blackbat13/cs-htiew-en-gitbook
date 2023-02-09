@@ -28,7 +28,7 @@ Computer science education is a big challenge, especially at school. Previously,
 Prezentacja
 {% endfile %}
 
-### **License**
+### License
 
 ![CC BY-SA 4.0](../.gitbook/assets/88x31.png)
 
