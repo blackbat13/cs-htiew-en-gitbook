@@ -1,21 +1,19 @@
-# Merge sort
+# Sortowanie przez scalanie
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/merge-sort.md" %}
 [merge-sort.md](../../../../algorithms/sorting/merge-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```cpp
 #include <iostream>
 
 using namespace std;
 
-/// Merge two sorted ascending part of array
-///   [left, division) and [division, right)
-/// Resulting merged array will also be sorted
 void merge(int array[], int left, int right, int division) {
     int mergedLength = right - left;
     int merged[merged_length];
@@ -43,7 +41,6 @@ void merge(int array[], int left, int right, int division) {
     }
 }
 
-/// Sort ascending array in range [left, right)
 void mergeSort(int array[], int left, int right) {
     if(right - left <= 1) {
         return;
@@ -56,11 +53,8 @@ void mergeSort(int array[], int left, int right) {
     merge(array, left, right, division);
 }
 
-/// Prints given array
-/// \param array - array to print
-/// \param n - length of the given array
 void printArray(int array[], int n) {
-    for(int i = 0; i < 10; ++i) {
+    for(int i = 0; i < n; ++i) {
         cout << array[i] << " ";
     }
  
@@ -78,13 +72,10 @@ int main() {
     return 0;
 }
 ```
+{% endcode %}
 
 ### Link do implementacji
 
 {% embed url="https://ideone.com/1Pv3RF" %}
-Merge sort
+Sortowanie przez scalanie
 {% endembed %}
-
-### Implementation descriptioni
-
-TODO

@@ -1,13 +1,14 @@
-# Selection sort
+# Sortowanie przez wybieranie
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/selection-sort.md" %}
 [selection-sort.md](../../../../algorithms/sorting/selection-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```python
 def find_min(array: list, begin: int) -> int:
     min_index = begin
@@ -31,14 +32,15 @@ selection_sort(array)
 
 print(array)
 ```
+{% endcode %}
 
 ### Link do implementacji
 
 {% embed url="https://ideone.com/SYQNLq" %}
-Selection sort
+Sortowanie przez wybieranie
 {% endembed %}
 
-### Implementation descriptioni
+### Opis implementacji
 
 Powyższa implementacja składa się z dwóch funkcji: 
 
@@ -48,4 +50,3 @@ Powyższa implementacja składa się z dwóch funkcji:
 Funkcja `find_min` przyjmuje dwa argumenty: listę do przeszukania (zmienna `array`) oraz indeks elementu, od którego powinniśmy zacząć nasze poszukiwania (zmienna `begin`). Proces znajdowania indeksu wartości minimalnej wygląda standardowo: najpierw zakładamy, że wartość najmniejsza znajduje się w początkowej pozycji (**linia 2**), a następnie przechodzimy pętlą przez pozostałą część listy (**linia 4**). Gdy znajdziemy element o wartości mniejszej niż dotychczasowe minimum (**linia 5**) to zapisujemy jego indeks (**linia 6**). Po sprawdzeniu wszystkich elementów, zwracamy wynik - indeks najmniejszego elementu na liście od wskazanej pozycji (**linia 8**).
 
 Właściwe sortowanie składa się z jednej pętli, w której przechodzimy przez kolejne pozycje na sortowanej liście (**linia 12**), znajdujemy indeks elementu najmniejszego, począwszy od bieżącej pozycji (**linia 13**), a następnie zamieniamy go miejscami z elementem na bieżącej pozycji (**linia 14**).
-

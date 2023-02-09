@@ -1,48 +1,62 @@
-# Comb sort
+# Sortowanie grzebieniowe
 
-## Problem description
+## Opis problemu
 
-<!-- TODO -->
+### Specyfikacja
 
-### Specification
+#### Dane
 
-#### Input:
+* $$n$$ — liczba naturalna, ilość elementów w tablicy
+* $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-* $$n$$ - natural number, number of elements in the array
-* $$A[1..n]$$ - array of $$n$$ integers
+#### Wynik
 
-#### Output:
+* Posortowana niemalejąco tablica $$A$$
 
-* Array $$A$$ sorted in ascending order 
+### **Przykład**
 
-### Example
-
-#### Input
+#### Dane
 
 ```
 n := 8
 A := [6, 5, 3, 1, 8, 7, 2, 4]
 ```
 
-#### Animation
+#### Animacja
 
 {% embed url="https://blackbat13.github.io/visul2/sorting/comb_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
-Comb sort
+Sortowanie grzebieniowe
 {% endembed %}
 
-## Solution
+## Rozwiązanie
 
-TODO
+### Pseudokod
 
-### Pseudocode
+```
+Procedura SortGrzeb(A, n):
+    1. przerwa := n
+    2. zm := 1.3
+    3. posortowana := Fałsz
+    4. Dopóki posortowana != Prawda, wykonuj:
+        5. przerwa := przerwa div zm
+        6. Jeżeli przerwa <= 1, to:
+            7. przerwa := 1
+            8. posortowana := Prawda
+        9. i := 1
+        10. Dopóki i + przerwa < n, wykonuj:
+            11. Jeżeli A[i] > A[i + przerwa], to:
+                12. Zamień(A[i], A[i + przerwa])
+                13. posortowana := Fałsz
+            14. i := i + 1
+```
 
-TODO
+### Złożoność
 
-### Complexity
+#### Pesymistyczna
 
-TODO
+$$O(n^2)$$ — kwadratowa
 
-## Implementation
+## Implementacja
 
 ### C++
 
@@ -54,4 +68,10 @@ TODO
 
 {% content-ref url="../../programming/python/algorithms/sorting/comb-sort.md" %}
 [comb-sort.md](../../programming/python/algorithms/sorting/comb-sort.md)
+{% endcontent-ref %}
+
+### Kotlin
+
+{% content-ref url="../../programming/kotlin/algorithms/sorting/comb-sort.md" %}
+[comb-sort.md](../../programming/kotlin/algorithms/sorting/comb-sort.md)
 {% endcontent-ref %}

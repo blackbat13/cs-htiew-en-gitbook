@@ -1,35 +1,27 @@
 ---
-description: Teaching computer science with new methods
+description: Nauczanie informatyki nowymi metodami
 ---
 
-# Computer Science: Hard Topics in Easiest Way
+# Informatyka: Trudne Tematy w Najprostszy Sposób
 
-Computer science education is a big challenge, especially at school. Previously, the core curriculum was mainly limited to the information technology, which means that mainly the basics of using the office suite were taught. At some point, however, it changed significantly and now, from primary school, there is talk of algorithmics, computational thinking and programming. While this is undoubtedly an important and positive change, it poses even greater challenges to teachers. Compared to other subjects, such as mathematics, didactics of computer science is still very young and effective methods of translating many issues are still being sought. That's why we decided to create what we called the **Hard Topics in Easiest Way** project. It is a set of ready-made materials for teachers, containing entire lesson plans, drafts, presentations that can be used to familiarize students with particualarly difficult topics in the field of computer science.
+Na tej stronie znajdziesz omówienie różnych tematów z dziedziny informatyki.
+Każdy temat przygotowywany jest zgodnie z hasłem przewodnim: jak najprościej i jednocześnie praktycznie.
+Materiały przeznaczone są dla każdego, kto chce się czegoś nauczyć, a także dla tych, którzy chcą uczyć innych.
 
-### Goals and assumptions
+Uczniowie znajdą tutaj proste i krótkie omówienia wybranych zagadnień, a nauczyciele znajdą ciekawe pomysły na lekcje i gotowe scenariusze zajęć.
 
-* **Set of materials**\
-  ****Presentations, tasks and their solutions, handouts, additional materials... We have prepared a full set of materials needed to conduct the lessons from beginning to end.
-* **In the easiest way**\
-  ****The materials have been prepared in such a way that anyone with even minimal knowledge of computer science and programming could conduct classes on their basis.
-* **Versatility**\
-  ****We tried to adapt all the material in such a way that they were as independent as possible from a specific environment, school and technology.
-* **Free of charge**\
-  ****All materials are provided completely free of charge, under the CC license Attribution-ShareAlike 4.0 International.
+## Czym różni się ta strona od podobnych, które można znaleźć w sieci?
 
-### The authors of the project
+Po pierwsze, co ważne dla wielu nauczycieli, ta strona dostępna jest w języku polskim. Wiele rozbudowanych stron o podobnej tematyce dostępnych jest jedynie po angielsku, co utrudnia wykorzystanie ich na lekcji.
 
-* ****[**mgr inż. Damian Kurpiewski**](https://blackbat13.github.io)****
-* **dr Krzysztof Skowronek**
+Po drugie, strona została przygotowana przez "rasowego informatyka z nietypowym hobby". Tak, z wykształcenia jestem informatykiem, pracowałem także jako programista i cały czas rozwijam się pod tym kątem. Ponadto interesuje mnie edukacja i dydaktyka. Od wielu lat zajmuję się nauczaniem informatyki dzieci i dorosłych na różnych poziomach. Wiele stron o podobnej tematyce, które znalazłem w sieci, pomija jeden z dwóch ważnych aspektów: dydaktykę i profesjonalizm. Materiały napisane profesjonalnie i z głębokim zapleczem teoretycznym często są trudne do przyswojenia i przeznaczone raczej dla studentów uczelni wyższych, niż dla zwykłego śmiertelnika. Z drugiej strony wielu materiałom dydaktycznym z informatyki brakuje profesjonalizmu: widać, że pisała je osoba pozbawiona głębszego doświadczenia w tej dziedzinie i nieświadoma dobrych praktyk. Przygotowując dostępne na mojej stronie materiał staram się pamiętać o jednym i drugim (oczywiście wszelkie błędy i/lub nieścisłości proszę zgłaszać, mylić się jest rzeczą ludzką).
 
-### A short presentation of the project (in Polish)
+Po trzecie, materiały przygotowane zostały (jak już wspomniałem) z myślą "w jak najprostszy sposób" i z poszanowaniem czasu czytelnika. Staram się, by każdy był w stanie przyswoić omawiane przeze mnie tematy, i to w stosunkowo krótkim czasie. W związku z tym nie rozpisuję się na kilkanaście stron na temat prostego algorytmu, a raczej skupiam się na konkretach i prostych przykładach. Z drugiej strony oczywiście oznacza to, że nie omawiam niektórych niuansów, a część szczegółów poruszam jedynie zdawkowo. Jak to mówią: coś za coś. Moje materiały powinny pomóc zrozumieć podstawy i ogólną ideę, zainteresowanych odsyłam po szczegóły do innych źródeł.
 
-{% file src=".gitbook/assets/Trudne Tematy w Najprostszy Sposób.pdf" %}
-Prezentacja
-{% endfile %}
+Po czwarte, materiały przechodzą swój chrzest bojowy. Sam korzystam z nich na lekcjach i proszę znajomych o przejrzenie. Jeżeli zauważę, że coś wymaga poprawienia albo uzupełnienia, to poprawiam i/lub uzupełniam. Wszelkie uwagi można także zgłaszać, zapraszam do zajrzenia do zakładki kontakt. 
 
-### **License**
+### Licencja
 
-![CC BY-SA 4.0](.gitbook/assets/88x31.png)
+![Uznanie autorstwa-Na tych samych warunkach 4.0](.gitbook/assets/88x31.png)
 
 {% file src=".gitbook/assets/Licencja.pdf" %}

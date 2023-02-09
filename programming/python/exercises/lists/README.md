@@ -247,3 +247,18 @@ tab := [1, 2, 3, 1, 5]
 ```
 
 **Output**: "Unsorted"
+
+## Exercise 8
+
+Write a program according to the specification below.
+
+### Specification
+
+#### Input
+
+* $$n$$ - natural number
+* $$p, k$$ - two natural numbers, $$p <= k$$
+
+#### Output
+
+* $$n$$-elements list filled with random values from the range $$[p, k]$$

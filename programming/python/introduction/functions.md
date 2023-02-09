@@ -1,28 +1,34 @@
 # Functions
 
-In Python functions begin with a `def` keyword, followed by the function name and list of parameters listed inside brackets.
-As practically every block in Python a function begins with a colon.
+## Introduction
 
-The general scheme of the function looks as follows:
+We define the functions in Python, starting with the keyword `def` followed by the name of the function, a list of parameters separated by commas given in round brackets, and then a colon marking the beginning of the function.
 
-```
-def function_name(list_of_parameters):
-    function_body
-```
-
-## Example: a function that returns the sum of two values
+### Example
 
 ```python
 def sum(a, b):
     return a + b
 ```
 
-## Example: a function that returns the sum of two values with type suggestions added
+## Types suggestions
 
-Usually it's a good idea to add type suggestions to the function definition.
-It will not affect the execution of the program, but may help understand better what is going on and what was the intended format of the function.
+As with the definitions of variables, in the same way when creating functions we can add suggestion of types for both arguments and returned value.
+
+### Example
 
 ```python
 def sum(a: int, b: int) -> int:
     return a + b
+```
+
+## Procedures
+
+In Python, we do not distinguish procedures from the functions, but of course we can create functions that do not return values.
+
+### Example
+
+```python
+def greeting(name: str):
+    print(f"Witaj {name}!")
 ```

@@ -1,13 +1,14 @@
-# Merge sort
+# Sortowanie przez scalanie
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/merge-sort.md" %}
 [merge-sort.md](../../../../algorithms/sorting/merge-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```python
 def merge(array: list, left: int, right: int, division: int):
     merged_length = right - left
@@ -45,13 +46,10 @@ merge_sort(array, 0, len(array))
 
 print(array)
 ```
+{% endcode %}
 
 ### Link do implementacji
 
 {% embed url="https://ideone.com/wSU0Ru" %}
-Merge sort
+Sortowanie przez scalanie
 {% endembed %}
-
-### Implementation descriptioni
-
-TODO

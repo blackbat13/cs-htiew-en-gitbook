@@ -1,22 +1,19 @@
-# Quick sort
+# Sortowanie szybkie
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/quick-sort.md" %}
 [quick-sort.md](../../../../algorithms/sorting/quick-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```cpp
 #include <iostream>
 
 using namespace std;
 
-/// Sorts the array using quick sort algorithm
-/// \param tab- array to sort
-/// \param left - beginning of range to sort, inclusive
-/// \param right - end of range to sort, inclusive
 void quickSort(int tab[], int left, int right) {
     if (right <= left) {
         return;
@@ -47,11 +44,8 @@ void quickSort(int tab[], int left, int right) {
     quickSort(tab, i, right);
 }
 
-/// Prints given array
-/// \param array - array to print
-/// \param n - length of the given array
 void printArray(int array[], int n) {
-    for(int i = 0; i < 10; ++i) {
+    for(int i = 0; i < n; ++i) {
         cout << array[i] << " ";
     }
 
@@ -69,13 +63,10 @@ int main() {
     return 0;
 }
 ```
+{% endcode %}
 
 ### Link do implementacji
 
 {% embed url="https://ideone.com/W2ZQsj" %}
-Quick sort
+Sortowanie szybkie
 {% endembed %}
-
-### Implementation descriptioni
-
-TODO

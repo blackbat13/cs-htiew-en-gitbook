@@ -2,67 +2,73 @@
 description: Selection sort
 ---
 
-# Selection sort
+# Sortowanie przez wybieranie
 
-## Problem description
+## Opis problemu
 
-<!-- TODO -->
+Wyobraź sobie, że przed tobą leżą książki, ułożone tak, że widzisz tytuł i autora każdej z nich. Twoje zadanie polega na uporządkowaniu tych książek na półce w kolejności alfabetycznej po nazwiskach autorów. Najpierw przeglądasz dostępne książki szukając autora z nazwiskiem pierwszym w kolejności alfabetycznej. Znajdujesz, bierzesz książkę do ręki i umieszczasz na półce. Teraz patrzysz na pozostałe książki i ponownie szukasz pierwszego (w kolejności alfabetycznej) nazwiska z tych, które pozostały. Znajdujesz i odkładasz na półkę, jako drugą książkę. Postępujesz podobnie, powtarzając te czynności tak długo, aż ułożysz wszystkie książki na półce, posortowane po nazwiskach autorów. Brawo, właśnie zastosowałeś algorytm sortowania przez wybieranie!
 
-### Specification
+### Specyfikacja
 
-#### Input:
+#### Dane
 
-* $$n$$ - natural number, number of elements in the array
-* $$A[1..n]$$ - array of $$n$$ integers
+* $$n$$ — liczba naturalna, ilość elementów w tablicy
+* $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Output:
+#### Wynik
 
-* Array $$A$$ sorted in ascending order 
+* Posortowana niemalejąco tablica $$A$$
 
-### Example
+### Przykład
 
-#### Input
+Na początek przyjrzyjmy się poniższym animacjom. Spróbuj prześledzić jak kolejne wartości zamieniają się miejscami. Czy potrafisz, własnymi słowami, opisać przebieg algorytmu?
+
+#### Dane
 
 ```
 n := 10
 A := [8, 5, 2, 6, 9, 3, 1, 4, 0, 7]
 ```
 
-#### Animation 1
+#### Animacja 1
 
 ![By Joestape89, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3330231](../../.gitbook/assets/Selection-Sort-Animation.gif)
 
-#### Animation 2
+#### Animacja 2
 
 {% embed url="https://blackbat13.github.io/visul2/sorting/selection_sort/#array=%5B8%2C5%2C2%2C6%2C9%2C3%2C1%2C4%2C0%2C7%5D" %}
 
-## Solution
+## Rozwiązanie
 
-TODO
+Sortowanie przez wybieranie składa się tak właściwie z dwóch części: znajdowania minimum i samego sortowania. Opis algorytmu znajdowania minimum można znaleźć tutaj: [Wyszukiwanie minimum i maksimum](../searching/min-or-max.md).
 
-### Pseudocode
+Sam algorytm wyszukiwania minimum musimy zmodyfikować tak, by działał na określonym przedziale w tablicy, tzn. chcemy wyszukać minimum nie w całej tablicy, a w jej konkretnym przedziale $$[p..k]$$. Co więcej, potrzebujemy nie tyle znać wartość minimalną, co jej **pozycję** w tablicy. Gdy to już mamy, samo sortowanie jest bardzo proste. Przechodzimy przez kolejne indeksy w naszej tablicy i wyszukujemy pozycję minimum od obecnego indeksu do końca tablicy, a następnie zamieniamy z elementem na obecnie sprawdzanej pozycji.
+
+### Pseudokod
 
 ```
-function FindMin(p, k, A):
+funkcja SzukajMin(p, k, A):
     1. min := A[p]
     2. min_ind := p
-    3. For i := p + 1 to k, do:
-        4. If A[i] < min, then:
+    3. Od i := p + 1 do k, wykonuj:
+        4. Jeżeli A[i] < min, to:
             5. min := A[i]
             6. min_ind := i
-    7. Return min_ind
+    7. Zwróc min_ind
 
-procedure SortWybier(A, n):
-    1. For i := 1 to n-1, do:
-        2. min_ind := FindMin(i, n, A)
-        3. Swap(A[i], A[min_ind])
+procedura SortWybier(A, n):
+    1. Od i := 1 do n-1, wykonuj:
+        2. min_ind := SzukajMin(i, n, A)
+        3. Zamień(A[i], A[min_ind])
 ```
 
-### Complexity
+### Złożoność
 
-$$O(n^2)$$ - square
+$$O(n^2)$$ — kwadratowa
 
-## Implementation
+Wyszukiwanie minimum ma złożoność liniową. Wywołujemy ten algorytm $$n-1$$ razy, więc w efekcie otrzymujemy złożoność kwadratową algorytmu sortowania przez wybieranie.
+
+## Implementacja
 
 ### C++
 
@@ -80,4 +86,10 @@ $$O(n^2)$$ - square
 
 {% content-ref url="../../programming/blockly/algorithms/sorting/selection-sort.md" %}
 [selection-sort.md](../../programming/blockly/algorithms/sorting/selection-sort.md)
+{% endcontent-ref %}
+
+### Kotlin
+
+{% content-ref url="../../programming/kotlin/algorithms/sorting/selection-sort.md" %}
+[selection-sort.md](../../programming/kotlin/algorithms/sorting/selection-sort.md)
 {% endcontent-ref %}

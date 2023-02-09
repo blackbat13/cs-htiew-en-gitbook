@@ -1,13 +1,14 @@
-# Heap sort
+# Sortowanie przez kopcowanie
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/heap-sort.md" %}
 [heap-sort.md](../../../../algorithms/sorting/heap-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```cpp
 #include <iostream>
 
@@ -32,11 +33,8 @@ void heapSort(int array[], int n) {
     }
 }
 
-/// Prints given array
-/// \param array - array to print
-/// \param n - length of the given array
 void printArray(int array[], int n) {
-    for(int i = 0; i < 10; ++i) {
+    for(int i = 0; i < n; ++i) {
         cout << array[i] << " ";
     }
  
@@ -54,14 +52,10 @@ int main() {
     return 0;
 }
 ```
+{% endcode %}
 
 ### Link do implementacji
 
 {% embed url="https://ideone.com/D8K2zO" %}
-Heap sort
+Sortowanie przez kopcowanie
 {% endembed %}
-
-### Implementation descriptioni
-
-TODO
-

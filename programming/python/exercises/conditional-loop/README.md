@@ -1,4 +1,4 @@
-# Pętla warunkowa
+# Conditional loop
 
 ## Exercise 1
 

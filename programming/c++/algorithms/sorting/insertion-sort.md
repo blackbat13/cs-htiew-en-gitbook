@@ -1,21 +1,19 @@
-# Insertion sort
+# Sortowanie przez wstawianie
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/insertion-sort.md" %}
 [insertion-sort.md](../../../../algorithms/sorting/insertion-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```cpp
 #include <iostream>
 
 using namespace std;
 
-/// Sorts array of specified length in ascending order
-/// \param array - array to sort
-/// \param n - length of the given array
 void insertionSort(int array[], int n) {
     for (int i = 1; i < n; i++) {
         int j = i;
@@ -26,11 +24,8 @@ void insertionSort(int array[], int n) {
     }
 }
 
-/// Prints given array
-/// \param array - array to print
-/// \param n - length of the given array
 void printArray(int array[], int n) {
-    for(int i = 0; i < 10; ++i) {
+    for(int i = 0; i < n; ++i) {
         cout << array[i] << " ";
     }
  
@@ -48,13 +43,10 @@ int main() {
     return 0;
 }
 ```
+{% endcode %}
 
 ### Link do implementacji
 
 {% embed url="https://ideone.com/EGDR98" %}
-Insertion sort
+Sortowanie przez wstawianie
 {% endembed %}
-
-### Implementation descriptioni
-
-TODO

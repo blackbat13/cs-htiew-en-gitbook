@@ -1,34 +1,35 @@
-# Bubble sort
+# Sortowanie bąbelkowe
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/bubble-sort.md" %}
 [bubble-sort.md](../../../../algorithms/sorting/bubble-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```cpp
 #include <iostream>
 
 using namespace std;
 
-/// Sort array of specified length in ascending order
-/// \param array - array to sort
-/// \param n - length of the given array
 void bubbleSort(int array[], int n) {
-    for(int i = 0; i < n; i++) {
+	bool sorted = false;
+	int i = 0;
+    while (!sorted) {
+    	sorted = true;
         for(int j = n - 1; j > i; j--) {
             if(array[j] < array[j-1]) {
                 swap(array[j], array[j-1]);
+                sorted = false;
             }
         }
+        
+        i++;
     }
 }
 
-/// Prints given array
-/// \param array - array to print
-/// \param n - length of the given array
 void printArray(int array[], int n) {
     for(int i = 0; i < 10; ++i) {
         cout << array[i] << " ";
@@ -48,13 +49,10 @@ int main() {
     return 0;
 }
 ```
+{% endcode %}
 
 ### Link do implementacji
 
 {% embed url="https://ideone.com/rnfrjy" %}
-Bubble sort
+Sortowanie bąbelkowe
 {% endembed %}
-
-### Implementation descriptioni
-
-TODO

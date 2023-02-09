@@ -1,13 +1,14 @@
-# Insertion sort
+# Sortowanie przez wstawianie
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/insertion-sort.md" %}
 [insertion-sort.md](../../../../algorithms/sorting/insertion-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```python
 def insertion_sort(array: list):
     for i in range(1, len(array)):
@@ -24,13 +25,10 @@ insertion_sort(array)
 
 print(array)
 ```
+{% endcode %}
 
 ### Link do implementacji
 
 {% embed url="https://ideone.com/ublO4B" %}
-Insertion sort
+Sortowanie przez wstawianie
 {% endembed %}
-
-### Implementation descriptioni
-
-TODO

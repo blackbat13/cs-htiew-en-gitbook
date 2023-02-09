@@ -334,7 +334,13 @@ procedura LinearSearch(n, A, k):
 
 $$O(n)$$ - linear
 
-## Implementation
+## Impementation — main
+
+### Pascal
+
+{% content-ref url="../../programming/pascal/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/pascal/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
 
 ### C++
 
@@ -352,4 +358,90 @@ $$O(n)$$ - linear
 
 {% content-ref url="../../programming/blockly/algorithms/searching/linear-search.md" %}
 [linear-search.md](../../programming/blockly/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+## Implementation — other
+
+### C
+
+{% content-ref url="../../programming/c/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/c/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Dart
+
+{% content-ref url="../../programming/dart/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/dart/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Elixir
+
+{% content-ref url="../../programming/elixir/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/elixir/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Go
+
+{% content-ref url="../../programming/go/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/go/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Haskell
+
+{% content-ref url="../../programming/haskell/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/haskell/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### JavaScript
+
+{% content-ref url="../../programming/javascript/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/javascript/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Julia
+
+{% content-ref url="../../programming/julia/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/julia/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Kotlin
+
+{% content-ref url="../../programming/kotlin/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/kotlin/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Lua
+
+{% content-ref url="../../programming/lua/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/lua/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Rust
+
+{% content-ref url="../../programming/rust/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/rust/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Scheme
+
+{% content-ref url="../../programming/scheme/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/scheme/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Swift
+
+{% content-ref url="../../programming/swift/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/swift/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### TypeScript
+
+{% content-ref url="../../programming/typescript/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/typescript/algorithms/searching/linear-search.md)
+{% endcontent-ref %}
+
+### Visual Basic
+
+{% content-ref url="../../programming/visual-basic/algorithms/searching/linear-search.md" %}
+[linear-search.md](../../programming/visual-basic/algorithms/searching/linear-search.md)
 {% endcontent-ref %}

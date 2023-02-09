@@ -1,12 +1,12 @@
-# Counting sort
+# Sortowanie przez zliczanie
 
-## Problem description
+## Opis problemu
 
 {% content-ref url="../../../../algorithms/sorting/counting-sort.md" %}
 [counting-sort.md](../../../../algorithms/sorting/counting-sort.md)
 {% endcontent-ref %}
 
-## Implementation
+## Implementacja
 
 ### Sortowanie
 
@@ -19,5 +19,5 @@
 ### Link do implementacji
 
 {% embed url="https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#zopmdh" %}
-Counting sort
+Sortowanie przez zliczanie
 {% endembed %}
