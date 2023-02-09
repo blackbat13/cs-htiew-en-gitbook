@@ -103,11 +103,24 @@ Będziemy postępować zgodnie ze schematem: w pętli mnożymy przez $$x$$ i dod
 ### Pseudokod
 
 ```
-funkcja Horner(n, x, a)
-    1. wynik := a[n]
-    2. Od i := n - 1 w dół do 0, wykonuj:
-        3. wynik := wynik * x + a[i]
-    4. Zwróć wynik
+function Horner(n, x, a)
+    1. result := a[n]
+    2. From i := n - 1 downto 0, do:
+        3. result := result * x + a[i]
+    4. Return result
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["Horner(n, x, a)"]) --> K1["result := a[n]\ni := n - 1"]
+	K1 --> K2{i >= 0}
+	K2 -- TRUE --> K3["result := result * x + a[i]"]
+	K3 --> K2i[i := i - 1]
+	K2i --> K2
+	K2 -- FALSE --> K4[/Return result/]
+	K4 --> STOP([STOP])
 ```
 
 ### Złożoność
