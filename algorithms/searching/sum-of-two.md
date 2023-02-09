@@ -1,4 +1,4 @@
-# Suma dwóch liczb
+# Sum of two
 
 ## Opis problemu
 
@@ -8,21 +8,22 @@ Problem może wydawać się dość abstrakcyjny i słabo związany z rzeczywisto
 
 Zacznijmy od formalnej specyfikacji problemu.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
-* $$n$$ - liczba naturalna, liczebność zbioru
-* $$A[1..n]$$ - $$n-elementowa$$ tablica różnych liczb całkowitych, posortowana rosnąco, indeksowana od jedynki
-* $$k$$ - liczba naturalna, szukana suma
+* $$n$$ - natural number
+* $$A[1..n]$$ - array of distinct integers, sorted in ascending order
+* $$k$$ - natural number
 
-#### Wynik
+#### Output
 
-* $$a, b$$ - dwie różne wartości ze zbioru $$A$$ takie, że ich suma wynosi $$k$$ ($$a+b=k$$), lub $$-1$$, jeżeli takich liczb nie ma w zbiorze (jeżeli takich par jest wiele, to dowolna z nich)
+* $$a, b$$ - two distinct values from the array $$A$$ such that $$a+b=k$$
+* $$-1$$ if such values can't be found
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10
@@ -30,9 +31,9 @@ A[1..10] := [1, 2, 4, 6, 8, 9, 10, 12, 13, 15]
 k := 18
 ```
 
-**Wynik**: $$6,\ 12$$(lub $$8,\ 10$$)
+**Output**: $$6,\ 12$$(or $$8,\ 10$$)
 
-## Rozwiązanie naiwne
+## Naive solution
 
 Zacznijmy od pierwszego rozwiązania, jakie nam przychodzi do głowy.
 Naszym celem jest znalezienie **pary** liczb, które dają pożądaną sumę.
@@ -45,23 +46,41 @@ Zasada jest bardzo prosta: wewnętrzna pętla zaczyna poszukiwania zawsze od **k
 
 Spróbujmy przelać nasze rozumowania na pseudokod.
 
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja SumaDwoch(n, A, k):
-    1. Dla i := 1 do n - 1, wykonuj:
-        2. Dla j := i + 1 do n, wykonuj:
-            3. Jeżeli A[i] + A[j] = k, to:
-                4. Wypisz A[i], A[j]
-                5. Zakończ
-    6. Wypisz -1
+function SumOfTwo(n, A, k):
+    1. For i := 1 to n - 1, do:
+        2. For j := i + 1 to n, do:
+            3. If A[i] + A[j] = k, then:
+                4. Return A[i], A[j]
+    6. Return -1
 ```
 
-### Złożoność
+### Block diagram
 
-$$O(n^2)$$ - kwadratowa
+```mermaid
+flowchart TD
+	START(["SumOfTwo(n, A, k)"]) --> K0[i := 1]
+	K0 --> K1{i < n}
+	K1 -- TRUE --> K2p[j := i + 1]
+	K2p --> K2{j <= n}
+	K2 -- TRUE --> K3{"A[i] + A[j] = k"}
+	K3 -- TRUE --> K4[/"Return A[i], A[j]"/]
+	K4 --> STOP([STOP])
+	K3 -- FALSE --> K2i[j := j + 1]
+	K2i --> K2
+	K2 -- FALSE --> K1i[i := i + 1]
+	K1i --> K1
+	K1 -- FALSE --> K6[/Return -1/]
+	K6 --> STOP
+```
 
-## Rozwiązanie optymalne
+### Complexity
+
+$$O(n^2)$$
+
+## Optimal solution
 
 W poprzednim rozwiązaniu całkowicie pominęliśmy fakt, że nasza tablica jest posortowana.
 Zastanówmy się więc, jak możemy skorzystać z tego, że liczby są ułożone od najmniejszej do największej.
@@ -80,28 +99,46 @@ I tak postępujemy w pętli, aż znajdziemy (albo i nie) poszukiwaną sumę.
 
 Spróbujmy to zapisać w pseudokodzie.
 
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja SumaDwoch(n, A, k):
-    1. lewy := 1
-    2. prawy := n
-    3. Dopóki lewy < prawy oraz A[lewy] + A[prawy] != k, wykonuj:
-        4. Jeżeli A[lewy] + A[prawy] < k, to:
-            5. lewy := lewy + 1
-        6. w przeciwnym przypadku:
-            7. prawy := prawy + 1
-    8. Jeżeli lewy < prawy, to:
-        9. Wypisz A[lewy], A[prawy]
-    10. w przeciwnym przypadku:
-        11. Wypisz -1
+function SumOfTwo(n, A, k):
+    1. left := 1
+    2. right := n
+    3. While left < right and A[left] + A[right] != k, do:
+        4. If A[left] + A[right] < k, then:
+            5. left := left + 1
+        6. else:
+            7. right := right + 1
+    8. If left < right, then:
+        9. Return A[left], A[right]
+    10. else:
+        11. Return -1
 ```
 
-### Złożoność
+### Block diagram
 
-$$O(n)$$ - liniowa
+```mermaid
+flowchart TD
+	START(["SumOfTwo(n, A, k)"]) --> K1[left := 1\nright := n]
+	K1 --> K3{"left < right\nand\nA[left] + A[right] != k"}
+	K3 -- TRUE --> K4{"A[left] + A[right] < k"}
+	K4 -- TRUE --> K5[left := left + 1]
+	K5 --> K3
+	K4 -- FALSE --> K7[right := right + 1]
+	K7 --> K3
+	K3 -- FALSE --> K8{left < right}
+	K8 -- TRUE --> K9[/"Return A[left], A[right]"/]
+	K9 --> STOP([STOP])
+	K8 -- FALSE --> K11[/Return -1/]
+	K11 --> STOP
+```
 
-## Implementacja
+### Complexity
+
+$$O(n)$$ - linear
+
+## Implementation
 
 ### C++
 
