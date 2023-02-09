@@ -26,7 +26,7 @@ n := 12
 
 **Wynik**: $$1,2,3,4,6,12$$ 
 
-## Rozwiązanie zupełnie naiwne
+## Naive solution
 
 Przejdźmy do próby rozwiązania problemu. Naszym zadaniem jest wypisać **wszystkie dzielniki** podanej wartości. Nie możemy żadnego pominąć. Spróbujmy więc odpowiedzieć na postawione wcześniej pytanie: **jakie liczby musimy sprawdzić**? Po pierwsze możemy łatwo zauważyć, że nie ma sensu sprawdzać wartości mniejszych niż $$1$$. Najmniejszy i zarazem pierwszy dzielnik to będzie zawsze liczba $$1$$. Od niej więc zaczynamy poszukiwanie dzielników. W którym miejscu jednak należy się zatrzymać? Cóż, na pewno nie ma sensu sprawdzać wartości większych od $$n$$. Liczba nie może być podzielna przez wartość od siebie większą!
 
@@ -36,82 +36,114 @@ Pozostaje jeszcze bardzo ważna kwestia: jak sprawdzić, czy jedna liczba jest d
 
 Spróbujmy teraz to wszystko zapisać w formie algorytmu.
 
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja Dzielniki(n):
-    1. Od i := 1 do n, wykonuj:
-        2. Jeżeli n mod i = 0, to:
-            3. Wypisz i
+function Divisors(n):
+    1. From i := 1 to n, do:
+        2. If n mod i = 0, then:
+            3. Print i
 ```
 
 {% hint style="info" %}
 **mod** oznacza resztę z dzielenia
 {% endhint %}
 
-### Schemat blokowy
+### Block diagram
 
-TODO
+```mermaid
+flowchart TD
+	START(["Divisors(n)"]) --> K0[i := 1]
+	K0 --> K1{i <= n}
+	K1 -- TRUE --> K2{n mod i = 0}
+	K2 -- TRUE --> K3[/Print i/]
+	K3 --> K1i[i := i + 1]
+	K2 -- FALSE --> K1i
+	K1i --> K1
+	K1 -- FALSE ----> STOP([STOP])
+```
 
-### Złożoność
+### Complexity
 
 W naszym rozwiązaniu przechodzimy przez wszystkie kolejne wartości od $$1$$ do $$n$$. Dla zadanego $$n$$ mamy więc do sprawdzenia $$n$$ potencjalnych dzielników. Stąd też otrzymujemy złożoność:
 
 $$O(n)$$ — liniowa
 
-## Rozwiązanie naiwne
+## Better solution
 
 Mamy już pierwsze rozwiązanie naszego problemu. Zastanówmy się teraz, jak możemy je **zoptymalizować**, czyli usprawnić. Szczególnym fragmentem naszego rozwiązania, który aż prosi się o optymalizację, jest przeglądanie liczb od $$1$$ do $$n$$. Pomyślmy, jak możemy zawęzić ten zakres?
 
-TODO
-
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja Dzielniki(n):
-    1. Od i := 1 do n div 2, wykonuj:
-        2. Jeżeli n mod i = 0, to:
-            3. Wypisz i
-    4. Jeżeli n > 1, to:
-        5. Wypisz n
+function Divisors(n):
+    1. From i := 1 to n div 2, do:
+        2. If n mod i = 0, then:
+            3. Print i
+    4. If n > 1, then:
+        5. Print n
 ```
 
 {% hint style="info" %}
 **div** oznacza dzielenie całkowite
 {% endhint %}
 
-### Schemat blokowy
+### Block diagram
 
-TODO
+```mermaid
+flowchart TD
+	START(["Divisors(n)"]) --> K0[i := 1]
+	K0 --> K1{i <= n div 2}
+	K1 -- TRUE --> K2{n mod i = 0}
+	K2 -- TRUE --> K3[/Print i/]
+	K3 --> K1i[i := i + 1]
+	K2 -- FALSE --> K1i
+	K1i --> K1
+	K1 -- FALSE --> K4{n > 1}
+	K4 -- TRUE --> K5[/Print n/]
+	K5 --> STOP([STOP])
+	K4 -- FALSE --> STOP
+```
 
-### Złożoność
+### Complexity
 
 W naszym rozwiązaniu przechodzimy przez wszystkie kolejne wartości od $$1$$ do $$n/2$$. Dla zadanego $$n$$ mamy więc do sprawdzenia $$n/2$$ potencjalnych dzielników. Stąd też otrzymujemy złożoność:
 
 $$O(\frac{n}{2})$$
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-TODO
-
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja Dzielniki(n):
-    1. Od i := 1 do sqrt(n), wykonuj:
-        2. Jeżeli n mod i = 0, to:
-            3. Wypisz i
-            4. Jeżeli (n / i) != i, to:
-                5. Wypisz (n / i)
+function Divisors(n):
+    1. From i := 1 to sqrt(n), do:
+        2. If n mod i = 0, then:
+            3. Print i
+            4. If (n / i) != i, then:
+                5. Print (n / i)
 ```
 
 {% hint style="info" %}
 **sqrt** oznacza pierwiastek
 {% endhint %}
 
-### Schemat blokowy
+### Block diagram
 
-TODO
+```mermaid
+flowchart TD
+	START(["Divisors(n)"]) --> K0[i := 1]
+	K0 --> K1{"i <= sqrt(n)"}
+	K1 -- TRUE --> K2{n mod i = 0}
+	K2 -- TRUE --> K3[/Print i/]
+	K3 --> K4{"(n / i) != i"}
+	K4 -- TRUE --> K5[/"Print (n / i)"/]
+	K5 --> K1i[i := i + 1]
+	K4 -- FALSE --> K1i
+	K2 -- FALSE --> K1i
+	K1i --> K1
+	K1 -- FALSE ------> STOP([STOP])
+```
 
 ### Złożoność
 
