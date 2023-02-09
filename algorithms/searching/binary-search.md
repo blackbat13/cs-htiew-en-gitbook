@@ -69,7 +69,22 @@ funkcja SzukajBinarnie(n, A, k)
 
 ### Schemat blokowy
 
-![](../../.gitbook/assets/binarne\_iter.png)
+```mermaid
+flowchart TD
+	START(["Binary Search (n, A, k)"]) --> O1[beg := 1\nend := n]
+	O1 --> C1{beg < end}
+	C1 -- TRUE --> O2["mid := (beg + end) div 2"]
+	O2 --> C2{"k > A[mid]"}
+	C2 -- TRUE --> O3[beg := mid + 1]
+	O3 --> C1
+	C2 -- FALSE --> O4[end := mid]
+	O4 --> C1
+	C1 -- FALSE --> C3{"A[beg] = k"}
+	C3 -- TRUE --> R1[/Return beg/]
+	R1 --> STOP([STOP])
+	C3 -- FALSE --> R2[/Return -1/]
+	R2 --> STOP
+```
 
 ### Złożoność
 
@@ -96,6 +111,24 @@ funkcja SzukajBinarnie(A, k, pocz, kon)
     
     9. W przeciwnym przypadku:
         10. Zwróć SzukajBinarnie(A, k, pocz, srodek)
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["Binary Search (A, k, beg, end)"]) --> K1{beg >= end}
+	K1 -- TRUE --> K2{"A[beg] = k"}
+	K2 -- TRUE --> K3[/Return beg/]
+	K3 --> STOP([STOP])
+	K2 -- FALSE --> K5[/Return -1/]
+	K5 --> STOP
+	K1 -- FALSE --> K6["mid := (beg + end) div 2"]
+	K6 --> K7{"k > A[mid]"}
+	K7 -- TRUE --> K8[/"Return BinarySearch(A, k, mid + 1, end)"/]
+	K8 --> STOP
+	K7 -- FALSE --> K9[/"Return BinarySearch(A, k, beg, mid)"/]
+	K9 --> STOP
 ```
 
 ### Złożoność 
