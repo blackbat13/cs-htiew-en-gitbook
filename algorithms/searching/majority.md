@@ -1,124 +1,176 @@
-# Znajdowanie lidera w zbiorze
+# Finding majority element
 
-## Opis problemu
+## Problem description
 
-Lider to element, który stanowi **większość** danego zbioru, a dokładniej stanowi **ponad połowę** zbioru. 
+Majority is an element, which constitutes **most** of a given collection, and more precisely **more than half** of the collection. 
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input
 
-* $$n$$ — liczba naturalna, liczebność zbioru
-* $$A[1..n]$$ — $$n-elementowy$$ zbiór liczb całkowitych, indeksowany od jedynki
+* $$n$$ — natural number
+* $$A[1..n]$$ — array of integers
 
-#### Wynik:
+#### Output
 
-* Lider podanego zbioru, lub -1, jeżeli lider nie istnieje.
+* Majority element of A, or -1, if it doesn't exist.
 
 {% hint style="info" %}
-#### Lider zbioru
+#### Majority element
 
-**Liderem** zbioru $$n-elementowego$$ nazywamy element, którego ilość wystąpień w zbiorze jest większa niż $$\frac{n}{2}$$.
+**The majority** of a collection is an element whose number of occurrences in the collection is greater than $$\frac{n}{2}$$.
 
-Jeżeli taki element nie istnieje, to zbiór nie ma lidera.
+If such an element does not exist, then the collection has no majority element.
 {% endhint %}
 
-### Przykład 1
+### Example 1
 
-#### Dane:
+#### Input
 
 ```
 n := 10
 A := [4, 1, 4, 4, 2, 3, 4, 3, 4, 4]
 ```
 
-**Wynik**: 4
+**Output**: 4
 
 {% hint style="info" %}
-#### Wyjaśnienie
+#### Explanation
 
-Najczęściej występującym elementem w powyższym zbiorze jest wartość $$4$$, która występuje dokładnie $$6$$ razy, co **jest wartością większą** od $$n/2=10/2=5$$.
+The most common element in the above array is the value $$4$$, which occurs precisely $$6$$ times, which **is greater** than $$n/2=10/2=5$$.
 {% endhint %}
 
-### Przykład 2
+### Example 2
 
-#### Dane:
+#### Input
 
 ```
 n := 10
 A := [4, 1, 4, 4, 2, 3, 4, 3, 4, 1]
 ```
 
-**Wynik**: $$-1$$ (brak lidera)
+**Output**: $$-1$$ (no majority element)
 
 {% hint style="info" %}
-#### Wyjaśnienie
+#### Explanation
 
-Najczęściej występującym elementem w powyższym zbiorze jest wartość $$4$$, która występuje dokładnie $$5$$ razy, co **nie jest** **wartością większą** od $$n/2=10/2=5$$.
+The most common element in the above array is the value $$4$$, which occurs precisely $$5$$ times, which **is no greater** than $$n/2=10/2=5$$.
 {% endhint %}
 
-## Rozwiązanie naiwne
+## Naive solution
 
-W celu stwierdzenia, że dany element jest liderem zbioru, potrzebujemy wiedzieć, ile razy w zbiorze występuje. Gdybyśmy więc policzyli dla każdego elementu zbioru jego liczebność (liczbę wystąpień) w zbiorze, to bylibyśmy w stanie stwierdzić, czy zbiór posiada lidera, a jeśli tak, to jaki element jest tym liderem. Przechodzimy więc przez kolejne elementy zbioru i zliczamy ich wystąpienia. Oczywiście w ten sposób niektóre elementy policzymy wielokrotnie, ale właśnie dlatego jest to naiwne rozwiązanie.
+In order to conclude that a given element is a majority element, we need to know how many times it occurs in the collection. So if we count the number of occurrences in the collection for each element of the collection, we would be able to determine whether the collection has a majority element, and if so, what element is it. So we go through subsequent elements of the collection and count their occurrences. Of course, in this way we will count some elements many times, but that's why it is a naive solution.
 
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja SzukajLidera(n, A):
-    1. Od i := 1 do n, wykonuj:
-        2. ile := 0
-        3. Od j := 1 do n, wykonuj:
-            4. Jeżeli A[i] = A[j], to:
-                5. ile := ile + 1
-        6. Jeżeli ile > n/2, to:
-            7. Zwróc A[i], zakończ
-    8. Zwróc -1
+function FindMajority(n, A):
+    1. From i := 1 do n, do:
+        2. count := 0
+        3. From j := 1 to n, do:
+            4. If A[i] = A[j], then:
+                5. count := count + 1
+        6. If count > n/2, then:
+            7. Return A[i], stop
+    8. Return -1
 ```
 
-### Złożoność
+### Block diagram
 
-$$O(n^2)$$ — kwadratowa
+```mermaid
+flowchart TD
+	START(["FindMajority(n, A)"]) --> K0[i := 1]
+	K0 --> K1{i <= n}
+	K1 -- TRUE --> K2[count := 0\nj := 1]
+	K2 --> K3{j <= n}
+	K3 -- TRUE --> K4{"A[i] = A[j]"}
+	K4 -- TRUE --> K5[count := count + 1]
+	K4 -- FALSE --> K3i[j := j + 1]
+	K5 --> K3i
+	K3i --> K3
+	K3 -- FALSE --> K6{count > n / 2}
+	K6 -- TRUE --> K7[/"Return A[i]"/]
+	K7 --> STOP([STOP])
+	K6 -- FALSE ---> K1i[i := i + 1]
+	K1i --> K1
+	K1 -- FALSE --> K8[/Return -1/]
+	K8 --> STOP
+```
 
-## Rozwiązanie optymalne
+### Complexity
+
+$$O(n^2)$$
+
+## Optimal solution
 
 W rozwiązaniu optymalnym należy zacząć od pewnego spostrzeżenia. Jeżeli weźmiemy jakiś zbiór i usuniemy z niego dwa **różne** elementy, to powstały w ten sposób zbiór będzie miał takiego samego lidera. Dzięki tej obserwacji możemy "skreślać" parami różne elementy, aż nie zostanie nam nic do skreślenia. Oczywiście nie będziemy fizycznie wykreślać elementów z tablicy. To "skreślanie" zrealizujemy za pomocą odpowiedniego zliczania i zapamiętywania tzw. *kandydata na lidera*. Zaczniemy od przyjęcia pierwszego elementu z tablicy jako kandydata na lidera. Zliczymy także jego liczbę dotychczasowych "nieskreślonych" powtórzeń. Następnie przejdziemy przez kolejne wartości z tablicy. Jeżeli w którymś momencie nasz licznik się wyzeruje, to przyjmiemy obecny element jako nowego kandydata i licznik ustawimy na jeden. Jeżeli natomiast licznik będzie większy od zera, należy porównać kandydata z obecnym elementem z tablicy. Jeżeli napotkamy wartość równą kandydatowi, to zwiększamy licznik wystąpień kandydata. Jeżeli natomiast napotkamy wartość różną od kandydata, to będziemy symulować "skreślanie" poprzez zmniejszenie licznika wystąpień obecnego kandydata o jeden.
 
 Gdy już przejdziemy przez wszystkie elementy tablicy to na koniec zostaniemy z jakimś kandydatem na lidera. Jeżeli zbiór ma lidera, to będzie nim ten kandydat. Może być jednak tak, że zbiór nie ma lidera. Dlatego pozostaje nam zliczyć liczbę wystąpień naszego kandydata w zbiorze, co realizujemy przechodząc element po elemencie. Na koniec sprawdzamy, czyli liczba wystąpień kandydata jest większa od połowy liczebności zbioru.
 
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja SzukajLidera(n, A)
-    1. lider := A[1]
-    2. ile := 1
-    3. Od i := 2 do n, wykonuj:
-        4. Jeżeli ile = 0, to:
-            5. lider := A[i]
-            6. ile := 1
+function FindMajority(n, A)
+    1. majority := A[1]
+    2. count := 1
+    3. From i := 2 to n, do:
+        4. If count = 0, then:
+            5. majority := A[i]
+            6. count := 1
         
-        7. w przeciwnym przypadku, jeżeli lider = A[i]:
-            8. ile := ile + 1
+        7. else if majority = A[i]:
+            8. count := count + 1
         
-        9. w przeciwnym przypadku:
-            10. ile := ile - 1
+        9. else:
+            10. count := count - 1
         
-    11. ile := 0
-    12. Od i := 1 do n, wykonuj:
-        13. Jeżeli A[i] = lider, to:
-            14. ile := ile + 1
+    11. count := 0
+    12. From i := 1 to n, do:
+        13. If A[i] = majority, then:
+            14. count := count + 1
         
-    15. Jeżeli ile > n/2, to:
-        16. Zwróć lider, zakończ
+    15. If count > n/2, then:
+        16. Return majority, stop
     
-    17. w przeciwnym przypadku:
-        18. Zwróć -1, zakończ
+    17. else:
+        18. Return -1, stop
 ```
 
-### Złożoność
+### Block diagram
 
-$$O(n)$$ — liniowa
+```mermaid
+flowchart TD
+	START(["FindMajority(n, A)"]) --> K1["majority := A[1]\ncount := 1\ni := 1"]
+	K1 --> K3{i <= n}
+	K3 -- TRUE --> K4{count = 0}
+	K4 -- TRUE --> K5["majority := A[i]"]
+	K5 --> K6[count := 1]
+	K4 -- FALSE --> K7{"majority = A[i]"}
+	K7 -- TRUE --> K8[count := count + 1]
+	K7 -- FALSE --> K10[count := count - 1]
+	K10 --> K3i[i := i + 1]
+	K8 --> K3i
+	K6 --> K3i
+	K3i --> K3
+	K3 -- FALSE --> K11[count := 0\ni := 1]
+	K11 --> K12{i <= n}
+	K12 -- TRUE --> K13{"A[i] = majority"}
+	K13 -- TRUE --> K14[count := count + 1]
+	K13 -- FALSE --> K12i[i := i + 1]
+	K14 --> K12i
+	K12i --> K12
+	K12 -- FALSE --> K15{count > n / 2}
+	K15 -- TRUE --> K16[/Return majority/]
+	K16 --> STOP([STOP])
+	K15 -- FALSE --> K18[/Return - 1/]
+	K18 --> STOP
+```
 
-## Implementacja
+### Complexity
+
+$$O(n)$$ — linear
+
+## Implementation
 
 ### C++
 
