@@ -125,7 +125,18 @@ function LinearSearch(n, A, k)
 
 ### Block diagram
 
-![](../../.gitbook/assets/liniowe\_1.png)
+```mermaid
+flowchart TD
+	START(["Linear Search (n, A, k)"]) --> B[i := 1]
+	B --> C{i <= n}
+	C -- FALSE --> D[/Return false/]
+	C -- TRUE --> E{"k = A[i]"}
+	E -- TRUE --> F[/Return true/]
+	E -- FALSE --> G[i := i + 1]
+	G --> C
+	D --> STOP([STOP])
+	F --> STOP
+```
 
 ### Complexity 
 
