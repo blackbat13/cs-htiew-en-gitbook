@@ -13,7 +13,7 @@ Problem spójnego podciągu rosnącego rozważymy na przykładzie ciągu, czy te
 #### Dane
 
 * $$n$$ - liczba naturalna, liczba elementów tablicy
-* $$tab[1..n]$$ - tablica zawierająca $$n$$ liczb całkowitych
+* $$A[1..n]$$ - tablica zawierająca $$n$$ liczb całkowitych
 
 #### Wynik
 
@@ -25,7 +25,7 @@ Problem spójnego podciągu rosnącego rozważymy na przykładzie ciągu, czy te
 
 ```
 n := 10
-tab := [4, 9, 7, 2, 4, 7, 9, 3, 8, 6]
+A := [4, 9, 7, 2, 4, 7, 9, 3, 8, 6]
 ```
 
 #### Wynik
@@ -56,20 +56,20 @@ Zauważmy jednak, że nie musimy wcale wypisywać tych podciągów, ani nawet ic
 Dla lepszego zrozumienia spróbuj wykonać opisaną procedurę na kilku przykładach.
 {% endhint %}
 
-### Pseudokod
+### Pseudocode
 
 ```
-funkcja najdluzszySpojnyPodciagRosnacy(n, tab):
-    1. maks := 1
-    2. dlugosc := 1
-    3. Od i := 2 do n, wykonuj:
-        4. Jeżeli tab[i] > tab[i - 1], to:
-            5. dlugosc := dlugosc + 1
-            6. Jeżeli dlugosc > maks, to:
-                7. maks := dlugosc
-        8. W przeciwnym przypadku:
-            9. dlugosc := 1
-    10. Zwróć maks
+function LongestGrowingSubstring(n, A):
+    1. max := 1
+    2. length := 1
+    3. From i := 2 to n, do:
+        4. If A[i] > A[i - 1], then:
+            5. length := length + 1
+            6. If length > max, then:
+                7. max := length
+        8. else:
+            9. length := 1
+    10. Return max
 ```
 
 ### Opis
@@ -77,6 +77,25 @@ funkcja najdluzszySpojnyPodciagRosnacy(n, tab):
 Funkcja przyjmuje dwa parametry, zgodnie ze specyfikacją. Na początku zaczynamy od utworzenia dwóch zmiennych pomocniczych: maksymalnej długości dotąd znalezionych podciągów (**krok 1**) oraz długości obecnie sprawdzanego podciągu (**krok 2**). Następnie przechodzimy pętlą przez kolejne indeksy tablicy poczynając od drugiego elementu (**krok 3**). W pętli porównujemy element pod obecnie sprawdzanym indeksem z poprzednim elementem z tablicy (**krok 4**). Jeżeli obecny element jest większy od poprzedniego, to zwiększamy długość obecnie sprawdzanego podciągu o jeden (**krok 5**) oraz porównujemy ją z maksymalną długością dotąd znalezionych podciągów (**krok 6**). Jeżeli obecna długość jest większa od tej maksymalnej, to zapamiętujemy obecną długość jako maksymalną (**krok 7**).
 
 Jeżeli obecny element nie jest większy od poprzedniego (**krok 8**), to resetujemy długość obecnie sprawdzanego podciągu ustawiając jej wartość $$1$$ (**krok 9**). Na końcu, po wyjściu z pętli, zwracamy jako wynik funkcji maksymalną długość spójnego podciągu rosnącego (**krok 9**).
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["LongestGrowingSubstring(n, A)"]) --> K1[max := 1\nlength := 1\ni := 2]
+	K1 --> K3{i <= n}
+	K3 -- TRUE --> K4{"A[i] > A[i - 1]"}
+	K4 -- TRUE --> K5[length := length + 1]
+	K5 --> K6{length > max}
+	K6 -- TRUE --> K7[max := length]
+	K4 -- FALSE --> K9[length := 1]
+	K9 --> K3i[i := i + 1]
+	K6 -- FALSE --> K3i
+	K7 --> K3i
+	K3i --> K3
+	K3 -- FALSE ---> K10[\Return max\]
+	K10 ----> STOP([STOP])
+```
 
 ### Złożoność
 
