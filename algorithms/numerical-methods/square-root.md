@@ -20,13 +20,25 @@ Jak policzyć pierwiastek kwadratowy z podanej liczby, gdy nie mamy przy sobie k
 ### Pseudokod
 
 ```
-funkcja MetodaHerona(n, p)
+function HeronMethod(n, p):
     1. x1 := n / 2
     2. x2 := (x1 + (n / x1)) / 2
-    3. Dopóki |x2 - x1| > p, wykonuj:
+    3. While |x2 - x1| > p, do:
         4. x1 := (x2 + (n / x2)) / 2
-        3. Zamień(x1, x2)
-    4. Zwróć x2
+        5. Swap(x1, x2)
+    6. Return x2
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["HeronMethod(n, p)"]) --> K1["x1 := n / 2\nx2 := (x1 + (n / x1)) / 2"]
+	K1 --> K3{"|x2 - x1| > p"}
+	K3 -- TRUE --> K4["x1 := (x2 + (n / x2)) / 2\nSwap(x1, x2)"]
+	K4 --> K3
+    K3 -- FALSE --> K6[/Return x2/]
+    K6 --> STOP([STOP])
 ```
 
 ## Implementacja
