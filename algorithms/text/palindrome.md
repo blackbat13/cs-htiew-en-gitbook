@@ -61,12 +61,27 @@ Jednym ze sposobów na sprawdzenie, czy wyraz jest palindromem, jest przejście 
 ### Pseudokod
 
 ```
-funkcja czyPalindrom(n, tekst):
-    1. srodek := n div 2
-    2. Od i := 1 do srodek, wykonuj:
-        3. Jeżeli tekst[i] != tekst[n-i+1], to:
-            4. Zwróć False, zakończ
-    5. Zwróć True, zakończ
+function IsPalindrome(n, text):
+    1. mid := n div 2
+    2. From i := 1 to mid, do:
+        3. If text[i] != text[n - i + 1], then:
+            4. Return FALSE
+    5. Return TRUE
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["IsPalindrome(n, text)"]) --> K1[mid := n div 2\ni := 1]
+	K1 --> K2{i <= mid}
+	K2 -- TRUE --> K3{"text[i] != text[n - 1 + 1]"}
+	K3 -- TRUE --> K4[/Return FALSE/]
+	K4 --> STOP([STOP])
+	K3 -- FALSE --> K2i[i := i + 1]
+	K2i --> K2
+	K2 -- FALSE --> K5[/Return TRUE/]
+	K5 --> STOP
 ```
 
 ### Złożoność
