@@ -64,7 +64,7 @@ function TrapezesMethod(f, a, b, n):
     3. x := a + width
     
     4. While x <= b, do:
-        5. area := area + (f(x - width) + f(x) * width) / 2
+        5. area := area + ((f(x - width) + f(x)) * width) / 2
         6. x := x + width
 
     7. Return area
@@ -76,7 +76,7 @@ function TrapezesMethod(f, a, b, n):
 flowchart TD
 	START(["TrapezesMethod(f, a, b, n)"]) --> K1["area := 0\nwidth := (b - a) / n\nx := a + width"]
 	K1 --> K4{x <= b}
-	K4 -- TRUE --> K5["area := area + (f(x - width) + f(x) * width) / 2\nx := x + width"]
+	K4 -- TRUE --> K5["area := area + ((f(x - width) + f(x)) * width) / 2\nx := x + width"]
 	K5 --> K4
 	K4 -- FALSE --> K8[/Return area/]
 	K8 --> STOP([STOP])
