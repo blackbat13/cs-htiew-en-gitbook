@@ -18,5 +18,6 @@ flowchart TD
     K11 -- TRUE --> K12[max := c]
     K11 -- FALSE --> K13[result := sum - min - max]
     K12 --> K13
-    K13 --> STOP([STOP])
+    K13 --> K14[/Print result/]
+    K14 --> STOP([STOP])
 ```
