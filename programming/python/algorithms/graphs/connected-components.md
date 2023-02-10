@@ -1,12 +1,12 @@
-# Spójne składowe
+# Connected components
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/connected-components.md" %}
 [connected-components.md](../../../../algorithms/graphs/connected-components.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

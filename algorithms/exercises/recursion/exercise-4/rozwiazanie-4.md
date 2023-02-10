@@ -1,6 +1,6 @@
-# Rozwiązanie 4
+# Solution 4
 
-## Wynik
+## Output
 
 |  n  | fun(n) |
 | :-: | :----: |

@@ -1,12 +1,12 @@
 # Prim
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/prim.md" %}
 [prim.md](../../../../algorithms/graphs/prim.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -95,7 +95,7 @@ int main() {
 Algorytm Prima
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Na początku definiujemy strukturę `edge` do reprezentacji krawędzi grafu (**linia 8**). Ponieważ mamy do czynienia z grafem ważonym, w strukturze przechowujemy trzy wartości: 
 

@@ -1,12 +1,12 @@
 # Palindrom
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/palindrome.md" %}
 [palindrome.md](../../../../algorithms/text/palindrome.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def is_palindrome(a: str) -> bool:
@@ -27,6 +27,6 @@ else:
 Test palindromu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

@@ -1,12 +1,12 @@
-# Trójkąt Sierpińskiego
+# Sierpinski triangle
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/sierpinski-triangle.md" %}
 [sierpinski-triangle.md](../../../../algorithms/fractals/sierpinski-triangle.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -38,7 +38,3 @@ sierpinski_triangle(4, 300)
 turtle.done()
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://replit.com/@damiankurpiewski/Sierpinski-Triangle#main.py" %}

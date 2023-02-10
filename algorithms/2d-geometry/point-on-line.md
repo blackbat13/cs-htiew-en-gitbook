@@ -1,14 +1,14 @@
-# Punkt na odcinku
+# Point on segment
 
-## Opis problemu
-
-TODO
-
-## Rozwiązanie
+## Problem description
 
 TODO
 
-## Implementacja
+## Solution
+
+TODO
+
+## Implementation
 
 ### C++
 

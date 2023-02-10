@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/linear-search.md" %}
 [linear-search.md](../../../../algorithms/searching/linear-search.md)
@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```visual-basic
@@ -47,7 +47,7 @@ Wyszukiwanie liniowe - istnienie elementu
 
 ## Pozycja elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```visual-basic
@@ -86,7 +86,7 @@ Wyszukiwanie liniowe - pozycja elementu
 
 ## Wszystkie pozycje elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```visual-basic

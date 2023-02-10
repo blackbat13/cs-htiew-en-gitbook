@@ -1,12 +1,12 @@
-# Odległość punktu od prostej
+# Point-line distance
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/2d-geometry/point-line-distance.md" %}
 [point-line-distance.md](../../../../algorithms/2d-geometry/point-line-distance.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -27,9 +27,3 @@ distance = point_line_distance(-3, -4, 7, 6, -5, -8)
 print("Distance of the point (-5, -8) from the line ((-3, -4), (7, 6)) is", distance)
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/AeowcV" %}
-Odległość punktu od prostej
-{% endembed %}

@@ -1,45 +1,43 @@
-# Algorytm Euklidesa
+# Euclid's algorithm
 
-## Opis problemu
+## Problem description
 
-TODO
+### Specification
 
-### Specyfikacja
+#### Input
 
-#### Dane
+* $$a, b$$ — natural numbers, $$a>0$$, $$b>0$$
 
-* $$a, b$$ — liczby naturalne, większe od zera
+#### Output
 
-#### Wynik
+* $$GCD(a, b)$$ — greatest common divisor of numbers $$a$$ and $$b$$ 
 
-* $$NWD(a, b)$$ — największy wspólny dzielnik liczb $$a$$ i $$b$$ 
+### Example
 
-### Przykład
-
-#### Dane
+#### Input
 
 ```
 a := 32
 b := 12
 ```
 
-**Wynik**: $$4$$ 
+**Output**: $$4$$ 
 
 {% hint style="info" %}
-**Wyjaśnienie**
+**Explanation**
 
-Dzielnikami liczby $$32$$ są: $$1, 2, 4, 8, 16, 32$$
+Divisors of the number $$32$$: $$1, 2, 4, 8, 16, 32$$
 
-Dzielnikami liczby $$12$$ są: $$1, 2, 3, 4, 6, 12$$
+Divisors of the number $$12$$: $$1, 2, 3, 4, 6, 12$$
 
-Wspólnymi dzielnikami są więc: $$1, 2, 4$$ 
+Common divisors: $$1, 2, 4$$ 
 
-Największy z nich to właśnie $$4$$.
+The greatest of them is $$4$$.
 {% endhint %}
 
-## Wersja z odejmowaniem
+## Subtraction method
 
-### Pseudokod
+### Pseudocode
 
 ```
 function GCD(a, b):
@@ -51,7 +49,7 @@ function GCD(a, b):
     6. Return a
 ```
 
-### Schemat blokowy
+### Block diagram
 
 ```mermaid
 flowchart TD
@@ -65,9 +63,9 @@ flowchart TD
 	K6 --> STOP([STOP])
 ```
 
-## Wersja z modulo — iteracyjna
+## Iterative modulo method
 
-### Pseudokod
+### Pseudocode
 
 ```
 function GCD(a, b):
@@ -79,10 +77,10 @@ function GCD(a, b):
 ```
 
 {% hint style="info" %}
-**mod** oznacza resztę z dzielenia
+**mod** stands for modulo
 {% endhint %}
 
-### Schemat blokowy
+### Block diagram
 
 ```mermaid
 flowchart TD
@@ -93,9 +91,9 @@ flowchart TD
 	K5 --> STOP([STOP])
 ```
 
-## Wersja z modulo — rekurencyjna
+## Recursive modulo method
 
-### Pseudokod
+### Pseudocode
 
 ```
 function GCD(a, b):
@@ -104,7 +102,7 @@ function GCD(a, b):
     3. Return GCD(b, a mod b)
 ```
 
-### Schemat blokowy
+### Block diagram
 
 ```mermaid
 flowchart TD
@@ -115,7 +113,7 @@ flowchart TD
 	K3 --> STOP
 ```
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -1,22 +1,22 @@
-# Metoda Monte Carlo
+# Monte Carlo method
 
-## Opis problemu
+## Problem description
 
 ## Obliczanie przybliżonej wartości liczby PI
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — liczba prób (im większa, tym większa dokładność)
 
-#### Wynik
+#### Output
 
 * $$pi$$ — przybliżona wartość liczby $$\pi$$
 
-### Rozwiązanie
+### Solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 function MonteCarloPI(n)
@@ -47,7 +47,7 @@ flowchart TD
 	K8 ---> STOP([STOP])
 ```
 
-## Implementacja
+## Implementation
 
 ### C++
 

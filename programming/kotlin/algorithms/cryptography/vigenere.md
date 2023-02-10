@@ -1,14 +1,14 @@
-# Szyfr Vigenere'a
+# Vigenere cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/vigenere.md" %}
 [vigenere.md](../../../../algorithms/cryptography/vigenere.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 ```python
 def encode(message: str, key: str) -> str:
@@ -37,19 +37,9 @@ encoded = encode(message, key)
 print(f"Encoded: {encoded}")
 ```
 
-### Link do implementacji
+## Decoding
 
-{% embed url="https://ideone.com/fDIhWN" %}
-Szyfrowanie szyfrem Vigenere'a
-{% endembed %}
-
-### Opis implementacji
-
-TODO
-
-## Deszyfrowanie
-
-### Implementacja
+### Implementation
 
 ```python
 def decode(message: str, key: str) -> str:
@@ -77,13 +67,3 @@ decoded = decode(message, key)
 
 print(f"Decoded: {decoded}")
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/95wFXH" %}
-Deszyfrowanie szyfrem Vigenere'a
-{% endembed %}
-
-### Opis implementacji
-
-TODO

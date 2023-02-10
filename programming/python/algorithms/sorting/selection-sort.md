@@ -1,12 +1,12 @@
 # Sortowanie przez wybieranie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/selection-sort.md" %}
 [selection-sort.md](../../../../algorithms/sorting/selection-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -40,7 +40,7 @@ print(array)
 Sortowanie przez wybieranie
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Powyższa implementacja składa się z dwóch funkcji: 
 

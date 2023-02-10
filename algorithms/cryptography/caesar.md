@@ -1,42 +1,42 @@
-# Szyfr Cezara
+# Caesar cipher
 
-## Opis problemu
-
-TODO
-
-## Szyfrowanie
+## Problem description
 
 TODO
 
-### Specyfikacja
+## Encoding
 
 TODO
 
-### Przykład
+### Specification
 
 TODO
 
-### Pseudokod
+### Example
 
 TODO
 
-## Deszyfrowanie
+### Pseudocode
 
 TODO
 
-### Specyfikacja
+## Decoding
 
 TODO
 
-### Przykład
+### Specification
 
 TODO
 
-### Pseudokod
+### Example
 
 TODO
 
-## Implementacja
+### Pseudocode
+
+TODO
+
+## Implementation
 
 ### C++
 

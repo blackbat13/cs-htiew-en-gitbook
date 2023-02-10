@@ -1,16 +1,12 @@
----
-description: Najkrótsze ścieżki pomiędzy wszystkimi wierzchołkami
----
-
 # Floyd-Warshall
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/floyd-warshall.md" %}
 [floyd-warshall.md](../../../../algorithms/graphs/floyd-warshall.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 import math
@@ -43,13 +39,3 @@ floyd_warshall(graph)
 
 pprint(graph)
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/G2g8p8" %}
-Floyd-Warshall
-{% endembed %}
-
-### Opis implementacji
-
-TODO

@@ -1,19 +1,19 @@
 # Permutacje
 
-## Opis problemu
+## Problem description
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — liczba elementów tablicy
 * $$tab[1..n]$$ - $$n$$-elementowa tablica 
 
-#### Wynik
+#### Output
 
 * Wszystkie permutacje tablicy $$tab$$
 
-## Implementacja
+## Implementation
 
 ### Kotlin
 

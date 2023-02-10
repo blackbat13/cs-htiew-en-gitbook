@@ -19,7 +19,7 @@ Kolejka znajduje się w bibliotece `queue`.
 Queue Reference
 {% endembed %}
 
-## Implementacja: przykłady
+## Implementation: przykłady
 
 Kilka przykładów pokazujących, jak korzystać z klasy `stack`.
 
@@ -71,7 +71,7 @@ if (qu.empty()) {
 }
 ```
 
-## Przykładowa implementacja
+## Exampleowa implementacja
 
 ```cpp
 #include <iostream>

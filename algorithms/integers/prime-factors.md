@@ -1,20 +1,20 @@
-# Rozkład na czynniki pierwsze
+# Prime factors
 
-## Opis problemu
+## Problem description
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, większa od zera
 
-#### Wynik
+#### Output
 
 * Rozkład liczby $$n$$ na czynniki pierwsze 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 124
@@ -22,9 +22,9 @@ n := 124
 
 **Wynik**: $$2, 2, 31$$ 
 
-## Rozwiązanie
+## Solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 function PrimeFactors(n):
@@ -43,7 +43,7 @@ function PrimeFactors(n):
 **div** oznacza dzielenie całkowite
 {% endhint %}
 
-### Schemat blokowy
+### Block diagram
 
 ```mermaid
 flowchart TD
@@ -58,7 +58,7 @@ flowchart TD
 	K2 -- FALSE ----> STOP([STOP])
 ```
 
-## Implementacja
+## Implementation
 
 ### C++
 

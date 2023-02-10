@@ -4,27 +4,27 @@ description: Wypełnianie obszarów
 
 # Flood fill
 
-## Opis problemu
+## Problem description
 
 Flood fill jest algorytmem pozwalającym na wypełnienie/odwiedzenie pewnego zamkniętego obszaru. Przykładem może być kolorowanie obszarów zamkniętych w programach graficznych.
 
-### Specyfikacja
+### Specification
 
 TODO
 
-### Przykład 1 - rekurencyjne wypełnianie obszaru pól połączonych ze sobą w linii prostej, poziomo lub pionowo.
+### Example 1 - rekurencyjne wypełnianie obszaru pól połączonych ze sobą w linii prostej, poziomo lub pionowo.
 
 ![By André Karwath aka Aka - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=481651](../../.gitbook/assets/Recursive\_Flood\_Fill\_4\_\(aka\).gif)
 
-### Przykład 2 - rekurencyjne wypełnianie obszaru pól połączonych ze sobą w dowolnym kierunku, także na ukos.
+### Example 2 - rekurencyjne wypełnianie obszaru pól połączonych ze sobą w dowolnym kierunku, także na ukos.
 
 ![By André Karwath aka Aka - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=481652](../../.gitbook/assets/Recursive\_Flood\_Fill\_8\_\(aka\).gif)
 
-### Rozwiązanie
+### Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja FloodFill(x, y):
@@ -39,7 +39,7 @@ funkcja FloodFill(x, y):
     7. FloodFill(x, y - 1)
 ```
 
-## Implementacja
+## Implementation
 
 ### C++
 

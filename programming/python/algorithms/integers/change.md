@@ -1,6 +1,6 @@
-# Wydawanie reszty
+# ATM
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/atm-problem/README.md" %}
 [README.md](../../../../algorithms/integers/atm-problem/README.md)
@@ -8,7 +8,7 @@
 
 ## Podejście zachłanne
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -42,7 +42,7 @@ Wydawanie reszty - podejście zachłanne
 
 ## Podejście dynamiczne
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -90,7 +90,7 @@ change_dynamic(amount, coins)
 Wydawanie reszty - podejście dynamiczne
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `change_dynamic` (**linia 1**) przyjmuje dwa parametry: kwotę do wydania (`amount`) i listę dostępnych nominałów (`coins`).
 

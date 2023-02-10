@@ -1,14 +1,14 @@
-# Krzywa Kocha
+# Koch curve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/koch-curve.md" %}
 [koch-curve.md](../../../../algorithms/fractals/koch-curve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
-### Krzywa Kocha
+### Koch curve
 
 ![Funkcja rysujące krzywą Kocha](<../../../../.gitbook/assets/image (14).png>)
 

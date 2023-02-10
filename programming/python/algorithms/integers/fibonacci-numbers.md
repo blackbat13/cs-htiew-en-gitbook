@@ -1,14 +1,14 @@
-# Liczby Fibonacciego
+# Fibonacci numbers
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/fibonacci-numbers.md" %}
 [fibonacci-numbers.md](../../../../algorithms/integers/fibonacci-numbers.md)
 {% endcontent-ref %}
 
-## Wersja iteracyjna
+## Iterative solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -38,9 +38,9 @@ print(f"fib({n}) = {result}")
 Liczby Fibonacciego - wersja iteracyjna
 {% endembed %}
 
-## Wersja rekurencyjna
+## Recursive solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

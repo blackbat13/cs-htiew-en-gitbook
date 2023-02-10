@@ -1,12 +1,12 @@
 # Sortowanie przez scalanie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/merge-sort.md" %}
 [merge-sort.md](../../../../algorithms/sorting/merge-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun merge(array: MutableList<Int>, left: Int, right: Int, division: Int) {

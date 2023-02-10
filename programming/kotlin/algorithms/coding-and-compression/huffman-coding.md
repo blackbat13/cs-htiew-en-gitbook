@@ -1,11 +1,11 @@
-# Kody Huffmana
+# Huffman coding
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/coding-and-compression/huffman-coding.md" %}
 [huffman-coding.md](../../../../algorithms/coding-and-compression/huffman-coding.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

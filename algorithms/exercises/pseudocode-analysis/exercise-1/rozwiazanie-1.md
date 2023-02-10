@@ -1,4 +1,4 @@
-# Rozwiązanie 1
+# Solution 1
 
 ## Symulacja
 
@@ -26,6 +26,6 @@
 8. Wypisz 1    
 ```
 
-## Wynik
+## Output
 
 $$q=3,\ r=1$$

@@ -1,12 +1,12 @@
 # Minkowski Sausage
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/minkowski-sausage.md" %}
 [minkowski-sausage.md](../../../../algorithms/fractals/minkowski-sausage.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

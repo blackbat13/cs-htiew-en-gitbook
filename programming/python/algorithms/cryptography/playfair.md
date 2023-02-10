@@ -1,14 +1,14 @@
-# Szyfr Playfaira
+# Playfair cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/playfair.md" %}
 [playfair.md](../../../../algorithms/cryptography/playfair.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -72,15 +72,9 @@ print(encoded)
 ```
 {% endcode %}
 
-### Link do implementacji
+## Decoding
 
-{% embed url="https://ideone.com/axOimk" %}
-Szyfrowanie szyfrem Playfaira
-{% endembed %}
-
-## Deszyfrowanie
-
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -143,9 +137,3 @@ decoded = decode(key, message)
 print(decoded)
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/wzq3j7" %}
-Deszyfrowanie szyfrem Playfaira
-{% endembed %}

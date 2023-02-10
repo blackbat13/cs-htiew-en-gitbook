@@ -1,12 +1,12 @@
-# Przecinanie się odcinków
+# Segments crossing
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/2d-geometry/segments-crossing.md" %}
 [segments-crossing.md](../../../../algorithms/2d-geometry/segments-crossing.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -72,14 +72,8 @@ d_y = 4
 result = segment_crossing(a_x, a_y, b_x, b_y, c_x, c_y, d_x, d_y)
 
 if result:
-	print(f"Odcinki [({a_x}, {a_y}), ({b_x}, {b_y})] oraz [({c_x}, {c_y}), ({d_x}, {d_y})] przecinają się")
+	print(f"Segments [({a_x}, {a_y}), ({b_x}, {b_y})] and [({c_x}, {c_y}), ({d_x}, {d_y})] intersect")
 else:
-	print(f"Odcinki [({a_x}, {a_y}), ({b_x}, {b_y})] oraz [({c_x}, {c_y}), ({d_x}, {d_y})] nie przecinają się")
+	print(f"Segments [({a_x}, {a_y}), ({b_x}, {b_y})] and [({c_x}, {c_y}), ({d_x}, {d_y})] do not intersect")
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/xNF4Zk" %}
-Przecinanie się odcinków
-{% endembed %}

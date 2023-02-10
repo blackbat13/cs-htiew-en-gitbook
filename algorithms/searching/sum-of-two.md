@@ -1,6 +1,6 @@
 # Sum of two
 
-## Opis problemu
+## Problem description
 
 Mamy pewien posortowany zbiór różnych liczb. W tym zbiorze mamy odnaleźć dwie liczby, które po dodaniu do siebie dadzą pożądaną sumę. Oczywiście, takie liczby wcale nie muszą w tym zbiorze się znajdować.
 

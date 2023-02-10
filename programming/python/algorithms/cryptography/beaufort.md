@@ -1,14 +1,14 @@
-# Szyfr Beauforta
+# Beaufort cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/beaufort.md" %}
 [beaufort.md](../../../../algorithms/cryptography/beaufort.md)
 {% endcontent-ref %}
 
-## Szyfrowanie i deszyfrowanie
+## Encoding i deszyfrowanie
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -56,9 +56,3 @@ print(f"Encoded: {encoded}")
 print(f"Decoded: {decoded}")
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/bbGaVQ" %}
-Szyfr Beauforta
-{% endembed %}

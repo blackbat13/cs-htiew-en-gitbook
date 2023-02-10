@@ -1,12 +1,12 @@
-# Konwersja w systemie U2
+# U2 conversion
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numeral-systems/u2.md" %}
 [System U2](../../../../algorithms/numeral-systems/u2.md)
 {% endcontent-ref %}
 
-## Z U2 do dziesiętnego
+## From U2 to decimal
 
 ```python
 def u2_to_decimal(number: str) -> int:
@@ -32,9 +32,3 @@ number_decimal = u2_to_decimal(number_u2)
 
 print(f"{number_u2} (U2) = {number_decimal} (10)")
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/5KbrSA" %}
-Konwersja z systemu U2 do dziesiętnego
-{% endembed %}

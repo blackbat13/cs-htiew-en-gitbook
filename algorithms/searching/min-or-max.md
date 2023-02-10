@@ -1,6 +1,6 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 Wyobraźmy sobie, że odwiedzamy pewien sklep internetowy, np. w poszukiwaniu nowego laptopa.
 Na początek chcemy sprawdzić, jaki jest najdroższy z dostępnych sprzętów.
@@ -11,7 +11,7 @@ W tym temacie zajmiemy się właśnie takim problemem - **znajdowaniem elementu 
 
 ## Wyszukiwanie wartości maksymalnej w tablicy
 
-### Opis problemu
+### Problem description
 
 Zacznijmy od standardowej wersji problemu.
 Jak to zwykle w informatyce, będziemy rozważać pewien uporządkowany zbiór elementów, a dokładnie tablicę liczb całkowitych.
@@ -20,20 +20,20 @@ Oczywiście w ogólności nie ma znaczenia, jakie to będą wartości, pod warun
 Interesuje nas znalezienie wartości maksymalnej w zadanej tablicy.
 Jak zwykle, zaczynamy od bardziej formalnej specyfikacji naszego problemu.
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, liczba elementów w tablicy
 * $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Największa wartość z tablicy $$A$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -48,7 +48,7 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 Wyszukiwanie maksimum
 {% endembed %}
 
-### Rozwiązanie
+### Solution
 
 Zanim przejdziemy do rozwiązywania problemu warto przyjrzeć się dokładnie powyższej animacji.
 Pokazuje ona, krok po kroku, metodę, którą zastosujemy.
@@ -65,7 +65,7 @@ Na końcu, gdy już sprawdzimy wszystkie elementy tablicy, nasze dotychczasowe m
 
 Zapiszmy teraz nasz algorytm w postaci pseudokodu.
 
-### Pseudokod
+### Pseudocode
 
 ```
 function FindMax(n, A):
@@ -92,7 +92,7 @@ flowchart TD
 	K5 ---> STOP([STOP])
 ```
 
-### Złożoność
+### Complexity
 
 Podobnie jak w przypadku wyszukiwania liniowego przeglądamy elementy jeden po drugim w poszukiwaniu maksimum.
 Dlatego i w tym przypadku mamy złożoność liniową.
@@ -101,25 +101,25 @@ $$O(n)$$ - liniowa
 
 ## Wyszukiwanie indeksu wartości maksymalnej w tablicy
 
-### Opis problemu
+### Problem description
 
 W niektórych sytuacjach nie wystarczy nam znać wartość maksymalnego elementu, musimy także poznać jego **pozycję** w tablicy.
 Zmodyfikujmy więc odpowiednio specyfikację naszego problemu.
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Indeks największej wartości z tablicy $$A$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -134,7 +134,7 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 Największa wartość w tablicy to $$8$$. Wartość ta znajduje się na pozycji piątej.
 {% endhint %}
 
-### Rozwiązanie
+### Solution
 
 Nowy problem jest bardzo zbliżony do poprzedniego, więc aby go rozwiązać, rozszerzymy nasze poprzednie rozwiązanie.
 Teraz, poza wartością maksymalnego elementu, potrzebujemy zapamiętać dodatkową informację: indeks elementu maksymalnego.
@@ -177,7 +177,7 @@ flowchart TD
 	K5 ---> STOP([STOP])
 ```
 
-### Złożoność
+### Complexity
 
 Dodanie nowej zmiennej, w której pamiętamy indeks wyszukiwanego elementu, nie wpływa na złożoność naszego rozwiązania.
 Struktura algorytmu pozostaje niezmieniona, więc złożoność cały czas jest liniowa.
@@ -190,7 +190,7 @@ W przypadku poszukiwania elementu minimalnego, postępujemy praktycznie identycz
 Tak naprawdę wystarczy zmienić **znak porównania**: z $$<$$ na $$>$$.
 Zaprojektowanie rozwiązania zostawiamy jako samodzielne ćwiczenie dla zainteresowanych.
 
-## Implementacja
+## Implementation
 
 ### C++
 

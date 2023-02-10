@@ -1,12 +1,12 @@
-# Test doskonałości
+# Perfect test
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/perfect-test.md" %}
 [perfect-test.md](../../../../algorithms/integers/perfect-test.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

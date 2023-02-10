@@ -4,13 +4,13 @@ description: Przeszukiwanie grafu wszerz
 
 # BFS
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/bfs.md" %}
 [bfs.md](../../../../algorithms/graphs/bfs.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

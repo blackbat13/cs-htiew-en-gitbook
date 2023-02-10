@@ -4,7 +4,7 @@ description: Quicksort
 
 # Sortowanie szybkie
 
-## Opis problemu
+## Problem description
 
 Sortowanie szybkie to jeden ze szczególnych algorytmów. W ogólności jest bardzo wydajną metodą sortowania, ale w szczególnych przypadkach jego złożoność jest nie lepsza niż sortowania bąbelkowego.
 
@@ -13,18 +13,18 @@ Sortowanie szybkie opiera się bardzo mocno na rekurencji i podziale tablicy na 
 2. Elementy mniejsze przemieszczamy od pivota przemieszczamy na jego lewą stroną, elementy większe natomiast przemieszczamy na prawo.
 3. Rekurencyjnie sortujemy lewą część i prawą część tablicy.
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ — liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Posortowana niemalejąco tablica $$A$$
 
-## Rozwiązanie
+## Solution
 
 By lepiej zrozumieć ten zaawansowany algorytm, prześledźmy jego przebieg na poniższej prezentacji.
 
@@ -32,7 +32,7 @@ By lepiej zrozumieć ten zaawansowany algorytm, prześledźmy jego przebieg na p
 Sortowanie szybkie
 {% endfile %}
 
-### Pseudokod
+### Pseudocode
 
 ```
 Procedura SortSzybkie(A, p, k):
@@ -62,7 +62,7 @@ Procedura SortSzybkie(A, p, k):
     SortSzybkie(A, i, k)
 ```
 
-### Złożoność
+### Complexity
 
 #### Pesymistyczna
 
@@ -72,7 +72,7 @@ $$O(n^2)$$ — kwadratowa
 
 $$O(n\log{n})$$ — liniowo logarytmiczna
 
-## Implementacja
+## Implementation
 
 ### C++
 

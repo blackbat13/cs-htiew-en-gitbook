@@ -2,17 +2,17 @@
 description: Największy Wspólny Dzielnik
 ---
 
-# NWD
+# GCD
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/gcd.md" %}
 [gcd.md](../../../../algorithms/integers/gcd.md)
 {% endcontent-ref %}
 
-## NWD z odejmowaniem
+## GCD with subtraction
 
-### NWD
+### GCD
 
 ![Obliczanie NWD z odejmowaniem](../../../../.gitbook/assets/NWD_odj.png)
 
@@ -28,7 +28,7 @@ NWD z odejmowaniem
 
 ## Algorytm Euklidesa (NWD z modulo) - wersja iteracyjna
 
-### NWD
+### GCD
 
 ![Algorytm Euklidesa - wersja iteracyjna](../../../../.gitbook/assets/NWD_mod_iter.png)
 
@@ -44,7 +44,7 @@ Algorytm Euklidesa - wersja iteracyjna
 
 ## Algorytm Euklidesa (NWD z modulo) - wersja rekurencyjna
 
-### NWD
+### GCD
 
 ![Algorytm Euklidesa - wersja rekurencyjna](../../../../.gitbook/assets/NWD_mod_rek.png)
 

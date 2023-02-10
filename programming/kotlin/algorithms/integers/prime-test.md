@@ -1,12 +1,12 @@
-# Test pierwszości
+# Prime test
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/prime-test.md" %}
 [prime-test.md](../../../../algorithms/integers/prime-test.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 import kotlin.math.sqrt
@@ -32,19 +32,9 @@ fun main() {
   val result = isPrime(n)
 
   if (result) {
-    println("$n jest liczba pierwsza")
+    println("$n is prime")
   } else {
-    println("$n nie jest liczba pierwsza")
+    println("$n is not prime")
   }
 }
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/eVaqy4" %}
-Test pierwszości
-{% endembed %}
-
-### Opis implementacji
-
-TODO

@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/linear-search.md" %}
 [linear-search.md](../../../../algorithms/searching/linear-search.md)
@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```pascal
@@ -55,7 +55,7 @@ end.
 Wyszukiwanie liniowe - istnienie elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linear_search` (**linia 7**) zwraca jako wynik wartość prawda/fałsz i przyjmuje trzy argumenty: rozmiar tablicy, tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przyjmujemy jako potencjalny wynik wartość `false`, czyli informację, że nie znaleźliśmy elementu w tablicy (**linia 12**). Następnie przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy (**linia 13**). Dla każdego indeksu sprawdzamy, czy element zapisany pod tym indeksem jest równy poszukiwanej wartości (**linia 15**). Jeżeli tak, to zapamiętujemy informację o znalezieniu wartości w zmiennej `result` (**linia 17**) i wychodzimy z pętli za pomocą instrukcji `break` (**linia 18**). Na koniec zwracamy wynik, czyli wartość zmiennej `result` (**linia 21**).
 
@@ -63,7 +63,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: rozm
 
 ## Pozycja elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```pascal
@@ -111,7 +111,7 @@ end.
 Wyszukiwanie liniowe - pozycja elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linear_search` (**linia 7**) zwraca jako wynik liczbę całkowitą i przyjmuje trzy argumenty: rozmiar tablicy, tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przyjmujemy jako potencjalny wynik wartość `-1`, czyli informację, że nie znaleźliśmy elementu w tablicy (**linia 12**). Następnie przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy (**linia 13**). Dla każdego indeksu sprawdzamy, czy element zapisany pod tym indeksem jest równy poszukiwanej wartości (**linia 15**). Jeżeli tak, to zapamiętujemy informację o znalezieniu wartości w zmiennej `result` (**linia 17**) i wychodzimy z pętli za pomocą instrukcji `break` (**linia 18**). Na koniec zwracamy wynik, czyli wartość zmiennej `result` (**linia 21**).
 
@@ -119,7 +119,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: rozm
 
 ## Wszystkie pozycje elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```pascal
@@ -153,7 +153,7 @@ end.
 Wyszukiwanie liniowe - wszystkie pozycje elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Procedura `linear_search` (**linia 6**) przyjmuje trzy argumenty: rozmiar tablicy, tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy (**linia 10**). Dla każdego indeksu sprawdzamy, czy element zapisany pod tym indeksem jest równy poszukiwanej wartości (**linia 12**). Jeżeli tak, to wypisujemy ten indeks (**linia 14**).
 

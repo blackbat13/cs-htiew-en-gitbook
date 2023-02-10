@@ -1,12 +1,12 @@
-# Problem n królowych
+# N-queens problem
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/backtracking/n-queens.md" %}
 [n-queens.md](../../../../algorithms/backtracking/n-queens.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -62,9 +62,3 @@ else:
     print("No result exists")
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/C4JTOk" %}
-Problem n królowych
-{% endembed %}

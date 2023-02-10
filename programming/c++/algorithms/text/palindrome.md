@@ -1,12 +1,12 @@
 # Palindrom
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/palindrome.md" %}
 [palindrome.md](../../../../algorithms/text/palindrome.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

@@ -1,6 +1,6 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## Problem description
 
 W wielu przypadkach, gdy musimy coś znaleźć, np. książkę na półce w bibliotece, to będziemy mieć do czynienia z konkretnym porządkiem.
 Książki mogą być ułożone według tematyki, **posortowane** po nazwisku autora i tytule.
@@ -10,21 +10,21 @@ Tak samo jest też w świecie algorytmiki. Gdy pracujemy na danych **posortowany
 
 Jak zwykle, zacznijmy od formalnej specyfikacji, by lepiej zrozumieć problem, z którym będziemy się mierzyć.
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ - $$n-elementowa$$ tablica liczb całkowitych, posortowana niemalejąco, indeksowana od jedynki
 * $$k$$ - liczba całkowita, szukana wartość
 
-#### Wynik:
+#### Output:
 
 * Indeks wartości $$k$$ w tablicy $$A$$, lub $$-1$$ jeżeli tej wartości nie ma w tablicy
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -34,7 +34,7 @@ k := 7
 
 **Wynik**: $$4$$ 
 
-## Rozwiązanie iteracyjne
+## Iterative solution
 
 Zacznijmy od wersji iteracyjnej. Na początku definiujemy początek i koniec przeszukiwanego przedziału. Jako początek przyjmujemy numer pierwszego elementu (czyli $$1$$), a jako koniec numer ostatniego elementu (czyli $$n$$). W pętli będziemy powtarzać przeszukiwanie tak długo, jak długo nasz zdefiniowany przez początek i koniec przedział będzie zawierał co najmniej jeden element. Inaczej mówiąc, powtarzamy tak długo, jak długo początek jest mniejszy od końca.
 
@@ -42,7 +42,7 @@ Wewnątrz pętli najpierw obliczamy środek przeszukiwanego przedziału. Następ
 
 Gdy już wyjdziemy z pętli pozostaje nam sprawdzić, czy znaleźliśmy poszukiwany element. Sprawdzamy, czy pod indeksem wskazującym na zmieniony początek (lub koniec) przedziału znajduje się poszukiwana wartość. Jeżeli tak, to zwracamy jako wynik ten indeks. W przeciwnym przypadku zwracamy $$-1$$.
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SzukajBinarnie(n, A, k)
@@ -67,7 +67,7 @@ funkcja SzukajBinarnie(n, A, k)
 **div** oznacza dzielenie całkowite
 {% endhint %}
 
-### Schemat blokowy
+### Block diagram
 
 ```mermaid
 flowchart TD
@@ -86,15 +86,15 @@ flowchart TD
 	R2 --> STOP
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\log n)$$ - logarytmiczna
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
 W rozwiązaniu rekurencyjnym zamiast rozmiaru tablicy podajemy początek i koniec przeszukiwanego przedziału. Zaczynamy od sprawdzenia warunku stopu rekurencji: poprawności przedziału. Następnie postępujemy podobnie jak w wersji iteracyjnej. Obliczamy środek przedziału i porównujemy element znajdujący się na środku z poszukiwaną wartością. W zależności od wyniku porównania wykonujemy wywołanie rekurencyjne odpowiednio modyfikując przeszukiwany przedział.
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja SzukajBinarnie(A, k, pocz, kon)
@@ -131,11 +131,11 @@ flowchart TD
 	K9 --> STOP
 ```
 
-### Złożoność 
+### Complexity 
 
 $$O(\log n)$$ - logarytmiczna
 
-## Implementacja
+## Implementation
 
 ### C++
 

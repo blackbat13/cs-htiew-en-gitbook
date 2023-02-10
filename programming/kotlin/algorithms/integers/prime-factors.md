@@ -1,12 +1,12 @@
-# Rozkład na czynniki pierwsze
+# Prime factors
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/prime-factors.md" %}
 [prime-factors.md](../../../../algorithms/integers/prime-factors.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun distribute(num: Int): List<Int> {
@@ -31,16 +31,6 @@ fun main() {
 
   val result = distribute(n)
 
-  println("Czynniki pierwsze liczby $n: $result")
+  println("Prime factors of $n: $result")
 }
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/VAB2Jl" %}
-Rozkład na czynniki pierwsze
-{% endembed %}
-
-### Opis implementacji
-
-TODO

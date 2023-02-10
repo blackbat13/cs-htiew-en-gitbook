@@ -1,14 +1,14 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/binary-search.md" %}
 [binary-search.md](../../../../algorithms/searching/binary-search.md)
 {% endcontent-ref %}
 
-## Wersja iteracyjna
+## Iterative solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -60,9 +60,9 @@ int main() {
 Wyszukiwanie binarne - wersja iteracyjna
 {% endembed %}
 
-## Wersja rekurencyjna
+## Recursive solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

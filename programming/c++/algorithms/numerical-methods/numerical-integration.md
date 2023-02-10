@@ -1,14 +1,14 @@
-# Całkowanie numeryczne
+# Numerical integration
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/numerical-integration.md" %}
 [numerical-integration.md](../../../../algorithms/numerical-methods/numerical-integration.md)
 {% endcontent-ref %}
 
-## Metoda prostokątów
+## Rectangles method
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -55,7 +55,7 @@ int main() {
 Całkowanie numeryczne - metoda prostokątów
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `f` (**linia 5**) przyjmuje jeden parametr rzeczywisty i jako wynik zwraca liczbę rzeczywistą. Funkcja ta symuluje funkcję matematyczną, której pole pod wykresem chcemy policzyć. 
 
@@ -63,9 +63,9 @@ Funkcja `rectanglesMethod` (**linia 9**) realizuje algorytm całkowania numerycz
 
 W części głównej programu przygotowujemy dane do naszego algorytmu: początek przedziału (**linia 25**), koniec przedziału (**linia 26**) oraz liczbę prostokątów (**linia 27**). Następnie wywołujemy funkcję `rectanglesMethod` z przygotowanymi danymi, a jej wynik zapisujemy w zmiennej `area` (**linia 29**). Na koniec wypisujemy wynik na ekranie (**linia 31**) oraz kończymy działanie programu (**linia 33**).
 
-## Metoda trapezów
+## Trapezes method
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -113,7 +113,7 @@ int main() {
 Całkowanie numeryczne - metoda trapezów
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `f` (**linia 5**) przyjmuje jeden parametr rzeczywisty i jako wynik zwraca liczbę rzeczywistą. Funkcja ta symuluje funkcję matematyczną, której pole pod wykresem chcemy policzyć. 
 

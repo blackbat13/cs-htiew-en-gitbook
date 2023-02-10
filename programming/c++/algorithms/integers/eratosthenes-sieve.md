@@ -1,12 +1,12 @@
-# Sito Eratostenesa
+# Eratosthenes sieve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/eratosthenes-sieve.md" %}
 [eratosthenes-sieve.md](../../../../algorithms/integers/eratosthenes-sieve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

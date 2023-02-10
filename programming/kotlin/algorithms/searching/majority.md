@@ -1,12 +1,12 @@
 # Znajdowanie lidera w zbiorze
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/majority.md" %}
 [majority.md](../../../../algorithms/searching/majority.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun countOccurrences(element: Int, array: List<Int>): Int {
@@ -62,6 +62,6 @@ fun main() {
 Znajdowanie lidera w zbiorze
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

@@ -4,26 +4,26 @@ description: Insertion sort
 
 # Sortowanie przez wstawianie
 
-## Opis problemu
+## Problem description
 
 Siedzisz przy stole, karty już rozdane. Spoglądasz na karty trzymane w ręce i stwierdzasz, że jak ich nie ułożysz w sensownej kolejności to się nie połapiesz. Zaczynasz więc od drugiej karty i przesuwasz ją w lewo, by trafiła na swoje miejsce. Teraz bierzesz trzecią i ponownie przesuwasz ją w lewo, aż będzie poprawnie ułożona. Podobnie postępujesz z czwartą i kolejnymi kartami: każdą kolejną bierzesz do ręki i przesuwasz w lewo, aż **wstawisz** ją na właściwe miejsce na ręce. Tym o to sposobem zrealizowałeś algorytm **sortowania przez wstawianie**.
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ — liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Posortowana niemalejąco tablica $$A$$
 
-### Przykład
+### Example
 
 Na początek przyjrzyjmy się poniższym animacjom. Spróbuj prześledzić jak kolejne wartości zamieniają się miejscami. Czy potrafisz, własnymi słowami, opisać przebieg algorytmu?
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -38,11 +38,11 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 
 {% embed url="https://blackbat13.github.io/visul2/sorting/insertion_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
 
-## Rozwiązanie
+## Solution
 
 Zaczynamy od drugiego elementu tablicy. Będziemy go przesuwać w lewo tak długo, aż nie trafi na swoje miejsce. Innymi słowy będziemy przesuwać go w lewo, dopóki nie trafi na początek tablicy i dopóki element po jego lewej stronie będzie większy. I tak postępujemy z każdym kolejnym elementem tablicy.
 
-### Pseudokod
+### Pseudocode
 
 ```
 procedura SortWstaw(A, n):
@@ -53,13 +53,13 @@ procedura SortWstaw(A, n):
             5. j := j - 1
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n^2)$$ — kwadratowa
 
 Dwie zagnieżdżone pętle. Chociaż warunkowa pętla wewnętrzna wykonuje zawsze co najwyżej tyle obrotów, ile wynosi indeks obecnie przesuwanego elementu, to i tak otrzymujemy złożoność kwadratową, co można dość łatwo samodzielnie policzyć.
 
-## Implementacja
+## Implementation
 
 ### C++
 

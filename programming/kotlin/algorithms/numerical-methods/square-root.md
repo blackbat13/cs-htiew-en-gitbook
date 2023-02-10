@@ -1,12 +1,12 @@
-# Pierwiastek kwadratowy
+# Square root
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/square-root.md" %}
 [square-root.md](../../../../algorithms/numerical-methods/square-root.md)
 {% endcontent-ref %}
 
-## Metoda Herona
+## Heron method
 
 ```python
 import math
@@ -29,13 +29,3 @@ result = sqrt(n, p)
 
 print(f"sqrt({n}) ~= {result}")
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/YfdE5U" %}
-Pierwiastek kwadratowy - metoda Herona
-{% endembed %}
-
-### Opis implementacji
-
-TODO

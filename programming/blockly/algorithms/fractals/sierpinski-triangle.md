@@ -1,14 +1,14 @@
-# Trójkąt Sierpińskiego
+# Sierpinski triangle
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/sierpinski-triangle.md" %}
 [sierpinski-triangle.md](../../../../algorithms/fractals/sierpinski-triangle.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
-### Trójkąt Sierpińskiego
+### Sierpinski triangle
 
 ![Funkcja rysująca trójkąt Sierpińskiego](<../../../../.gitbook/assets/image (18).png>)
 

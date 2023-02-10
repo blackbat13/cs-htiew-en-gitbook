@@ -4,13 +4,13 @@ description: BST
 
 # Drzewo przeszukiwań binarnych
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md" %}
 [drzewa-przeszukiwan-binarnych.md](../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -87,7 +87,7 @@ if __name__ == "__main__":
 ```
 {% endcode %}
 
-### Opis implementacji
+### Implementation description
 
 ![Przykładowe drzewo wykorzystane w implementacji](<../../../../.gitbook/assets/image (10).png>)
 

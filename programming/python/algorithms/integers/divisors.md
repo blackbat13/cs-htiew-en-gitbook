@@ -1,14 +1,14 @@
-# Wszystkie dzielniki
+# All divisors
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/divisors.md" %}
 [divisors.md](../../../../algorithms/integers/divisors.md)
 {% endcontent-ref %}
 
-## Rozwiązanie zupełnie naiwne
+## Trivial solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -30,9 +30,9 @@ divisors(n)
 Wszystkie dzielniki - podejście zupełnie naiwne
 {% endembed %}
 
-## Rozwiązanie naiwne
+## Naive solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -57,9 +57,9 @@ divisors(n)
 Wszystkie dzielniki - podejście naiwne
 {% endembed %}
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

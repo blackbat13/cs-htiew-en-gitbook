@@ -1,4 +1,4 @@
-# Rozwiązanie 4
+# Solution 4
 
 ## Symulacja
 
@@ -14,6 +14,6 @@
 8. Wypisz 0
 ```
 
-## Wynik
+## Output
 
 $$0$$ 

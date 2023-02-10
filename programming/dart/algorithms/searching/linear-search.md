@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/linear-search.md" %}
 [linear-search.md](../../../../algorithms/searching/linear-search.md)
@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```dart
@@ -43,7 +43,7 @@ void main() {
 Wyszukiwanie liniowe - istnienie elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) zwraca jako wynik wartość prawda/fałsz i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne elementy w liście (**linia 2**). Dla każdego elementu sprawdzamy, czy jest to poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy informację o znalezieniu wartości w liście (**linia 4**). Po przejściu przez wszystkie elementy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `false` informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
 
@@ -51,7 +51,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: list
 
 ## Pozycja elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```dart
@@ -86,7 +86,7 @@ void main() {
 Wyszukiwanie liniowe - pozycja elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $$0$$ do rozmiaru listy minus jeden (**linia 2**). Rozmiar listy pobieramy za pomocą własności `length`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks tej wartości w liście (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `-1` informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
 
@@ -94,7 +94,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: list
 
 ## Wszystkie pozycje elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```dart
@@ -123,7 +123,7 @@ void main() {
 Wyszukiwanie liniowe - wszystkie pozycje elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) nie zwraca wyniku i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $$0$$ do rozmiaru listy minus jeden (**linia 2**). Rozmiar listy pobieramy za pomocą własności `length`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to wypisujemy ten indeks (**linia 4**).
 

@@ -1,12 +1,12 @@
-# Schemat Hornera
+# Horner scheme
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/horner.md" %}
 [horner.md](../../../../algorithms/numerical-methods/horner.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -56,7 +56,7 @@ int main() {
 Metoda Hornera obliczania wartości wielomianu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Zacznijmy od funkcji pomocniczej `printPolynomial` (**linia 15**), której celem jest wyświetlenie wielomianu w czytelnej formie na ekranie. Nie jest ona niezbędną częścią algorytmu, ale może być pomocna przy weryfikacji poprawności wyniku. Funkcja przyjmuje dwa parametry: tablicę współczynników wielomianu `coef`, oraz stopień wielomianu `n`. W tablicy znajduje się dokładnie $$n+1$$ liczb. Współczynniki są zapisane w kolejności od najmniejszej potęgi ($$0$$) do największej ($$n$$).
 

@@ -1,12 +1,12 @@
-# Krzywa Peano
+# Peano curve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/peano-curve.md" %}
 [peano-curve.md](../../../../algorithms/fractals/peano-curve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

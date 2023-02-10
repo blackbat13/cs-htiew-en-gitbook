@@ -1,12 +1,12 @@
-# Sito Eratostenesa
+# Eratosthenes sieve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/eratosthenes-sieve.md" %}
 [eratosthenes-sieve.md](../../../../algorithms/integers/eratosthenes-sieve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun sieve(n: Int): List<Boolean> {
@@ -42,17 +42,7 @@ fun main() {
 
   val primes = sieve(n)
 
-  println("Liczby pierwsze od 1 do $n:")
+  println("Prime numbers from 1 to $n:")
   printPrimeNumbers(primes)
 }
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/GUPgH6" %}
-Sito Eratostenesa
-{% endembed %}
-
-### Opis implementacji
-
-TODO

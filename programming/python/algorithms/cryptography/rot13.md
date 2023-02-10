@@ -1,14 +1,14 @@
-# Szyfr ROT13
+# ROT13 cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/rot13.md" %}
 [rot13.md](../../../../algorithms/cryptography/rot13.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -49,9 +49,9 @@ print(f"Encoded: {encoded}")
 Szyfrowanie szyfrem ROT13
 {% endembed %}
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

@@ -1,12 +1,12 @@
-# Rozkład na czynniki pierwsze
+# Prime factors
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/prime-factors.md" %}
 [prime-factors.md](../../../../algorithms/integers/prime-factors.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

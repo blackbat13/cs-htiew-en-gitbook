@@ -1,6 +1,6 @@
-# Kod ASCII
+# ASCII codes
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/coding-and-compression/ascii.md" %}
 [ascii.md](../../../../algorithms/coding-and-compression/ascii.md)
@@ -8,7 +8,7 @@
 
 ## Podstawowa tablica ASCII
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -37,7 +37,7 @@ Podstawowa tablica ASCII
 
 ## Rozszerzona tablica ASCII
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

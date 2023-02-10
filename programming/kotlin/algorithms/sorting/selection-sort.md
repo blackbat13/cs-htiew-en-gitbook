@@ -1,12 +1,12 @@
 # Sortowanie przez wybieranie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/selection-sort.md" %}
 [selection-sort.md](../../../../algorithms/sorting/selection-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun findMin(array: MutableList<Int>, begin: Int): Int {
@@ -45,7 +45,7 @@ fun main() {
 Sortowanie przez wybieranie
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Powyższa implementacja składa się z dwóch funkcji: 
 

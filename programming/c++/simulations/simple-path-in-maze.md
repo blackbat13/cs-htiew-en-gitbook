@@ -2,7 +2,7 @@
 
 Dany jest "prosty" labirynt, tzn. z jednym korytarzem bez rozgałęzień. Celem jest dotarcie z punktu startowego do końcowego i policzenie ilości wykonanych kroków.
 
-#### Specyfikacja
+#### Specification
 
 **Dane**:
 
@@ -125,7 +125,7 @@ int main() {
 
 {% embed url="https://replit.com/@damiankurpiewski/SimplePath#main.cpp" %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 

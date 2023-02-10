@@ -1,6 +1,6 @@
-# Rozwiązanie dynamiczne
+# Solution dynamiczne
 
-## Implementacja
+## Implementation
 
 ### C++
 

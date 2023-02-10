@@ -1,12 +1,12 @@
-# Trójkąt Sierpińskiego
+# Sierpinski triangle
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/sierpinski-triangle.md" %}
 [sierpinski-triangle.md](../../../../algorithms/fractals/sierpinski-triangle.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

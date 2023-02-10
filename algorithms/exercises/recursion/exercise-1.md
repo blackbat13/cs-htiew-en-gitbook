@@ -4,15 +4,15 @@
 
 Dana jest następująca specyfikacja i zgodna z nią funkcja rekurencyjna:
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, liczba elementów w tablicy
 * $$tab[1..n]$$ - tablica $$n$$ liczb całkowitych, numerowana od jedynki
 * $$p, k$$ - początek i koniec zakresu, liczby naturalne
 
-#### Wynik
+#### Output
 
 * $$suma$$ - suma elementów tablicy $$tab[p..k]$$, tzn. $$tab[p]+tab[p+1]+...+tab[k]$$ 
 

@@ -1,5 +1,5 @@
-# Rozwiązanie 3
+# Solution 3
 
-## Wynik
+## Output
 
 Złożoność logarytmiczna: $$O(\log n)$$ 

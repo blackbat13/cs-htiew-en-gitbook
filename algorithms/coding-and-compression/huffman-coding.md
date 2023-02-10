@@ -1,30 +1,30 @@
-# Kody Huffmana
+# Huffman coding
 
-## Opis problemu
-
-TODO
-
-### Specyfikacja
+## Problem description
 
 TODO
 
-### Przykład
+### Specification
 
 TODO
 
-## Rozwiązanie
+### Example
 
 TODO
 
-### Pseudokod
+## Solution
 
 TODO
 
-### Złożoność
+### Pseudocode
 
 TODO
 
-## Implementacja
+### Complexity
+
+TODO
+
+## Implementation
 
 ### C++
 

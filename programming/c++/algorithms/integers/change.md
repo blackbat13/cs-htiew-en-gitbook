@@ -1,6 +1,6 @@
-# Wydawanie reszty
+# ATM
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/atm-problem/README.md" %}
 [README.md](../../../../algorithms/integers/atm-problem/README.md)
@@ -8,7 +8,7 @@
 
 ## Podejście zachłanne
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -50,7 +50,7 @@ Zachłanne wydawanie reszty
 
 ## Podejście dynamiczne
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

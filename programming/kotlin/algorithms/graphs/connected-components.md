@@ -1,12 +1,12 @@
-# Spójne składowe
+# Connected components
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/connected-components.md" %}
 [connected-components.md](../../../../algorithms/graphs/connected-components.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 from typing import List
@@ -50,13 +50,3 @@ result = count_connected_components(graph)
 
 print("Number of connected components in the graph:", result)
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/68F4l6" %}
-Spójne składowe
-{% endembed %}
-
-### Opis implementacji
-
-TODO

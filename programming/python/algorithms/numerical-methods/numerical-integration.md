@@ -1,12 +1,12 @@
-# Całkowanie numeryczne
+# Numerical integration
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/numerical-integration.md" %}
 [numerical-integration.md](../../../../algorithms/numerical-methods/numerical-integration.md)
 {% endcontent-ref %}
 
-## Metoda prostokątów
+## Rectangles method
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -41,7 +41,7 @@ print(area)
 Całkowanie numeryczne - metoda prostokątów
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `f` (**linia 1**) przyjmuje jeden parametr rzeczywisty i jako wynik zwraca liczbę rzeczywistą. Funkcja ta symuluje funkcję matematyczną, której pole pod wykresem chcemy policzyć. 
 
@@ -49,7 +49,7 @@ Funkcja `rectangles_method` (**linia 5**) realizuje algorytm całkowania numeryc
 
 W części głównej programu przygotowujemy dane do naszego algorytmu: początek przedziału (**linia 18**), koniec przedziału (**linia 19**) oraz liczbę prostokątów (**linia 20**). Następnie wywołujemy funkcję `rectangles_method` z przygotowanymi danymi, a jej wynik zapisujemy w zmiennej `area` (**linia 21**). Na koniec wypisujemy wynik na ekranie (**linia 22**).
 
-## Metoda trapezów
+## Trapezes method
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -85,7 +85,7 @@ print(area)
 Całkowanie numeryczne - metoda trapezów
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `f` (**linia 1**) przyjmuje jeden parametr rzeczywisty i jako wynik zwraca liczbę rzeczywistą. Funkcja ta symuluje funkcję matematyczną, której pole pod wykresem chcemy policzyć. 
 

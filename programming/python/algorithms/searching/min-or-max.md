@@ -1,6 +1,6 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
 [min-or-max.md](../../../../algorithms/searching/min-or-max.md)
@@ -8,7 +8,7 @@
 
 ## Wyszukiwanie wartości minimum i maksimum
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -51,7 +51,7 @@ Wyszukiwanie wartości minimum i maksimum
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

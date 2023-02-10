@@ -1,12 +1,12 @@
-# Konwersja pomiędzy systemami liczbowymi
+# Base conversion
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numeral-systems/README.md" %}
 [Systemy liczbowe](../../../../algorithms/numeral-systems/README.md)
 {% endcontent-ref %}
 
-## Konwersja z dziesiętnego
+## Conversion from decimal
 
 ```python
 def from_dec(number: int, new_base: int) -> str:
@@ -33,13 +33,7 @@ converted = from_dec(number, base)
 print(f'{number} (10) = {converted} ({base})')
 ```
 
-### Link do implementacji
-
-{% embed url="https://ideone.com/Olpjrr" %}
-Konwersja z dziesiętnego
-{% endembed %}
-
-## Konwersja na dziesiętny
+## Conversion to decimal
 
 ```python
 def to_dec(number: str, base: int) -> int:
@@ -67,9 +61,3 @@ converted = to_dec(number, base)
 
 print(f'{number} ({base}) = {converted} (10)')
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/KxEbY6" %}
-Konwersja na dziesiętny
-{% endembed %}

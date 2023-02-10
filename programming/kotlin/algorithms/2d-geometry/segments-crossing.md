@@ -1,12 +1,12 @@
-# Przecinanie się odcinków
+# Segments crossing
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/2d-geometry/segments-crossing.md" %}
 [segments-crossing.md](../../../../algorithms/2d-geometry/segments-crossing.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def det3(matrix: list) -> int:
@@ -82,6 +82,6 @@ else:
 Przecinanie się odcinków
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

@@ -1,12 +1,12 @@
-# Warunek trójkąta
+# Triangle condition
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/2d-geometry/triangle-condition.md" %}
 [triangle-condition.md](../../../../algorithms/2d-geometry/triangle-condition.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -19,14 +19,8 @@ b = 8
 c = 9
 
 if can_create_triangle(a, b, c):
-    print(f'Z odcników od długościach {a}, {b} oraz {c} można zbudować trójkąt')
+    print(f'Triangle can be constructed with segments {a}, {b} and {c}')
 else:
-    print(f'Z odcników od długościach {a}, {b} oraz {c} nie można zbudować trójkąta')
+    print(f'Triangle cannot be constructed with segments {a}, {b} and {c}')
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/2anTf3" %}
-Warunek trójkąta
-{% endembed %}

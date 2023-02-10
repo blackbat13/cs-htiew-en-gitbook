@@ -1,12 +1,12 @@
-# Szybkie potęgowanie
+# Fast exponentiation
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/fast-exp.md" %}
 [fast-exp.md](../../../../algorithms/numerical-methods/fast-exp.md)
 {% endcontent-ref %}
 
-## Rozwiązanie iteracyjne
+## Iterative solution
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -38,7 +38,7 @@ print(f"{a}^{n} = {result}")
 Szybkie potęgowanie - wersja iteracyjna
 {% endembed %}
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

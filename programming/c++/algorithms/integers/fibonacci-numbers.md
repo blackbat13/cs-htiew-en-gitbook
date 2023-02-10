@@ -1,6 +1,6 @@
-# Liczby Fibonacciego
+# Fibonacci numbers
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/fibonacci-numbers.md" %}
 [fibonacci-numbers.md](../../../../algorithms/integers/fibonacci-numbers.md)
@@ -8,7 +8,7 @@
 
 ## Podejście rekurencyjne
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -42,7 +42,7 @@ int main() {
 Liczby Fibonacciego - podejście rekurencyjne
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `fib` (**linia 5**) przyjmuje jeden parametr: liczbę całkowitą oznaczającą numer wartości ciągu Fibonacciego do policzenia. Na początku funkcji sprawdzamy warunek stopu rekurencji (**linia 6**). Jeżeli jest spełniony to jako wynik zwracamy wartość $$1$$ (**linia 7**). Jeżeli warunek stopu nie był spełniony to jako wynik zwracamy sumę wyników wywołań rekurencyjnych funkcji `fib` dla dwóch poprzednich elementów ciągu (**linia 10**).
 
@@ -50,7 +50,7 @@ W części głównej najpierw przygotowujemy dane wejściowe, czyli numer warto�
 
 ## Podejście iteracyjne
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

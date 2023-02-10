@@ -4,22 +4,22 @@ description: Mergesort
 
 # Sortowanie przez scalanie
 
-## Opis problemu
+## Problem description
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ — liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Posortowana niemalejąco tablica $$A$$&#x20;
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -36,9 +36,9 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 Sortowanie przez scalanie
 {% endfile %}
 
-## Rozwiązanie
+## Solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 Procedura Scal(A, p, k, sr):
@@ -72,11 +72,11 @@ Procedura SortScal(A, p, k):
     6. Scal(A, p, k, sr)
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n\log{n})$$ — liniowo logarytmiczna
 
-## Implementacja
+## Implementation
 
 ### C++
 

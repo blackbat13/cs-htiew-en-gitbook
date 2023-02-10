@@ -4,17 +4,17 @@ description: Najmniejsza Wspólna Wielokrotność
 
 # NWW
 
-## Opis problemu
+## Problem description
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### NWW
 
 ![Funkcja obliczająca NWW dwóch podanych liczb naturalnych](../../../../.gitbook/assets/NWW.png)
 
-### NWD
+### GCD
 
 Skoro mamy już policzone NWW, możemy na jego podstawie policzyć także NWD (Najmniejszy Wspólny Dzielnik), korzystając z prostego wzoru:
 

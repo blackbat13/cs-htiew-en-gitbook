@@ -1,14 +1,14 @@
-# Szyfr Vigenere'a
+# Vigenere cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/vigenere.md" %}
 [vigenere.md](../../../../algorithms/cryptography/vigenere.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -57,9 +57,9 @@ int main() {
 Szyfrowanie szyfrem Vigenere'a
 {% endembed %}
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

@@ -4,13 +4,13 @@ description: Przeszukiwanie grafu w głąb
 
 # DFS
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/dfs.md" %}
 [dfs.md](../../../../algorithms/graphs/dfs.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -62,7 +62,7 @@ int main() {
 Przeszukiwanie grafu w głąb - DFS
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Na początku przygotowujemy przykładowy graf (**linie 24-32**) w formie listy sąsiedztwa zapisanej w dynamicznej tablicy typu `vector`. Przykładowy graf (przedstawiony także na poniższym rysunku) ma 7 wierzchołków (numerowanych od zera) i jest nieskierowany.
 

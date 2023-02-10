@@ -1,6 +1,6 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
 [min-or-max.md](../../../../algorithms/searching/min-or-max.md)
@@ -8,7 +8,7 @@
 
 ## Wyszukiwanie wartości minimum i maksimum
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun findMinVal(array: List<Int>): Int {
@@ -52,13 +52,13 @@ fun main() {
 Wyszukiwanie wartości minimum i maksimum
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun findMinInd(array: List<Int>): Int {
@@ -102,6 +102,6 @@ fun main() {
 Wyszukiwanie indeksów wartości min i maks
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

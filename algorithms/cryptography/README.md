@@ -1,3 +1,3 @@
-# Szyfrowanie
+# Cryptography
 
 TODO - krótki opis

@@ -1,14 +1,14 @@
 # Odległość Levenshteina (edycyjna)
 
-## Opis problemu
+## Problem description
 
 TODO
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

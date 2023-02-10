@@ -1,16 +1,12 @@
----
-description: Przeszukiwanie grafu wszerz
----
-
 # BFS
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/bfs.md" %}
 [bfs.md](../../../../algorithms/graphs/bfs.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 from typing import List
@@ -47,13 +43,3 @@ visited = [False for _ in range(len(graph))]
 
 bfs(graph, visited, 0)
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/X87JSj" %}
-BFS
-{% endembed %}
-
-### Opis implementacji
-
-TODO

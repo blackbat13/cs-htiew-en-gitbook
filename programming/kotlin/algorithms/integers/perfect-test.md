@@ -1,12 +1,12 @@
-# Test doskonałości
+# Perfect test
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/perfect-test.md" %}
 [perfect-test.md](../../../../algorithms/integers/perfect-test.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun isPerfect(n: Int): Boolean {
@@ -27,19 +27,9 @@ fun main() {
   val result = isPerfect(n)
 
   if (result) {
-    println("$n jest liczba doskonala")
+    println("$n is perfect")
   } else {
-    println("$n nie jest liczba doskonala")
+    println("$n is not perfect")
   }
 }
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/FVvc2L" %}
-Test doskonałości
-{% endembed %}
-
-### Opis implementacji
-
-TODO

@@ -1,14 +1,14 @@
-# Liczby Fibonacciego
+# Fibonacci numbers
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/fibonacci-numbers.md" %}
 [fibonacci-numbers.md](../../../../algorithms/integers/fibonacci-numbers.md)
 {% endcontent-ref %}
 
-## Wersja iteracyjna
+## Iterative solution
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun fib(n: Int): Int {
@@ -33,19 +33,9 @@ fun main() {
 }
 ```
 
-### Link do implementacji
+## Recursive solution
 
-{% embed url="https://ideone.com/4JCa5w" %}
-Liczby Fibonacciego - wersja iteracyjna
-{% endembed %}
-
-### Opis implementacji
-
-TODO
-
-## Wersja rekurencyjna
-
-### Implementacja
+### Implementation
 
 ```kotlin
 fun fib(n: Int): Int {
@@ -64,14 +54,3 @@ fun main() {
   println("fib($n) = $result")
 }
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/cBKjhg" %}
-Liczby Fibonacciego - wersja rekurencyjna
-{% endembed %}
-
-### Opis implementacji
-
-TODO
-

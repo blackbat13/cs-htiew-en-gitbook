@@ -1,4 +1,4 @@
-# Szyfrowanie asymetryczne
+# Cryptography asymetryczne
 
 ## Prezentacja
 

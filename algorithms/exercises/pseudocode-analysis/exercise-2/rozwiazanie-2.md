@@ -1,4 +1,4 @@
-# Rozwiązanie 2
+# Solution 2
 
 ## Symulacja
 
@@ -39,6 +39,6 @@
 8. Wypisz 25
 ```
 
-## Wynik
+## Output
 
 $$25$$

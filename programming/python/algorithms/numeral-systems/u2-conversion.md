@@ -1,12 +1,12 @@
-# Konwersja w systemie U2
+# U2 conversion
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numeral-systems/u2.md" %}
 [System U2](../../../../algorithms/numeral-systems/u2.md)
 {% endcontent-ref %}
 
-## Z U2 do dziesiętnego
+## From U2 to decimal
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

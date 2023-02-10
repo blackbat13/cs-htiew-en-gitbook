@@ -1,12 +1,12 @@
 # Sortowanie koktajlowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/cocktail-shaker-sort.md" %}
 [cocktail-shaker-sort.md](../../../../algorithms/sorting/cocktail-shaker-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

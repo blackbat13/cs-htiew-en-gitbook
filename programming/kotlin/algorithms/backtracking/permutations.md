@@ -1,12 +1,12 @@
 # Permutacje
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/backtracking/permutations.md" %}
 [permutations.md](../../../../algorithms/backtracking/permutations.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun permutation(elements: Array<Int>, start: Int, stop: Int) {
@@ -43,6 +43,6 @@ fun main() {
 Generowanie permutacji
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

@@ -1,12 +1,12 @@
-# Test pierwszości
+# Prime test
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/prime-test.md" %}
 [prime-test.md](../../../../algorithms/integers/prime-test.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

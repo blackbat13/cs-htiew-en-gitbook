@@ -1,6 +1,6 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## Problem description
 
 Spójny podciąg danego ciągu to taki, który składa się z elementów występujących **jeden obok drugiego**. To tak, jakbyśmy wzięli świąteczny łańcuch i wycieli jego kawałek. Ten wycięty, spójny kawałek łańcucha będzie właśnie **spójnym podciągiem**, czy też, w tym przypadku, **spójnym podłańcuchem**.
 
@@ -8,27 +8,27 @@ Spójny podciąg rosnący to taki spójny podciąg, w którym każdy kolejny ele
 
 Problem spójnego podciągu rosnącego rozważymy na przykładzie ciągu, czy też tablicy liczb całkowitych. Zacznijmy od formalnej specyfikacji problemu i prostego przykładu.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, liczba elementów tablicy
 * $$A[1..n]$$ - tablica zawierająca $$n$$ liczb całkowitych
 
-#### Wynik
+#### Output
 
 * Długość najdłuższego spójnego podciągu rosnącego w tablicy $$tab$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10
 A := [4, 9, 7, 2, 4, 7, 9, 3, 8, 6]
 ```
 
-#### Wynik
+#### Output
 
 $$4$$ 
 
@@ -46,7 +46,7 @@ W podanej tablicy mamy kilka spójnych podciągów rosnących. Wypiszmy wszystki
 Jak widać najdłuższy z nich ma długość równą $$4$$ i jest to podciąg: $$2, 4, 7, 9$$.
 {% endhint %}
 
-## Rozwiązanie
+## Solution
 
 Zastanówmy się na początku, jak podeszlibyśmy do tego problemu na papierze. Mamy dany pewien ciąg liczb i chcemy odnaleźć najdłuższy spójny podciąg rosnący. To, co możemy zrobić, to wypisać wszystkie pełne spójne podciągi rosnące. Jak to zrobić? Pomysł jest prosty. Najpierw zapisujemy sobie pierwszą wartość z ciągu. Następnie idziemy od lewej do prawej, liczba po liczbie, zaczynając od drugiej w kolejności. Porównujemy ją z ostatnią zapisaną. Jeżeli jest większa, to dopisujemy ją obok (dopisując do podciągu). Jeżeli jest mniejsza lub równa, to zapisujemy ją poniżej (rozpoczynając nowy podciąg). Po wypisaniu wszystkich podciągów pozostanie nam znalezienie najdłuższego, policzenie jego długości i mamy wynik. Zadanie rozwiązane!
 
@@ -97,13 +97,13 @@ flowchart TD
 	K10 ----> STOP([STOP])
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
 Mamy jedną pętlę, która przechodzi przez kolejne elementy tablicy, której długość wynosi $$n$$. W związku z tym mamy złożoność liniową.
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -1,12 +1,12 @@
 # Anagramy
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/anagrams.md" %}
 [anagrams.md](../../../../algorithms/text/anagrams.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

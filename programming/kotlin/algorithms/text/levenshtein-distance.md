@@ -1,12 +1,12 @@
 # Odległość Levenshteina (edycyjna)
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/levenshtein-distance.md" %}
 [levenshtein-distance.md](../../../../algorithms/text/levenshtein-distance.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def levenshtein_distance(a: str, b: str) -> int:
@@ -39,7 +39,7 @@ print(f"Odległość Levenshteina pomiędzy wyrazami {a} i {b} wynosi {distance}
 Odległość Levenshteina
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 

@@ -1,12 +1,12 @@
 # Sortowanie bąbelkowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/bubble-sort.md" %}
 [bubble-sort.md](../../../../algorithms/sorting/bubble-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun bubbleSort(array: MutableList<Int>) {

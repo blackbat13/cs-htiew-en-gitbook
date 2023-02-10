@@ -1,12 +1,12 @@
 # Odległość Hamminga
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/hamming-distance.md" %}
 [hamming-distance.md](../../../../algorithms/text/hamming-distance.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def hamming_distance(a: str, b: str) -> int:
@@ -34,7 +34,7 @@ print(f"Odległość Hamminga pomiędzy wyrazami {a} i {b} wynosi {distance}")
 Odległość Hamminga
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 

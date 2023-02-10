@@ -1,29 +1,29 @@
-# Całkowanie numeryczne
+# Numerical integration
 
-## Opis problemu
+## Problem description
 
-Hasło "całkowanie numeryczne" może brzmieć strasznie, ale samo pojęcie jest dość proste do zrozumienia. To nic innego, niż policzenie pola pod wykresem funkcji w zadanym przedziale. Oczywiście w ogólności to zadanie jest dość skomplikowane obliczeniowo, dlatego tutaj skupimy się na przybliżeniu tej wartości.
+The slogan "numerical integration" may sound terrible, but the concept itself is quite easy to understand. It is nothing more but counting the area under the function chart in a given range. Of course, in general, this value is quite complicated to calculate, so here we will focus on approximating this value.
 
-Wyróżniamy dwie podstawowe metody: metodę prostokątów i metodę trapezów.
+There are two basic methods: rectangles method and trapezes method.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
-* $$f(x)$$ — funkcja, której wykres nas interesuje
-* $$a$$ — liczba rzeczywista, początek przedziału
-* $$b$$ — liczba rzeczywista, koniec przedziału
-* $$n$$ — liczba podziałów (im większa, tym większa dokładność)
+* $$f(x)$$ — function
+* $$a$$ — real number, beginning of the range
+* $$b$$ — real number, end of the range
+* $$n$$ — number of divisions
 
-#### Wynik
+#### Output
 
-* $$pole$$ — przybliżona wartość pola pod wykresem funkcji $$f(x)$$ w przedziale $$[a,b]$$
+* Approximated value of the area under the function graph $$f(x)$$ in the range $$[a,b]$$
 
-## Rozwiązanie — metoda prostokątów
+## Solution — rectangles method
 
-Idea tej metody jest prosta: podzielmy pole pod wykresem funkcji na prostokąty i policzmy ich pole.
+The idea of this method is simple: let's divide the area under the function chart into rectangles and count their areas.
 
-### Pseudokod
+### Pseudocode
 
 ```
 function RectanglesMethod(f, a, b, n):
@@ -51,11 +51,11 @@ flowchart TD
 	K8 --> STOP([STOP])
 ```
 
-## Rozwiązanie — metoda trapezów
+## Solution — trapezes method
 
-W celu uzyskania lepszej dokładności, możemy podzielić pole pod wykresem funkcji na trapezy.
+For better accuracy, we can divide the area under the function chart into trapezes.
 
-### Pseudokod
+### Pseudocode
 
 ```
 function TrapezesMethod(f, a, b, n):
@@ -82,7 +82,7 @@ flowchart TD
 	K8 --> STOP([STOP])
 ```
 
-## Implementacja
+## Implementation
 
 ### C++
 

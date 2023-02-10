@@ -1,6 +1,6 @@
-# Rozwiązanie zachłanne
+# Solution zachłanne
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja Reszta(n, nom, kw):
@@ -34,11 +34,11 @@ funkcja Reszta(n, nom, kw):
 **mod** oznacza resztę z dzielenia
 {% endhint %}
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

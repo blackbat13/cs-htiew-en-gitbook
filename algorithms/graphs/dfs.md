@@ -1,32 +1,32 @@
 # DFS
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 
-### Przykład
+### Example
 
 {% file src="../../.gitbook/assets/DFS – przebieg algorytmu.pdf" %}
 Prezentacja
 {% endfile %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-### Złożoność
+### Complexity
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -1,14 +1,14 @@
 # Suma dwóch liczb
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/sum-of-two.md" %}
 [sum-of-two.md](../../../../algorithms/searching/sum-of-two.md)
 {% endcontent-ref %}
 
-## Rozwiązanie naiwne
+## Naive solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -36,9 +36,9 @@ sum_of_two(n, tab, k)
 Suma dwóch - rozwiązanie naiwne
 {% endembed %}
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

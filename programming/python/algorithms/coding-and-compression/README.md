@@ -1,2 +1,2 @@
-# Kodowanie i kompresja
+# Coding and compression
 

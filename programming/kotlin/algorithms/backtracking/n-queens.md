@@ -1,12 +1,12 @@
-# Problem n królowych
+# N-queens problem
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/backtracking/n-queens.md" %}
 [n-queens.md](../../../../algorithms/backtracking/n-queens.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun findSolution(n: Int, queenId: Int, positions: Array<Int>): Boolean {

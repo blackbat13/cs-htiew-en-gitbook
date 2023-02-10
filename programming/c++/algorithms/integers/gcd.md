@@ -2,9 +2,9 @@
 description: Największy Wspólny Dzielnik
 ---
 
-# NWD
+# GCD
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/gcd.md" %}
 [gcd.md](../../../../algorithms/integers/gcd.md)
@@ -12,7 +12,7 @@ description: Największy Wspólny Dzielnik
 
 ## Wersja z odejmowaniem
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -51,9 +51,9 @@ int main() {
 Obliczanie NWD za pomocą algorytmu z odejmowaniem
 {% endembed %}
 
-## Algorytm Euklidesa - wersja iteracyjna
+## Iterative GCD with modulo
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -90,9 +90,9 @@ int main() {
 Obliczanie NWD za pomocą iteracyjnego algorytmu Euklidesa
 {% endembed %}
 
-## Algorytm Euklidesa - wersja rekurencyjna
+## Recursive GCD with modulo
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -128,7 +128,7 @@ Obliczanie NWD za pomocą rekurencyjnego algorytmu Euklidesa
 
 ## Operacje binarne - wersja iteracyjna
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -191,7 +191,7 @@ Binarne NWD - wersja iteracyjna
 
 ## Operacje binarne - wersja rekurencyjna
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

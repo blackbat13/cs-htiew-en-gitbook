@@ -1,12 +1,12 @@
-# Sortowanie topologiczne
+# Topological sorting
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/topological-sort.md" %}
 [topological-sort.md](../../../../algorithms/graphs/topological-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -83,7 +83,7 @@ int main() {
 Sortowanie topologiczne
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 ![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph_topological_sort.png)
 

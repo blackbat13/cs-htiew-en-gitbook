@@ -1,12 +1,12 @@
 # Sortowanie grzebieniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/comb-sort.md" %}
 [comb-sort.md](../../../../algorithms/sorting/comb-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun combSort(array: MutableList<Int>) {

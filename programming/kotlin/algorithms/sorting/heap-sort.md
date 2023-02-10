@@ -1,12 +1,12 @@
 # Sortowanie przez kopcowanie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/heap-sort.md" %}
 [heap-sort.md](../../../../algorithms/sorting/heap-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun buildHeap(array: MutableList<Int>, n: Int) {

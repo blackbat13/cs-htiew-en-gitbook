@@ -1,12 +1,12 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/binary-search.md" %}
 [binary-search.md](../../../../algorithms/searching/binary-search.md)
 {% endcontent-ref %}
 
-## Wersja iteracyjna
+## Iterative solution
 
 ### Wyszukiwanie
 
@@ -22,7 +22,7 @@
 Wyszukiwanie binarne - wersja iteracyjna
 {% endembed %}
 
-## Wersja rekurencyjna
+## Recursive solution
 
 ### Wyszukiwanie
 

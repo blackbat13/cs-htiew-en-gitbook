@@ -1,21 +1,21 @@
 # Sortowanie grzebieniowe
 
-## Opis problemu
+## Problem description
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Wynik
+#### Output
 
 * Posortowana niemalejąco tablica $$A$$
 
 ### **Przykład**
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -28,9 +28,9 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 Sortowanie grzebieniowe
 {% endembed %}
 
-## Rozwiązanie
+## Solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 Procedura SortGrzeb(A, n):
@@ -50,13 +50,13 @@ Procedura SortGrzeb(A, n):
             14. i := i + 1
 ```
 
-### Złożoność
+### Complexity
 
 #### Pesymistyczna
 
 $$O(n^2)$$ — kwadratowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

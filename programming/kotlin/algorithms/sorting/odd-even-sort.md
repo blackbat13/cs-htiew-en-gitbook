@@ -1,12 +1,12 @@
 # Sortowanie odd-even
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/odd-even-sort.md" %}
 [odd-even-sort.md](../../../../algorithms/sorting/odd-even-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun oddEvenSort(array: MutableList<Int>) {

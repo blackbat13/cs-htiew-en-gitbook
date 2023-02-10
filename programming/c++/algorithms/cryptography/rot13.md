@@ -1,11 +1,11 @@
-# Szyfr ROT13
+# ROT13 cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/rot13.md" %}
 [rot13.md](../../../../algorithms/cryptography/rot13.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

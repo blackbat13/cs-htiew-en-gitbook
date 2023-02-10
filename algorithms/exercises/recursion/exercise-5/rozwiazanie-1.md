@@ -1,6 +1,6 @@
-# Rozwiązanie 1
+# Solution 1
 
-## Wynik
+## Output
 
 |  n  | Wypisany komunikat |
 | :-: | :----------------: |

@@ -1,2 +1,2 @@
-# Grafowe
+# Graphs
 

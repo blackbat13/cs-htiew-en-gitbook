@@ -1,2 +1,2 @@
-# Geometria 2D
+# 2D geometry
 

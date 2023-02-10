@@ -1,12 +1,12 @@
-# Konwersja pomiędzy systemami liczbowymi
+# Base conversion
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numeral-systems/README.md" %}
 [Systemy liczbowe](../../../../algorithms/numeral-systems/README.md)
 {% endcontent-ref %}
 
-## Konwersja z dziesiętnego
+## Conversion from decimal
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -51,7 +51,7 @@ int main() {
 Konwersja z dziesiętnego
 {% endembed %}
 
-## Konwersja na dziesiętny
+## Conversion to decimal
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

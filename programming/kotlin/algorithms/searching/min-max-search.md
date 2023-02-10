@@ -1,6 +1,6 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/jednoczesne-znajdowanie-minimum-i-maksimum.md" %}
 [jednoczesne-znajdowanie-minimum-i-maksimum.md](../../../../algorithms/searching/jednoczesne-znajdowanie-minimum-i-maksimum.md)
@@ -8,7 +8,7 @@
 
 ## Podejście naiwne
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun findMinMax(array: List<Int>): Pair<Int,Int> {
@@ -41,7 +41,7 @@ fun main() {
 Jednoczesne wyszukiwanie minimum i maksimum - podejście naiwne
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 
@@ -98,6 +98,6 @@ fun main() {
 Jednoczesne wyszukiwanie minimum i maksimum - podejście optymalne
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

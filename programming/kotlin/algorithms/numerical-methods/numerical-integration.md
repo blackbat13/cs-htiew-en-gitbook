@@ -1,12 +1,12 @@
-# Całkowanie numeryczne
+# Numerical integration
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/numerical-integration.md" %}
 [numerical-integration.md](../../../../algorithms/numerical-methods/numerical-integration.md)
 {% endcontent-ref %}
 
-## Metoda prostokątów
+## Rectangles method
 
 ```kotlin
 fun f(x: Double): Double {
@@ -39,13 +39,7 @@ fun main() {
 }
 ```
 
-### Link do implementacji
-
-{% embed url="https://ideone.com/MnVUpY" %}
-Całkowanie numeryczne - metoda prostokątów
-{% endembed %}
-
-## Metoda trapezów
+## Trapezes method
 
 ```kotlin
 fun f(x: Double): Double {
@@ -77,9 +71,3 @@ fun main() {
     println(area)
 }
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/4lw4tL" %}
-Całkowanie numeryczne - metoda trapezów
-{% endembed %}

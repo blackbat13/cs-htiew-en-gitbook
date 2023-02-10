@@ -1,14 +1,14 @@
-# Kod ASCII
+# ASCII codes
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/coding-and-compression/ascii.md" %}
 [ascii.md](../../../../algorithms/coding-and-compression/ascii.md)
 {% endcontent-ref %}
 
-## Podstawowa tablica ASCII
+## Standard ASCII table
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -17,19 +17,13 @@ for i in range(128):
 ```
 {% endcode %}
 
-### Link do implementacji
-
-{% embed url="https://ideone.com/hwYbpz" %}
-Podstawowa tablica ASCII
-{% endembed %}
-
-### Opis implementacji
+### Implementation description
 
 Podstawowa tablica ASCII zawiera 128 znaków numerowanych od zera. Przechodzimy więc pętlą od 0 do 127 włącznie (**linia 1**) i, korzystając z funkcji `chr` zamieniającej liczbę na odpowiadający jej znak z tablicy ASCII, wypisujemy kolejne znaki (**linia 2**).
 
-## Rozszerzona tablica ASCII
+## Extended ASCII table
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -38,13 +32,6 @@ for i in range(256):
 ```
 {% endcode %}
 
-### Link do implementacji
-
-{% embed url="https://ideone.com/1fn3jX" %}
-Rozszerzona tablica ASCII
-{% endembed %}
-
-### Opis implementacji
+### Implementation description
 
 Rozszerzona tablica ASCII zawiera 256 znaków numerowanych od zera. Przechodzimy więc pętlą od 0 do 255 włącznie (**linia 1**) i, korzystając z funkcji `chr` zamieniającej liczbę na odpowiadający jej znak z tablicy ASCII, wypisujemy kolejne znaki (**linia 2**).
-

@@ -1,12 +1,12 @@
-# Odległość punktu od prostej
+# Point-line distance
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/2d-geometry/point-line-distance.md" %}
 [point-line-distance.md](../../../../algorithms/2d-geometry/point-line-distance.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 from math import abs, sqrt
@@ -32,7 +32,7 @@ print("Distance of the point (-5, -8) from the line ((-3, -4), (7, 6)) is", dist
 Odległość punktu od prostej
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 

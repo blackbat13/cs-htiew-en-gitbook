@@ -1,2 +1,2 @@
-# Macierze
+# Matrix
 

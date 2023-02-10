@@ -1,12 +1,12 @@
 # Znajdowanie lidera w zbiorze
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/majority.md" %}
 [majority.md](../../../../algorithms/searching/majority.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

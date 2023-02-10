@@ -1,6 +1,6 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/jednoczesne-znajdowanie-minimum-i-maksimum.md" %}
 [jednoczesne-znajdowanie-minimum-i-maksimum.md](../../../../algorithms/searching/jednoczesne-znajdowanie-minimum-i-maksimum.md)
@@ -8,7 +8,7 @@
 
 ## Podejście naiwne
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

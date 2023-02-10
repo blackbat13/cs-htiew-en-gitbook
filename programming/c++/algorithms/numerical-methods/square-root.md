@@ -1,14 +1,14 @@
-# Pierwiastek kwadratowy
+# Square root
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/square-root.md" %}
 [square-root.md](../../../../algorithms/numerical-methods/square-root.md)
 {% endcontent-ref %}
 
-## Metoda Herona
+## Heron method
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

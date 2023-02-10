@@ -1,12 +1,12 @@
-# Drzewo binarne
+# Binary tree
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/binary-tree.md" %}
 [binary-tree.md](../../../../algorithms/fractals/binary-tree.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -39,16 +39,10 @@ turtle.done()
 ```
 {% endcode %}
 
-### Link do implementacji
+### Implementation description
 
-{% embed url="https://replit.com/@damiankurpiewski/Binary-Tree#main.py" %}
-Drzewo binarne
-{% endembed %}
+Function `binary_tree` (**line 4**) takes two parameters: tree rank and initial branch length. At the beginning, we move the turtle forward by length (**line 5**), in this way drawing a branch. Then, if the rank is larger than zero (**line 7**), it means that we must draw next branches. To this end, we first turn the turtle left by $$45\degree$$ (**line 8**) and by using a recursive call (**line 9**) we draw branches. We do the same with the second branch. First we need to turn the turtle right by $$90\degree$$ (**line 10**), that is $$2*45\degree$$. Then we use recursive call (**line 11**), and then we turn the turtle left by $$45\degree$$ (**line 12**), in this way returning to the initial setting.
 
-### Opis implementacji
+Finally, after a possible branching, we move the turtle back by length (**line 14**), thus, returning to the setting from the beginning of calling the function.
 
-Funkcja `binary_tree` (**linia 4**) przyjmuje dwa argumenty: stopień drzewa i początkową długość gałęzi (pnia). Na początku przemieszczamy żółwia do przodu o zadaną długość (**linia 5**), rysując w ten sposób gałąź. Następnie, jeżeli stopień jest większy od zera (**linia 7**), to znaczy, że musimy narysować kolejne gałęzie. W tym celu obracamy najpierw żółwia w lewo o $$45\degree$$ (**linia 8**) i wywołaniem rekurencyjnym (**linia 9**) rysujemy gałęzie. Podobnie postępujemy z drugim rozgałęzieniem. Najpierw musimy obrócić żółwia w prawo o $$90\degree$$ (**linia 10**), czyli $$2*45\degree$$. Następnie stosujemy wywołanie rekurencyjne (**linia 11**), a potem obracamy żółwia w lewo o $$45\degree$$ (**linia 12**), w ten sposób wracając do początkowego ustawienia.
-
-Na koniec, po ewentualnym narysowaniu rozgałęzień, cofamy żółwia o zadaną długość (**linia 14**), tym samym wracając do ustawienia z początku wywołania funkcji.
-
-W kodzie głównym ustawiamy żółwia tak, aby rysowane drzewo mieściło się na ekranie (**linie 17-22**). Następnie rysujemy drzewo binarne za pomocą naszej funkcji `binary_tree` (**linia 24**), a na koniec kończymy działanie żółwia (**linia 26**).
+In the main code we set the turtle so that the drawn tree fits on the screen (**lines 17-22**). Then we draw a binary tree with our function `binary_tree` (**line 24**), and finally, we finish the turtle actions (**line 26**).

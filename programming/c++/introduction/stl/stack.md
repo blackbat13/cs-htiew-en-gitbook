@@ -19,7 +19,7 @@ Stos znajduje się w bibliotece `stack`.
 Stack Reference
 {% endembed %}
 
-## Implementacja: przykłady
+## Implementation: przykłady
 
 Kilka przykładów pokazujących, jak korzystać z klasy `stack`.
 
@@ -71,7 +71,7 @@ if (st.empty()) {
 }
 ```
 
-## Przykładowa implementacja
+## Exampleowa implementacja
 
 ```cpp
 #include <iostream>

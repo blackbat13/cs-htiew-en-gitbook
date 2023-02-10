@@ -1,14 +1,14 @@
-# Szyfr Beauforta
+# Beaufort cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/beaufort.md" %}
 [beaufort.md](../../../../algorithms/cryptography/beaufort.md)
 {% endcontent-ref %}
 
-## Szyfrowanie i deszyfrowanie
+## Encoding i deszyfrowanie
 
-### Implementacja
+### Implementation
 
 ```python
 def is_letter(character: str) -> bool:
@@ -61,6 +61,6 @@ print(f"Decoded: {decoded}")
 Szyfr Beauforta
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

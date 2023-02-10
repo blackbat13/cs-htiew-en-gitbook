@@ -1,12 +1,12 @@
-# Szybkie potęgowanie
+# Fast exponentiation
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/fast-exp.md" %}
 [fast-exp.md](../../../../algorithms/numerical-methods/fast-exp.md)
 {% endcontent-ref %}
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
 ```python
 def fast_exp_rec(a: int, n : int) -> int:
@@ -27,17 +27,7 @@ result = fast_exp_rec(a, n)
 print(f"{a}^{n} = {result}")
 ```
 
-### Link do implementacji
-
-{% embed url="https://ideone.com/3i2qdR" %}
-Szybkie potęgowanie - wersja rekurencyjna
-{% endembed %}
-
-### Opis implementacji
-
-TODO
-
-## Rozwiązanie iteracyjne
+## Iterative solution
 
 ```python
 def fast_exp_iter(a: int, n: int) -> int:
@@ -60,13 +50,3 @@ result = fast_exp_iter(a, n)
 
 print(f"{a}^{n} = {result}")
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/pSGzrA" %}
-Szybkie potęgowanie - wersja iteracyjna
-{% endembed %}
-
-### Opis implementacji
-
-TODO

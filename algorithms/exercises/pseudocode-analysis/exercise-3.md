@@ -4,13 +4,13 @@
 
 Dany jest następujący pseudokod, zgodny z poniższą częściową specyfikacją:
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$x, y$$ - liczby naturalne
 
-### Pseudokod
+### Pseudocode
 
 ```
 1. wx := x

@@ -1,14 +1,14 @@
-# Drzewo binarne
+# Binary tree
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/binary-tree.md" %}
 [binary-tree.md](../../../../algorithms/fractals/binary-tree.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
-### Drzewo binarne
+### Binary tree
 
 ![Funkcja rysujące drzewo binarne](<../../../../.gitbook/assets/image (12).png>)
 

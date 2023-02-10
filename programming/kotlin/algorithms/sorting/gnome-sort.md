@@ -1,12 +1,12 @@
 # Sortowanie gnoma
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/gnome-sort.md" %}
 [gnome-sort.md](../../../../algorithms/sorting/gnome-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun gnomeSort(array: MutableList<Int>) {

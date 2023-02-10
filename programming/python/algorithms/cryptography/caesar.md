@@ -1,14 +1,14 @@
-# Szyfr Cezara
+# Caesar cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/caesar.md" %}
 [caesar.md](../../../../algorithms/cryptography/caesar.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -55,9 +55,9 @@ print(f'Encoded: {encoded}')
 Szyfrowanie szyfrem Cezara
 {% endembed %}
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -97,9 +97,3 @@ decoded = decode(message, 3)
 print(f'Decoded: {decoded}')
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/BWheBr" %}
-Deszyfrowanie szyfrem Cezara
-{% endembed %}

@@ -1,14 +1,14 @@
-# Zbiór Cantora
+# Cantor dust
 
-## Opis problemu
-
-TODO
-
-## Rozwiązanie
+## Problem description
 
 TODO
 
-## Implementacja
+## Solution
+
+TODO
+
+## Implementation
 
 ### C++
 

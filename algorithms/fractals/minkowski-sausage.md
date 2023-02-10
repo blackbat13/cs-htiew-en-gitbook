@@ -1,14 +1,14 @@
 # Minkowski Sausage
 
-## Opis problemu
+## Problem description
 
 TODO
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

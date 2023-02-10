@@ -1,25 +1,25 @@
-# Płatek Kocha
+# Koch snowflake
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - stopień krzywej
 * $$w$$ - początkowa długość linii
 
-#### Wynik
+#### Output
 
 * Płatek Kocha stopnia $$n$$ i początkowej długości $$w$$.
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

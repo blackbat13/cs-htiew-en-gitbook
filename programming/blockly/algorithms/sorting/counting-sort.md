@@ -1,12 +1,12 @@
 # Sortowanie przez zliczanie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/counting-sort.md" %}
 [counting-sort.md](../../../../algorithms/sorting/counting-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Sortowanie
 

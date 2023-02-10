@@ -1,12 +1,12 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/longest-growing-substring.md" %}
 [longest-growing-substring.md](../../../../algorithms/searching/longest-growing-substring.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

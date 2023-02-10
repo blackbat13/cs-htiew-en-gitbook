@@ -4,32 +4,32 @@ description: Sprawdzanie, czy wyraz jest palindromem
 
 # Palindrom
 
-## Opis problemu
+## Problem description
 
 **Palindrom** to wyraz, który czytany od lewej do prawej i od prawej do lewej jest taki sam.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — długość tekstu
 * $$tekst[1..n]$$ — ciąg znaków o długości $$n$$, numerowanych od jedynki
 
-#### Wynik
+#### Output
 
 * $$True$$ — jeżeli $$tekst$$ jest palindromem
 * $$False$$ — w przeciwnym przypadku
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 n := 5
 tekst := "kajak"
 ```
 
-#### Wynik: $$True$$
+#### Output: $$True$$
 
 {% hint style="info" %}
 **Wyjaśnienie**
@@ -37,9 +37,9 @@ tekst := "kajak"
 Wyraz **kajak** czytany od tyłu to **kajak**, jest on więc palindromem.
 {% endhint %}
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 n := 4
@@ -54,11 +54,11 @@ tekst := "tama"
 Wyraz **tama** czytany od tyłu to **amat**, nie jest on więc palindromem.
 {% endhint %}
 
-## Rozwiązanie
+## Solution
 
 Jednym ze sposobów na sprawdzenie, czy wyraz jest palindromem, jest przejście znak po znaku od lewej aż do środka i porównywanie ze znakami od prawej strony. Można to zrealizować za pomocą jednej pętli i odpowiedniego obliczania indeksu znaku "od końca". Dla przykładu, jeżeli mamy wyraz o długości $$6$$ znaków, to będziemy ze sobą porównywali parami znaki na pozycjach: $$(1, 6), (2, 5), (3, 4)$$. W momencie gdy tylko stwierdzimy, że znaki na odpowiadających sobie pozycjach się różnią, możemy zwrócić jako wynik *fałsz*, ponieważ oznacza to, że wyraz nie jest palindromem. Jeżeli natomiast przejdziemy tak przez wszystkie pary znaków i nie stwierdzimy sprzeczności, to po wyjściu z pętli wiemy, że wyraz jest palindromem, zwracamy więc wartość *prawda*.
 
-### Pseudokod
+### Pseudocode
 
 ```
 function IsPalindrome(n, text):
@@ -84,13 +84,13 @@ flowchart TD
 	K5 --> STOP
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n/2)\to O(n)$$ — liniowa
 
 Przechodzimy pętlą od $$1$$ do połowy długości wyrazu (czyli do $$\lfloor\frac{n}{2}\rfloor$$) porównując ze sobą odpowiednie pary znaków, stąd złożoność liniowa.
 
-## Implementacja
+## Implementation
 
 ### C++
 

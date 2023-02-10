@@ -1,3 +1,3 @@
-# Kodowanie i kompresja
+# Coding and compression
 
 TODO - krótki opis

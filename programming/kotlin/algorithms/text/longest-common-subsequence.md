@@ -1,12 +1,12 @@
 # Najdłuższy wspólny podciąg
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/longest-common-subsequence.md" %}
 [longest-common-subsequence.md](../../../../algorithms/text/longest-common-subsequence.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def longest_common_subsequence(a: str, b: str) -> str:
@@ -52,6 +52,6 @@ print(f"Longest common subsequence of words {a} and {b} is {lcs}")
 Najdłuższy wspólny podciąg
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

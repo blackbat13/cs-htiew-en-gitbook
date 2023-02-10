@@ -4,31 +4,31 @@ description: Najkrótsze ścieżki z jednego wierzchołka
 
 # Dijkstra
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
 TODO
 
-### Przykład
+### Example
 
 TODO
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-### Złożoność
+### Complexity
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

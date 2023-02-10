@@ -1,12 +1,12 @@
-# Punkt na odcinku
+# Point on segment
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/2d-geometry/point-on-segment.md" %}
 [point-on-segment.md](../../../../algorithms/2d-geometry/point-on-segment.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -50,9 +50,3 @@ else:
 	print(f"Punkt ({c_x}, {c_y}) nie leży na odcinku [({a_x}, {a_y}), ({b_x}, {b_y})]")
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/aohGSt" %}
-Punkt na odcinku
-{% endembed %}

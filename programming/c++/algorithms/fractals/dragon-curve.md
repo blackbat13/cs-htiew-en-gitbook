@@ -1,12 +1,12 @@
-# Smocza krzywa
+# Dragon curve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/dragon-curve.md" %}
 [dragon-curve.md](../../../../algorithms/fractals/dragon-curve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

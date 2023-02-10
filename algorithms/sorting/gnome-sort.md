@@ -1,25 +1,25 @@
 # Sortowanie gnoma
 
-## Opis problemu
+## Problem description
 
 Wyobraźmy sobie gnoma, który zarządza swoim ogródkiem, a konkretnie ustawia doniczki we właściwej kolejności. Doniczki ułożone są w rządku od lewej do prawej. Gnom przechodzi od lewej do prawej wzdłuż rzędu doniczek, uważnie je obserwując. Gdy tylko zauważy, że dwie sąsiednie doniczki są niewłaściwie ułożone, zamienia je miejscami i cofa się do poprzedniej doniczki. Gdy natomiast z doniczkami jest wszystko tak, jak należy, to przechodzi do kolejnej doniczki. Gdy gnom dotrze do końca doniczek może spokojnie stwierdzić, że wszystkie są ułożone we właściwym porządku.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — liczba naturalna, liczba elementów w tablicy
 * $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Wynik
+#### Output
 
 * Posortowana niemalejąco tablica $$A$$
 
-### Przykład
+### Example
 
 Na początek przyjrzyjmy się poniższym animacjom. Spróbuj prześledzić jak kolejne wartości zamieniają się miejscami. Czy potrafisz, własnymi słowami, opisać przebieg algorytmu?
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -30,7 +30,7 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 
 {% embed url="https://blackbat13.github.io/visul2/sorting/gnome_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
 
-## Rozwiązanie
+## Solution
 
 Zauważmy, że gnom ma do dyspozycji następujące operacje: 
 - porównaj dwie sąsiednie doniczki: obecną z poprzednią,
@@ -40,7 +40,7 @@ Zauważmy, że gnom ma do dyspozycji następujące operacje:
 
 Gnom zaczyna swoją podróż od lewej strony, czyli od pierwszej doniczki, czy też od pierwszego elementu. Ponieważ może wyłącznie porównywać obecny element z poprzednim, to gdy znajduje się na samym początku nie ma wielkiego wyboru i musi pójść w prawo. Podobnie postępuje, gdy zauważy, że dwie sąsiednie doniczki są ułożone we właściwym porządku: przemieszcza się w prawo. Kiedy w takim razie gnom powinien pójść w lewo? Gdy napotka dwie sąsiednie doniczki, które są ułożone w złej kolejności. Wówczas zamienia je miejscami i idzie w lewo. I to wszystko powtarzamy tak długo, aż gnom wyjdzie poza rząd doniczek, czyli aż jego pozycja będzie większa od liczby elementów ($$n$$).
 
-### Pseudokod
+### Pseudocode
 
 ```
 procedura SortGnoma(n, A):
@@ -53,13 +53,13 @@ procedura SortGnoma(n, A):
             7. i := i - 1
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n^2)$$ — kwadratowa
 
 Prześledzenie złożoności algorytmu sortowania gnoma może wydawać się nietrywialne, zauważmy jednak, że algorytm ten jest bardzo podobny do algorytmu sortowania przez wstawianie. Tak właściwie od wspomnianego algorytmu różni się jedynie dodatkowym "poruszaniem się w prawo", nie może mieć więc złożoności lepszej, niż tamten algorytm.
 
-## Implementacja
+## Implementation
 
 ### C++
 

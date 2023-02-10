@@ -1,12 +1,12 @@
 # Kolejka
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/structures/queue.md" %}
 [queue.md](../../../../algorithms/structures/queue.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

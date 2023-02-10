@@ -4,13 +4,13 @@ description: Przeszukiwanie grafu wszerz
 
 # BFS
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/bfs.md" %}
 [bfs.md](../../../../algorithms/graphs/bfs.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -72,7 +72,7 @@ int main() {
 Przeszukiwanie grafu wszerz - BFS
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Na początku przygotowujemy przykładowy graf (**linie 34-42**) w formie listy sąsiedztwa zapisanej w dynamicznej tablicy typu `vector`. Przykładowy graf (przedstawiony także na poniższym rysunku) ma 7 wierzchołków (numerowanych od zera) i jest nieskierowany.
 

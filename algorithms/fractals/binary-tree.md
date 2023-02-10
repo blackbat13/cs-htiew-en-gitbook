@@ -1,17 +1,17 @@
-# Drzewo binarne
+# Binary tree
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - stopień drzewa binarnego
 * $$w$$ - początkowa długość gałęzi (pnia)
 
-#### Wynik
+#### Output
 
 * Drzewo binarne stopnia $$n$$ i początkowej długości $$w$$.
 
@@ -21,7 +21,7 @@ TODO
 Drzewo binarne - wprowadzenie
 {% endfile %}
 
-## Rozwiązanie
+## Solution
 
 ### Prezentacja
 
@@ -29,7 +29,7 @@ Drzewo binarne - wprowadzenie
 Drzewo binarne - algorytm
 {% endfile %}
 
-### Pseudokod
+### Pseudocode
 
 ```
 function BinaryTree(n, w):
@@ -55,7 +55,7 @@ flowchart TD
 	K8 --> STOP([STOP])
 ```
 
-## Implementacja
+## Implementation
 
 ### C++
 

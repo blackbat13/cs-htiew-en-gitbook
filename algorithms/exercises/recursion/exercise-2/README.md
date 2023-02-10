@@ -4,13 +4,13 @@
 
 Dana jest następująca specyfikacja problemu:
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * $$n!$$ - $$n$$ silnia
 

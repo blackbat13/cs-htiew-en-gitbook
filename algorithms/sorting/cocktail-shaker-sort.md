@@ -1,21 +1,21 @@
 # Sortowanie koktajlowe
 
-## Opis problemu
+## Problem description
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Wynik
+#### Output
 
 * Posortowana niemalejąco tablica $$A$$
 
 ### **Przykład**
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -26,9 +26,9 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 
 {% embed url="https://blackbat13.github.io/visul2/sorting/cocktail_shaker_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
 
-## Rozwiązanie
+## Solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 procedura SortowanieKoktajlowe(n, A):
@@ -45,11 +45,11 @@ procedura SortowanieKoktajlowe(n, A):
 **div** oznacza dzielenie całkowite
 {% endhint %}
 
-### Złożoność
+### Complexity
 
 $$O(n^2)$$ — kwadratowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

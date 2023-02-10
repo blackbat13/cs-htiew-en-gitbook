@@ -1,3 +1,3 @@
-# Grafowe
+# Graphs
 
 TODO - krótki opis

@@ -1,12 +1,12 @@
 # Anagramy
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/anagrams.md" %}
 [anagrams.md](../../../../algorithms/text/anagrams.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -44,7 +44,7 @@ int main() {
 Test anagramów
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `areAnagrams` (**linia 6**) sprawdza, czy dwa podane ciągi znaków są anagramami. Procedura jest prosta: najpierw sortujemy oba ciągi, wykorzystując do tego funkcję `sort` z biblioteki `algorithm` (**linie 7 i 8**). Następnie porównujemy posortowane ciągi znaków, zwracając w ten sposób wynik (**linia 9**).
 

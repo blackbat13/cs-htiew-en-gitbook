@@ -4,13 +4,13 @@ description: Najkrótsze ścieżki z jednego wierzchołka
 
 # Dijkstra
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/dijkstra.md" %}
 [dijkstra.md](../../../../algorithms/graphs/dijkstra.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -93,7 +93,7 @@ int main() {
 Algorytm Dijkstry
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 ![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph_weighted.png)
 

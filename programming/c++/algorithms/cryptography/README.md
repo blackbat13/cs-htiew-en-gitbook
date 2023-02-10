@@ -1,2 +1,2 @@
-# Szyfrowanie
+# Cryptography
 

@@ -1,12 +1,12 @@
 # Sortowanie przez wstawianie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/insertion-sort.md" %}
 [insertion-sort.md](../../../../algorithms/sorting/insertion-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

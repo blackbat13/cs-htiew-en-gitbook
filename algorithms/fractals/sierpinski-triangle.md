@@ -1,17 +1,17 @@
-# Trójkąt Sierpińskiego
+# Sierpinski triangle
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - stopień trójkąta
 * $$w$$ - początkowa długość
 
-#### Wynik
+#### Output
 
 * Trójkąt Sierpińskiego stopnia $$n$$ i początkowej długości $$w$$.
 
@@ -21,7 +21,7 @@ TODO
 Trójkąt Sierpińskiego - wprowadzenie
 {% endfile %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
@@ -31,11 +31,11 @@ TODO
 Trójkąt Sierpińskiego - algorytm
 {% endfile %}
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -1,14 +1,14 @@
 # Suma dwóch liczb
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/sum-of-two.md" %}
 [sum-of-two.md](../../../../algorithms/searching/sum-of-two.md)
 {% endcontent-ref %}
 
-## Rozwiązanie naiwne
+## Naive solution
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun sumOfTwo(array: List<Int>, sum: Int) {
@@ -35,13 +35,13 @@ fun main() {
 Suma dwóch - rozwiązanie naiwne
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun sumOfTwo(array: List<Int>, sum: Int) {
@@ -77,6 +77,6 @@ fun main() {
 Suma dwóch - rozwiązanie optymalne
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

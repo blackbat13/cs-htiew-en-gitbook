@@ -1,14 +1,14 @@
-# Krzywa Peano
+# Peano curve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/peano-curve.md" %}
 [peano-curve.md](../../../../algorithms/fractals/peano-curve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
-### Krzywa Peano
+### Peano curve
 
 ![Funkcja rysująca krzywą Peano](<../../../../.gitbook/assets/image (24).png>)
 

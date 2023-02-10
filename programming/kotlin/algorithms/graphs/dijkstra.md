@@ -1,16 +1,12 @@
----
-description: Najkrótsze ścieżki z zadanego wierzchołka
----
-
 # Dijkstra
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/dijkstra.md" %}
 [dijkstra.md](../../../../algorithms/graphs/dijkstra.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 import math
@@ -52,13 +48,3 @@ graph[6] = [(0, 5), (1, 5), (3, 3), (5, 5)]
 
 print(dijkstra(graph, 0))
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/BSdXrf" %}
-Dijkstra
-{% endembed %}
-
-### Opis implementacji
-
-TODO

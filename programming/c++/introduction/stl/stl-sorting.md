@@ -16,11 +16,11 @@ Funkcja sortująca (a także wiele innych) znajduje się w bibliotece `algorithm
 #include <algorithm>
 ```
 
-## Przykład
+## Example
 
 Poniższa implementacja pokazuje przykładowe wykorzystanie funkcji `sort` z biblioteki `algorithm`.
 
-### Implementacja
+### Implementation
 
 ```cpp
 #include <iostream>
@@ -88,7 +88,7 @@ int main() {
 Sortowanie z STL - przykład
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Na początku tworzymy nowy `vector` o nazwie `array` (**linia 37**), który służy nam za tablicę do posortowania. Następnie sortujemy tablicę rosnąco, wykorzystując do tego funkcję `sort` zawartą w bibliotece `algorithm`. Jako argumenty do funkcji podajemy wskaźniki na początek i koniec sortowanego zakresu (**linia 45**). Podany przedział jest prawostronnie otwarty. Po posortowaniu tablicy wypisujemy ją korzystając z pomocniczej funkcji `printVector`.
 

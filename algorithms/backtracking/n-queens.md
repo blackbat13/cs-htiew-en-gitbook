@@ -1,18 +1,18 @@
-# Problem n królowych
+# N-queens problem
 
-## Opis problemu
+## Problem description
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, liczba królowych do rozstawienia
 
-#### Wynik
+#### Output
 
 * Jedno z poprawnych ustawień $$n$$ królowych na szachownicy o wymiarach $$n\times n$$, lub informacja, że takie ułożenie nie istnieje.
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -1,10 +1,10 @@
-# Kod ASCII
+# ASCII codes
 
 ## Opis
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

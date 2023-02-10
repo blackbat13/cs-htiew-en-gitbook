@@ -1,14 +1,14 @@
-# Smocza Krzywa
+# Dragon curve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/dragon-curve.md" %}
 [dragon-curve.md](../../../../algorithms/fractals/dragon-curve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
-### Smocza Krzywa
+### Dragon curve
 
 ![Funkcja rysująca smoczą krzywą](<../../../../.gitbook/assets/image (22).png>)
 

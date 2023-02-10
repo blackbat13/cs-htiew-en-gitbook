@@ -1,41 +1,41 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 Zdarza się i tak, że potrzebujemy znaleźć wartość minimalną i maksymalną jednocześnie, najlepiej za jednym razem. Możemy oczywiście osobno wyszukać minimum i maksimum korzystając ze standardowego algorytmu. Być może jednak da się to zrobić lepiej, wydajniej? Na to pytanie postaramy się odpowiedzieć. Zacznijmy od formalnej specyfikacji.
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ — liczba naturalna, liczba elementów w tablicy
 * $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Największa oraz najmniejsza wartość z tablicy $$A$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5
 A := [6, 3, 1, 9, 2]
 ```
 
-#### Wynik
+#### Output
 
 ```
 minimum := 1
 maksimum := 9
 ```
 
-## Rozwiązanie naiwne
+## Naive solution
 
 Zacznijmy od rozwiązania naiwnego. Pomysł jest następujący: zastosujmy standardowy algorytm do znajdowania minimum i maksimum. Na początku jako tymczasowe minimum i maksimum przyjmiemy wartość pierwszego elementu z tablicy. Następnie przejdziemy pętlą przez kolejne elementy. Każdy element będziemy porównywać z dotychczasowymi wartościami minimum i maksimum, dokonując odpowiednich zamian w razie potrzeby.
 
-### Pseudokod
+### Pseudocode
 
 ```
 function FindMinMax(n, A):
@@ -67,13 +67,13 @@ flowchart TD
 	K8 ----> STOP([STOP])
 ```
 
-### Złożoność
+### Complexity
 
 $$O(2n)$$ 
 
 Mamy jedną pętlę, ale dwa porównania wewnątrz niej. W takim razie dla każdego przebiegu pętli wykonujemy dwa porównania, łącznie wykonujemy ich więc w przybliżeniu $$2n$$, co w praktyce daje nam złożoność liniową.
 
-## Rozwiązanie optymalne
+## Optimal solution
 
 Podejdźmy do problemu od innej strony. Zastanówmy się, jak możemy przygotować sobie dane, aby ułatwić sobie pracę? Mamy pewien zestaw liczb, wśród których chcemy znaleźć zarówno minimum jak i maksimum. W takim razie podzielmy wstępnie nasze liczby na kandydatów minimum oraz kandydatów maksimum. Zrobimy to przechodząc po kolei po parach sąsiednich liczb z tablicy i porównując je ze sobą. Mniejszą z wartości z pary wrzucimy do kandydatów na minimum, a większą umieścimy w kandydatach na maksimum. W ten sposób uzyskamy dwie tablice, z których każda będzie miała długość równą połowie długości pierwotnej tablicy. Teraz możemy przejść do wyszukiwania minimum i maksimum. Minimum będziemy szukać standardowym algorytmem w tablicy kandydatów na minimum. Podobnie zrobimy z maksimum, szukając go w kandydatach na maksimum.
 
@@ -83,7 +83,7 @@ Podejdźmy do problemu od innej strony. Zastanówmy się, jak możemy przygotowa
 Dla ułatwienia zakładamy, że długość tablicy (wartość $$n$$) jest liczbą **parzystą**. Jeżeli tak nie jest, możemy np. powielić ostatni element tablicy, albo rozważyć ten szczególny przypadek w algorytmie.
 {% endhint %}
 
-### Pseudokod
+### Pseudocode
 
 ```
 function FindMinMax(n, A):
@@ -138,13 +138,13 @@ flowchart TD
 	K21 ----> STOP([STOP])
 ```
 
-### Złożoność
+### Complexity
 
 $$O(3\frac{n}{2})$$ 
 
 Najpierw dokonujemy podziału na dwie tablice pomocnicze wykonując $$\frac{n}{2}$$ operacji. Następnie wyszukujemy minimum i maksimum w odpowiednich tablicach. Każda z nich ma długość $$\frac{n}{2}$$, więc łącznie na znalezienie minimum i maksimum potrzebujemy wykonać $$2\frac{n}{2}=n$$ porównań. Wszystko razem daje nam $$3\frac{n}{2}$$ porównań. W praktyce wciąż mamy złożoność liniową, wykonujemy jednak mniej operacji niż przy algorytmie naiwnym.
 
-## Implementacja
+## Implementation
 
 ### C++
 

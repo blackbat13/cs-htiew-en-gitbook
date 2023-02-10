@@ -4,22 +4,22 @@ description: Heapsort
 
 # Sortowanie przez kopcowanie
 
-## Opis problemu
+## Problem description
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ — liczba naturalna, ilość elementów w tablicy
 * $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
 
-#### Wynik:
+#### Output:
 
 * Posortowana niemalejąco tablica $$A$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -30,9 +30,9 @@ A := [6, 5, 3, 1, 8, 7, 2, 4]
 
 ![By Swfung8 — Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=14957305](../../.gitbook/assets/Heapsort-example.gif)
 
-## Rozwiązanie
+## Solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 procedura ZbudujKopiec(A, n):
@@ -53,11 +53,11 @@ procedura SortowanieKopcowanie(n, A):
         3. Zamień(A[1], A[i])
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n\log{n})$$ — liniowo logarytmiczna
 
-## Implementacja
+## Implementation
 
 ### C++
 

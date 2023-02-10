@@ -10,21 +10,21 @@ Twoje zadanie polega na wypisaniu permutowanej tablicy na podstawie takiego wła
 
 Źródło: [https://onlinejudge.org/external/4/482.pdf](https://onlinejudge.org/external/4/482.pdf)
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba elementów tablicy
 * $$p_1,p_2,...,p_n$$ - opis permutacji: docelowa kolejność elementów, unikalne (bez powtórzeń) liczby całkowite z przedziału $$[1,n]$$
 * $$a_1,a_2,...,a_n$$ - wartości tablicy w jej początkowym ułożeniu, liczby całkowite
 
-#### Wynik
+#### Output
 
 * Zadana permutacja tablicy, tzn. taka, że element $$a_i$$ znajduje się na pozycji $$p_i$$.
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 5
@@ -32,7 +32,7 @@ Twoje zadanie polega na wypisaniu permutowanej tablicy na podstawie takiego wła
 20 41 84 93 12
 ```
 
-#### Wynik
+#### Output
 
 ```
 93 84 20 12 41  

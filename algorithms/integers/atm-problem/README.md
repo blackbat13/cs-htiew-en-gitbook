@@ -1,21 +1,21 @@
 # Problem bankomatu (wydawanie reszty)
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — liczba naturalna, ilość dostępnych nominałów
 * $$nom[1..n]$$ — tablica dostępnych nominałów (liczb całkowitych) o rozmiarze $$n$$
 * $$kw$$ — liczba naturalna, kwota do wydania
 
-#### Wynik
+#### Output
 
 * Minimalna liczba potrzebnych monet/banknotów do wydania kwoty $$kw$$ przy użyciu nominałów $$nom$$.
 
-### Przykład
+### Example
 
 TODO

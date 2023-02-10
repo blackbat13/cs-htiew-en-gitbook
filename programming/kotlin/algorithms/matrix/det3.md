@@ -1,12 +1,12 @@
-# Wyznacznik macierzy 3x3
+# Det3
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/matrix/det3.md" %}
 [det3.md](../../../../algorithms/matrix/det3.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def det3(matrix) -> int:
@@ -24,13 +24,3 @@ result = det3(matrix)
 
 print(result)
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/tc3XAb" %}
-Wyznacznik macierzy 3x3
-{% endembed %}
-
-### Opis implementacji
-
-TODO

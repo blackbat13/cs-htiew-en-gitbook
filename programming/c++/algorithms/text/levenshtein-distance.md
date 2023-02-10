@@ -1,12 +1,12 @@
 # Odległość Levenshteina (edycyjna)
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/levenshtein-distance.md" %}
 [levenshtein-distance.md](../../../../algorithms/text/levenshtein-distance.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

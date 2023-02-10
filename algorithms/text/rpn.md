@@ -1,22 +1,22 @@
 # Odwrotna Notacja Polska
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * **onp** - ciąg znaków reprezentujący poprawne wyrażenie w Odwrotnej Notacji Polskiej
 
-#### Wynik
+#### Output
 
 * Wartość wyrażenia **onp**
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 onp := "27+3/13-4*+2/"
@@ -32,19 +32,19 @@ Przedstawione wyrażenie ONP odpowiada następującemu wyrażeniu arytmetycznemu
 $$(((2 + 7) / 3) + (1 - 3) * 4) / 2$$
 {% endhint %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-### Schemat blokowy
+### Block diagram
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

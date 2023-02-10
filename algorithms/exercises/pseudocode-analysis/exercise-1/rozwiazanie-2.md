@@ -1,4 +1,4 @@
-# Rozwiązanie 2
+# Solution 2
 
 ## Symulacja
 
@@ -26,6 +26,6 @@
 7. Wypisz 5
 ```
 
-## Wynik
+## Output
 
 $$q=3,\ r=5$$

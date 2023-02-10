@@ -1,2 +1,2 @@
-# Fraktale
+# Fractals
 

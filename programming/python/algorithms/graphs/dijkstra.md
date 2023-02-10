@@ -4,13 +4,13 @@ description: Najkrótsze ścieżki z zadanego wierzchołka
 
 # Dijkstra
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/dijkstra.md" %}
 [dijkstra.md](../../../../algorithms/graphs/dijkstra.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

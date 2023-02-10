@@ -4,20 +4,20 @@
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$a_1,a_2,\dots,a_n$$ - $$n$$ liczb całkowitych
 
-#### Wynik
+#### Output
 
 * $$a_n,a_{n-1},\dots,a_2,a_1$$ - podane liczby w odwrotnej kolejności
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -34,21 +34,21 @@ a5 := 5
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$a_1,a_2,\dots,a_n$$ - $$n$$ liczb całkowitych
 * $$k$$ - liczba naturalna, $$1<=k<=n$$
 
-#### Wynik
+#### Output
 
 * $$a_k$$ - $$k$$-ta podana liczba
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -74,21 +74,21 @@ $$k := 3$$, a trzecia podana wartość wynosi $$9$$ (a3 := 9).
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$a_1,a_2,\dots,a_n$$ - $$n$$ liczb całkowitych
 * $$p, k$$ - dwie liczby naturalna, $$1<=p,k<=n$$, $$p <= k$$
 
-#### Wynik
+#### Output
 
 * $$a_p+a_{p+1}+a_{p+2}+...+a_{k}$$ - suma wartości na pozycjach od $$p$$ do $$k$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -115,20 +115,20 @@ $$a_3+a_4+a_5=9+1+2=12$$
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$t1[n],\ t2[n]$$ - dwie tablice liczb całkowitych
 
-#### Wynik
+#### Output
 
 * Tablica powstała poprzez dodanie do siebie wartości z tablic $$t1$$ i $$t2$$ 
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -148,19 +148,19 @@ $$[4+2,\ 1+3,\ 7+1,\ 0+9,\ 2+6]$$
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * $$fib[n]$$ - tablica zawierająca $$n$$ kolejnych liczb Fibonacciego
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 6
@@ -172,25 +172,25 @@ n := 6
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
-#### Wynik
+#### Output
 
 * $$mno[n][n]$$ - dwuwymiarowa tablica reprezentująca tabliczkę mnożenia liczb z zakresu $$[0,n-1]$$, gdzie $$mno[i][j]=i*j$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 3
 ```
 
-#### Wynik
+#### Output
 
 ```
 mno := [[0, 0, 0],
@@ -202,22 +202,22 @@ mno := [[0, 0, 0],
 
 Napisz program zgodny z poniższą specyfikacją.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 * $$tab[n]$$ - tablica liczb całkowitych
 
-#### Wynik
+#### Output
 
 * Komunikat "niemalejaco" jeżeli elementy tablicy posortowane są niemalejąco
 * Komunikat "nierosnaco" jeżeli elementy tablicy posortowane są nierosnąco
 * Komunikat "nieposortowane" jeżeli elementy tablicy nie są posortowane
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -226,9 +226,9 @@ tab := [1, 1, 5, 6, 8]
 
 **Wynik**: "niemalejąco"
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 n := 5
@@ -237,9 +237,9 @@ tab := [8, 5, 5, 3, 1]
 
 **Wynik**: "nierosnąco"
 
-### Przykład 3
+### Example 3
 
-#### Dane
+#### Input
 
 ```
 n := 5

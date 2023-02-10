@@ -4,13 +4,13 @@
 
 Dany jest następujący pseudokod, zgodny z poniższą częściową specyfikacją:
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$x$$ - liczba całkowita
 
-### Pseudokod
+### Pseudocode
 
 ```
 1. k := 1

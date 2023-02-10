@@ -1,14 +1,14 @@
-# Szyfr Cezara
+# Caesar cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/caesar.md" %}
 [caesar.md](../../../../algorithms/cryptography/caesar.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -53,9 +53,9 @@ int main() {
 Szyfrowanie Cezara
 {% endembed %}
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

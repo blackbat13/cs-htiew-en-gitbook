@@ -1,12 +1,12 @@
 # Kruskal
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/kruskal.md" %}
 [kruskal.md](../../../../algorithms/graphs/kruskal.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -140,7 +140,7 @@ int main() {
 Algorytm Kruskala
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Definiujemy strukturę `edge` do reprezentacji krawędzi grafu (**linia 59**). Ponieważ mamy do czynienia z grafem ważonym, w strukturze przechowujemy trzy wartości: 
 

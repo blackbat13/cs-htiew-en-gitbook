@@ -1,14 +1,14 @@
-# Szyfr Playfaira
+# Playfair cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/playfair.md" %}
 [playfair.md](../../../../algorithms/cryptography/playfair.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 ```python
 def find(letter, tab):
@@ -76,13 +76,13 @@ print(encoded)
 Szyfrowanie szyfrem Playfaira
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 ```python
 def find(letter, tab):
@@ -150,6 +150,6 @@ print(decoded)
 Deszyfrowanie szyfrem Playfaira
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

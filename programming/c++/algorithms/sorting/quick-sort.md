@@ -1,12 +1,12 @@
 # Sortowanie szybkie
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/sorting/quick-sort.md" %}
 [quick-sort.md](../../../../algorithms/sorting/quick-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

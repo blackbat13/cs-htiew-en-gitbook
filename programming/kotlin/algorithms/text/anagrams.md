@@ -1,12 +1,12 @@
 # Anagramy
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/anagrams.md" %}
 [anagrams.md](../../../../algorithms/text/anagrams.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def are_anagrams(a: str, b: str) -> bool:
@@ -28,6 +28,6 @@ else:
 Test anagramów
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

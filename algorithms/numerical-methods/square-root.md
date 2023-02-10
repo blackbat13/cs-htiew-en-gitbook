@@ -1,23 +1,23 @@
-# Pierwiastek kwadratowy
+# Square root
 
-## Opis problemu
+## Problem description
 
 Jak policzyć pierwiastek kwadratowy z podanej liczby, gdy nie mamy przy sobie kalkulatora, ani wbudowanych metod programistycznych?
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — liczba rzeczywista.
 * $$p$$ — liczba rzeczywista, dokładność.
 
-#### Wynik
+#### Output
 
 * $$\sqrt{n}$$ policzony z dokładnością $$p$$
 
-## Rozwiązanie — metoda Herona
+## Solution — metoda Herona
 
-### Pseudokod
+### Pseudocode
 
 ```
 function HeronMethod(n, p):
@@ -41,7 +41,7 @@ flowchart TD
     K6 --> STOP([STOP])
 ```
 
-## Implementacja
+## Implementation
 
 ### C++
 

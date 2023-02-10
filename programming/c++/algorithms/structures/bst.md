@@ -4,13 +4,13 @@ description: BST
 
 # Drzewa przeszukiwań binarnych
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md" %}
 [drzewa-przeszukiwan-binarnych.md](../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -140,7 +140,7 @@ int main() {
 Drzewa przeszukiwań binarnych
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 ![Przykładowe drzewo wykorzystane w implementacji](<../../../../.gitbook/assets/image (10).png>)
 

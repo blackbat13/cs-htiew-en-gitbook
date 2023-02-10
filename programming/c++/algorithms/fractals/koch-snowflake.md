@@ -1,12 +1,12 @@
-# Płatek Kocha
+# Koch snowflake
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/koch-snowflake.md" %}
 [koch-snowflake.md](../../../../algorithms/fractals/koch-snowflake.md)
 {% endcontent-ref %}
 
-## Implementacja 
+## Implementation 
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

@@ -1,6 +1,6 @@
 # Anagramy
 
-## Opis problemu
+## Problem description
 
 Istnieje wiele metod na sprawdzanie i tworzenie relacji pomiędzy wyrazami.
 W tym temacie zajmiemy się pojęciem **anagramu**, które może być znane szczególnie osobom przejawiającym zamiłowanie do różnego rodzaju krzyżówek i zagadek słownych.
@@ -18,7 +18,7 @@ Dwa wyrazy nazywamy **anagramami**, jeżeli składają się dokładnie z takich 
 Anagram — Wikipedia
 {% endembed %}
 
-### Przykład
+### Example
 
 Wyrazy **rży** i **ryż** są anagramami.
 Podobnie wyrazy **algorytm** i **logarytm**.
@@ -28,9 +28,9 @@ Nie tylko wyrazy mogą być anagramami, ale także wyrażenia czy całe zdania.
 Skoro już wiemy, czym są anagramy, zastanówmy się, w jaki sposób możemy sprawdzić, czy dwa wyrazy są anagramami.
 Zacznijmy od formalnej specyfikacji naszego problemu.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — liczba naturalna, długość tekstu.
 * $$tekst1[1..n]$$ — ciąg $$n$$ znaków, numerowanych od jedynki, składający się wyłącznie z małych liter alfabetu angielskiego.
@@ -41,14 +41,14 @@ W ogólnym problemie moglibyśmy sprawdzać własność anagramu dla dowolnych c
 Skupimy się jednak na uproszczonej wersji tego problemu, by przedstawić ideę rozwiązania, a technikalia zostawiamy osobom zainteresowanym.
 {% endhint %}
 
-#### Wynik
+#### Output
 
 * $$True$$ — jeżeli $$tekst1$$ i $$tekst2$$ są anagramami.
 * $$False$$ — w przeciwnym przypadku.
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -58,7 +58,7 @@ tekst2 := "romantyk"
 
 **Wynik**: $$True$$
 
-## Rozwiązanie 1
+## Solution 1
 
 ### Opis
 
@@ -74,7 +74,7 @@ Możemy więc przygotować tablicę przechowującą 26 liczników — po jednym 
 Litery natomiast ponumerujemy od 1, startując od $$a$$. 
 Liczbę wystąpień litery $$a$$ zapiszemy w pierwszym liczniku, liczbę wystąpień litery $$b$$ zapiszemy w drugim liczniku itd.
 
-### Przykład
+### Example
 
 Przyjmijmy takie same dane jak we wcześniejszym przykładzie, tzn.:
 
@@ -96,7 +96,7 @@ liczniki2 = [a:1, b:0, c:0, d:0, e:0, f:0, g:0, h:0, i:0, j:0, k:1, l:0, m:1, n:
 Gdy je porównamy zobaczymy, że są sobie równe.
 Oznacza to, że nasze wyrazy są anagramami.
 
-### Pseudokod
+### Pseudocode
 
 Spróbujmy teraz zapisać nasze rozwiązanie w bardziej formalny sposób.
 Zaprojektujemy funkcję **TestujAnagramy**, która będzie przyjmować trzy parametry, zgodnie ze specyfikacją.
@@ -124,18 +124,18 @@ funkcja TestujAnagramy(n, tekst1, tekst2):
         11. Zwróć False
 ```
 
-### Złożoność
+### Complexity
 
 Najbardziej czasochłonną operacją w naszym algorytmie jest pętla przechodząca przez każdy znak obu wyrazów.
 Znaków mamy $$n$$, więc nasza pętla wykona dokładnie $$n$$ obrotów, co daje nam złożoność:
 
 $$O(n)$$ — liniowa
 
-## Rozwiązanie 2
+## Solution 2
 
 Innym rozwiązaniem jest posortowanie obu wyrazów i porównanie ich.
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja TestujAnagramy(n, tekst1, tekst2):
@@ -147,13 +147,13 @@ funkcja TestujAnagramy(n, tekst1, tekst2):
         6. Zwróć False 
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ — liniowa, jeżeli wykorzystamy optymalny algorytm sortowania (np. sortowanie przez zliczanie).
 
 $$O(n\log{n})$$ — liniowo logarytmiczna, jeżeli użyjemy standardowej metody sortowania (np. sortowanie szybkie).&#x20;
 
-## Implementacja
+## Implementation
 
 ### C++
 

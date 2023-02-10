@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/linear-search.md" %}
 [linear-search.md](../../../../algorithms/searching/linear-search.md)
@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```lua
@@ -42,7 +42,7 @@ end
 Wyszukiwanie liniowe - istnienie elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) zwraca jako wynik wartość prawda/fałsz i przyjmuje dwa argumenty: tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$1$$ do rozmiaru tablicy włącznie (**linia 2**). Rozmiar tablicy pobieramy za pomocą operatora `#()`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy informację o znalezieniu wartości w tablicy (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `false` informującą, że poszukiwany element nie znajduje się w tablicy (**linia 8**).
 
@@ -50,7 +50,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ## Pozycja elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```lua
@@ -84,7 +84,7 @@ end
 Wyszukiwanie liniowe - pozycja elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$1$$ do rozmiaru tablicy włącznie (**linia 2**). Rozmiar tablicy pobieramy za pomocą operatora `#()`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks tej wartości w tablicy (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `-1` informującą, że poszukiwany element nie znajduje się w tablicy (**linia 8**).
 
@@ -92,7 +92,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ## Wszystkie pozycje elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```lua
@@ -119,7 +119,7 @@ linearSearch(array, number)
 Wyszukiwanie liniowe - wszystkie pozycje elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) nie zwraca wyniku i przyjmuje dwa argumenty: tablicę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$1$$ do rozmiaru tablicy włącznie (**linia 2**). Rozmiar tablicy pobieramy za pomocą operatora `#()`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to wypisujemy ten indeks (**linia 4**).
 

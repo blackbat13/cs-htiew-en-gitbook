@@ -4,25 +4,25 @@
 
 Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj klasę `map`.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$txt$$ - Wielolinijkowy tekst składający się ze znaków ze standardowej tablicy ASCII, zakończony znakiem końca wyjścia.
 
-#### Wynik
+#### Output
 
 * Dla każdego znaku, jaki pojawił się na wejściu, liczba jego wystąpień. Znaki uporządkowane alfabetycznie, zgodnie z kolejnością w tablicy ASCII.
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 txt := "Ala ma kota"
 ```
 
-#### Wynik
+#### Output
 
 ```
   - 2
@@ -43,19 +43,19 @@ Pierwszy znak na powyższej liście to spacja.
 
 Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj klasę `stack`.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$nawiasy$$ - ciąg składający się jedynie ze znaków reprezentujących nawiasy okrągłe i kwadratowe, tzn.: $$(, ), [, ]$$
 
-#### Wynik
+#### Output
 
 * **TRUE** jeżeli podany na wejściu ciąg jest reprezentacją poprawnego nawiasowania, **FALSE** w przeciwnym przypadku.
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 nawiasy := "(([]()))"
@@ -63,9 +63,9 @@ nawiasy := "(([]()))"
 
 **Wynik**: TRUE
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 nawiasy := "(([(])))"
@@ -77,13 +77,13 @@ nawiasy := "(([(])))"
 
 Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj tablicę dynamiczną z STL.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$instrukcje$$ - ciąg instrukcji opisany poniżej, zakończony instrukcją **KONIEC**
 
-#### Wynik
+#### Output
 
 * Wartość zadanego elementu wypisana dla każdej instrukcji **WYPISZ**, lub komunikat **BLAD**, jeżeli ciąg instrukcji zawiera błąd
 
@@ -98,9 +98,9 @@ Wszystkie wartości są liczbami całkowitymi mieszczącymi się w typie `int`.
 * **WYPISZ** $$i$$ - wypisz wartość zapisaną pod indeksem $$i$$
 * **KONIEC** - zakończ obliczenia (instrukcja ta występuje tylko raz, na samym końcu ciągu instrukcji)
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 DODAJ 3
@@ -116,7 +116,7 @@ WYPISZ 2
 KONIEC
 ```
 
-#### Wynik
+#### Output
 
 ```
 10
@@ -125,9 +125,9 @@ KONIEC
 3
 ```
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 DODAJ 3
@@ -143,7 +143,7 @@ WYPISZ 2
 KONIEC
 ```
 
-#### Wynik
+#### Output
 
 ```
 10

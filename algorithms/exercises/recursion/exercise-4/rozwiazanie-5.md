@@ -1,6 +1,6 @@
-# Rozwiązanie 5
+# Solution 5
 
-## Pseudokod
+## Pseudocode
 
 ```
 funkcja fun_iter(n):

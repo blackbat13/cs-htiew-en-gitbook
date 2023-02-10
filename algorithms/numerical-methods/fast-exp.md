@@ -1,6 +1,6 @@
-# Szybkie potęgowanie
+# Fast exponentiation
 
-## Opis problemu
+## Problem description
 
 Zadanie jest proste: mamy podnieść liczbę do zadanej potęgi. Jak to jednak zwykle bywa, można to zrobić na różne sposoby, spośród których jedne będą szybsze, a inne wolniejsze. Zacznijmy od przykładu.
 
@@ -40,20 +40,20 @@ $$
 x^5=(x^2)^2*x
 $$
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$x$$ — liczba całkowita, podstawa potęgi
 * $$n$$ — liczba naturalna, wykładnik potęgi
 
-#### Wynik:
+#### Output:
 
 * $$x^n$$
 
-## Rozwiązanie iteracyjne
+## Iterative solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 function FastExp(x, n):
@@ -83,11 +83,11 @@ flowchart TD
 	K7 ---> STOP([STOP])
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\log{n})$$ — logarytmiczna
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
 ### Definicja rekurencyjna
 
@@ -99,7 +99,7 @@ potega(x, n\ div\ 2)^2 * x & : \ n\ mod\ 2 = 1
 \end{array} \right.
 $$
 
-### Pseudokod
+### Pseudocode
 
 ```
 function FastExp(x, n):
@@ -130,11 +130,11 @@ flowchart TD
 	K7 --> STOP
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\log{n})$$ — logarytmiczna
 
-## Implementacja
+## Implementation
 
 ### C++
 

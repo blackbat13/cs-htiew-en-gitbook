@@ -1,12 +1,12 @@
 # Odległość Hamminga
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/hamming-distance.md" %}
 [hamming-distance.md](../../../../algorithms/text/hamming-distance.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

@@ -1,12 +1,12 @@
-# Krzywa Kocha
+# Koch curve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/koch-curve.md" %}
 [koch-curve.md](../../../../algorithms/fractals/koch-curve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

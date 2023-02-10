@@ -1,12 +1,12 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
 [min-or-max.md](../../../../algorithms/searching/min-or-max.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ### Znajdowanie minimum
 

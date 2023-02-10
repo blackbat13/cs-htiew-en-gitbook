@@ -1,12 +1,12 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/longest-growing-substring.md" %}
 [longest-growing-substring.md](../../../../algorithms/searching/longest-growing-substring.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```kotlin
 fun longestGrowingSubstringLength(array: List<Int>): Int {
@@ -42,6 +42,6 @@ fun main() {
 Długość najdłuższego spójnego podciągu rosnącego
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

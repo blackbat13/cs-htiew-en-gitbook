@@ -1,12 +1,12 @@
 # Struktura zbiorów rozłącznych
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/structures/disjoint-set-union.md" %}
 [disjoint-set-union.md](../../../../algorithms/structures/disjoint-set-union.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

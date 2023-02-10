@@ -1,11 +1,11 @@
-# Szyfr Playfaira
+# Playfair cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/playfair.md" %}
 [playfair.md](../../../../algorithms/cryptography/playfair.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 TODO

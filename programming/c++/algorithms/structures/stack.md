@@ -1,12 +1,12 @@
 # Stos
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/structures/stack.md" %}
 [stack.md](../../../../algorithms/structures/stack.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

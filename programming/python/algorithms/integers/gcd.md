@@ -2,17 +2,17 @@
 description: Największy Wspólny Dzielnik
 ---
 
-# NWD
+# GCD
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/gcd.md" %}
 [gcd.md](../../../../algorithms/integers/gcd.md)
 {% endcontent-ref %}
 
-## Algorytm NWD z odejmowaniem
+## GCD with subtraction
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -41,9 +41,9 @@ print(f"GCD({a}, {b}) = {result}")
 NWD z odejmowaniem
 {% endembed %}
 
-## Algorytm Euklidesa - wersja iteracyjna
+## Iterative GCD with modulo
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -71,9 +71,9 @@ print(f"GCD({a},{b}) = {result}")
 Algorytm Euklidesa - wersja iteracyjna
 {% endembed %}
 
-## Algorytm Euklidesa - wersja rekurencyjna
+## Recursive GCD with modulo
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

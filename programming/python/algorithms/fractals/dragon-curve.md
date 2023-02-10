@@ -1,12 +1,12 @@
-# Smocza krzywa
+# Dragon curve
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/dragon-curve.md" %}
 [dragon-curve.md](../../../../algorithms/fractals/dragon-curve.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -37,7 +37,3 @@ dragon_curve(10, 1, 5)
 turtle.done()
 ```
 {% endcode %}
-
-### Link do implementacji
-
-{% embed url="https://replit.com/@damiankurpiewski/Dragon-Curve#main.py" %}

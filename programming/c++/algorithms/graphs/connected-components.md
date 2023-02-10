@@ -1,12 +1,12 @@
-# Spójne składowe
+# Connected components
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/connected-components.md" %}
 [connected-components.md](../../../../algorithms/graphs/connected-components.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -70,7 +70,7 @@ int main() {
 Zliczanie liczby spójnych składowych w grafie nieskierowanym
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 ![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph_disconnected.png)
 

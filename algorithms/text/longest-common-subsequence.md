@@ -1,29 +1,29 @@
 # Najdłuższy wspólny podciąg
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$a, b$$ - dwa ciągi znaków
 
-#### Wynik
+#### Output
 
 * Najdłuższy wspólny podciąg ciągów $$a$$ i $$b$$
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 a := "kitten"
 b := "sitting"
 ```
 
-#### Wynik
+#### Output
 
 `"ittn"`
 
@@ -33,15 +33,15 @@ b := "sitting"
 TODO
 {% endhint %}
 
-## Rozwiązanie
+## Solution
 
 TODO
 
-### Pseudokod
+### Pseudocode
 
 TODO
 
-## Implementacja
+## Implementation
 
 ### C++
 

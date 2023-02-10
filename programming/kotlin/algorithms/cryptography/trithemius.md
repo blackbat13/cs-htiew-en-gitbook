@@ -1,14 +1,14 @@
-# Szyfr Trithemius'a
+# Trithemius cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/trithemius.md" %}
 [trithemius.md](../../../../algorithms/cryptography/trithemius.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 ```python
 def is_letter(letter: str) -> bool:
@@ -44,19 +44,9 @@ encoded = encode(message)
 print(f"Encoded: {encoded}")
 ```
 
-### Link do implementacji
+## Decoding
 
-{% embed url="https://ideone.com/9W6PrX" %}
-Szyfrowanie szyfrem Thithemius'a
-{% endembed %}
-
-### Opis implementacji
-
-TODO
-
-## Deszyfrowanie
-
-### Implementacja
+### Implementation
 
 ```python
 def is_letter(letter: str) -> bool:
@@ -91,13 +81,3 @@ decoded = decode(message)
 
 print(f"Decoded: {decoded}")
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/PzZXD9" %}
-Deszyfrowanie szyfrem Trithemius'a
-{% endembed %}
-
-### Opis implementacji
-
-TODO

@@ -1,12 +1,12 @@
-# Metoda Monte Carlo
+# Monte Carlo method
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/monte-carlo.md" %}
 [monte-carlo.md](../../../../algorithms/numerical-methods/monte-carlo.md)
 {% endcontent-ref %}
 
-## Obliczanie wartości liczby PI
+## Computing the value of PI
 
 ```python
 import random
@@ -38,13 +38,3 @@ estimated_pi = monte_carlo_pi(points_count)
 
 print(f"PI ~= {estimated_pi}")
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/lGXTa2" %}
-Obliczanie wartości PI - metoda Monte Carlo
-{% endembed %}
-
-### Opis implementacji
-
-TODO

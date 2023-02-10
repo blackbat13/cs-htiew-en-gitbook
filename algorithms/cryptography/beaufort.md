@@ -1,18 +1,18 @@
-# Szyfr Beauforta
+# Beaufort cipher
 
-## Opis problemu
-
-TODO
-
-## Szyfrowanie
+## Problem description
 
 TODO
 
-## Deszyfrowanie
+## Encoding
 
 TODO
 
-## Implementacja
+## Decoding
+
+TODO
+
+## Implementation
 
 ### C++
 

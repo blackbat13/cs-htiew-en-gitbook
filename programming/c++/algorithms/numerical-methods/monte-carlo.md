@@ -1,12 +1,12 @@
-# Metoda Monte Carlo
+# Monte Carlo method
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/numerical-methods/monte-carlo.md" %}
 [monte-carlo.md](../../../../algorithms/numerical-methods/monte-carlo.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

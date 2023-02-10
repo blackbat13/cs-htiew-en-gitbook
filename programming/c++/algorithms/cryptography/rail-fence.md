@@ -1,14 +1,14 @@
-# Szyfr płotkowy
+# Rail-fence cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/rail-fence.md" %}
 [rail-fence.md](../../../../algorithms/cryptography/rail-fence.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -56,9 +56,9 @@ int main() {
 Szyfrowanie szyfrem płotkowym
 {% endembed %}
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

@@ -1,18 +1,14 @@
----
-description: Największy Wspólny Dzielnik
----
+# GCD
 
-# NWD
-
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/integers/gcd.md" %}
 [gcd.md](../../../../algorithms/integers/gcd.md)
 {% endcontent-ref %}
 
-## Algorytm NWD z odejmowaniem
+## GCD with subtraction
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun gcd(num1: Int, num2: Int): Int {
@@ -40,19 +36,9 @@ fun main() {
 }
 ```
 
-### Link do implementacji
+## Iterative GCD with modulo
 
-{% embed url="https://ideone.com/4NLzXI" %}
-NWD z odejmowaniem
-{% endembed %}
-
-### Opis implementacji
-
-TODO
-
-## Algorytm Euklidesa - wersja iteracyjna
-
-### Implementacja
+### Implementation
 
 ```kotlin
 fun gcd(num1: Int, num2: Int): Int {
@@ -78,19 +64,9 @@ fun main() {
 }
 ```
 
-### Link do implementacji
+## Recursive GCD with modulo
 
-{% embed url="https://ideone.com/VUGRIi" %}
-Algorytm Euklidesa - wersja iteracyjna
-{% endembed %}
-
-### Opis implementacji
-
-TODO
-
-## Algorytm Euklidesa - wersja rekurencyjna
-
-### Implementacja
+### Implementation
 
 ```kotlin
 fun gcd(a: Int, b: Int): Int {
@@ -110,13 +86,3 @@ fun main() {
   println("GCD($a, $b) = $result")
 }
 ```
-
-### Link do implementacji
-
-{% embed url="https://ideone.com/F52FKB" %}
-Algorytm Euklidesa - wersja rekurencyjna
-{% endembed %}
-
-### Opis implementacji
-
-TODO

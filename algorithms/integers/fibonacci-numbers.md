@@ -1,22 +1,22 @@
-# Liczby Fibonacciego
+# Fibonacci numbers
 
-## Opis problemu
+## Problem description
 
 TODO
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, większa od zera
 
-#### Wynik
+#### Output
 
 * $$n$$-ta liczba Fibonacciego
 
-### Przykład
+### Example
 
-#### Dane
+#### Input
 
 ```
 n := 10
@@ -30,9 +30,9 @@ n := 10
 Pierwszych kolejnych dziesięć liczb Fibonacciego to: $$1, 1, 2, 3, 5, 8, 13, 21, 34, 55$$ 
 {% endhint %}
 
-## Rozwiązanie rekurencyjne
+## Recursive solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 function Fib(n):
@@ -41,7 +41,7 @@ function Fib(n):
     3. Return Fib(n - 1) + Fib(n - 2)
 ```
 
-### Schemat blokowy
+### Block diagram
 
 ```mermaid
 flowchart TD
@@ -52,9 +52,9 @@ flowchart TD
 	K3 --> STOP
 ```
 
-## Rozwiązanie iteracyjne
+## Iterative solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 function Fib(n):
@@ -67,7 +67,7 @@ function Fib(n):
     7. Return f2
 ```
 
-### Schemat blokowy
+### Block diagram
 
 ```mermaid
 flowchart TD
@@ -79,7 +79,7 @@ flowchart TD
 	K7 --> STOP([STOP])
 ```
 
-## Implementacja
+## Implementation
 
 ### C++
 

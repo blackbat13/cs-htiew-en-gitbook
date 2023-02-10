@@ -1,12 +1,12 @@
 # Najdłuższy wspólny podciąg
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/text/longest-common-subsequence.md" %}
 [longest-common-subsequence.md](../../../../algorithms/text/longest-common-subsequence.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

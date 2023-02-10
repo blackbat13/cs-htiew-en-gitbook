@@ -53,6 +53,6 @@ int c = a ^ b;
 cout << c << endl;
 ```
 
-## Przykładowa implementacja
+## Exampleowa implementacja
 
 {% embed url="https://replit.com/@damiankurpiewski/BitOperations" %}

@@ -1,12 +1,12 @@
-# Wyznacznik macierzy 3x3
+# Det3
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/matrix/det3.md" %}
 [det3.md](../../../../algorithms/matrix/det3.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -33,7 +33,7 @@ print(result)
 Wyznacznik macierzy 3x3
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `det3` (**linia 1**) wylicza wyznacznik macierzy $$3\times3$$ przekazanej jako parametr funkcji. Wewnątrz funkcji mamy tylko jedną operację zwracającą wyznacznik macierzy obliczony zgodnie ze wzorem.
 

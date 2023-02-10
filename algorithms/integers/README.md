@@ -1,3 +1,3 @@
-# Algorytmy na liczbach całkowitych
+# Algorithms on integers
 
 TODO - krótki opis

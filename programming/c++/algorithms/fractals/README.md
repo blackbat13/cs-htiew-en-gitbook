@@ -1,4 +1,4 @@
-# Fraktale
+# Fractals
 
 ## Wstęp
 

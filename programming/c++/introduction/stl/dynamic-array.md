@@ -33,7 +33,7 @@ Vector Reference
 Deque Reference
 {% endembed %}
 
-## Implementacja: przykłady
+## Implementation: przykłady
 
 ### Utworzenie pustej tablicy
 
@@ -149,7 +149,7 @@ for(auto el: array) {
 }
 ```
 
-## Przykładowa implementacja
+## Exampleowa implementacja
 
 ```cpp
 #include <iostream>

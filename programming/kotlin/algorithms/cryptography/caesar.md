@@ -1,14 +1,14 @@
-# Szyfr Cezara
+# Caesar cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/caesar.md" %}
 [caesar.md](../../../../algorithms/cryptography/caesar.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 ```python
 def is_letter(character: str) -> bool:
@@ -53,13 +53,13 @@ print(f'Encoded: {encoded}')
 Szyfrowanie szyfrem Cezara
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 ```python
 def is_letter(character: str) -> bool:
@@ -104,6 +104,6 @@ print(f'Decoded: {decoded}')
 Deszyfrowanie szyfrem Cezara
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

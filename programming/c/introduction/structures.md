@@ -15,12 +15,12 @@ W takiej sytuacji z pomocą przychodzą **struktury**.
 Struktury (w dużym skrócie) pozwalają nam definiować własne typy i przydają się przede wszystkim w sytuacjach, gdy potrzebujemy połączyć grupę wartości w jedną, logiczną całość.
 Przyjrzyjmy się poniższym przykładom.
 
-## Przykład 1: punkt 2D
+## Example 1: punkt 2D
 
 Zacznijmy od prostego przykładu punktu. 
 Zdefiniujemy strukturę `Point`, która będzie przechowywać dwie wartości całkowite: współrzędne punktu.
 
-### Implementacja
+### Implementation
 
 ```c
 #include <stdio.h>
@@ -50,7 +50,7 @@ int main() {
 }
 ```
 
-### Opis implementacji
+### Implementation description
 
 Zaczynamy od zdefiniowania własnej struktury `Point` (**linia 3**).
 Definicję struktury zaczynamy od słowa kluczowego `struct`, następnie podajemy jej nazwę i otwieramy blok kodu.

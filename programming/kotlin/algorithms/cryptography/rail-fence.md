@@ -1,14 +1,14 @@
-# Szyfr płotkowy
+# Rail-fence cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/rail-fence.md" %}
 [rail-fence.md](../../../../algorithms/cryptography/rail-fence.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 ```python
 def encode(message: str, key: int) -> str:
@@ -48,13 +48,13 @@ print(f"Encoded: {encoded}")
 Szyfrowanie szyfrem płotkowym
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 ```python
 def decode(message: str, key: int) -> str:
@@ -96,6 +96,6 @@ print(f"Decoded: {decoded}")
 Deszyfrowanie szyfrem płotkowym
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

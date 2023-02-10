@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/linear-search.md" %}
 [linear-search.md](../../../../algorithms/searching/linear-search.md)
@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun linearSearch(array: List<Int>, number: Int): Boolean {
@@ -41,7 +41,7 @@ fun main() {
 Wyszukiwanie liniowe - istnienie elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) zwraca jako wynik wartość prawda/fałsz i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne elementy listy (**linia 2**). Dla każdego elementu sprawdzamy, czy jego wartość jest tą, której szukamy (**linia 3**). Jeżeli tak, to zwracamy informację o znalezieniu wartości w liście (**linia 4**). Po przejściu przez wszystkie elementy listy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `false` informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
 
@@ -80,7 +80,7 @@ fun main() {
 Wyszukiwanie liniowe - pozycja elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście (**linia 2**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks wartości w liście (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość $$-1$$ informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
 
@@ -88,7 +88,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: list
 
 ## Wszystkie pozycje elementu
 
-### Implementacja
+### Implementation
 
 ```kotlin
 fun linearSearch(array: List<Int>, number: Int) {
@@ -114,7 +114,7 @@ fun main() {
 Wyszukiwanie liniowe - wszystkie pozycje elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linia 1**) nie zwraca wyniku i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście (**linia 2**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to wypisujemy ten indeks (**linia 4**).
 

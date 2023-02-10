@@ -1,12 +1,12 @@
-# Warunek trójkąta
+# Triangle condition
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/2d-geometry/triangle-condition.md" %}
 [triangle-condition.md](../../../../algorithms/2d-geometry/triangle-condition.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 ```python
 def can_create_triangle(a: int, b: int, c: int) -> bool:
@@ -29,6 +29,6 @@ else:
 Warunek trójkąta
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 TODO

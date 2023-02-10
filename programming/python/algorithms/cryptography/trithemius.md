@@ -1,14 +1,14 @@
-# Szyfr Trithemius'a
+# Trithemius cipher
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/cryptography/trithemius.md" %}
 [trithemius.md](../../../../algorithms/cryptography/trithemius.md)
 {% endcontent-ref %}
 
-## Szyfrowanie
+## Encoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python
@@ -52,9 +52,9 @@ print(f"Encoded: {encoded}")
 Szyfrowanie szyfrem Thithemius'a
 {% endembed %}
 
-## Deszyfrowanie
+## Decoding
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

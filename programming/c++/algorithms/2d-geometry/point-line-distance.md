@@ -1,12 +1,12 @@
-# Odległość punktu od prostej
+# Point-line distance
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/2d-geometry/point-line-distance.md" %}
 [point-line-distance.md](../../../../algorithms/2d-geometry/point-line-distance.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

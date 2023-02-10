@@ -2,9 +2,9 @@
 description: Obliczanie wartości wielomianu
 ---
 
-# Schemat Hornera
+# Horner scheme
 
-## Opis problemu
+## Problem description
 
 Jak wygląda wielomian pewnie każdy wie. Gdy mamy podany wzór, obliczenie jego wartości dla podanego $$x$$ jest rzeczą wręcz trywialną: wystarczy wykonać kilka mnożeń, podnieść parę razy do potęgi i wszystko zsumować. Tym bardziej dla komputera nie powinno to stanowić większego wyzwania i tak rzeczywiście jest. Nie oznacza to jednak, że nie należy szukać metod pozwalających na zminimalizowanie wykonywanych operacji. Spójrzmy na konkretny przykład:
 
@@ -83,24 +83,24 @@ Gdy jednak zastosujemy _**Schemat Hornera**_, to ilość potrzebnych operacji mn
 
 _**Schemat Hornera**_ ma także zastosowanie przy przeliczaniu liczby z zadanego systemu liczbowego na system dziesiętny.
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ — stopień wielomianu, liczba naturalna
 * $$x$$ — wartość, dla której należy obliczyć wielomian
 * $$a_{n}, a_{n-1}, ..., a_1, a_0$$ — współczynniki wielomianu, podane w kolejności od największej potęgi do najmniejszej
 
-#### Wynik
+#### Output
 
 * Wartość podanego wielomianu w punkcie $$x$$
 
-## Rozwiązanie
+## Solution
 
 Zaprojektujmy funkcje Horner, zgodną z powyższą specyfikacją.
 Będziemy postępować zgodnie ze schematem: w pętli mnożymy przez $$x$$ i dodajemy kolejny współczynnik.
 
-### Pseudokod
+### Pseudocode
 
 ```
 function Horner(n, x, a)
@@ -123,11 +123,11 @@ flowchart TD
 	K4 --> STOP([STOP])
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ — liniowa
 
-## Implementacja
+## Implementation
 
 ### C++
 

@@ -4,14 +4,14 @@
 
 Dany jest następujący pseudokod, zgodny z poniższą częściową specyfikacją:
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, ilość elementów w tablicy
 * $$tab[1..n]$$ - tablica $$n$$ wartości całkowitych, numerowana od jedynki
 
-### Pseudokod
+### Pseudocode
 
 ```
 1. el := tab[1]

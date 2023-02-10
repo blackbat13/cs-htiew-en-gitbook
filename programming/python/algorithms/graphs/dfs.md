@@ -4,13 +4,13 @@ description: Przeszukiwanie grafu w głąb
 
 # DFS
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/dfs.md" %}
 [dfs.md](../../../../algorithms/graphs/dfs.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

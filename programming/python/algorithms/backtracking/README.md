@@ -1,2 +1,2 @@
-# Przeszukiwanie z powrotami
+# Backtracking
 

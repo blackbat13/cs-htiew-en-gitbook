@@ -4,13 +4,13 @@ description: Najkrótsze ścieżki pomiędzy wszystkimi wierzchołkami
 
 # Floyd-Warshall
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/graphs/floyd-warshall.md" %}
 [floyd-warshall.md](../../../../algorithms/graphs/floyd-warshall.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp
@@ -87,7 +87,7 @@ int main() {
 Algorytm Floyda-Warshalla
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 ![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph_weighted.png)
 

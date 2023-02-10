@@ -1,12 +1,12 @@
-# Kwadrat Sierpińskiego
+# Sierpinski square
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/fractals/sierpinski-square.md" %}
 [sierpinski-square.md](../../../../algorithms/fractals/sierpinski-square.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

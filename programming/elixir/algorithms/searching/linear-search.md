@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/linear-search.md" %}
 [linear-search.md](../../../../algorithms/searching/linear-search.md)
@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```elixir
@@ -46,7 +46,7 @@ end
 Wyszukiwanie liniowe - istnienie elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linear` w module `Search` (**linie 1 i 2**) zwraca jako wynik wartość prawda/fałsz i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Jeżeli lista jest pusta to funkcja zwraca wartość `false` informującą o tym, że poszukiwanego elementu nie znaleziono na liście (**linie 3 i 4**). Jest to tzw. warunek stopu rekurencji. Jeżeli w liście pozostały jeszcze jakieś elementy do sprawdzenia, to sprawdzamy, czy pierwszy element listy (pobrany za pomocą funkcji `hd`) jest poszukiwaną wartością (**linia 6**). Jeżeli tak, to funkcja zwraca wynik `true` (**linia 7**). W przeciwnym przypadku wywołujemy rekurencyjnie funkcję `linear`, jako argumenty przekazując listę bez pierwszego elementu (do tego używamy funkcji `tl`), oraz wartość poszukiwanego elementu.
 
@@ -54,7 +54,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: list
 
 ## Pozycja elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```elixir
@@ -92,7 +92,7 @@ end
 Wyszukiwanie liniowe - pozycja elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linear` w module `Search` (**linie 1 i 2**) zwraca jako wynik liczbę całkowitą i przyjmuje trzy argumenty: listę do przeszukania, wartość poszukiwanego elementu oraz numer obecnie sprawdzanego indeksu. Jeżeli lista jest pusta to funkcja zwraca wartość `-1` informującą o tym, że poszukiwanego elementu nie znaleziono na liście (**linie 3 i 4**). Jest to tzw. warunek stopu rekurencji. Jeżeli w liście pozostały jeszcze jakieś elementy do sprawdzenia, to sprawdzamy, czy pierwszy element listy (pobrany za pomocą funkcji `hd`) jest poszukiwaną wartością (**linia 6**). Jeżeli tak, to funkcja zwraca jako wynik wartość `index` (**linia 7**). W przeciwnym przypadku wywołujemy rekurencyjnie funkcję `linear`, jako argumenty przekazując listę bez pierwszego elementu (do tego używamy funkcji `tl`), wartość poszukiwanego elementu oraz indeks zwiększony o jeden.
 

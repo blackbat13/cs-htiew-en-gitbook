@@ -1,6 +1,6 @@
-# Rozwiązanie 2
+# Solution 2
 
-## Wynik
+## Output
 
 |  n  | liczba wywołań funkcji fun |
 | :-: | :------------------------: |

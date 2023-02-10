@@ -1,6 +1,6 @@
-# Test pierwszości
+# Prime test
 
-## Opis problemu
+## Problem description
 
 Liczby pierwsze odgrywają w matematyce i informatyce znaczącą rolę, szczególnie w kryptografii. Zacznijmy od zdefiniowania czym jest liczba pierwsza:
 
@@ -14,13 +14,13 @@ Naszym zadaniem jest sprawdzić, czy dana liczba naturalna jest liczbą pierwsz�
 
 Jak zwykle zaczynamy od formalnej specyfikacji problemu i kilku prostych przykładów.
 
-### Specyfikacja
+### Specification
 
-#### Dane:
+#### Input:
 
 * $$n$$ - liczba naturalna większa od $$1$$ 
 
-#### Wynik:
+#### Output:
 
 * **PRAWDA**- jeżeli $$n$$ jest liczbą pierwszą
 * **FAŁSZ**- jeżeli $$n$$ nie jest liczbą pierwszą
@@ -29,9 +29,9 @@ Jak zwykle zaczynamy od formalnej specyfikacji problemu i kilku prostych przykł
 Dlaczego w specyfikacji wymagamy, żeby liczba $$n$$ była większa od $$1$$? Dla ułatwienia i zwiększenia czytelności rozwiązania. Wiadomo, że liczby $$0$$ i $$1$$ nie są liczbami pierwszymi. W związku z tym możemy je łatwo potraktować jako osobny przypadek, używając instrukcji warunkowej. To jednak zostawimy jako ćwiczenie do samodzielnego wykonania.
 {% endhint %}
 
-### Przykład 1
+### Example 1
 
-#### Dane
+#### Input
 
 ```
 n := 7
@@ -45,9 +45,9 @@ n := 7
 Dzielnikami liczby $$7$$ są $$1$$ i $$7$$, więc jest to liczba pierwsza.
 {% endhint %}
 
-### Przykład 2
+### Example 2
 
-#### Dane
+#### Input
 
 ```
 n := 8
@@ -61,7 +61,7 @@ n := 8
 Dzielnikami liczby 8 są $$1,2,4$$ i $$8$$, więc nie jest to liczba pierwsza.
 {% endhint %}
 
-## Rozwiązanie zupełnie naiwne
+## Trivial solution
 
 W pierwszym rozwiązaniu postępować będziemy podobnie, jak w przypadku wypisywania wszystkich dzielników liczby. Są jednak dwie znaczące różnice. Po pierwsze nie interesuje nas, czy liczba jest podzielna przez $$1$$ i samą siebie, ponieważ z góry wiemy, że tak jest. Możemy więc nieznacznie zawęzić obszar poszukiwań. Po drugie nie interesuje nas jakie dokładnie dzielniki ma liczba, tylko **czy** ma jakieś dzielniki, różne od $$1$$ i niej samej. W związku z tym, jak tylko znajdziemy jakiś dzielnik, możemy od razu stwierdzić, że liczba nie jest pierwsza i zwrócić właściwą wartość, czyli FAŁSZ i zakończyć obliczenia.
 
@@ -69,7 +69,7 @@ Jak jednak sprawdzić, że liczba jest pierwsza? To proste. Wystarczy, że nie z
 
 Podsumujmy nasze rozważania w formie gotowego algorytmu.
 
-### Pseudokod
+### Pseudocode
 
 ```
 function IsPrime(n):
@@ -99,13 +99,13 @@ flowchart TD
 	K4 --> STOP
 ```
 
-### Złożoność
+### Complexity
 
 $$O(n)$$ - liniowa
 
-## Rozwiązanie  naiwne
+## Solution  naiwne
 
-### Pseudokod
+### Pseudocode
 
 ```
 function IsPrime(n):
@@ -131,13 +131,13 @@ flowchart TD
 	K4 --> STOP
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\frac{n}{2})$$ 
 
-## Rozwiązanie optymalne
+## Optimal solution
 
-### Pseudokod
+### Pseudocode
 
 ```
 function IsPrime(n):
@@ -163,11 +163,11 @@ flowchart TD
 	K4 --> STOP
 ```
 
-### Złożoność
+### Complexity
 
 $$O(\sqrt{n})$$ 
 
-## Implementacja
+## Implementation
 
 ### C++
 

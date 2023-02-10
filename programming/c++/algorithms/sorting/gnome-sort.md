@@ -1,12 +1,12 @@
 # Sortowanie gnoma
 
-## Opis implementacji
+## Implementation description
 
 {% content-ref url="../../../../algorithms/sorting/gnome-sort.md" %}
 [gnome-sort.md](../../../../algorithms/sorting/gnome-sort.md)
 {% endcontent-ref %}
 
-## Implementacja
+## Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```cpp

@@ -4,13 +4,13 @@
 
 Dany jest następujący pseudokod, zgodny z poniższą częściową specyfikacją:
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna, $$n>0$$ 
 
-### Pseudokod
+### Pseudocode
 
 ```
 1. suma := 1

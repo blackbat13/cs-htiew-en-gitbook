@@ -16,7 +16,7 @@ Pokażemy kilka przykładowych i przydatnych funkcji, jakie można znaleźć w b
 cmath - dokumentacja
 {% endembed %}
 
-## Przykładowe funkcje
+## Exampleowe funkcje
 
 ### Pierwiastek
 

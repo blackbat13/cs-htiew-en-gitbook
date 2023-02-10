@@ -4,13 +4,13 @@
 
 Dany jest następujący pseudokod, zgodny z poniższą częściową specyfikacją:
 
-### Specyfikacja
+### Specification
 
-#### Dane
+#### Input
 
 * $$n$$ - liczba naturalna
 
-### Pseudokod
+### Pseudocode
 
 ```
 funkcja fun(n):

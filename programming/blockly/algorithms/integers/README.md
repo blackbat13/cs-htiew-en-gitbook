@@ -1,2 +1,2 @@
-# Algorytmy na liczbach całkowitych
+# Algorithms on integers
 

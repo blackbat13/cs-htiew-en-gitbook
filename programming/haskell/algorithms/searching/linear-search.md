@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## Problem description
 
 {% content-ref url="../../../../algorithms/searching/linear-search.md" %}
 [linear-search.md](../../../../algorithms/searching/linear-search.md)
@@ -8,7 +8,7 @@
 
 ## Istnienie elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```haskell
@@ -36,7 +36,7 @@ main = do
 Wyszukiwanie liniowe - istnienie elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linie 1 i 2**) zwraca jako wynik wartość prawda/fałsz i przyjmuje dwa argumenty: tablicę do przeszukania oraz wartość poszukiwanego elementu. Jeżeli tablica jest pusta to funkcja zwraca wartość `False` informującą o tym, że poszukiwanego elementu nie znaleziono w tablicy (**linia 1**). Jest to tzw. warunek stopu rekurencji. Jeżeli w tablicy pozostały jeszcze jakieś elementy do sprawdzenia, to sprawdzamy, czy pierwszy element tablicy (pobrany za pomocą funkcji `head`) jest poszukiwaną wartością (**linia 3**). Jeżeli tak, to funkcja zwraca wynik `True` (**linia 3**). W przeciwnym przypadku wywołujemy rekurencyjnie funkcję `linearSearch`, jako argumenty przekazując listę bez pierwszego elementu (do tego używamy funkcji `tail`), oraz wartość poszukiwanego elementu.
 
@@ -44,7 +44,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ## Pozycja elementu
 
-### Implementacja
+### Implementation
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```haskell
@@ -74,7 +74,7 @@ main = do
 Wyszukiwanie liniowe - pozycja elementu
 {% endembed %}
 
-### Opis implementacji
+### Implementation description
 
 Funkcja `linearSearch` (**linie 1 i 2**) zwraca jako wynik liczbę całkowitą i przyjmuje trzy argumenty: tablicę do przeszukania, wartość poszukiwanego elementu oraz numer obecnie sprawdzanego indeksu. Jeżeli tablica jest pusta to funkcja zwraca wartość `-1` informującą o tym, że poszukiwanego elementu nie znaleziono w tablicy (**linia 1**). Jest to tzw. warunek stopu rekurencji. Jeżeli w tablicy pozostały jeszcze jakieś elementy do sprawdzenia, to sprawdzamy, czy pierwszy element tablicy (pobrany za pomocą funkcji `head`) jest poszukiwaną wartością (**linia 3**). Jeżeli tak, to funkcja zwraca jako wynik wartość `ind` (**linia 3**). W przeciwnym przypadku wywołujemy rekurencyjnie funkcję `linearSearch`, jako argumenty przekazując listę bez pierwszego elementu (do tego używamy funkcji `tail`), wartość poszukiwanego elementu oraz indeks zwiększony o jeden.
 
