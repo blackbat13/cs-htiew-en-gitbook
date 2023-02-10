@@ -82,17 +82,35 @@ Teraz możemy zapisać nasz algorytm.
 ### Pseudokod
 
 ```
-funkcja CzyDoskonala(n):
-    1. suma := 0
-    2. Od i := 1 do n div 2, wykonuj:
-        3. Jeżeli (n mod i) = 0, to:
-            4. suma := suma + i
+function IsPerfect(n):
+    1. sum := 0
+    2. From i := 1 to n div 2, do:
+        3. If (n mod i) = 0, then:
+            4. sum := sum + i
       
-    5. Jeżeli suma = n, to:
-        6. Zwróć PRAWDA, zakończ
+    5. If suma = n, then:
+        6. Return TRUE
    
-    7. w przeciwnym przypadku:
-        8. Zwróć FAŁSZ, zakończ
+    7. else:
+        8. Return FALSE
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["IsPerfect(n)"]) --> K1[sum := 0\ni := 1]
+	K1 --> K2{i <= n div 2}
+	K2 -- TRUE --> K3{"(n mod i) = 0"}
+	K3 -- TRUE --> K4[sum := sum + i]
+	K3 -- FALSE --> K2i[i := i + 1]
+	K4 --> K2i
+	K2i --> K2
+	K2 -- FALSE --> K5{suma = n}
+	K5 -- TRUE --> K6[/Return TRUE/]
+	K6 --> STOP([STOP])
+	K5 -- FALSE --> K8[/Return FALSE/]
+	K8 --> STOP
 ```
 
 ### Złożoność
@@ -106,24 +124,45 @@ TODO
 ### Pseudokod
 
 ```
-funkcja CzyDoskonala(n)
-    1. suma := 1
-    2. Od i := 2 do sqrt(n), wykonuj:
-        3. Jeżeli (n mod i) = 0, to:
-            4. suma := suma + i
-            5. Jeżeli (n / i) != i, to:
-                6. suma := suma + (n / i)
+function IsPerfect(n)
+    1. sum := 1
+    2. From i := 2 to sqrt(n), do:
+        3. If (n mod i) = 0, then:
+            4. sum := sum + i
+            5. If (n / i) != i, then:
+                6. sum := sum + (n / i)
             
-    7. Jeżeli suma = n, to:
-        8. Zwróć PRAWDA, zakończ
+    7. If suma = n, then:
+        8. Return TRUE
     
-    9. w przeciwnym przypadku:
-        10. Zwróć FAŁSZ, zakończ
+    9. else:
+        10. Return FALSE
 ```
 
 {% hint style="info" %}
 **sqrt** oznacza pierwiastek
 {% endhint %}
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["IsPerfect(n)"]) --> K1[sum := 1\ni := 2]
+	K1 --> K2{"i <= sqrt(n)"}
+	K2 -- TRUE --> K3{"(n mod i) = 0"}
+	K3 -- TRUE --> K4[sum := sum + i]
+	K4 --> K5{"(n / i) != i"}
+	K5 -- TRUE --> K6["sum := sum + (n / i)"]
+	K6 --> K2i[i := i + 1]
+	K5 -- FALSE --> K2i
+	K3 -- FALSE --> K2i
+	K2i --> K2
+	K2 -- FALSE --> K7{suma = n}
+	K7 -- TRUE ---> K8[/Return TRUE/]
+	K8 ---> STOP([STOP])
+	K7 -- FALSE ---> K10[/Return FALSE/]
+	K10 ---> STOP
+```
 
 ### Złożoność
 
