@@ -30,7 +30,16 @@ Note the indentation in the above notation. Typically, we use indentation to sig
 
 #### Block diagram
 
-![Algorithm to pass on traffic lights](../../.gitbook/assets/if_siwatla\_1.png)
+```mermaid
+flowchart TD
+    START([START]) --> K1{light is green}
+    K1 -- TRUE --> K2[Go]
+    K1 -- FALSE --> K3{light is red}
+    K2 --> K3
+    K3 -- TRUE --> K4[Stop]
+    K3 -- FALSE --> STOP([STOP])
+    K4 --> STOP
+```
 
 ### Example 2
 
@@ -47,7 +56,14 @@ We can also construct the same algorithm in a slightly different way. Note that 
 
 #### Block diagram
 
-![Algorithm to pass on traffic lights: alternative construction](../../.gitbook/assets/if_swiatla\_2.png)
+```mermaid
+flowchart TD
+    START([START]) --> K1{light is green}
+    K1 -- TRUE --> K2[Go]
+    K1 -- FALSE --> K3[Stop]
+    K2 --> STOP([STOP])
+    K3 --> STOP
+```
 
 ## Complex conditional statement
 
@@ -60,7 +76,7 @@ Now consider another example: high beam for drivers. Unlike pedestrian lights, w
 ```
 1. If the light is green then:
     2. Go
-3. else if the ight is yellow then:
+3. else if the light is yellow then:
     4. Wait
 5. else if the light is red then:
     6. Stop
@@ -68,7 +84,18 @@ Now consider another example: high beam for drivers. Unlike pedestrian lights, w
 
 #### Block diagram
 
-![Algorithm of passing on traffic lights](../../.gitbook/assets/if_swiatla3.png)
+```mermaid
+flowchart TD
+    START([START]) --> K1{light is green}
+    K1 -- TRUE --> K2[Go]
+    K1 -- FALSE --> K3{light is yellow}
+    K3 -- TRUE --> K4[Wait]
+    K3 -- FALSE --> K5{light is red}
+    K5 -- TRUE --> K6[Stop]
+    K6 --> STOP([STOP])
+    K2 --> STOP
+    K4 --> STOP
+```
 
 ### Example 2
 
@@ -79,7 +106,7 @@ As before, we don't have to be specific about all the cases. This time it is eno
 ```
 1. If the light is green then:
     2. Go
-3. else if the ight is yellow then:
+3. else if the light is yellow then:
     4. Wait
 5. else:
     6. Stop
@@ -87,7 +114,17 @@ As before, we don't have to be specific about all the cases. This time it is eno
 
 #### Block diagram
 
-![Algorithm of passing on traffic lights: alternative construction](../../.gitbook/assets/if_swiatla4.png)
+```mermaid
+flowchart TD
+    START([START]) --> K1{light is green}
+    K1 -- TRUE --> K2[Go]
+    K1 -- FALSE --> K3{light is yellow}
+    K3 -- TRUE --> K4[Wait]
+    K3 -- FALSE --> K6[Stop]
+    K6 --> STOP([STOP])
+    K2 --> STOP
+    K4 --> STOP
+```
 
 ## The construction of conditions must be well-thought-out
 
@@ -108,7 +145,17 @@ In the previous examples, it did not matter in what order we considered the next
 
 #### Block diagram
 
-![Incorrect price algorithm: block diagram](../../.gitbook/assets/if_cena1.png)
+```mermaid
+flowchart TD
+    START([START]) --> K1{price > 100}
+    K1 -- TRUE --> K2[/Print 'Expensive'/]
+    K1 -- FALSE --> K3{price > 200}
+    K3 -- TRUE --> K4[/Print 'Very expensive'/]
+    K3 -- FALSE --> K6[/Print 'Cheap'/]
+    K2 --> STOP([STOP])
+    K4 --> STOP
+    K6 --> STOP
+```
 
 Can you tell what is wrong with the conditional statement above? Its structure itself is correct, but not fully thought out and may mislead the reader. Try to simulate the algorithm for different price values. Consider what the price must be for each of the messages to be written, i.e. for which values the _expensive_ message will be written, for which the _very expensive_ message and for which the _cheap_ message will be printed. Please take a moment to complete this exercise yourself before proceeding.
 
@@ -133,4 +180,14 @@ Of course, the above algorithm can be easily improved by changing the order of t
 
 #### Block diagram
 
-![Corrected price algorithm: block diagram](../../.gitbook/assets/if_cena2.png)
+```mermaid
+flowchart TD
+    START([START]) --> K1{price > 200}
+    K1 -- TRUE --> K2[/Print 'Very expensive'/]
+    K1 -- FALSE --> K3{price > 100}
+    K3 -- TRUE --> K4[/Print 'Expensive'/]
+    K3 -- FALSE --> K6[/Print 'Cheap'/]
+    K2 --> STOP([STOP])
+    K4 --> STOP
+    K6 --> STOP
+```
