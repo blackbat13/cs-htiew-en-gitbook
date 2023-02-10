@@ -32,15 +32,27 @@ Drzewo binarne - algorytm
 ### Pseudokod
 
 ```
-funkcja DrzewoBinarne(n, w):
-    1. Idź do przodu o w
-    2. Jeżeli n > 0, to:
-        3. Obróć się w lewo
-        4. Wywołaj DrzewoBinarne(n - 1, w / 2)
-        5. Obróć się w prawo
-        6. Wywołaj DrzewoBinarne(n - 1, w / 2)
-        7. Obróć się w lewo (do początkowego ustawienia)
-    8. Idź do tyłu o w
+function BinaryTree(n, w):
+    1. Forward(w)
+    2. If n > 0, then:
+        3. Left(45)
+        4. BinaryTree(n - 1, w / 2)
+        5. Right(90)
+        6. BinaryTree(n - 1, w / 2)
+        7. Left(45)
+    8. Back(w)
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["BinaryTree(n, w)"]) --> K1["Forward(w)"]
+	K1 --> K2{n > 0}
+	K2 -- TRUE --> K3["Left(45)\nBinaryTree(n - 1, w / 2)\nRight(90)\nBinaryTree(n - 1, w / 2)\nLeft(45)"]
+	K3 --> K8["Back(w)"]
+	K2 -- FALSE --> K8
+	K8 --> STOP([STOP])
 ```
 
 ## Implementacja
