@@ -30,7 +30,7 @@ tekst := "alamakota"
 wzorzec := "kot"
 ```
 
-**Wynik**: _wzorzec _**znajduje **się w _tekście_.
+**Wynik**: $$6$$.
 
 ### Example 2
 
@@ -41,33 +41,58 @@ tekst := "alamakota"
 wzorzec := "koty"
 ```
 
-**Wynik**: _wzorzec _**nie**_ _**znajduje **się w _tekście_.
+**Wynik**: $$-1$$.
 
 ## Solution
 
-TODO
-
-Pomocnicza funkcja `TestujWzorzec`sprawdza, czy wzorzec znajduje się w tekście pod indeksem `i`.
+Helper function `TestString` checks, if string is in the text under the index $$i$$.
 
 ### Pseudocode
 
 ```
-funkcja TestujWzorzec(i, n, tekst, m, wzorzec)
-    1. Dla j := 1 do m, wykonuj:
-        2. Jeżeli tekst[i+j-1] != wzorzec[j], to:
-            3. Zwróć False, zakończ
+function TestString(i, n, text, m, string)
+    1. From j := 1 to m, do:
+        2. If tekst[i+j-1] != string[j], then:
+            3. Return FALSE
         
-    4. Zwróć True, zakończ
+    4. Return TRUE
 ```
 
 ```
-funkcja SzukajWzorca(n, tekst, m, wzorzec)
-    1. Dla i := 1 do n-m, wykonuj:
-        2. czy_pasuje := TestujWzorzec(i, n, tekst, m, wzorzec)   
-        3. Jeżeli czy_pasuje = True, to:
-            4. Zwróć i, zakończ
+function FindString(n, text, m, string)
+    1. From i := 1 to n-m, do:
+        2. If TestString(i, n, text, m, string), then:
+            3. Return i
         
-    5. Zwróć -1, zakończ
+    4. Return -1
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+    START(["TestString(i, n, text, m, string)"]) --> K0[j := 1]
+    K0 --> K1{j <= m}
+    K1 -- TRUE --> K2{"text[i + j - 1] != string[j]"}
+    K2 -- TRUE --> K3[/Return FALSE/]
+    K2 -- FALSE --> K1i[j := j + 1]
+    K1i --> K1
+    K1 -- FALSE --> K4[/Return TRUE/]
+    K4 --> STOP([STOP])
+    K3 --> STOP
+```
+
+```mermaid
+flowchart TD
+    START(["FindString(n, text, m, string)"]) --> K0[i := 1]
+    K0 --> K1{i <= n - m}
+    K1 -- TRUE --> K2{"TestString(i, n, text, m, string)"}
+    K2 -- TRUE --> K3[/Return i/]
+    K2 -- FALSE --> K1i[i := i + 1]
+    K1i --> K1
+    K1 -- FALSE --> K4[/Return -1/]
+    K4 --> STOP([STOP])
+    K3 --> STOP
 ```
 
 ### Complexity
