@@ -27,7 +27,15 @@ Note the indentation in the algorithm example above. So often we specify that th
 
 #### Block diagram
 
-![Tea sweetening algorithm - Block diagram](<../../.gitbook/assets/Pętla prosta - słodzenie herbaty.png>)
+```mermaid
+flowchart TD
+    START([START]) --> K1[Put a teaspoon of sugar in your tea]
+    K1 --> K2{there is undissolved sugar in the glass}
+    K2 -- TRUE --> K3[Stir once]
+    K3 --> K2
+    K2 -- FALSE --> K4[Check the taste of the tea]
+    K4 --> STOP([STOP])
+```
 
 Look carefully at the above block diagram. Note that we don't have a separate block for the conditional loop. To do the loop, we use a conditional statement, and then we put the appropriate arrow just in front of the statement, thereby _**looping**_ our diagram.
 
@@ -55,4 +63,14 @@ Note the double indentation in the above notation. Statement 4 Located inside tw
 
 #### Block diagram
 
-![](../../.gitbook/assets/while_herbata2.png)
+```mermaid
+flowchart TD
+    START([START]) --> K1{the tea is not sweet enough}
+    K1 --> K2[Put a teaspoon of sugar in the tea]
+    K2 --> K3{there is undissolved sugar in the glass}
+    K3 -- TRUE --> K4[Stir once]
+    K4 --> K3
+    K3 -- FALSE --> K5[Check the taste of the tea]
+    K5 --> K1
+    K1 -- FALSE ----> STOP([STOP])
+```
