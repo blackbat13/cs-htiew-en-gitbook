@@ -60,7 +60,15 @@ When using a loop with a numerator, we should specify the **range** from which t
 
 #### Block diagram
 
-![Flowchart with loop count] (../../.gitbook/assets/for_ex1.png)
+```mermaid
+flowchart TD
+    START([START]) --> K0[i := 1]
+    K0 --> K1{i <= 5}
+    K1 -- TRUE --> K2[/Write on the board i/]
+    K2 --> K1i[i := i + 1]
+    K1i --> K1
+    K1 -- FALSE ---> STOP([STOP])
+```
 
 Note that, as with the conditional loop, we also don't have a special block for the iterator loop. In fact, in a block diagram, we execute the iteration loop as a conditional loop, because each iteration loop can be realized with a conditional loop.
 
