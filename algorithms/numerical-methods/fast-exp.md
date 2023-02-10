@@ -56,16 +56,31 @@ $$
 ### Pseudokod
 
 ```
-funkcja PotegaIter(x, n)
-    1. w := 1
-    2. Dopóki n > 0, wykonuj:
-        3. Jeżeli n mod 2 = 1, to:
-            4. w := w * x
+function FastExp(x, n):
+    1. result := 1
+    2. While n > 0, do:
+        3. If n mod 2 = 1, then:
+            4. result := result * x
         
         5. x := x * x
         6. n := n div 2
     
-    7. Zwróć w, zakończ
+    7. Return result
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["FastExp(x, n)"]) --> K1[result := 1]
+	K1 --> K2{n > 0}
+	K2 -- TRUE --> K3{n mod 2 = 1}
+	K3 -- TRUE --> K4[result := result * x]
+	K3 -- FALSE --> K5[x := x * x\nx := n div 2]
+	K4 --> K5
+	K5 --> K2
+	K2 -- FALSE --> K7[/Return result/]
+	K7 ---> STOP([STOP])
 ```
 
 ### Złożoność
@@ -87,17 +102,32 @@ $$
 ### Pseudokod
 
 ```
-funkcja PotegaRek(x, n)
-    1. Jeżeli n = 0, to:
-        2. Zwróć 1, zakończ
+function FastExp(x, n):
+    1. If n = 0, then:
+        2. Return 1
     
-    3. wynik := PotegaRek(x, n div 2)
+    3. result := FastExp(x, n div 2)
 
-    4. Jeżeli n mod 2 = 0, to:
-        5. Zwróć wynik * wynik, zakończ
+    4. If n mod 2 = 0, then:
+        5. Return result * result
     
-    6. W przeciwnym przypadku:
-        7. Zwróć wynik * wynik * x, zakończ
+    6. else:
+        7. Return result * result * x
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["FastExp(x, n)"]) --> K1{n = 0}
+	K1 -- TRUE --> K2[/Return 1/]
+	K1 -- FALSE --> K3["result :=FastExp(x, n div 2)"]
+	K2 --> STOP
+	K3 --> K4{n mod 2 = 0}
+	K4 -- TRUE --> K5[/Return result * result/]
+	K4 -- FALSE --> K7[/Return result * result * x/]
+	K5 --> STOP([STOP])
+	K7 --> STOP
 ```
 
 ### Złożoność
