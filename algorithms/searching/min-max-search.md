@@ -124,7 +124,7 @@ flowchart TD
 	K8 --> K12[k := k + 1\ni := i + 2]
 	K11 --> K12
 	K12 --> K5
-	K5 -- FALSE --> K14["min L= minCand[1]\nmax := maxCand[1]\ni := 1"]
+	K5 -- FALSE --> K14["min := minCand[1]\nmax := maxCand[1]\ni := 1"]
 	K14 --> K16{i <= n div 2}
 	K16 -- TRUE --> K17{"min > minCand[i]"}
 	K17 -- TRUE --> K18["min := minCand[i]"]
