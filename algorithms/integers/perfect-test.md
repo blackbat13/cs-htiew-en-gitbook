@@ -157,7 +157,7 @@ flowchart TD
 	K5 -- FALSE --> K2i
 	K3 -- FALSE --> K2i
 	K2i --> K2
-	K2 -- FALSE --> K7{suma = n}
+	K2 -- FALSE --> K7{sum = n}
 	K7 -- TRUE ---> K8[/Return TRUE/]
 	K8 ---> STOP([STOP])
 	K7 -- FALSE ---> K10[/Return FALSE/]
