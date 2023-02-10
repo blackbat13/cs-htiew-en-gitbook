@@ -26,17 +26,29 @@ Idea tej metody jest prosta: podzielmy pole pod wykresem funkcji na prostokąty 
 ### Pseudokod
 
 ```
-funkcja MetodaProstokatow(f, a, b, n):
-    1. pole := 0
-    2. sz := (b - a) / n
-    3. c := a + sz
+function RectanglesMethod(f, a, b, n):
+    1. area := 0
+    2. width := (b - a) / n
+    3. x := a + width
     
-    4. Dopóki c <= b, wykonuj:
-        5. wys := f(c)
-        6. pole := pole + sz * wys
-        7. c := c + sz
+    4. While x <= b, do:
+        5. height := f(x)
+        6. area := area + width * height
+        7. x := x + width
         
-    8. Zwróć pole
+    8. Return area
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["RectanglesMethod(f, a, b, n)"]) --> K1["area := 0\nwidth := (b - a) / n\nx := a + width"]
+	K1 --> K4{x <= b}
+	K4 -- TRUE --> K5["height := f(x)\narea := area + width * height\nx := x + width"]
+	K5 --> K4
+	K4 -- FALSE --> K8[/Return area/]
+	K8 --> STOP([STOP])
 ```
 
 ## Rozwiązanie — metoda trapezów
@@ -46,16 +58,28 @@ W celu uzyskania lepszej dokładności, możemy podzielić pole pod wykresem fun
 ### Pseudokod
 
 ```
-funkcja MetodaTrapezow(f, a, b, n):
-    1. pole := 0
-    2. sz := (b - a) / n
-    3. c := a + sz
+function TrapezesMethod(f, a, b, n):
+    1. area := 0
+    2. width := (b - a) / n
+    3. x := a + width
     
-    4. Dopóki c <= b, wykonuj:
-        5. pole := pole + (f(c - sz) + f(c) * sz) / 2
-        6. c := c + sz
+    4. While x <= b, do:
+        5. area := area + (f(x - width) + f(x) * width) / 2
+        6. x := x + width
 
-    7. Zwróć pole
+    7. Return area
+```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["TrapezesMethod(f, a, b, n)"]) --> K1["area := 0\nwidth := (b - a) / n\nx := a + width"]
+	K1 --> K4{x <= b}
+	K4 -- TRUE --> K5["area := area + (f(x - width) + f(x) * width) / 2\nx := x + width"]
+	K5 --> K4
+	K4 -- FALSE --> K8[/Return area/]
+	K8 --> STOP([STOP])
 ```
 
 ## Implementacja
