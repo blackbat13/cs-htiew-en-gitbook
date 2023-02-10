@@ -62,45 +62,72 @@ The block diagram is one of the most formal and unambiguous ways of writing algo
 
 ### Starting block
 
-![Starting block](../../.gitbook/assets/blok_start.png)
+```mermaid
+flowchart TD
+    K1([START])
+```
 
 It all starts with it. Its role is to define the beginning of the program.
 
 ### End block: terminator
 
-![Terminator](../../.gitbook/assets/blok_stop.png)
+```mermaid
+flowchart TD
+    K1([STOP])
+```
 
 Determines the end of the computation.
 
 ### Input block
 
-![Input](../../.gitbook/assets/blok_in.png)
+```mermaid
+flowchart TD
+    K1[/Read n/]
+```
 
 Here we load the input data. Since the input and output blocks have the same shape, for the sake of clarity, we add information that we are loading data, usually in the form of an abbreviation, e.g. input, read, in, etc.
 
 ### Output block
 
-![Output](../../.gitbook/assets/blok_out.png)
+```mermaid
+flowchart TD
+    K1[/Print result/]
+```
 
 Here we print messages and values, or we return the result of calculations. As in the case of the input block, we add an abbreviation that defines the type of operation, for example: out, print.
 
 ### Computation block
 
-![Computations](../../.gitbook/assets/blok_compute.png)
+```mermaid
+flowchart TD
+    K1[i := i + 1]
+```
 
 In this block, we perform all calculations, as well as initialization and assigning values to variables.
 
 ### Conditional statement block
 
-![Conditional statement](../../.gitbook/assets/blok_if.png)
+```mermaid
+flowchart TD
+    K1{i < n}
+```
 
 The only block where two arrows come out, usually left and right. To these arrows, we usually add strings like "Yes" / "No" or "True" / "False", specifying in which direction the program calculations should proceed depending on whether the condition is met or not.
 
 ### Example
 
-![Example: block diagram](../../.gitbook/assets/example.png)
-
-
+```mermaid
+flowchart TD
+	START(["START"]) --> K0[result := 0\ni := 1]
+	K0 --> K1{i <= n}
+	K1 -- TRUE --> K2{n mod i = 0}
+	K2 -- TRUE --> K3[result := result + 1]
+	K3 --> K1i[i := i + 1]
+	K2 -- FALSE --> K1i
+	K1i --> K1
+	K1 -- FALSE ---> K5[/Print result/]
+    K5 --> STOP([STOP])
+```
 
 ## Code in a programming language
 
