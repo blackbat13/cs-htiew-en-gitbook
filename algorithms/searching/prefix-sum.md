@@ -90,3 +90,21 @@ function RangeSum(n, A, m, P):
         6. sum := pref[P[i][2]] - pref[P[i][1] - 1]
         7. Print sum
 ```
+
+### Block diagram
+
+```mermaid
+flowchart TD
+	START(["RangeSum(n, A, m, P)"]) --> K1["pref := [0..n]\npref[0] := 0"]
+	K1 --> K3{i <= n}
+	K3 -- TRUE --> K4["pref[i] := pref[i - 1] + A[i]"]
+    K4 --> K3i[i := i + 1]
+    K3i --> K3
+    K3 -- FALSE --> K5p[i := 1]
+    K5p --> K5{i <= m}
+    K5 -- TRUE --> K6["sum := pref[P[i][2]] - pref[P[i][1] - 1]"]
+    K6 --> K7[/Print sum/]
+    K7 --> K5i[i := i + 1]
+    K5i --> K5
+    K5 -- FALSE ----> STOP([STOP])
+```
