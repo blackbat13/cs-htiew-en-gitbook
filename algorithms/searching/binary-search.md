@@ -14,13 +14,13 @@ Jak zwykle, zacznijmy od formalnej specyfikacji, by lepiej zrozumieć problem, z
 
 #### Input:
 
-* $$n$$ - liczba naturalna, ilość elementów w tablicy
-* $$A[1..n]$$ - $$n-elementowa$$ tablica liczb całkowitych, posortowana niemalejąco, indeksowana od jedynki
-* $$k$$ - liczba całkowita, szukana wartość
+* $$n$$ - natural number, $$n>0$$
+* $$A[1..n]$$ - array of $$n$$ integers, sorted in ascending order
+* $$k$$ - integer
 
 #### Output:
 
-* Indeks wartości $$k$$ w tablicy $$A$$, lub $$-1$$ jeżeli tej wartości nie ma w tablicy
+* Index of value $$k$$ in the array $$A$$, or $$-1$$ if the value is not found
 
 ### Example
 
@@ -32,7 +32,7 @@ A := [1, 2, 5, 7, 9]
 k := 7 
 ```
 
-**Wynik**: $$4$$ 
+**Output**: $$4$$ 
 
 ## Iterative solution
 
@@ -45,22 +45,22 @@ Gdy już wyjdziemy z pętli pozostaje nam sprawdzić, czy znaleźliśmy poszukiw
 ### Pseudocode
 
 ```
-funkcja SzukajBinarnie(n, A, k)
-    1. pocz := 1
-    2. kon := n
-    3. Dopóki pocz < kon, wykonuj:
-        4. srodek := (pocz + kon) div 2
+function BinarySearch(n, A, k)
+    1. beg := 1
+    2. end := n
+    3. While beg < end, do:
+        4. mid := (beg + end) div 2
         
-        5. Jeżeli k > A[srodek], to:
-            6. pocz := srodek + 1
+        5. If k > A[mid], then:
+            6. beg := mid + 1
         
-        7. W przeciwnym przypadku:
-            8. kon := srodek
+        7. else:
+            8. end := mid
 
-    9. Jeżeli A[pocz] = k, to:
-        10. Zwróć pocz, zakończ
-    11. W przeciwnym przypadku:
-        12. Zwróć -1, zakończ
+    9. If A[beg] = k, then:
+        10. Return beg
+    11. else:
+        12. Return -1
 ```
 
 {% hint style="info" %}
@@ -71,7 +71,7 @@ funkcja SzukajBinarnie(n, A, k)
 
 ```mermaid
 flowchart TD
-	START(["Binary Search (n, A, k)"]) --> O1[beg := 1\nend := n]
+	START(["BinarySearch(n, A, k)"]) --> O1[beg := 1\nend := n]
 	O1 --> C1{beg < end}
 	C1 -- TRUE --> O2["mid := (beg + end) div 2"]
 	O2 --> C2{"k > A[mid]"}
@@ -88,7 +88,7 @@ flowchart TD
 
 ### Complexity
 
-$$O(\log n)$$ - logarytmiczna
+$$O(\log n)$$ - logarithmic
 
 ## Recursive solution
 
@@ -97,27 +97,27 @@ W rozwiązaniu rekurencyjnym zamiast rozmiaru tablicy podajemy początek i konie
 ### Pseudocode
 
 ```
-funkcja SzukajBinarnie(A, k, pocz, kon)
-    1. Jeżeli pocz >= kon, to:
-        2. Jeżeli A[pocz] == k, to:
-            3. Zwróć pocz, zakończ
-        4. W przeciwnym przypadku:
-            5. Zwróć -1, zakończ
+function BinarySearch(A, k, beg, end)
+    1. If beg >= end, then:
+        2. If A[beg] == k, then:
+            3. Return beg
+        4. else:
+            5. Return -1
     
-    6. srodek := (pocz + kon) div 2
+    6. mid := (beg + end) div 2
     
-    7. Jeżeli k > A[srodek], to:
-        8. Zwróć SzukajBinarnie(A, k, srodek+1, kon)
+    7. If k > A[mid], then:
+        8. Return SzukajBinarnie(A, k, mid + 1, end)
     
-    9. W przeciwnym przypadku:
-        10. Zwróć SzukajBinarnie(A, k, pocz, srodek)
+    9. else:
+        10. Return SzukajBinarnie(A, k, beg, mid)
 ```
 
 ### Block diagram
 
 ```mermaid
 flowchart TD
-	START(["Binary Search (A, k, beg, end)"]) --> K1{beg >= end}
+	START(["BinarySearch(A, k, beg, end)"]) --> K1{beg >= end}
 	K1 -- TRUE --> K2{"A[beg] = k"}
 	K2 -- TRUE --> K3[/Return beg/]
 	K3 --> STOP([STOP])
@@ -133,7 +133,7 @@ flowchart TD
 
 ### Complexity 
 
-$$O(\log n)$$ - logarytmiczna
+$$O(\log n)$$ - logarithmic
 
 ## Implementation
 
