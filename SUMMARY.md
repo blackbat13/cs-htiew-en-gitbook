@@ -721,7 +721,7 @@
     * [Searching](programming/visual-basic/algorithms/searching/README.md)
       * [Linear Search](programming/visual-basic/algorithms/searching/linear-search.md)
 
-## Algorytmika - zadania
+## Algorithmic exercises
 
 * [Introduction](algorithmic-exercises/README.md)
 * [Level 0](algorithmic-exercises/level-0/README.md)
@@ -733,8 +733,10 @@
     * [Blockly](algorithmic-exercises/level-0/compare-integers/blockly.md)
   * [Costs Cutting](algorithmic-exercises/level-0/cutting-costs/README.md)
     * [Pseudocode](algorithmic-exercises/level-0/cutting-costs/pseudocode.md)
+    * [Block Diagram](algorithmic-exercises/level-0/cutting-costs/block-diagram.md)
   * [Holidays Packing](algorithmic-exercises/level-0/holidays-packing/README.md)
     * [Pseudocode](algorithmic-exercises/level-0/holidays-packing/pseudocode.md)
+    * [Block Diagram](algorithmic-exercises/level-0/holidays-packing/block-diagram.md)
 * [Level 1](algorithmic-exercises/level-1/README.md)
   * [Odd Sum](algorithmic-exercises/level-1/odd-sum.md)
   * [Different Digits](algorithmic-exercises/level-1/different-digits.md)

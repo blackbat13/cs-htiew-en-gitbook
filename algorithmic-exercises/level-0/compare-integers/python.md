@@ -1,7 +1,5 @@
 # Python
 
-## Implementation
-
 ```python
 a = int(input("Podaj a: "))
 b = int(input("Podaj b: "))
@@ -14,13 +12,7 @@ else:
     print(">")
 ```
 
-### Link to implementation
-
-{% embed url="https://ideone.com/xRH1Ti" %}
-Comparing two numbers - Python
-{% endembed %}
-
-### Implementation description
+## Implementation description
 
 At the beginning we read two values ​​from the user (**lines 1 and 2**). Since we expect integers, in addition to the `input` function, we also use the `int` function to convert loaded values ​​(which are stored in the form of a `string` characters) into integers.
 

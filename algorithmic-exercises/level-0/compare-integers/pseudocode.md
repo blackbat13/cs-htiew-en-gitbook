@@ -1,7 +1,5 @@
 # Pseudocode
 
-## Pseudocode
-
 ```
 1. Read a, b
 2. If a = b, then:
@@ -12,7 +10,7 @@
     7. Print ">"
 ```
 
-### Description
+## Description
 
 At the beginning we load two values from the user (**step 1**). 
 
