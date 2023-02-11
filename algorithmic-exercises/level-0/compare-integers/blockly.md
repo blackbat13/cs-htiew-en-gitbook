@@ -1,16 +1,14 @@
 # Blockly
 
-## Implementation
-
 ![Comparing numbers - Blockly](<../../../.gitbook/assets/image (9).png>)
 
-### Link to implementation
+## Link to implementation
 
 {% embed url="https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#qv4ea5" %}
 Comparing numbers - Blockly
 {% endembed %}
 
-### Implementation description
+## Implementation description
 
 At the beginning we read two numbers from the user, providing the messages used and saving them in the variables `a` and `b`.
 

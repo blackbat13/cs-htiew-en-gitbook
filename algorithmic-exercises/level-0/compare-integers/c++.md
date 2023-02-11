@@ -1,7 +1,5 @@
 # C++
 
-## Implementation
-
 ```cpp
 #include <iostream>
 
@@ -28,13 +26,7 @@ int main() {
 }
 ```
 
-### Link to implementation
-
-{% embed url="https://ideone.com/pIffe8" %}
-Comparing two numbers - C++
-{% endembed %}
-
-### Implementation description
+## Implementation description
 
 At the beginning we declare two integer variables `a` and `b` for the storage of the input data (**line 5**). Then we load two values ​​from the user (**lines 7-11**), providing the messages used.
 

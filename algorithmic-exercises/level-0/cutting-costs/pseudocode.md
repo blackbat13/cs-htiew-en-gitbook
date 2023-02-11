@@ -1,7 +1,5 @@
 # Pseudocode
 
-## Solution
-
 ```
 1. Read a, b, c
 2. sum := a + b + c
@@ -19,7 +17,7 @@
 14. Print result
 ```
 
-### Description
+## Description
 
 At the beginning we read the input data: three integers (**step 1**).
 Then calculate the sum of the numbers loaded (**step 2**).
