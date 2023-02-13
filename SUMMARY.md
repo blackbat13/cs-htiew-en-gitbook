@@ -747,6 +747,7 @@
   * [Newspaper](algorithmic-exercises/level-1/newspaper.md)
   * [Image Coding](algorithmic-exercises/level-1/image-coding.md)
   * [Parentheses](algorithmic-exercises/level-1/parentheses.md)
+  * [Finding a name](algorithmic-exercises/level-1/finding-name.md)
 
 ## Learning Programming by Making Games <a href="learning-by-games" id="learning-by-games"></a>
 * [Introduction](learning-by-games/intro.md)
